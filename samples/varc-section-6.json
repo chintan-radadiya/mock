@@ -1,0 +1,1172 @@
+{
+  "schemaVersion": 1,
+  "id": "ims-varc-section-6-2026",
+  "revision": 2,
+  "title": "VARC Section Test 6 · 2026",
+  "description": "24 questions · 4 RC passages + 8 verbal ability questions. Extracted from your ZIP.",
+  "source": {
+    "archive": "VA sectional 6.zip",
+    "imageCount": 24,
+    "answerKey": "Green correct-option markers and explicit TITA answer fields in supplied review screenshots.",
+    "explanations": "Not present in the supplied screenshots.",
+    "reviewStatus": "Text and answer keys reviewed against source screenshots."
+  },
+  "sections": [
+    {
+      "code": "VARC",
+      "groups": [
+        {
+          "id": "va6-rc1",
+          "title": "RC · Psychiatric diagnosis",
+          "stimulus": "The work of the German psychiatrist Emil Kraepelin in the late-19th and early 20th century - which separated mood disorders from psychotic ones - laid the foundations for the reference manuals used today by all psychiatrists to diagnose hundreds of different mental disorders, each grouped into 20 or so categories.\n\nPsychiatric diagnosis helps select the right treatment for a person's symptoms. Standardized diagnosis makes it possible to track and map the occurrence of a disorder across time and space, a field known as ‘psychiatric epidemiology’. However, while other branches of medicine have drastically reduced mortality rates from diseases or disorders of the body, there haven't been similar successes in mental healthcare. Psychiatry appears to be stuck. Perhaps because the diagnostic system is faulty. Indeed, the fact that around half of patients with one mental disorder also fulfil the requirement for a second disorder has been well documented since the 1990s. Either mental disorders really tend to aggregate or, perhaps more likely and more worryingly, our classification system is drawing the borders wrong.\n\nThankfully, an alternative approach to psychiatric diagnosis already exists. A growing troupe of scientists think that focusing on one or two diagnoses in a study - as is common in psychiatric research - has allowed the true nature of mental disorders remains hidden. They argue that we have to zoom out before we can properly understand what essentially are brain disorders, because the different parts of the brain are interconnected in very complex ways. Considering the whole spectra of psychiatric possibilities at once can reveal similarities in symptoms, brain circuitry and genetics. Belying the diagnostic classification, there is growing evidence that all mental disorders are actually the product of a single underlying factor, a common vulnerability to psychopathology. Known as the ‘p-factor’, this theoretical concept brings the potential for important new ways to treat and prevent psychiatric disorders. It also raises the possibility that psychiatric patients suffering different things actually share the same underlying vulnerability, but certain life experiences have influenced the way it manifests.\n\nNeedless to say, the p-factor is a recent concept. The paper most often cited as its foundation was published in 2012 by Benjamin Lahey, a psychologist from the University of Chicago, and his colleagues. Studying the symptoms and prognosis of 11 mental disorders in 30,000 people, they found that the distribution of diagnoses was captured largely by two groupings or dimensions familiar to child psychiatry since the 1960s: internalizing (inward looking and separated into fear and distress) and externalizing (outward and sometimes explosive, including substance use, conduct disorder, and ADHD). Crucially, even the disorders categorized as internalizing or externalizing often overlapped with one another.\n\nQuite logically, we may expect people who experience one fear to experience other fears and for people who worry to be unhappy. Yet we don't think it very likely that antisocial individuals who abuse drugs also worry and remain fearful, sad and guilt-ridden but that was exactly what the data collected by Lahey and his colleagues implied. And the statistical model that best explained the data implied a ‘higher order’ vulnerability factor that these two categories of mental disorders shared. When this factor was removed from the models, the correlations between the groups became weaker, suggesting that it was responsible for the frequent co-occurrence of externalizing and internalizing disorders.",
+          "questions": [
+            {
+              "id": "va6-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "Which of the following evaluations of Emil Kraepelin's work will the author of this passage most agree with?",
+              "answer": "C",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111405.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Kraepelin's influence has exerted a negative influence on the growth of psychiatry."
+                },
+                {
+                  "id": "B",
+                  "text": "Kraepelin should not have considered mood disorders fundamentally different from psychotic ones."
+                },
+                {
+                  "id": "C",
+                  "text": "Kraepelin's work had a major impact on modern psychiatry and its understanding of mental illnesses and treatments."
+                },
+                {
+                  "id": "D",
+                  "text": "Kraepelin's work, despite its limitations, pioneered the alternative approach to psychiatric diagnosis that exists today."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 293,
+                "topperAttemptPercent": 90.77,
+                "topperAccuracyPercent": 81.36,
+                "topperPValue": 73.85
+              }
+            },
+            {
+              "id": "va6-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "According to the author, why did psychiatry ‘appear to be stuck’ (2nd paragraph)?",
+              "answer": "C",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111416.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Psychiatric diagnosis did not help doctors to correctly treat the symptoms."
+                },
+                {
+                  "id": "B",
+                  "text": "Psychiatry failed to reduce the mortality rates from mental disorders."
+                },
+                {
+                  "id": "C",
+                  "text": "The practice of its century old diagnostic system hindered its progress."
+                },
+                {
+                  "id": "D",
+                  "text": "Psychiatric epidemiology prevented advancements in psychiatric therapy."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 76,
+                "topperAttemptPercent": 90.77,
+                "topperAccuracyPercent": 47.46,
+                "topperPValue": 43.08
+              }
+            },
+            {
+              "id": "va6-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "According to the passage, Emil Kraepelin's diagnosis system ...",
+              "answer": "B",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111423.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "helped cure some of the mental disorders."
+                },
+                {
+                  "id": "B",
+                  "text": "helped the study of the social risk factors of mental disorders."
+                },
+                {
+                  "id": "C",
+                  "text": "was ineffective in reducing the intensity of the symptoms."
+                },
+                {
+                  "id": "D",
+                  "text": "succeeded in suggesting the aggregation of mental disorders."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 63,
+                "topperAttemptPercent": 73.85,
+                "topperAccuracyPercent": 12.5,
+                "topperPValue": 9.23
+              }
+            },
+            {
+              "id": "va6-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "All of the following statements are true about the p-factor EXCEPT:",
+              "answer": "A",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111431.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It is the fundamental principle used to diagnose hundreds of different mental disorders."
+                },
+                {
+                  "id": "B",
+                  "text": "It is a general dormant factor derived from a range of psychiatric symptoms."
+                },
+                {
+                  "id": "C",
+                  "text": "It is a single factor that can summarize an individuals’ tendency to develop all forms of mental disorders."
+                },
+                {
+                  "id": "D",
+                  "text": "All internalizing and externalizing disorders are a product of the p-factor."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 82,
+                "topperAttemptPercent": 80.0,
+                "topperAccuracyPercent": 55.77,
+                "topperPValue": 44.62
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-rc5",
+          "title": "RC · Venture capital",
+          "stimulus": "The economics profession has long recognized two great institutions of modern capitalism: markets and companies. Markets coordinate activity via price signals and arm's-length contracts. Companies coordinate by assembling large teams led by top-down managers. But economists have focused less on the middle ground that venture capital inhabits.\n\nVenture capitalists (VCs) channel capital, advice and talented recruits to promising start-ups; in this way, they replicate the managerial direction and team formation found in corporations. At the same time, venture capitalists have the flexibility of the market. They can get behind a start-up with a fresh business idea; they can shape it, expand it, murmur its name into the right ears. But when a round of funding is exhausted, the market will decide what happens. If there are no enthusiastic buyers for the next tranche of the start-up's equity, it will be forced to close, avoiding the waste of resources that comes from sticking with doomed speculative ventures. This blend of corporate strategizing and respect for the market represents a third great institution of modern capitalism, to be added to the two that economists traditionally emphasize.\n\n... A huge amount of energy in government and the private sector is spent on economic forecasting; without a clear view of the future, committing resources would seem irresponsible. But extrapolations from past data anticipate the future only when there is not much to anticipate; if tomorrow will be a mere extension of today, why bother with forecasting? ...The big disruptions that create extreme wealth for inventors and great anxiety for workers cannot be foretold because they are so thoroughly disruptive. Rather, they will emerge from the murky soup of tinkerers and hackers and hubristic dreamers, and all you can know is that in 10 years the world will be excitingly different. The future can be discovered by means of iterative, venture-backed experiments. It cannot be predicted.\n\n[But ...] the very success of the industry has attracted incautious investors who shower money on young companies without overseeing their founders. The result is multibillion-dollar “unicorns” with inadequate governance. In a few celebrated cases ... entrepreneurs who thought themselves accountable to nobody cut ethical corners, with investors, employees and customers alike paying the price. The underrepresentation of women and minorities is another failing. ... An industry that involves subjective judgments about start-up founders is wide open to bias and should stress diversity all the more. Without progress on this front, people of a certain type will fund people of a similar type. The venture industry is a meritocracy, up to a point. It is also what its critics call a “mirror-tocracy.”\n\nDespite these reservations, venture capital is a positive force for societies and economies. Only a fraction of 1 percent of firms in the United States receive venture-capital backing, yet this tiny minority accounts for fully 47 percent of the nonfinancial companies that do well enough to go public and 76 percent of the market capitalization of these firms. Venture-backed companies have delivered more progress in applied science than any kind of rival: more than centralized corporate research and development units, more than isolated individuals tinkering in garages and more than government attempts to pick technological winners.",
+          "questions": [
+            {
+              "id": "va6-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "What is this passage about?",
+              "answer": "D",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111440.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Economists’ failure to accept venture capital as an institution of modern capitalism."
+                },
+                {
+                  "id": "B",
+                  "text": "The institutions upon which the modern capitalist system is built."
+                },
+                {
+                  "id": "C",
+                  "text": "Development of modern capitalism as an outcome of markets and companies."
+                },
+                {
+                  "id": "D",
+                  "text": "Venture-backed experiments as an institution of modern capitalist system."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 253,
+                "topperAttemptPercent": 87.69,
+                "topperAccuracyPercent": 96.49,
+                "topperPValue": 84.61
+              }
+            },
+            {
+              "id": "va6-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "All of the following can be inferred from Paragraph 2 EXCEPT:",
+              "answer": "B",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111448.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Start-ups look to VCs for the funding to scale and commercialize their products or services."
+                },
+                {
+                  "id": "B",
+                  "text": "Venture capitalists normally channel capital into new companies from the onset."
+                },
+                {
+                  "id": "C",
+                  "text": "VCs choose start-ups in industries in which they can influence its direction."
+                },
+                {
+                  "id": "D",
+                  "text": "Venture Capital complements both company management and markets."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 85,
+                "topperAttemptPercent": 86.15,
+                "topperAccuracyPercent": 37.5,
+                "topperPValue": 32.31
+              }
+            },
+            {
+              "id": "va6-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "According to the author, economic forecasting does not hold much value for all the following reasons EXCEPT:",
+              "answer": "B",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111454.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Forecasts assume economic processes are stationary and continuous."
+                },
+                {
+                  "id": "B",
+                  "text": "Those who indulge in economic forecasting lack a clear view of the future."
+                },
+                {
+                  "id": "C",
+                  "text": "Disruptive wealth creation happens through trial and error methods."
+                },
+                {
+                  "id": "D",
+                  "text": "Economic forecasts will never be spot on."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 72,
+                "topperAttemptPercent": 81.54,
+                "topperAccuracyPercent": 50.94,
+                "topperPValue": 41.54
+              }
+            },
+            {
+              "id": "va6-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "The author of the passage is most likely to support which one of the following statements?",
+              "answer": "C",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111500.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Start-ups backed by VCs are more likely to succeed than others."
+                },
+                {
+                  "id": "B",
+                  "text": "Most start-ups fail, with the result that VCs end up with worthless equity."
+                },
+                {
+                  "id": "C",
+                  "text": "VCs fund start-ups whose earnings exist only in an imagined future."
+                },
+                {
+                  "id": "D",
+                  "text": "Venture backed start-ups are more successful in technology than in others."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 58,
+                "topperAttemptPercent": 86.15,
+                "topperAccuracyPercent": 21.43,
+                "topperPValue": 18.46
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-rc9",
+          "title": "RC · Evidence and authority",
+          "stimulus": "As schoolchildren, we learn that different weights fall at the same speed. This simple and readily tested observation, first published by Galileo, refuted Aristotle, who claimed that heavy things fall faster. As Galileo put it, ‘I greatly doubt that Aristotle ever tested by experiment whether it be true.’ We are left to wonder how people could have believed what they were told, and for two millennia at that, without ever checking? Surely the power of evidence over authority is obvious.\n\nExcept it isn’t. Even today, evidence has barely begun to upend authority; the world is still more in thrall to Aristotle than Galileo. As a simple example, the time-honoured advice for those suffering from bad backs has been bed rest. Only recently, though, have we discovered bed rest isn't the best treatment, and isn't even particularly good compared to moderate activity. How did this discovery come about? A researcher in the field of Evidence-based Medicine surveyed multiple databases of trials and results for patients with back pain. (It tells us something about medicine's current form that we even need a term like Evidence-based Medicine.) And why did it take so long to look at the evidence? Same reason it took so long to question Aristotle: some doctor in the distant past reasoned that bed rest would be a good idea, and it became the authoritative and little-questioned view.\n\nIn school, the embrace of evidence is often taught as if it were a one-time revolution that has now been internalized by society. It hasn't. The idea of evidence is consistently radical: Take nothing on faith. No authority is infallible. If you figure out a good way to test something, you can contradict hallowed figures with impunity.\n\nEvidence will continue to improve society, but slowly - this is long-view optimism. The use of evidence dragged the curious mind from the confusion of alchemy into the precision of chemistry in the historical blink of an eye, but its progress past the hard sciences has been considerably slower. Even accepting that evidence should shape our views is inconsistent with much human behaviour. Everything from the belief in supernatural beings to deference to elders pushes against the idea that a single person, if he or she comes to understand the evidence, should be allowed to upend a millennium of cherished human belief.\n\nIt is only in the last hundred years that evidence has even begun spreading from the hard sciences into other parts of human life. Previous platitudes about the unpredictability or universal plasticity of human behaviour are giving way to areas of inquiry with names like Sociobiology, Evolutionary Psychology, and Behavioural Economics. (That we need a label like Behavioural Economics says as much about economics as Evidence-based Medicine does about medicine.) As reliance on evidence spreads, it takes with it an understanding of how it works.\n\nSocial science is expanding because we are better about gathering data and about understanding it. We have gone from a drought to a flood of data about personal and social behaviour in the last generation. We will learn more about the human condition in the next two decades than we did in the last two millennia, and we will then begin to apply what we learn, everywhere. Evidence-based treaties. Evidence-based teaching. Evidence-based industrial design. Evidence-based parenting.",
+          "questions": [
+            {
+              "id": "va6-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "The author provides the example of bad backs in order to:",
+              "answer": "C",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111510.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Show that bed rest is not the best treatment for them."
+                },
+                {
+                  "id": "B",
+                  "text": "Prove that moderate activity is the best treatment for them."
+                },
+                {
+                  "id": "C",
+                  "text": "Explain that blindly trusting authority led to a suboptimal treatment for them."
+                },
+                {
+                  "id": "D",
+                  "text": "Point out that aversion to evidence results in ignoring age-old advice."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 205,
+                "topperAttemptPercent": 92.31,
+                "topperAccuracyPercent": 100.0,
+                "topperPValue": 92.31
+              }
+            },
+            {
+              "id": "va6-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "What can be inferred about Galileo's attitude towards Aristotle, based on this passage?",
+              "answer": "A",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111520.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "He speculated that Aristotle never actually tested his theory."
+                },
+                {
+                  "id": "B",
+                  "text": "He was surprised to learn that Aristotle never actually tested his theory."
+                },
+                {
+                  "id": "C",
+                  "text": "He mocked Aristotle for never actually testing his theory."
+                },
+                {
+                  "id": "D",
+                  "text": "He refused to believe that Aristotle never actually tested his theory."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 45,
+                "topperAttemptPercent": 87.69,
+                "topperAccuracyPercent": 89.47,
+                "topperPValue": 78.46
+              }
+            },
+            {
+              "id": "va6-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "What is the author's opinion of evidence?",
+              "answer": "B",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111825.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "He admires the fact that it revolutionized society."
+                },
+                {
+                  "id": "B",
+                  "text": "He is pleased about its iconoclastic and progressive abilities."
+                },
+                {
+                  "id": "C",
+                  "text": "He is optimistic about the power of evidence, but advocates using it with caution."
+                },
+                {
+                  "id": "D",
+                  "text": "He respects its importance, but worries that it will upend cherished beliefs."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 53,
+                "topperAttemptPercent": 84.62,
+                "topperAccuracyPercent": 76.36,
+                "topperPValue": 64.62
+              }
+            },
+            {
+              "id": "va6-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "Which of these statements would the author agree with?",
+              "answer": "A",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111533.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Deference to elders is incompatible with a belief in evidence."
+                },
+                {
+                  "id": "B",
+                  "text": "Human beings are hard-wired to accept the insights provided by evidence."
+                },
+                {
+                  "id": "C",
+                  "text": "New social sciences are unearthing evidence regarding the universal plasticity of human behaviour."
+                },
+                {
+                  "id": "D",
+                  "text": "As vitally important as evidence is, there are some areas of life where it is not very useful."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 67,
+                "topperAttemptPercent": 83.08,
+                "topperAccuracyPercent": 61.11,
+                "topperPValue": 50.77
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va13",
+          "title": "Para summary",
+          "questions": [
+            {
+              "id": "va6-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.\n\nAuto manufacturers have often seen that a car model name that works well in one country must be modified to have success in another. Ford launched a car in Europe named Kuga, which means ‘plague’ in Croatian and Serbian. Mitsubishi produced an off-road vehicle called the Pajero, an offensive term in some Spanish-speaking countries. The Honda Fitta had to be renamed to the Honda Jazz for the Nordic market because fitta is a profane word in Nordic languages. One car that didn't have to be renamed? The Chevy Nova. Contrary to popular belief, the word nova is not easily confused with the words no va (doesn't go) in Spanish because they are pronounced differently, with stress on different syllables. General Motors reported that the Nova actually surpassed its expectations for sales in Spanish-speaking markets such as Venezuela.",
+              "answer": "C",
+              "topic": "Para summary",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111600.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sometimes cars have names that have unfortunate meanings in other languages, so these have to be changed depending on the markets, for example, the Chevy Nova."
+                },
+                {
+                  "id": "B",
+                  "text": "Unlike many other cars, whose names have to be changed in international markets, the Chevy Nova's name did not have to be changed, though it is an offensive term in some Spanish-speaking countries."
+                },
+                {
+                  "id": "C",
+                  "text": "A number of car names have to be modified in different countries, because they don't translate well into the local languages, but surprisingly enough, the Chevy Nova is not one of them."
+                },
+                {
+                  "id": "D",
+                  "text": "Most cars have to be renamed for the international market, as they have names that have negative connotations in the local languages - for example, a car whose name translates to ‘doesn't go’ in Spanish."
+                }
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (6).png",
+                "topperTimeSeconds": 87,
+                "topperAttemptPercent": 87.69,
+                "topperAccuracyPercent": 92.98,
+                "topperPValue": 81.53
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va14",
+          "title": "Para summary",
+          "questions": [
+            {
+              "id": "va6-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nPlaywright George Bernard Shaw has a reputation as a humanitarian, an indefatigable seeker of justice and, in his own words, a ‘world betterer.’ But this reputation is difficult to reconcile with his support for the totalitarian regimes and dictators that emerged after the First World War, which is not so well known. This enthusiasm is usually dismissed as an expression of Shaw's well-known propensity for comic exaggeration and hyperbole, his pugnacious rhetoric, his love of paradox, and especially his addiction to antagonizing the British political establishment. However, as I believe this dissertation proves, Shaw's support was genuine, rooted in his powerful desire for absolute control over the unruly and chaotic, in a deep psychological longing for perfection. Shaw expressed rigid control over his own bodily instincts, and looked for political rulers of strong will and utopian designs to exercise similar control over unruly social elements.",
+              "answer": "A",
+              "topic": "Para summary",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111606.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Although George Bernard Shaw is widely seen as a humanitarian, his genuine support for totalitarian regimes reveals a deeper psychological desire for strict control and perfection in both personal and social order."
+                },
+                {
+                  "id": "B",
+                  "text": "Playwright George Bernard Shaw sincerely supported authoritarian regimes due to a deep psychological desire for absolute control and social perfection."
+                },
+                {
+                  "id": "C",
+                  "text": "Although George Bernard Shaw is widely regarded as a humanitarian, his support for totalitarian regimes is often seen as rhetorical exaggeration, overlooking the deeper psychological motives behind his attraction to strong control and order."
+                },
+                {
+                  "id": "D",
+                  "text": "Although George Bernard Shaw is widely viewed as a humanitarian, his support for totalitarian regimes is often attributed to his provocative style and love of paradox."
+                }
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 106,
+                "topperAttemptPercent": 76.92,
+                "topperAccuracyPercent": 50.0,
+                "topperPValue": 38.46
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va15",
+          "title": "Odd sentence out",
+          "questions": [
+            {
+              "id": "va6-q15",
+              "sourceNumber": 15,
+              "type": "TITA",
+              "prompt": "Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.\n\n1. The key to music is that these pulls can be resisted, and it is the job of the musician to know when and how to do so.\n\n2. The effect of a tune is determined by whether it follows the attractions or resists them.\n\n3. Music theorists say that notes higher in this hierarchy are more stable, by which they mean that they seem less likely to move off somewhere else.\n\n4. If there were no underlying tendencies, no implications within each note of which one will follow, we would be indifferent to the outcome, and all melodies would sound like the same random meandering.\n\n5. If music was simply a matter of following gravity-like attractions from note to note, there would be nothing for the composer to do: a melody would be as inevitable as the path of water rushing down a mountainside.",
+              "answer": [
+                "3"
+              ],
+              "topic": "Odd sentence out",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111614.png"
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 106,
+                "topperAttemptPercent": 90.77,
+                "topperAccuracyPercent": 72.88,
+                "topperPValue": 66.15
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va16",
+          "title": "Odd sentence out",
+          "questions": [
+            {
+              "id": "va6-q16",
+              "sourceNumber": 16,
+              "type": "TITA",
+              "prompt": "Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.\n\n1. Standards, customs and agricultural practices varied greatly across the country, depending on natural conditions and patterns of land ownership and management.\n\n2. At this point in time, Ireland was a kingdom with its own legislature and officials, but its autonomy was undermined by its dependence on Great Britain, the senior partner in the constitutional relationship between the islands.\n\n3. Ireland in the 18th century was an overwhelmingly rural society whose strong regional variations nurtured a diversity of political, social and economic cultures.\n\n4. On the other hand, some pronounced themselves surprised by the existence of forward-thinking landlords and industrialists in Ireland.\n\n5. Visitors to the country generally agreed that by British standards, Irish farming practices were backward.",
+              "answer": [
+                "2"
+              ],
+              "topic": "Odd sentence out",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111621.png"
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 91,
+                "topperAttemptPercent": 92.31,
+                "topperAccuracyPercent": 61.67,
+                "topperPValue": 56.93
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va17",
+          "title": "Para jumble",
+          "questions": [
+            {
+              "id": "va6-q17",
+              "sourceNumber": 17,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, 4) given below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequence of the order of the sentences and key in the sequence of the four numbers as your answer.\n\n1. These in turn were in an ideal position to send colonists onto dry land when another blowout in the late Devonian period gave life another sound shaking.\n\n2. The Ordovician extinction of 440 million years ago cleared the oceans of a lot of immobile filter feeders and, somehow, created conditions that favored darting fish and giant aquatic reptiles.\n\n3. Crises in Earth's history are invariably associated with dramatic leaps afterward.\n\n4. The fall of the Ediacaran fauna was followed by the creative outburst of the Cambrian period.",
+              "answer": [
+                "3421"
+              ],
+              "topic": "Para jumble",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111628.png"
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 85,
+                "topperAttemptPercent": 83.08,
+                "topperAccuracyPercent": 59.26,
+                "topperPValue": 49.23
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va18",
+          "title": "Para jumble",
+          "questions": [
+            {
+              "id": "va6-q18",
+              "sourceNumber": 18,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, 4) given below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequence of the order of the sentences and key in the sequence of the four numbers as your answer.\n\n1. English is one of about a dozen languages that are all so basically similar in terms of words and grammar, and mostly spoken so close to one another, that they all obviously began as a single language (although English is very much a prodigal son).\n\n2. We will never know what the people who spoke that language called it, but linguists call it Proto-Germanic.\n\n3. The parent to all of these languages was spoken about twenty-five hundred years ago in what is now Denmark (and a ways southward) and on the southerly ends of Sweden and Norway.\n\n4. The languages besides English include German, Dutch, Yiddish, Swedish, Norwegian, Danish and Icelandic, plus some less familiar languages, like Faroese and Frisian, and Afrikaans in South Africa, which stemmed from the transplantation of Dutch amid the colonization of that country.",
+              "answer": [
+                "1432"
+              ],
+              "topic": "Para jumble",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111634.png"
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 91,
+                "topperAttemptPercent": 78.46,
+                "topperAccuracyPercent": 88.24,
+                "topperPValue": 69.23
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va19",
+          "title": "Sentence placement",
+          "questions": [
+            {
+              "id": "va6-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "There is a sentence that is missing in the paragraph below. Look at the paragraph and decide where (option 1, 2, 3, or 4) the following sentence would best fit.\n\nSentence: Novels and short stories about ghosts and witches (and reviews of such works), as well as public lectures, are similarly indicative of changing attitudes towards customary magic among the cultivated and the literate.\n\nParagraph: An investigation into the occult mind of the middle orders is challenging because the conventional ethnographic sources—newspapers, antiquarian studies, and folk lore reports—tend to have a voyeur's preoccupation with the mores of poor, illiterate, and rustic people. __(1)__. Yet on closer inspection, these sources, through their self-justifications, editorial conventions, and changing subject matter, also reveal much about the outlook of their well-to-do authors and audiences. __(2)__. These sources suggest that neither the Enlightenment nor modernization gradually freed the middle classes from the grip of customary magic. Rather, larger numbers continued to endorse its reality for much longer than we might imagine, before rapidly, dramatically, but also temporarily, disowning it. __(3)__. Not until the 1820s and 1830s was belief in witchcraft, ghosts, and divination perceived as scandalous, both in polite literature and in ‘respectable’ society. __(4)__. Redefined as ‘popular superstitions,’ from the 1820s to the 1860s customary occult beliefs generated particular alarm and were subjected to unprecedented opprobrium.",
+              "answer": "B",
+              "topic": "Sentence placement",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111643.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 4"
+                }
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 114,
+                "topperAttemptPercent": 61.54,
+                "topperAccuracyPercent": 57.5,
+                "topperPValue": 35.39
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-va20",
+          "title": "Sentence placement",
+          "questions": [
+            {
+              "id": "va6-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "There is a sentence that is missing in the paragraph below. Look at the paragraph and decide where (option 1, 2, 3, or 4) the following sentence would best fit.\n\nSentence: While Western medical science sees the human body as a material thing that can be understood by examining it, Heidegger's ontology puts human experience at the centre of our understanding of the world.\n\nParagraph: __(1)__. Heidegger pointed out that we who are asking questions about Being are qualitatively different to the rest of existence: the rocks, oceans, trees, birds and insects that we are asking about. __(2)__. He invented a special word for this Being that asks, looks and cares. He called it Dasein, which loosely translates as ‘being there’. He coined the term Dasein because he believed that we had become immune to words such as ‘person’, ‘human’ and ‘human being’, losing our sense of wonder about our own consciousness. __(3)__. Heidegger's philosophy remains attractive to many today who see how science struggles to explain the experience of being a moral, caring person aware that his precious, mysterious, beautiful life will, one day, come to an end. According to Heidegger, this awareness of our own inevitable demise makes us, unlike the rocks and trees, hunger to make our life worthwhile, to give it meaning, purpose and value. __(4)__.",
+              "answer": "D",
+              "topic": "Sentence placement",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111650.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 4"
+                }
+              ],
+              "area": "Verbal Reasoning",
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 61,
+                "topperAttemptPercent": 63.08,
+                "topperAccuracyPercent": 7.32,
+                "topperPValue": 4.62
+              }
+            }
+          ]
+        },
+        {
+          "id": "va6-rc21",
+          "title": "RC · Public monuments and racism",
+          "stimulus": "Before the Gateway Arch went up in St. Louis in 1965, a bronze equestrian monument outside of the city's leading art museum was arguably its most recognisable symbol. Installed in 1906, the Apotheosis of St. Louis depicts the city's namesake, Louis IX of France, riding astride an armoured horse, his sword raised upside down to form a cross. It is a portrayal befitting a ruler renowned for his military prowess. However, the statue fails to address the canonised king's darker legacy—the totality of his accomplishments —and now, amid a spate of protests against systemic racism in the United States, the St. Louis monument is one of many public works at the centre of a significant cultural reckoning.\n\nIn recent years, events including white supremacist Dylann Roof’s June 2015 killing of nine church members in South Carolina, as well as a neo-Nazi’s attack on counter-protesters at a white nationalist rally in Virginia, have refocused attention on the prevalence—and meaning—of the memorials that dot the American landscape. Throughout, scholars and politicians alike had highlighted the importance of understanding why and when these statues were erected. A majority of the public has, in just the past few weeks, begun supporting the removal of these statues, and they have slowly begun to fall.\n\nAs protesters expand their focus to other controversial memorials across the country, it has become all the more apparent that this conversation is not merely about the Confederacy, but what values the nation chooses to commemorate and celebrate in public. Statues of Christopher Columbus are falling as protesters cite his role in the genocide of America’s Native populations. Moreover, in St. Louis, groups are clashing over whether to remove the statue of the monarch who lends the city its name.\n\nLouis IX reigned over France in the middle of the 13th century. Like most medieval sovereigns, he implemented legal reforms and provided charity to the Christian poor. More significantly, Louis personally led two Crusades to North Africa against Muslims. These campaigns were simply a brief chapter in a much larger drama that saw Christians wage holy war throughout the Mediterranean world against Muslims, Jews, and sometimes their fellow Christians.\n\nBoth of Louis IX's Crusades failed spectacularly, with the king captured by the Egyptians and ransomed for an enormous sum in 1250 and dying of dysentery almost immediately after that. Louis was canonized—largely for these efforts—in 1297. During the occasion, Pope Boniface VIII justified his sainthood by mentioning not only his care for the (Christian) poor, but his Crusades and defense of the Church against its “enemies.” Even as late as the 1830 French invasion of Algeria, Louis was held up as a model for the colonizers, primarily for his martial spirit—a Christian king fighting against non-believers. He has served as a symbol of France's glorious past ever since. So, when French trappers established a fur-trading post on Cahokia lands in 1764, they named the site in honour of two kings: Louis IX and then-sovereign Louis XV. The settlement retained the name through French, Spanish and finally American occupation.",
+          "questions": [
+            {
+              "id": "va6-q21",
+              "sourceNumber": 21,
+              "type": "MCQ",
+              "prompt": "Why is Apotheosis of St. Louis ‘at the centre of a significant cultural reckoning’?",
+              "answer": "C",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111703.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Apotheosis of St. Louis no longer represents the culture of the city after it was replaced in 1965 by the Gateway Arch."
+                },
+                {
+                  "id": "B",
+                  "text": "The white supremacists and the neo-Nazis consider Apotheosis of St. Louis to be one of the controversial memorials in the city."
+                },
+                {
+                  "id": "C",
+                  "text": "Apotheosis of St. Louis is seen to commemorate a king who provided both charity to the poor and persecuted Jews and Muslims."
+                },
+                {
+                  "id": "D",
+                  "text": "In the backdrop of widespread racist violence in the US, scholars and politicians alike are rethinking on the significance of memorials in the city."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 171,
+                "topperAttemptPercent": 61.54,
+                "topperAccuracyPercent": 55.0,
+                "topperPValue": 33.85
+              }
+            },
+            {
+              "id": "va6-q22",
+              "sourceNumber": 22,
+              "type": "MCQ",
+              "prompt": "According to the passage, the recent support for the removal of the memorials has arisen mainly because:",
+              "answer": "D",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111713.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Scholars and politicians are only beginning to understand why and when these memorials were erected."
+                },
+                {
+                  "id": "B",
+                  "text": "The white supremacists and the neo-Nazis have only recently turned their attention to the statues that dot the American landscape."
+                },
+                {
+                  "id": "C",
+                  "text": "Recently, there has been a spate of racist attacks on minorities and violent protests against systemic racism in the United States."
+                },
+                {
+                  "id": "D",
+                  "text": "The systemic racism in the US society has brought into focus the values that the nation should commemorate and celebrate in public."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 42,
+                "topperAttemptPercent": 61.54,
+                "topperAccuracyPercent": 80.0,
+                "topperPValue": 49.23
+              }
+            },
+            {
+              "id": "va6-q23",
+              "sourceNumber": 23,
+              "type": "MCQ",
+              "prompt": "All of the following are true about the protestors of racism in the US, EXCEPT:",
+              "answer": "B",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111722.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They question the relevance of several memorials across the US."
+                },
+                {
+                  "id": "B",
+                  "text": "They object to the fact that the city is named St. Louis, after King Louis IX."
+                },
+                {
+                  "id": "C",
+                  "text": "They believe that Columbus paved the way for the genocide of the natives."
+                },
+                {
+                  "id": "D",
+                  "text": "They believe that racism is deep-rooted and widespread in the US society."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 30,
+                "topperAttemptPercent": 58.46,
+                "topperAccuracyPercent": 84.21,
+                "topperPValue": 49.23
+              }
+            },
+            {
+              "id": "va6-q24",
+              "sourceNumber": 24,
+              "type": "MCQ",
+              "prompt": "According to the passage, the church canonised Louis IX for all the following reasons, EXCEPT:",
+              "answer": "A",
+              "topic": "Reading comprehension",
+              "sourceImages": [
+                "Screenshot 2026-10-12 111727.png"
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "his military prowess and the legal reforms he carried out."
+                },
+                {
+                  "id": "B",
+                  "text": "his defence of the church against the non-believers."
+                },
+                {
+                  "id": "C",
+                  "text": "his generosity towards the Christian poor."
+                },
+                {
+                  "id": "D",
+                  "text": "his devotion to the cause of defeating the non-believers."
+                }
+              ],
+              "area": "Reading Comprehension",
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied analysis screenshots",
+                "sourceImage": "Screenshot (7).png",
+                "topperTimeSeconds": 55,
+                "topperAttemptPercent": 60.0,
+                "topperAccuracyPercent": 74.36,
+                "topperPValue": 44.62
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "testType": "sectional",
+  "sourceAnalysis": {
+    "label": "Original IMS attempt · supplied screenshots",
+    "sourceImages": [
+      "Screenshot (4).png",
+      "Screenshot (5).png",
+      "Screenshot (6).png",
+      "Screenshot (7).png",
+      "Screenshot (8).png"
+    ],
+    "reportedScore": 1,
+    "percentile": 17.1,
+    "percentileMapper": [
+      {
+        "percentile": 70,
+        "score": 16,
+        "section": "VARC"
+      },
+      {
+        "percentile": 85,
+        "score": 21,
+        "section": "VARC"
+      },
+      {
+        "percentile": 90,
+        "score": 24,
+        "section": "VARC"
+      },
+      {
+        "percentile": 95,
+        "score": 29,
+        "section": "VARC"
+      },
+      {
+        "percentile": 99,
+        "score": 38,
+        "section": "VARC"
+      },
+      {
+        "percentile": 99.5,
+        "score": 40,
+        "section": "VARC"
+      }
+    ],
+    "questionResults": [
+      {
+        "questionId": "va6-q01",
+        "outcome": "Incorrect",
+        "timeSeconds": 509
+      },
+      {
+        "questionId": "va6-q02",
+        "outcome": "Incorrect",
+        "timeSeconds": 122
+      },
+      {
+        "questionId": "va6-q03",
+        "outcome": "Correct",
+        "timeSeconds": 69
+      },
+      {
+        "questionId": "va6-q04",
+        "outcome": "Incorrect",
+        "timeSeconds": 68
+      },
+      {
+        "questionId": "va6-q05",
+        "outcome": "Incorrect",
+        "timeSeconds": 442
+      },
+      {
+        "questionId": "va6-q06",
+        "outcome": "Incorrect",
+        "timeSeconds": 85
+      },
+      {
+        "questionId": "va6-q07",
+        "outcome": "Unanswered",
+        "timeSeconds": 133
+      },
+      {
+        "questionId": "va6-q08",
+        "outcome": "Incorrect",
+        "timeSeconds": 80
+      },
+      {
+        "questionId": "va6-q09",
+        "outcome": "Unanswered",
+        "timeSeconds": 43
+      },
+      {
+        "questionId": "va6-q10",
+        "outcome": "Correct",
+        "timeSeconds": 19
+      },
+      {
+        "questionId": "va6-q11",
+        "outcome": "Unanswered",
+        "timeSeconds": 2
+      },
+      {
+        "questionId": "va6-q12",
+        "outcome": "Unanswered",
+        "timeSeconds": 3
+      },
+      {
+        "questionId": "va6-q13",
+        "outcome": "Correct",
+        "timeSeconds": 147
+      },
+      {
+        "questionId": "va6-q14",
+        "outcome": "Unanswered",
+        "timeSeconds": 33
+      },
+      {
+        "questionId": "va6-q15",
+        "outcome": "Incorrect",
+        "timeSeconds": 108
+      },
+      {
+        "questionId": "va6-q16",
+        "outcome": "Incorrect",
+        "timeSeconds": 90
+      },
+      {
+        "questionId": "va6-q17",
+        "outcome": "Incorrect",
+        "timeSeconds": 108
+      },
+      {
+        "questionId": "va6-q18",
+        "outcome": "Incorrect",
+        "timeSeconds": 45
+      },
+      {
+        "questionId": "va6-q19",
+        "outcome": "Incorrect",
+        "timeSeconds": 185
+      },
+      {
+        "questionId": "va6-q20",
+        "outcome": "Incorrect",
+        "timeSeconds": 81
+      },
+      {
+        "questionId": "va6-q21",
+        "outcome": "Unanswered",
+        "timeSeconds": 15
+      },
+      {
+        "questionId": "va6-q22",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "va6-q23",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "va6-q24",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      }
+    ],
+    "reportedAreas": [
+      {
+        "label": "Overall",
+        "score": 1,
+        "count": 24,
+        "attempted": 15,
+        "correct": 3,
+        "accuracy": 20,
+        "timeLabel": "00:39",
+        "marksPerMinute": 0.03,
+        "timePerAttemptLabel": "02:40"
+      },
+      {
+        "label": "Reading Comprehension",
+        "score": 0,
+        "count": 16,
+        "attempted": 8,
+        "correct": 2,
+        "accuracy": 25,
+        "timeLabel": "00:26",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "03:19"
+      },
+      {
+        "label": "Verbal Reasoning",
+        "score": 1,
+        "count": 8,
+        "attempted": 7,
+        "correct": 1,
+        "accuracy": 14.29,
+        "timeLabel": "00:13",
+        "marksPerMinute": 0.08,
+        "timePerAttemptLabel": "01:54"
+      }
+    ],
+    "notes": "Source question times are the exact MM:SS values in Screenshots (6) and (7). Screenshot (5) displays rounded/truncated HH:MM totals and provider-calculated averages; retain those reported values separately. Categories A/B/C are source labels, not MCQ option IDs or inferred difficulty. The original response choices and attempt date are not specified by these analysis screenshots."
+  }
+}

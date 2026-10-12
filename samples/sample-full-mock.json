@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "testType": "full",
+  "id": "cat-studio-demo",
+  "revision": 1,
+  "title": "Explore the exam experience",
+  "demo": true,
+  "description": "A short, original sample across all three sections. Try the tools before a real attempt.",
+  "sections": [
+    {
+      "code": "VARC",
+      "groups": [
+        {
+          "id": "demo-rc",
+          "title": "RC · Learning through retrieval",
+          "stimulus": "Students often judge learning by how familiar a page feels on a second reading. Yet familiarity can conceal gaps in recall. A learner who closes the book and tries to explain an idea may feel less fluent, but the effort reveals what remains uncertain.\n\nThis does not make rereading useless. A return to the text after an attempted explanation can target specific gaps. The distinction is between rereading to avoid effort and rereading to answer a question that effort has exposed.",
+          "questions": [
+            {
+              "id": "demo-v1",
+              "type": "MCQ",
+              "prompt": "Which statement best captures the central argument?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rereading always harms recall."
+                },
+                {
+                  "id": "B",
+                  "text": "Fluency is a reliable measure of understanding."
+                },
+                {
+                  "id": "C",
+                  "text": "Attempting recall can reveal gaps that targeted rereading then addresses."
+                },
+                {
+                  "id": "D",
+                  "text": "Books should be closed permanently after one reading."
+                }
+              ],
+              "answer": "C",
+              "topic": "Reading comprehension",
+              "explanation": "The author combines effortful recall with targeted rereading rather than rejecting rereading."
+            },
+            {
+              "id": "demo-v2",
+              "type": "MCQ",
+              "prompt": "The author would most likely recommend:",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Explaining an idea without the text, then checking uncertain points."
+                },
+                {
+                  "id": "B",
+                  "text": "Reading a page until every word feels familiar."
+                },
+                {
+                  "id": "C",
+                  "text": "Avoiding difficult explanations."
+                },
+                {
+                  "id": "D",
+                  "text": "Measuring learning only by reading speed."
+                }
+              ],
+              "answer": "A",
+              "topic": "Reading comprehension",
+              "explanation": "This sequence follows the method described in the second paragraph."
+            }
+          ]
+        },
+        {
+          "id": "demo-va",
+          "title": "Verbal ability",
+          "questions": [
+            {
+              "id": "demo-v3",
+              "type": "TITA",
+              "prompt": "Arrange the sentences into a coherent paragraph. Enter the sequence.\n\n1. This stored water supports the seedlings during dry weeks.\n2. Farmers first collect rainwater in small tanks.\n3. They then channel the stored water towards newly planted beds.",
+              "answer": [
+                "231"
+              ],
+              "topic": "Para jumble",
+              "explanation": "Collection comes first, channeling follows, and the final sentence explains the benefit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DILR",
+      "groups": [
+        {
+          "id": "demo-di",
+          "title": "DI · Bookshop sales",
+          "stimulus": "A bookshop sold the following numbers of books.\n\n             Monday   Tuesday\nFiction        30        45\nScience        20        25\nHistory        10        20\n\nAll figures are numbers of books, not sales revenue.",
+          "questions": [
+            {
+              "id": "demo-d1",
+              "type": "TITA",
+              "prompt": "How many books were sold on Tuesday?",
+              "answer": [
+                "90"
+              ],
+              "topic": "Tables",
+              "explanation": "45 + 25 + 20 = 90."
+            },
+            {
+              "id": "demo-d2",
+              "type": "MCQ",
+              "prompt": "Which category had the largest percentage increase from Monday to Tuesday?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Fiction"
+                },
+                {
+                  "id": "B",
+                  "text": "Science"
+                },
+                {
+                  "id": "C",
+                  "text": "History"
+                },
+                {
+                  "id": "D",
+                  "text": "All three were equal"
+                }
+              ],
+              "answer": "C",
+              "topic": "Tables",
+              "explanation": "History doubled from 10 to 20, an increase of 100%."
+            },
+            {
+              "id": "demo-d3",
+              "type": "TITA",
+              "prompt": "What percentage of Monday sales consisted of fiction books?",
+              "answer": [
+                "50"
+              ],
+              "topic": "Tables",
+              "explanation": "30 out of 60 books is 50%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "QA",
+      "groups": [
+        {
+          "id": "demo-qa1",
+          "title": "Arithmetic",
+          "questions": [
+            {
+              "id": "demo-q1",
+              "type": "MCQ",
+              "prompt": "A price rises by 20% and then falls by 20%. What is the net change?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "No change"
+                },
+                {
+                  "id": "B",
+                  "text": "4% decrease"
+                },
+                {
+                  "id": "C",
+                  "text": "4% increase"
+                },
+                {
+                  "id": "D",
+                  "text": "2% decrease"
+                }
+              ],
+              "answer": "B",
+              "topic": "Percentages",
+              "explanation": "100 × 1.2 × 0.8 = 96, a decrease of 4%."
+            }
+          ]
+        },
+        {
+          "id": "demo-qa2",
+          "title": "Algebra",
+          "questions": [
+            {
+              "id": "demo-q2",
+              "type": "TITA",
+              "prompt": "If 3x + 7 = 34, find x.",
+              "answer": [
+                "9"
+              ],
+              "topic": "Linear equations",
+              "explanation": "Subtract 7 and divide by 3: x = 27 / 3 = 9."
+            }
+          ]
+        },
+        {
+          "id": "demo-qa3",
+          "title": "Arithmetic",
+          "questions": [
+            {
+              "id": "demo-q3",
+              "type": "MCQ",
+              "prompt": "A train covers 180 km in 3 hours. What is its average speed?",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "45 km/h"
+                },
+                {
+                  "id": "B",
+                  "text": "50 km/h"
+                },
+                {
+                  "id": "C",
+                  "text": "60 km/h"
+                },
+                {
+                  "id": "D",
+                  "text": "90 km/h"
+                }
+              ],
+              "answer": "C",
+              "topic": "Speed and distance",
+              "explanation": "Speed = distance / time = 180 / 3 = 60 km/h."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

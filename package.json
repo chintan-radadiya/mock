@@ -1,0 +1,15 @@
+{
+  "name": "cat-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local CAT sectional and full mock practice workspace",
+  "scripts": {
+    "start": "node scripts/server.js",
+    "test": "node --test --test-isolation=none tests/core.test.js tests/analysis.test.js",
+    "test:browser": "node tests/browser.cjs",
+    "test:new-imports": "node tests/new-imports.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}

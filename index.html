@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Your personal CAT exam workspace. Import sectionals, sit timed mocks, and understand every attempt.">
+<title>CAT Studio — Practice with purpose</title>
+<link rel="stylesheet" href="app/styles.css">
+<script defer src="app/core.js"></script><script defer src="app/analysis.js"></script><script defer src="app/analysis-view.js"></script><script defer src="app/storage.js"></script><script defer src="app/data.js"></script><script defer src="app/app.js"></script>
+</head>
+<body>
+<div class="shell">
+<aside class="rail"><a class="brand" href="index.html"><span class="brand-icon">C<span>•</span></span> CAT Studio</a><div class="rail-caption">YOUR PREPARATION SPACE</div>
+<nav aria-label="Main navigation"><button data-nav="library" class="active"><span>▦</span> Test library</button><button data-nav="history"><span>◷</span> Attempt history</button><button data-nav="insights"><span>↗</span> Your progress</button></nav>
+<div class="rail-bottom"><div class="local-dot">Stored on this device</div><p>Your tests. Your pace.<br>One stronger attempt at a time.</p><button id="backupBtn" class="rail-link">↓ Export backup</button><button id="restoreBtn" class="rail-link">↑ Restore backup</button><small>Keep a backup before clearing browser data.</small></div></aside>
+<main id="main"><div class="loading">Opening your workspace…</div></main>
+</div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="modal"><div id="modalContent"></div></dialog>
+<input type="file" id="importFile" accept="application/json,.json" hidden><input type="file" id="restoreFile" accept="application/json,.json" hidden>
+<noscript>This application needs JavaScript enabled.</noscript>
+</body></html>

@@ -1,0 +1,2366 @@
+{
+  "schemaVersion": 1,
+  "testType": "full",
+  "id": "ims-simcat-2-2026",
+  "revision": 1,
+  "title": "SimCAT 2 · 2026",
+  "description": "68 questions across VARC, DILR and QA. Transcribed from your IMS images, with supplied question benchmarks.",
+  "sections": [
+    {
+      "code": "VARC",
+      "groups": [
+        {
+          "id": "ims-simcat-2-2026-varc-g01",
+          "title": "RC · Cetacean evolution",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "“One striking pattern was the loss of entire genes.” This observation is primarily used to support the idea that:",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Fossils were inadequate in reconstructing the evolutionary history of whales."
+                },
+                {
+                  "id": "B",
+                  "text": "Life in aquatic environments imposed harsher constraints than life on land."
+                },
+                {
+                  "id": "C",
+                  "text": "Evolutionary adaptation involved the selective elimination of biological functions."
+                },
+                {
+                  "id": "D",
+                  "text": "Most major anatomical changes in cetaceans were not driven by natural selection."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (45).png",
+                "topperAttemptPercent": 91.6,
+                "topperAccuracyPercent": 92.36,
+                "topperTimeSeconds": 303,
+                "topperPValue": 84.6
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "All of the following claims are consistent with the passage EXCEPT:",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Some evolutionary changes in cetaceans improved survival by reducing physiological risks."
+                },
+                {
+                  "id": "B",
+                  "text": "Genetic evidence helped explain adaptive changes more accurately than skeletal remains."
+                },
+                {
+                  "id": "C",
+                  "text": "Cetaceans fine-tuned existing biological systems rather than change them completely."
+                },
+                {
+                  "id": "D",
+                  "text": "Gene loss in cetaceans largely reflects genetic decay caused by the reduced usefulness."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (46).png",
+                "topperAttemptPercent": 84.4,
+                "topperAccuracyPercent": 36.02,
+                "topperTimeSeconds": 92,
+                "topperPValue": 30.4
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "Which one of the following assumptions is central to the passage’s argument about genetic and physiological changes?",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Organisms that returned to water retained biological systems shaped for land life."
+                },
+                {
+                  "id": "B",
+                  "text": "Major environmental transitions typically favour the suppression of redundant traits."
+                },
+                {
+                  "id": "C",
+                  "text": "Genetic evidence can reveal adaptive processes not visible through physiological change."
+                },
+                {
+                  "id": "D",
+                  "text": "Challenges of deep sea life assert stronger evolutionary pressures than surface living."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (47).png",
+                "topperAttemptPercent": 82.2,
+                "topperAccuracyPercent": 16.55,
+                "topperTimeSeconds": 64,
+                "topperPValue": 13.6
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "“For decades, their bizarre body plans perplexed palaeontologists, who speculated that whales might have arisen from creatures as varied as marine reptiles, seals, marsupials, or even extinct wolf-like carnivores” Which of the following can be inferred from the statement?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Superiority of genetics over palaeontology in studying evolutionary change."
+                },
+                {
+                  "id": "B",
+                  "text": "External anatomy does not fully reflect evolutionary relationships."
+                },
+                {
+                  "id": "C",
+                  "text": "The diversity of marine and semi-aquatic animals that coexisted with cetaceans."
+                },
+                {
+                  "id": "D",
+                  "text": "Non-reptilian origins of fully aquatic animals."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (48).png",
+                "topperAttemptPercent": 87.6,
+                "topperAccuracyPercent": 88.36,
+                "topperTimeSeconds": 65,
+                "topperPValue": 77.4
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            }
+          ],
+          "stimulus": "Around 400 million years ago, the ancestor of all four-limbed creatures took its first steps onto dry land. Fast-forward about 350 million years, and a descendant of these early landlubbers did an about-face: It waded back into the water. With time, the back-to-the-sea creatures would give rise to animals vastly different from their land-trotting kin. They became the whales, dolphins, and porpoises that glide through the oceans today.\n\nGoing back to an aquatic lifestyle was a drastic move that would change these animals inside and out, over roughly 10 million years—an evolutionary eyeblink. Members of this group, now called cetaceans, dropped their hind limbs for powerful flukes and lost nearly all their hair. For decades, their bizarre body plans perplexed palaeontologists, who speculated that whales might have arisen from creatures as varied as marine reptiles, seals, marsupials, or even extinct wolf-like carnivores.\n\nIn the late 1990s, genetic data resolved the mystery, confirming that whales belonged to the same evolutionary line as cows, pigs, and camels. Fossils from modern-day India and Pakistan later fleshed out this family tree, identifying the closest ancient relatives of cetaceans as small, wading, deer-like mammals. Yet external anatomy was only part of the story. To survive in the sea, cetaceans also had to modify their blood, lungs, skin, and metabolism—changes that fossils alone could not easily reveal.\n\nWith the increasing availability of cetacean genomes, geneticists began identifying the molecular changes that accompanied the transition back to water. One striking pattern was the loss of entire genes. In the vast book of genetic letters that make up a genome, defunct genes stand out like garbled sentences: They no longer encode functional proteins. Researchers have identified dozens of genes that became nonfunctional when cetaceans adapted to aquatic life.\n\nSome losses were intuitive. Cetaceans no longer possess a gene involved in making saliva, an unnecessary function when the mouth is already full of water. They also lost several genes related to melatonin production and sleep regulation. Early whales likely discovered quickly that shutting down their brains for hours was incompatible with the need to surface to breathe. Modern cetaceans sleep one brain hemisphere at a time, keeping the other alert.\n\nOther genetic changes reflect the demands of deep diving. Long dives can cause nitrogen bubbles to form in the blood, increasing the risk of clots. Two genes involved in initiating blood clotting are no longer functional in cetaceans, reducing this danger while leaving the rest of the clotting system intact. Another lost gene encoded an enzyme that repaired DNA inaccurately. During repeated dives, oxygen flooding back into the bloodstream produces reactive molecules that damage DNA; abandoning a sloppy repair enzyme may have improved long-term cellular stability.\n\nNot all adaptations involved loss. Cetaceans gained changes in genes such as myoglobin, allowing their muscles to store large quantities of oxygen. Their lungs became highly elastic, enabling rapid exchange of air at the surface. At the same time, genes for smell and taste were greatly reduced, reflecting the limited usefulness of these senses underwater."
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g05",
+          "title": "RC · Scientific cultures",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "Which one of the following best summarises the central argument of the passage?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Differences among scientific disciplines arise primarily from the kinds of evidence they employ, leading to distinct standards of proof and collaboration."
+                },
+                {
+                  "id": "B",
+                  "text": "Scientific progress is hindered when disciplines misunderstand one another's methods, making interdisciplinary research a social problem and a technical one."
+                },
+                {
+                  "id": "C",
+                  "text": "The practices, norms, and values of scientific disciplines evolve in response to their subject matter, and investigative constraints require unique ways of generating knowledge."
+                },
+                {
+                  "id": "D",
+                  "text": "While scientific disciplines vary in language, tolerance for error, and modes of collaboration, they remain united by a common commitment to empirical rigor."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (49).png",
+                "topperAttemptPercent": 65.8,
+                "topperAccuracyPercent": 54.41,
+                "topperTimeSeconds": 211,
+                "topperPValue": 35.8
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "The difference between mathematical proof and experimental validation (2nd Paragraph) is primarily used to illustrate which one of the following points?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mathematics seeks complete certainty, while experimental science works with tentative results."
+                },
+                {
+                  "id": "B",
+                  "text": "Experimental sciences make up for weaker logic by relying on repeated trials and statistics."
+                },
+                {
+                  "id": "C",
+                  "text": "Mathematical thinking cannot be combined with empirical research."
+                },
+                {
+                  "id": "D",
+                  "text": "Different fields use different ways of justifying knowledge, shaped by how they produce and test ideas."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (50).png",
+                "topperAttemptPercent": 73.6,
+                "topperAccuracyPercent": 92.66,
+                "topperTimeSeconds": 47,
+                "topperPValue": 68.2
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "All of the following statements can be inferred from the passage EXCEPT that:",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Differences between scientific fields involve not only methods, but also norms about proof, teamwork, and attitudes toward mistakes."
+                },
+                {
+                  "id": "B",
+                  "text": "Interdisciplinary collaboration means learning to understand different ways of thinking, not just exchanging information."
+                },
+                {
+                  "id": "C",
+                  "text": "Fields focused on abstract reasoning are more likely to stress individual achievement than those based on large experiments."
+                },
+                {
+                  "id": "D",
+                  "text": "The lack of one universal scientific method reduces the overall credibility and reliability of science."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (51).png",
+                "topperAttemptPercent": 66.8,
+                "topperAccuracyPercent": 95.81,
+                "topperTimeSeconds": 37,
+                "topperPValue": 64.0
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "Which one of the following assumptions is most critical to the author's argument that “collaboration across fields is not just a technical challenge but a social one ...”?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Scientists from different fields often disagree about basic facts and experimental findings."
+                },
+                {
+                  "id": "B",
+                  "text": "Successful interdisciplinary work requires addressing differences in thinking, reasoning, and communication."
+                },
+                {
+                  "id": "C",
+                  "text": "Social differences between disciplines are harder to overcome than technical or methodological problems."
+                },
+                {
+                  "id": "D",
+                  "text": "Interdisciplinary research cannot succeed unless one field sets the common method."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (52).png",
+                "topperAttemptPercent": 67.4,
+                "topperTimeSeconds": 45,
+                "topperPValue": 56.8,
+                "topperAccuracyPercent": 84.27
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            }
+          ],
+          "stimulus": "Walk through the corridors of different scientific departments and you quickly sense that “science” is not a single culture but a federation of distinct ways of knowing. The physicist hunched over equations, the biologist pipetting at a bench, and the economist wrestling with datasets may all claim allegiance to evidence and rigor, yet what counts as a good question, a convincing answer, or even an elegant solution varies sharply among them. These differences are not superficial; they are cultural habits, shaped over time by the objects each discipline studies and the tools it relies upon.\n\nConsider how disciplines define proof. In mathematics, a result is not accepted because it works most of the time or because it matches observation, but because it follows inevitably from axioms through logical argument. A single counterexample is fatal, no matter how persuasive the intuition behind the claim. By contrast, in the experimental sciences, certainty is probabilistic. A biological finding gains credibility through repeated trials, statistical significance, and independent replication, even though absolute certainty remains elusive. What matters is not deductive inevitability, but robustness across conditions.\n\nThese epistemic styles shape everyday scientific behavior. In some fields, collaboration is the norm, driven by expensive equipment, large datasets, or complex experiments that exceed individual capacity. Authorship lists grow long, and credit is distributed collectively. In others, particularly those centered on abstract reasoning, solitary work remains common, and intellectual ownership is more tightly guarded. Neither approach is inherently superior; each reflects a different understanding of how knowledge is best produced.\n\nDisciplinary cultures also influence attitudes toward failure. In engineering and applied sciences, failed prototypes are often treated as informative steps toward improvement. Error is productive, a signal that guides redesign. In contrast, fields that prize formal elegance or theoretical coherence may view error less forgivingly, since a single flaw can undermine an entire framework. As a result, researchers internalize different tolerances for risk, speculation, and intellectual exposure.\n\nEven the language scientists use reveals cultural divides. Some disciplines favor dense formalism, believing that precision requires abstraction and symbolic expression. Others privilege narrative explanation, metaphors, and visual models to make sense of complex systems. These preferences affect how research is communicated to outsiders and how easily ideas travel across disciplinary boundaries. Misunderstandings often arise not from disagreement about facts, but from incompatible styles of reasoning and expression.\n\nWhat unites these diverse cultures is not a uniform method but a shared commitment to disciplined inquiry. Each field develops norms that regulate skepticism, trust, and authority in ways suited to its subject matter. Problems arise when one disciplinary style is treated as the gold standard for all knowledge. Demands that every science look like physics, or every argument resemble a mathematical proof, ignore the fact that different domains of reality require different epistemic tools.\n\nIn an era of interdisciplinary research, these cultural differences matter more than ever. Collaboration across fields is not just a technical challenge but a social one, requiring translation between distinct ways of knowing. Appreciating disciplinary cultures does not weaken science; it strengthens it, reminding us that progress depends not on a single scientific voice, but on a productive conversation among many."
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g09",
+          "title": "RC · AI and humor",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "According to the passage, AI-generated humor remains fundamentally limited for all the following reasons EXCEPT:",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "AI lacks emotional experience and cannot react internally to humor."
+                },
+                {
+                  "id": "B",
+                  "text": "AI struggles to deploy humor intentionally within social contexts."
+                },
+                {
+                  "id": "C",
+                  "text": "AI finds it difficult to create the typical language of jokes and puns."
+                },
+                {
+                  "id": "D",
+                  "text": "AI’s humor is shaped by patterns in data rather than by social aims."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (53).png",
+                "topperAccuracyPercent": 92.68,
+                "topperTimeSeconds": 224,
+                "topperPValue": 83.6,
+                "topperAttemptPercent": 90.2
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "The third paragraph of the passage is primarily used to support the claim that:",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Philosophical accounts converge on ambiguity as a defining feature of jokes."
+                },
+                {
+                  "id": "B",
+                  "text": "Linguistic jokes rely on cultural knowledge over computational abilities."
+                },
+                {
+                  "id": "C",
+                  "text": "The effectiveness of humor depends more on the flexible meaning of words than on the social context of the joke."
+                },
+                {
+                  "id": "D",
+                  "text": "Humor relies on semantic surprise rather than on commonly understood meaning."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (54).png",
+                "topperPValue": 66.8,
+                "topperAttemptPercent": 86.2,
+                "topperAccuracyPercent": 77.49,
+                "topperTimeSeconds": 79
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "“Despite these advances, most scientists believe A.I’s humor lacks the deeper intentionality that characterizes human wit.” Which one of the following best describes the use of the word “intentionality”?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The ability to generate jokes that do not conform to established linguistic structures."
+                },
+                {
+                  "id": "B",
+                  "text": "The consistency with which humorous outputs produce amusement in an audience."
+                },
+                {
+                  "id": "C",
+                  "text": "The skill to use humor to convey social meaning beyond the literal content of a joke."
+                },
+                {
+                  "id": "D",
+                  "text": "The subjective awareness of being humorous while producing a joke."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (55).png",
+                "topperAttemptPercent": 85.8,
+                "topperAccuracyPercent": 76.69,
+                "topperTimeSeconds": 67,
+                "topperPValue": 65.8
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "Assuming that the authorship of a joke is unknown, which of the following, according to the passage, would most reliably indicate that the joke is human-generated rather than machine-generated?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The joke displays ambiguity that requires reinterpretation to be understood."
+                },
+                {
+                  "id": "B",
+                  "text": "The joke is used to manage social situations rather than merely to be funny."
+                },
+                {
+                  "id": "C",
+                  "text": "The joke elicits laughter from audiences across different contexts."
+                },
+                {
+                  "id": "D",
+                  "text": "The joke deviates from conventional linguistic patterns of humor."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (56).png",
+                "topperAttemptPercent": 84.4,
+                "topperAccuracyPercent": 81.75,
+                "topperTimeSeconds": 61,
+                "topperPValue": 69.0
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            }
+          ],
+          "stimulus": "Humor has long been considered one of the most complex forms of human expression, a blend of language, culture and social intuition that seemed far beyond the capabilities of machines. Until recently, jokes were thought to require “all the thinking ability of a typical human” to be recognized or produced. Yet advances in large language models (LLMs) have challenged this assumption, prompting researchers to ask whether artificial intelligence can truly grasp—or convincingly imitate—the nuances of human humor.\n\nModern LLMs can produce wordplay, puns and structured jokes with surprising fluency. Some researchers argue that, at least at the textual level, humor has proved easier for A.I. to generate than tasks like self-driving. But crafting a clever punchline is not the same as wielding humor in the context-rich way humans do. Humor operates within social norms: it signals group belonging, eases embarrassment, masks criticism or opens pathways for emotional connection. These subtle functions demand an understanding of intention, boundary-testing and interpersonal cues—areas where today’s A.I. tools still falter.\n\nPhilosophers and linguists have long tried to explain why people laugh. From early theories that framed humor as an assertion of superiority to modern views highlighting ambiguity and incongruity, researchers agree that successful jokes often hinge on a delicate mental shift. A pun such as “Two fish are in a tank. One says, ‘You man the guns, I'll drive;’” works because the listener must rapidly reinterpret the word “tank,” moving from the image of an aquarium to that of a military vehicle. This quick flicker of surprise and resolution is central to many jokes—and difficult for algorithms to master consistently.\n\nNonetheless, AI systems are learning faster than expected. In recent experiments, language models trained on satirical headlines produced content that readers rated as nearly indistinguishable from human-generated humor. Other tools combine structured joke-writing algorithms with LLMs to create full setups and punchlines based on a simple prompt. These systems can generate dozens of responses, some remarkably sharp. Yet human curation remains essential: editors or comedians still hand-select the genuinely funny lines from a sea of mediocre attempts.\n\nDespite these advances, most scientists believe A.I.’s humor lacks the deeper intentionality that characterizes human wit. Machines do not use jokes to navigate awkwardness, test social waters or express emotional subtext. They generate patterns—not purposes. This limitation also exposes risks. When asked to “make images funnier,” some A.I. tools resorted to stereotypical portrayals, overrepresenting certain body types or diminishing minority characters. Such biases highlight the social blind spots that emerge when humor is treated purely as data.\n\nThere is also evidence that audiences react differently when they know a machine wrote the joke: people tend to find it less funny, suggesting that humor is intertwined with perceptions of human intention. Researchers argue that genuine humor arises from emotional reactions—not merely from assembling clever words. A.I. can produce jokes, but it cannot feel amusement, discomfort, embarrassment or insight. As one expert puts it, the uniquely human step is reacting emotionally to humor, even when a joke is crude, unsettling or revealing. Machines, for now, can imitate humor’s structure—but not its soul."
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g13",
+          "title": "Summary · Hope",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nHope is often celebrated as a universal virtue, yet it can also become a subtle source of disappointment and distress. When people cling too tightly to hopes about the future, they risk tying their peace of mind to outcomes beyond their control. Many Eastern traditions have long suggested that letting go of excessive hope can lead to greater calm and clarity in the present. Some Western thinkers have echoed this view, noting that fewer expectations can bring unexpected relief. In contrast, modern culture often treats hope as a moral duty, rooted in religious ideas of salvation and Enlightenment faith in progress. This approach encourages people to endure present suffering for imagined future rewards. Yet true courage may lie in facing reality without illusion. By releasing the pressure to constantly hope for better outcomes, individuals can learn to accept uncertainty, engage more honestly with life, and discover a quieter, more stable form of contentment grounded in awareness rather than anticipation.",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Eastern and Western traditions converge in rejecting excessive hope as harmful, in contrast to modern culture making hope a moral obligation."
+                },
+                {
+                  "id": "B",
+                  "text": "Modern society's valorisation of hope encourages people to tolerate present suffering in anticipation of future rewards, while most traditions reject hope as a universal virtue."
+                },
+                {
+                  "id": "C",
+                  "text": "Excessive attachment to hope can undermine present peace, while letting it go it may bring calm, acceptance, and a more stable form of contentment."
+                },
+                {
+                  "id": "D",
+                  "text": "Excessive attachment to hope is rejected by both eastern and western traditions, encouraging individuals to accept uncertainty for a quieter, more honest life."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (57).png",
+                "topperAttemptPercent": 83
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Summary"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g14",
+          "title": "Paragraph ordering · Impact investing",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q14",
+              "sourceNumber": 14,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer.\n\n1. In a revised edition of Impact: Reshaping Capitalism to Drive Real Change, Sir Ronald Cohen reflects on how investment practices are being reshaped by social and environmental concerns.\n\n2. Based on his long experience in venture capital, he observes that financial decision-making is gradually incorporating measures of public benefit alongside profit.\n\n3. He identifies innovation, outcome measurement, and cooperation among firms, governments, and social enterprises as central to this transformation.\n\n4. At the same time, Cohen acknowledges that meaningful alignment between commercial returns and social impact remains limited, suggesting that the emerging model is still incomplete and evolving.",
+              "answer": [
+                "1324"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (58).png",
+                "topperAttemptPercent": 90.2,
+                "topperAccuracyPercent": 28.82,
+                "topperTimeSeconds": 98
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Paragraph ordering"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g15",
+          "title": "Sentence placement · Political movements",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2,3, or 4 indicated in the paragraph.\n\nSentence: This strategy would unite victims of globalization with nostalgic supporters of past conservative leaders.\n\nParagraph: Imagine a hidden blueprint left behind by twentieth-century fascists for their political heirs. It would begin by copying the language of the left, attacking crony capitalism, financial elites, and corrupt institutions.___(1)___. It would criticize the political system as a closed “uniparty” while repeating extreme neoliberal slogans and blaming public workers for economic decline.___(2)___. It would then portray moderate politicians as dangerous radicals and promise a return to a mythical golden age. Through emotional speeches and constant repetition, it would turn resentment into loyalty and doubt into anger.___(3)___. Above all, it would rely on fears about identity and purity, depicting outsiders as threats and social change as contamination. By mixing familiar grievances with exaggerated dangers, such a movement could disguise authoritarian control as popular rebellion and present exclusion and domination as national renewal.___(4)___.",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 4"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 3"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (59).png",
+                "topperAttemptPercent": 74.6,
+                "topperAccuracyPercent": 31.64,
+                "topperTimeSeconds": 101
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Sentence placement"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g16",
+          "title": "Odd sentence · Aesthetics",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q16",
+              "sourceNumber": 16,
+              "type": "TITA",
+              "prompt": "Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.\n\n1. The study of aesthetics, which examines these experiences across cultures and disciplines, emerged as a distinct field in the eighteenth century, though its intellectual roots extend back to ancient thought.\n\n2. Aesthetics is closely related to the philosophy of art, and the two terms are often used interchangeably since both involve the philosophical study of aesthetic phenomena.\n\n3. Some thinkers define art by its aesthetic qualities, while others view it as a category shaped by social and cultural contexts.\n\n4. Artworks are human creations that appear in many forms, including painting, music, dance, architecture, and literature.\n\n5. Interpretation and criticism seek to uncover what artworks represent, the emotions they express, and the intentions behind them.",
+              "answer": [
+                "1"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (60).png",
+                "topperAttemptPercent": 89.0
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Odd sentence"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g17",
+          "title": "Summary · Kochi-Muziris Biennale",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nThe Kochi-Muziris Biennale has steadily evolved into a vibrant platform that brings together multiple artistic sensibilities through innovative and diverse mediums. Moving beyond traditional forms, it embraces installations, digital art, performance, soundscapes, and community-based projects, creating a space where varied voices can coexist and interact. Artists from different cultural, social, and political backgrounds use the Biennale to explore themes of identity, memory, migration, and environment. This expansion reflects a commitment to inclusivity, allowing emerging and established creators to experiment freely. By blending local histories with global perspectives, the Biennale transforms Kochi into a living gallery that extends beyond formal exhibition spaces. Its openness to unconventional materials and hybrid practices challenges audiences to rethink what art can be. In doing so, the Kochi-Muziris Biennale not only showcases aesthetic innovation but also encourages dialogue, reflection, and participation, reaffirming its role as a dynamic meeting point of ideas, experiences, and creative expressions.",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The Biennale’s growing emphasis on unconventional mediums and global participation has helped position Kochi as an important centre of contemporary art."
+                },
+                {
+                  "id": "B",
+                  "text": "The Kochi-Muziris Biennale expands artistic practice beyond traditional formats to create an inclusive, interactive space that blends local and global perspectives."
+                },
+                {
+                  "id": "C",
+                  "text": "The Biennale rejects the traditional formats to use diverse art forms to address social themes such as identity, migration, and the environment in a public setting."
+                },
+                {
+                  "id": "D",
+                  "text": "The Kochi-Muziris Biennale has transformed the traditional Kochi into a living gallery that blends local histories and global perspectives on nature of art itself."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (61).png",
+                "topperAttemptPercent": 66.2
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Summary"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g18",
+          "title": "RC · LUCA",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "According to the passage, LUCA seemed “almost ‘alien” in all of the following respects EXCEPT:",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Its reliance on anaerobic and autotrophic metabolism rather than oxygen-based respiration."
+                },
+                {
+                  "id": "B",
+                  "text": "Its dependence on naturally occurring geochemical reactions to compensate for missing cellular functions."
+                },
+                {
+                  "id": "C",
+                  "text": "Its biological machinery was itself sufficient to sustain life without reliance on environmental chemistry."
+                },
+                {
+                  "id": "D",
+                  "text": "Its habitation of deep, iron- and sulfur-rich hydrothermal vent environments, unlike most present-day life."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (62).png",
+                "topperAttemptPercent": 73.0,
+                "topperAccuracyPercent": 90.14,
+                "topperTimeSeconds": 163,
+                "topperPValue": 65.8
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "What role does the discussion of earlier “universal gene” approaches play in the passage?",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It created the background for a more restrictive strategy to identify LUCA’s genes."
+                },
+                {
+                  "id": "B",
+                  "text": "It provides historical background to the expansion of genetic databases over time."
+                },
+                {
+                  "id": "C",
+                  "text": "It demonstrates that most organisms can be reliably traced back to LUCA."
+                },
+                {
+                  "id": "D",
+                  "text": "It highlights the difficulty of studying ancient microbes due to gene loss over time."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (63).png",
+                "topperAttemptPercent": 66.0,
+                "topperAccuracyPercent": 69.7,
+                "topperTimeSeconds": 60,
+                "topperPValue": 46.0
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "Martin's claim that the 355 genes “almost certainly belonged to LUCA\" depends most on which assumption?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Early life forms necessarily possessed fewer genes than organisms that evolved later."
+                },
+                {
+                  "id": "B",
+                  "text": "Genes involved in basic metabolism tend to persist unchanged across long evolutionary periods."
+                },
+                {
+                  "id": "C",
+                  "text": "Chemical conditions at hydrothermal vents compensated for biological limitations in early cells."
+                },
+                {
+                  "id": "D",
+                  "text": "Gene patterns that remain stable across major lineages are more likely inherited than acquired in later exchange."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (64).png",
+                "topperAttemptPercent": 63.8,
+                "topperAccuracyPercent": 75.86,
+                "topperTimeSeconds": 49,
+                "topperPValue": 48.4
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            },
+            {
+              "id": "ims-simcat-2-2026-varc-q21",
+              "sourceNumber": 21,
+              "type": "MCQ",
+              "prompt": "Which of the following inferences about the origin of life is most consistent with the passage?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Life as we know it owes its existence entirely to geochemical processes rather than biological ones."
+                },
+                {
+                  "id": "B",
+                  "text": "Early life represents a transitional stage in which chemical reactions compensated for biological processes."
+                },
+                {
+                  "id": "C",
+                  "text": "Biological self-sufficiency emerged before chemical processes played a significant role in sustaining life."
+                },
+                {
+                  "id": "D",
+                  "text": "Modern life continues to rely on the same geochemical mechanisms that sustained the earliest organisms."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (65).png",
+                "topperAccuracyPercent": 92.56,
+                "topperTimeSeconds": 53,
+                "topperPValue": 57.2,
+                "topperAttemptPercent": 61.8
+              },
+              "area": "Reading Comprehension",
+              "topic": "RC"
+            }
+          ],
+          "stimulus": "Around 4 billion years ago there lived a microbe called LUCA — the Last Universal Common Ancestor. Evidence suggests it may have occupied deep, iron- and sulfur-rich hydrothermal vents, leading a lifestyle that would seem almost ‘alien’ today. Anaerobic and autotrophic, it did not breathe oxygen and produced its own food from the dark, metal-laden environment around it. Its metabolism relied on hydrogen, carbon dioxide and nitrogen, converting them into compounds such as ammonia. Most remarkable of all, this modest microbe stands at the root of the lineage that includes every organism on Earth.\n\nFor decades, researchers have tried to determine which genes LUCA actually possessed and what those genes reveal about how it lived. Early studies focused on universal genes—those found in all modern genomes—on the assumption that any gene shared by all organisms must have originated in LUCA. This strategy identified roughly 30 genes, but they offered too little information to paint a clear picture of LUCA's environment or metabolism. Another approach widened the search to include any gene present in at least one species of archaea and one species of bacteria. This produced more than 11,000 candidate genes. Yet such a massive set seemed implausible; LUCA could not have possessed more abilities than any modern cell.\n\nBill Martin and his team saw the problem: a process known as lateral gene transfer (LGT) was obscuring LUCA's true genetic signature. LGT allows genes to jump between species—and even between domains—through mechanisms such as viruses or homologous recombination when cells experience stress. Over billions of years, these transfers have shuffled genes extensively, making many of the 11,000 shared genes poor indicators of ancient ancestry. Genes found in both archaea and bacteria today may have spread horizontally rather than having been inherited from LUCA.\n\nRecognizing this, Martin's group adopted a different strategy. Instead of looking for genes that were merely widespread, they searched for “ancient” genes—those whose evolutionary lineages are unusually long and show little evidence of having been moved around by LGT. They reasoned that such genes were more likely to have descended directly from LUCA. To qualify, a gene had to meet two conditions: it could not show signs of lateral transfer, and it had to appear in at least two major groups of archaea and two major groups of bacteria.\n\n“While we were going through the data, we had goosebumps because it was all pointing in one very specific direction,” Martin recalls.\n\nIn the end, the team identified just 355 genes that met their stringent criteria. They argue that these genes almost certainly belonged to LUCA and provide valuable insights into its lifestyle. Although 355 genes would be far too few to support life as we know it today, Martin notes that LUCA likely depended heavily on its geochemical environment, using naturally occurring reactions in hydrothermal vents to supplement missing cellular functions. Critics have observed that key components for processes like nucleotide and amino-acid synthesis are absent from the set. “We didn't even have a complete ribosome,” Martin admits. But this, he argues, is precisely the point: LUCA may have been far more chemically intertwined with its environment than any modern organism, representing an early stage in the transition from geochemistry to biology."
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g22",
+          "title": "Paragraph ordering · Population",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer.\n\n1. One outcome of the transition can be seen in ageing societies, particularly in Central and Eastern Europe, where economic development has lagged behind demographic change.\n\n2. In many parts of the world, birth rates have already fallen below replacement levels, making a global population peak increasingly likely within this century.\n\n3. Population pressures are commonly associated with fears of unchecked growth, yet a quieter shift toward low fertility may prove more consequential in the long run.\n\n4. Underlying these patterns are broader shifts in social behavior, including delayed marriage, smaller families, and declining interest in traditional family structures, with lasting economic and social effects.",
+              "answer": [
+                "3241"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (66).png",
+                "topperAttemptPercent": 84.0,
+                "topperAccuracyPercent": 37.14,
+                "topperTimeSeconds": 108
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Paragraph ordering"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g23",
+          "title": "Sentence placement · International cooperation",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q23",
+              "sourceNumber": 23,
+              "type": "MCQ",
+              "prompt": "The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2,3, or 4 indicated in the paragraph.\n\nSentence: The sense of shared responsibility fades.\n\nParagraph: There is growing evidence that the world is moving toward a more unstable and dangerous phase. International cooperation is weakening, and trust between nations is steadily eroding.___(1)___. As multilateral institutions lose influence, countries increasingly rely on military strength for security. Many governments are expanding their arsenals and strengthening defense alliances.___(2)___. These actions are often presented as precautionary measures. Yet they also encourage rivals to respond in kind. Fear produces preparation, and preparation produces further fear. This cycle creates a self-reinforcing pattern of suspicion and escalation. Small incidents now carry greater risks than before.___(3)___. Diplomatic missteps can quickly turn into serious confrontations. In such an environment, restraint becomes harder to maintain.___ {4)__. What emerges instead is a fragile world shaped by rivalry, rapid reactions, and constant anxiety.",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 4"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (67).png",
+                "topperAttemptPercent": 79.2,
+                "topperAccuracyPercent": 41.67,
+                "topperTimeSeconds": 77,
+                "topperPValue": 33.0
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Sentence placement"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-varc-g24",
+          "title": "Odd sentence · Illusions",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-varc-q24",
+              "sourceNumber": 24,
+              "type": "TITA",
+              "prompt": "Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.\n\n1. Although illusions alter reality, they are usually experienced in similar ways by most people, with visual illusions being the most common because vision often dominates the other senses.\n\n2. Unlike hallucinations, which occur without any external stimulus, illusions involve the misinterpretation of real sensations, showing how perception can be shaped by both the mind and the senses.\n\n3. An illusion is a distortion of sensory perception that reveals how the mind normally organizes and interprets incoming information.\n\n4. Many illusions arise from the brain’s assumptions, perceptual principles, and biological structures, as well as from environmental conditions.\n\n5. The visual system, which includes the eyes and the central nervous system constructs reality through both perceptual and cognitive neural pathways.",
+              "answer": [
+                "5"
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (68).png",
+                "topperAttemptPercent": 87.8
+              },
+              "area": "Verbal Reasoning",
+              "topic": "Odd sentence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DILR",
+      "groups": [
+        {
+          "id": "ims-simcat-2-2026-dilr-g01",
+          "title": "Music academy",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-dilr-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "Which two instructors have saxophones as one of the instruments in their respective rooms?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nisha and Dev"
+                },
+                {
+                  "id": "B",
+                  "text": "Arjun and Dev"
+                },
+                {
+                  "id": "C",
+                  "text": "Meera and Nisha"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (69).png",
+                "topperAttemptPercent": 99.0,
+                "topperAccuracyPercent": 97.17,
+                "topperTimeSeconds": 364,
+                "topperPValue": 96.2
+              },
+              "area": "Logical Reasoning",
+              "topic": "Music academy"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "Which instructor manages Room E?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Arjun"
+                },
+                {
+                  "id": "B",
+                  "text": "Tara"
+                },
+                {
+                  "id": "C",
+                  "text": "Dev"
+                },
+                {
+                  "id": "D",
+                  "text": "Nisha"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (70).png",
+                "topperAttemptPercent": 99.4,
+                "topperAccuracyPercent": 99.2,
+                "topperTimeSeconds": 28,
+                "topperPValue": 98.6
+              },
+              "area": "Logical Reasoning",
+              "topic": "Music academy"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "Which instruments are in the room managed by Meera?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tabla and Saxophone"
+                },
+                {
+                  "id": "B",
+                  "text": "Tabla and Violin"
+                },
+                {
+                  "id": "C",
+                  "text": "Tabla and Guitar"
+                },
+                {
+                  "id": "D",
+                  "text": "Tabla and Piano"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (71).png",
+                "topperAttemptPercent": 99.2,
+                "topperAccuracyPercent": 98.59,
+                "topperTimeSeconds": 35,
+                "topperPValue": 97.8
+              },
+              "area": "Logical Reasoning",
+              "topic": "Music academy"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "Which two rooms have the same pair of instruments?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nisha's room and Arjun’s room"
+                },
+                {
+                  "id": "B",
+                  "text": "Meera’s room and Tara’s room"
+                },
+                {
+                  "id": "C",
+                  "text": "Dev’s room and Meera’s room"
+                },
+                {
+                  "id": "D",
+                  "text": "Arjun’s room and Meera’s room"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (72).png",
+                "topperAttemptPercent": 99.0,
+                "topperAccuracyPercent": 99.39,
+                "topperTimeSeconds": 25,
+                "topperPValue": 98.4
+              },
+              "area": "Logical Reasoning",
+              "topic": "Music academy"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "What is the pair of instruments in room A?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Piano and Saxophone"
+                },
+                {
+                  "id": "B",
+                  "text": "Tabla and Violin"
+                },
+                {
+                  "id": "C",
+                  "text": "Guitar and Piano"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (73).png",
+                "topperAttemptPercent": 98.4,
+                "topperAccuracyPercent": 93.09,
+                "topperTimeSeconds": 42,
+                "topperPValue": 91.6
+              },
+              "area": "Logical Reasoning",
+              "topic": "Music academy"
+            }
+          ],
+          "stimulus": "There are ten musical instruments: two each of guitars, violins, tablas, pianos, and saxophones in a music academy. The five rooms in the academy are labelled A, B, C, D and E, and each is assigned to one of the following instructors: Nisha, Arjun, Dev, Tara, and Meera. Two instruments of different types are placed in each room. The following conditions are known\n\n1. A guitar and a tabla cannot be placed in the same room.\n\n2. Dev does not manage any room that contains a guitar, tabla, or violin.\n\n3. Rooms A, B, and C are assigned to Nisha, Meera, and Arjun respectively.\n\n4. Rooms B and D contain the same pair of instruments.\n\n5. Meera’s room contains a tabla."
+        },
+        {
+          "id": "ims-simcat-2-2026-dilr-g06",
+          "title": "Eco-Blocks processing plants",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-dilr-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "What is the ratio of the total weight of Glass used across all four plants combined to the total weight of Ash used across all four plants combined?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "45:43"
+                },
+                {
+                  "id": "B",
+                  "text": "657 : 638"
+                },
+                {
+                  "id": "C",
+                  "text": "112:105"
+                },
+                {
+                  "id": "D",
+                  "text": "721:690"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (74).png",
+                "topperAttemptPercent": 52.6,
+                "topperAccuracyPercent": 92.02,
+                "topperTimeSeconds": 429,
+                "topperPValue": 48.4
+              },
+              "area": "Data Interpretation",
+              "topic": "Eco-Blocks processing plants"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "If Gamma’s total raw material intake and material composition remain unchanged, approximately by how many percentage points must its processing-loss percentage be increased so that the proportion of Glass used in raw material relative to its own Total Output becomes equal to that of Delta?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "12.5 percentage points"
+                },
+                {
+                  "id": "B",
+                  "text": "15 percentage points"
+                },
+                {
+                  "id": "C",
+                  "text": "18.57 percentage points"
+                },
+                {
+                  "id": "D",
+                  "text": "20 percentage points"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (75).png",
+                "topperAttemptPercent": 36.4,
+                "topperAccuracyPercent": 85.16,
+                "topperTimeSeconds": 88,
+                "topperPValue": 31.0
+              },
+              "area": "Data Interpretation",
+              "topic": "Eco-Blocks processing plants"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q08",
+              "sourceNumber": 8,
+              "type": "TITA",
+              "prompt": "If the total weight of Ash used in Gamma is 450 tons, what is the absolute difference between the total Plastic used in Delta and the total Glass used in Alpha in tons?",
+              "answer": [
+                "15"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (76).png",
+                "topperAttemptPercent": 56.0,
+                "topperAccuracyPercent": 70.71,
+                "topperTimeSeconds": 56,
+                "topperPValue": 39.6
+              },
+              "area": "Data Interpretation",
+              "topic": "Eco-Blocks processing plants"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "Which plant utilizes the highest proportion of Glass relative to its own Total Output?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Alpha"
+                },
+                {
+                  "id": "B",
+                  "text": "Beta"
+                },
+                {
+                  "id": "C",
+                  "text": "Gamma"
+                },
+                {
+                  "id": "D",
+                  "text": "Delta"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (77).png",
+                "topperAttemptPercent": 55.8,
+                "topperAccuracyPercent": 81.72,
+                "topperTimeSeconds": 62,
+                "topperPValue": 45.6
+              },
+              "area": "Data Interpretation",
+              "topic": "Eco-Blocks processing plants"
+            }
+          ],
+          "stimulus": "Omni Build Inc. manufactures \"Eco-Blocks\" using a blend of three recycled raw materials: Plastic (P), Glass (G), and Ash (A). The company operates four distinct processing plants: Alpha, Beta, Gamma, and Delta. During the thermal binding process at each plant, a certain percentage of the Total Raw Material weight is lost to evaporation and burn-off. This is known as the Processing Loss. Total weight of the Output (Weight of Eco-Blocks) = Total weight of the Raw Material - weight of the Processing Loss (Note: Total weight of raw material is equal to sum of weights of Plastic, Glass and Ash). The data chart below provides two parameters for each plant:\n\n1. Plastic Content %: The weight of Plastic used as a percentage of the Total Raw Material used.\n\n2. Processing Loss %: The weight lost during thermal binding as a percentage of the Total Raw Material used.\n\nProcessing plant | Plastic content (% of total raw material) | Processing loss (% of total raw material)\nAlpha | 40% | 20%\nBeta | 30% | 25%\nGamma | 50% | 10%\nDelta | 25% | 20%\n\nAdditional Information:\n\n1. The ratio of the Total Output of Alpha to the Total Output of Beta is 16 : 15.\n\n2. The weight of Plastic used in Gamma is exactly equal to the Total Raw Material used in Beta.\n\n3. The Total Output of Delta is exactly equal to the Total Raw Material used in Beta.\n\n4. In Alpha, the weight of Glass used is equal to the weight of Ash used.\n\n5. In Beta, Glass constitutes 40% of the non-plastic raw material used.\n\n6. In Gamma, the ratio of Glass to Ash used is 5: 3.\n\n7. In Delta, the ratio of Glass to Ash used is 7:8.",
+          "assetIds": [
+            "eco-blocks-table"
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-dilr-g10",
+          "title": "Shipping yard loading lanes",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-dilr-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "Consider the following numbers: 135.5, 143.5, 144.5,152.5. How many of these numbers can be the mean of the numbers written in L3?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1"
+                },
+                {
+                  "id": "B",
+                  "text": "2"
+                },
+                {
+                  "id": "C",
+                  "text": "3"
+                },
+                {
+                  "id": "D",
+                  "text": "All 4"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (78).png",
+                "topperAccuracyPercent": 72.33,
+                "topperTimeSeconds": 249,
+                "topperPValue": 23.0,
+                "topperAttemptPercent": 31.8
+              },
+              "area": "Logical Reasoning",
+              "topic": "Shipping yard loading lanes"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "What can be said about the sum of the numbers written in L1 and L2?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The sum is definitely equal to 2550."
+                },
+                {
+                  "id": "B",
+                  "text": "The sum is definitely equal to 2748."
+                },
+                {
+                  "id": "C",
+                  "text": "The sum definitely lies between 2550 and 2748 (both inclusive)."
+                },
+                {
+                  "id": "D",
+                  "text": "The sum can be either less than 2550 or greater than 2748."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (79).png",
+                "topperAttemptPercent": 28.2,
+                "topperAccuracyPercent": 84.4,
+                "topperTimeSeconds": 57,
+                "topperPValue": 23.8
+              },
+              "area": "Logical Reasoning",
+              "topic": "Shipping yard loading lanes"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q12",
+              "sourceNumber": 12,
+              "type": "TITA",
+              "prompt": "If A= Maximum possible sum of the numbers written in L5 and B = Minimum possible sum of the numbers written in L5. What is the value of A— B?",
+              "answer": [
+                "184"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (80).png",
+                "topperAccuracyPercent": 46.34,
+                "topperTimeSeconds": 43,
+                "topperAttemptPercent": 32.8,
+                "topperPValue": 15.2
+              },
+              "area": "Logical Reasoning",
+              "topic": "Shipping yard loading lanes"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q13",
+              "sourceNumber": 13,
+              "type": "TITA",
+              "prompt": "What is the sum of all the numbers written on the six lanes taken together? (Write 0 if your answer is ‘Cannot be determined’)",
+              "answer": [
+                "7670"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (81).png",
+                "topperAccuracyPercent": 52.75,
+                "topperTimeSeconds": 45,
+                "topperPValue": 19.2,
+                "topperAttemptPercent": 36.4
+              },
+              "area": "Logical Reasoning",
+              "topic": "Shipping yard loading lanes"
+            }
+          ],
+          "stimulus": "A shipping yard has six loading lanes named L1, L2, L3, L4, L5, and L6. Each lane contains crates arranged in a row, and the numbers of crates in the six lanes are all different natural numbers greater than 6. Mira decides to assign a natural number to each crate. She chooses one lane and numbers the crates in that lane from the left end to the right end using consecutive natural numbers, not necessarily starting from 1. After finishing that lane, she chooses another lane and numbers its crates from left to right, again using consecutive natural numbers, such that the number assigned to the left-most crate of the new lane is the immediate successor of the number assigned to the right-most crate of the previous lane. She continues in this way until all crates in all six lanes have been numbered. After numbering all the crates, she observes the following:\n\n1. The total number of crates in all six lanes is 59.\n\n2.L3 contains twice as many crates as L6.\n\n3.L1 contains 3 more crates than L5.\n\n4. The lane with the fewest crates was numbered first.\n\n5. The first crate numbered in L6 received the number 101.\n\n6. The mean of the numbers written in L4 is 112.5.\n\n7. The mean of the numbers written in L1 is 123."
+        },
+        {
+          "id": "ims-simcat-2-2026-dilr-g14",
+          "title": "Welham Public School",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-dilr-q14",
+              "sourceNumber": 14,
+              "type": "TITA",
+              "prompt": "How many students enrolled in the class of the ‘original students’ as fresh admissions in 2025 in class X?",
+              "answer": [
+                "20"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (82).png",
+                "topperAttemptPercent": 34.2,
+                "topperAccuracyPercent": 34.5,
+                "topperTimeSeconds": 183,
+                "topperPValue": 11.8
+              },
+              "area": "Data Interpretation",
+              "topic": "Welham Public School"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "Among the ‘original students’ who appeared in the 10th Board Examination in 2026, the number of boys exceeded the number of girls by ______ %.",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "12 1/2"
+                },
+                {
+                  "id": "B",
+                  "text": "14 1/7"
+                },
+                {
+                  "id": "C",
+                  "text": "16 1/6"
+                },
+                {
+                  "id": "D",
+                  "text": "Multiple answers are possible"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (83).png",
+                "topperAttemptPercent": 13.6,
+                "topperAccuracyPercent": 58.82,
+                "topperTimeSeconds": 37,
+                "topperPValue": 8
+              },
+              "area": "Data Interpretation",
+              "topic": "Welham Public School"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "Among the students of class VIII in 2023-24 session, find the value of the ratio of - (no. of students from ‘original students’) : (no. of students from fresh admission in 2022).",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "8:1"
+                },
+                {
+                  "id": "B",
+                  "text": "25:3"
+                },
+                {
+                  "id": "C",
+                  "text": "35:4"
+                },
+                {
+                  "id": "D",
+                  "text": "32:3"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (84).png",
+                "topperAttemptPercent": 15.0,
+                "topperAccuracyPercent": 85.33,
+                "topperTimeSeconds": 32,
+                "topperPValue": 12.8
+              },
+              "area": "Data Interpretation",
+              "topic": "Welham Public School"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q17",
+              "sourceNumber": 17,
+              "type": "TITA",
+              "prompt": "The number of girls initially present in the ‘original students’ group in 2021 was 16 more than the number of girls who appeared from the group in the 10th Board Examination in\n\n2026. How many boys were present in the ‘original students’ group in 2021?",
+              "answer": [
+                "204"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (85).png",
+                "topperAttemptPercent": 23.0,
+                "topperAccuracyPercent": 33.91,
+                "topperTimeSeconds": 26,
+                "topperPValue": 7.8
+              },
+              "area": "Data Interpretation",
+              "topic": "Welham Public School"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q18",
+              "sourceNumber": 18,
+              "type": "TITA",
+              "prompt": "In the academic session of 2023-24, when the “original students” were in class VIII, the number of girls and boys were equal in that class. What is the minimum number of girls enrolled in class VII in 2022 as fresh admission?",
+              "answer": [
+                "17"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (86).png",
+                "topperTimeSeconds": 35,
+                "topperAttemptPercent": 21.8,
+                "topperAccuracyPercent": 16.51,
+                "topperPValue": 3.6
+              },
+              "area": "Data Interpretation",
+              "topic": "Welham Public School"
+            }
+          ],
+          "stimulus": "Welham Public School has a long-standing reputation for producing excellent academic results. The school maintains a disciplined environment with strict rules and a strong emphasis on academic performance. The academic session runs annually from March to February of the following year. Students who do not pass the annual examination are required to leave the school, and the resulting vacancies are filled through fresh admissions so that the class strength remains unchanged. No student leaves the school for a reason other than failing in the annual examination. Each year, exactly 340 students from the school appear for the 10th Board Examination. In fact, the school maintains a class strength of 340 students in each grade from Class VI onward. A group of educational psychologists is studying the students who were already in the school in 2021 and later appeared for the 10th Board Examination in 2026. These students are referred to as the ‘original students’. The bar graph below shows the number of fresh admissions made in the class of the original students in different grades and years.\n\nFresh admissions (bar graph):\nClass VII in 2022: 32\nClass VIII in 2023: 25\nClass IX in 2024: 20\n\nNumber of fresh-admission students who later failed and could not be promoted:\nAdmission cohort | To class VIII | To class IX | To class X\nClass VII in 2022 | 5 | 2 | 0\nClass VIII in 2023 | — | 5 | 2\nClass IX in 2024 | — | — | 3\n\nThe following facts are also known about these ‘original students’\n\n1. Each year at least one girl and one boy among the ‘original students’ failed to pass the annual examination.\n\n2. Among the ‘original students’, more boys than girls left the school each year.\n\n3. Only 260 ‘original students’ appeared in the 10th Board Examination in 2026. The remaining are fresh admissions because of vacancies created from 2022 to 2025.\n\n4) Among the ‘original students’ who were promoted to class VII in 2022, the number of boys was 33 1/3% more than that of the girls.\n\n5) Among the ‘original students’, the ratio of the number of girls to the number of boys in class VIII was 4: 5, and in class IX was 5 : 6. The corresponding ratio in class X was n : (n+ 1), where n is a single digit natural number.",
+          "assetIds": [
+            "school-admissions-chart",
+            "school-failures-table"
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-dilr-g19",
+          "title": "Hong Kong Super Five team",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-dilr-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "Which of the following groups of players can form a valid team?",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sujata, Sumaya, Sunita, Suprita, Supriya"
+                },
+                {
+                  "id": "B",
+                  "text": "Sanjana, Sarita, Savita, Sujata, Sumaya"
+                },
+                {
+                  "id": "C",
+                  "text": "Sanjana, Sarita, Sujata, Sumaya, Suprita"
+                },
+                {
+                  "id": "D",
+                  "text": "Sarita, Savita, Sumaya, Suprita, Supriya"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (87).png",
+                "topperAccuracyPercent": 97.96,
+                "topperPValue": 96.2,
+                "topperAttemptPercent": 98.2,
+                "topperTimeSeconds": 242
+              },
+              "area": "Logical Reasoning",
+              "topic": "Hong Kong Super Five team"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "Which of the following players must be selected in every valid team?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Supriya"
+                },
+                {
+                  "id": "B",
+                  "text": "Sumaya"
+                },
+                {
+                  "id": "C",
+                  "text": "Savita"
+                },
+                {
+                  "id": "D",
+                  "text": "Sujata"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (88).png",
+                "topperAttemptPercent": 98.4,
+                "topperAccuracyPercent": 95.73,
+                "topperTimeSeconds": 108,
+                "topperPValue": 94.2
+              },
+              "area": "Logical Reasoning",
+              "topic": "Hong Kong Super Five team"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q21",
+              "sourceNumber": 21,
+              "type": "MCQ",
+              "prompt": "If Supriya is selected in the team, which of the following statements can be true?\n\nI. Sumaya is selected.\nII. Savita is selected.\nIII. Sunita is selected.",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only I"
+                },
+                {
+                  "id": "B",
+                  "text": "Only III"
+                },
+                {
+                  "id": "C",
+                  "text": "Only I and III"
+                },
+                {
+                  "id": "D",
+                  "text": "All I, II and III"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (90).png",
+                "topperAttemptPercent": 97.6,
+                "topperAccuracyPercent": 95.08,
+                "topperTimeSeconds": 100,
+                "topperPValue": 92.8
+              },
+              "area": "Logical Reasoning",
+              "topic": "Hong Kong Super Five team"
+            },
+            {
+              "id": "ims-simcat-2-2026-dilr-q22",
+              "sourceNumber": 22,
+              "type": "MCQ",
+              "prompt": "If Sunita is already selected, which of the following groups of four players can be selected along with her?",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Supriya, Sanjana, Sujata and Suprita"
+                },
+                {
+                  "id": "B",
+                  "text": "Sumaya, Sanjana, Sujata and Savita"
+                },
+                {
+                  "id": "C",
+                  "text": "Supriya, Sumaya, Savita and Sujata"
+                },
+                {
+                  "id": "D",
+                  "text": "Supriya Sanjana, Sarita and Suprita"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (91).png",
+                "topperAttemptPercent": 97.4,
+                "topperAccuracyPercent": 95.07,
+                "topperPValue": 92.6,
+                "topperTimeSeconds": 110
+              },
+              "area": "Logical Reasoning",
+              "topic": "Hong Kong Super Five team"
+            }
+          ],
+          "stimulus": "A 5-member cricket team has to be selected for a new format of cricket named Hong Kong Super Five! It must be composed of 2 batters, 2 bowlers and one wicketkeeper. There are three batting contenders: Supriya, Sumaya and Sanjana. There are two wicketkeeping contenders: Sunita and Sarita. There are three bowling contenders: Savita, Sujata and Suprita. Following conditions are known:\n\n1. If Savita is selected, then Suprita cannot be selected.\n\n2. If Sanjana is selected, then Savita cannot be selected.\n\n3. If Sumaya is selected, then Sanjana must also be selected."
+        }
+      ]
+    },
+    {
+      "code": "QA",
+      "groups": [
+        {
+          "id": "ims-simcat-2-2026-qa-g01",
+          "title": "Geometry · Q1",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "ABCD is a rhombus (AC > BD) with O being the point of intersection of its two diagonals. The area and the perimeter of the rhombus are 96 sq. cm and 40 cm, respectively. E is a point on AD (A-E-D), F is a point on AO (A-F-O), and G is a point on OD (O-G-D). It is known that AE = DG = 4cm, and OF = 6cm. Find the area (in cm²) of the triangle EFG.",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "4.8"
+                },
+                {
+                  "id": "B",
+                  "text": "5"
+                },
+                {
+                  "id": "C",
+                  "text": "6"
+                },
+                {
+                  "id": "D",
+                  "text": "8"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (92).png",
+                "topperAttemptPercent": 25.6,
+                "topperAccuracyPercent": 80.47,
+                "topperTimeSeconds": 144
+              },
+              "area": "Geometry",
+              "topic": "Geometry · Q1"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g02",
+          "title": "Geometry · Q2",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q02",
+              "sourceNumber": 2,
+              "type": "TITA",
+              "prompt": "A solid sphere has radius N cm, where N is a natural number. If its radius is increased by 1 cm, the increase in volume is V cu.cm and the increase in surface area is A sq. cm. Find the minimum value of N such that numerically V ≥ 10A.",
+              "answer": [
+                "20"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (93).png",
+                "topperAttemptPercent": 36.8
+              },
+              "area": "Geometry",
+              "topic": "Geometry · Q2"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g03",
+          "title": "Algebra · Q3",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "Evaluate √(60 + 12√6 − 12√(25 + 10√6)).",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "2√3 + 3√2 − √30"
+                },
+                {
+                  "id": "B",
+                  "text": "3√2 − 2√3 + √30"
+                },
+                {
+                  "id": "C",
+                  "text": "2√3 − 3√2 + √30"
+                },
+                {
+                  "id": "D",
+                  "text": "2√3 − 3√2 − √30"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (94).png",
+                "topperAttemptPercent": 51.8,
+                "topperAccuracyPercent": 78.38,
+                "topperTimeSeconds": 145,
+                "topperPValue": 40.6
+              },
+              "area": "Algebra",
+              "topic": "Algebra · Q3"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g04",
+          "title": "Arithmetic · Q4",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "A shopkeeper offers a \"Buy 5 Get 4 Free\" scheme. Additionally, he allows a 20% discount to a loyal customer. If he still makes a profit of 25%, by what percentage was the marked price above the cost price?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "125.25%"
+                },
+                {
+                  "id": "B",
+                  "text": "181.25%"
+                },
+                {
+                  "id": "C",
+                  "text": "150%"
+                },
+                {
+                  "id": "D",
+                  "text": "133.33%"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (95).png",
+                "topperAttemptPercent": 88.6,
+                "topperAccuracyPercent": 96.16,
+                "topperTimeSeconds": 158,
+                "topperPValue": 85.2
+              },
+              "area": "Arithmetic",
+              "topic": "Arithmetic · Q4"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g05",
+          "title": "Algebra · Q5",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "If α, β, θ and π are the four real roots of 120x⁴ − 326x³ + 329x² − 146x + 24 = 0 and\n\nn = [1/(αβθ + βθπ + θπα + παβ)] × [1/(αβθ) + 1/(βθπ) + 1/(θπα) + 1/(παβ)],\n\nthen find the smallest integer larger than or equal to n.",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "10"
+                },
+                {
+                  "id": "B",
+                  "text": "11"
+                },
+                {
+                  "id": "C",
+                  "text": "12"
+                },
+                {
+                  "id": "D",
+                  "text": "13"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (96).png",
+                "topperAttemptPercent": 30.6,
+                "topperAccuracyPercent": 83.01,
+                "topperTimeSeconds": 78
+              },
+              "area": "Algebra",
+              "topic": "Algebra · Q5"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g06",
+          "title": "Algebra · Q6",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q06",
+              "sourceNumber": 6,
+              "type": "TITA",
+              "prompt": "If f(x) = max{|x − 2| + 3, 11 − x}, where ‘x’ is a real number. What is the minimum value of f(x)?",
+              "answer": [
+                "6"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (97).png",
+                "topperAttemptPercent": 61.8,
+                "topperAccuracyPercent": 82.52,
+                "topperTimeSeconds": 74
+              },
+              "area": "Algebra",
+              "topic": "Algebra · Q6"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g07",
+          "title": "Algebra · Q7",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "Let f₁(x) = 2x + 1, f₂(x) = x − 4 and f₃(x) = (x + 7)/2. Find the value of f₁(f₂(f₃(f₁(f₂(f₃(2026)))))).",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "2027/2"
+                },
+                {
+                  "id": "B",
+                  "text": "2025/2"
+                },
+                {
+                  "id": "C",
+                  "text": "2026"
+                },
+                {
+                  "id": "D",
+                  "text": "4053"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (98).png",
+                "topperAttemptPercent": 72.4,
+                "topperAccuracyPercent": 98.07,
+                "topperTimeSeconds": 76
+              },
+              "area": "Algebra",
+              "topic": "Algebra · Q7"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g08",
+          "title": "Geometry · Q8",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "A landscape architect is designing a right-angled triangular flower bed. She is constrained by the design to ensure the longest side (the hypotenuse) measures exactly H metres, and the total perimeter of the flower bed measures exactly P metres. Which of the following expressions represents the total enclosed area of the flower bed?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "(P² − H²)/4"
+                },
+                {
+                  "id": "B",
+                  "text": "(P² − 2PH)/4"
+                },
+                {
+                  "id": "C",
+                  "text": "(P² + 2PH)/2"
+                },
+                {
+                  "id": "D",
+                  "text": "(P² − 4H²)/8"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (99).png",
+                "topperAttemptPercent": 63.4
+              },
+              "area": "Geometry",
+              "topic": "Geometry · Q8"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g09",
+          "title": "Arithmetic · Q9",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "The maximum volume of liquid that a vessel can contain is 100 litres. The vessel initially contains 50 litres of milk. A milkman performs 100 rounds of operations on this milk. In the first round, he adds water so that half of the remaining empty space of the vessel gets filled. In the second round, he adds milk so that half of the remaining empty space of the vessel gets filled. In the third round, he again adds water so that half of the remaining empty space of the vessel gets filled, and so on. After the 99th round the ratio of milk to water (by volume) in the vessel will be ______.",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "3 : 1"
+                },
+                {
+                  "id": "B",
+                  "text": "2 : 1"
+                },
+                {
+                  "id": "C",
+                  "text": "(2 + 0.25^99) : 1"
+                },
+                {
+                  "id": "D",
+                  "text": "(2 + 0.25^49) : 1"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (100).png",
+                "topperAttemptPercent": 51.6
+              },
+              "area": "Arithmetic",
+              "topic": "Arithmetic · Q9"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g10",
+          "title": "Number System · Q10",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q10",
+              "sourceNumber": 10,
+              "type": "TITA",
+              "prompt": "The largest term common to the sequences 5, 17, 29, 41, ... up to 120 terms and 41, 50, 59, 68, ... up to 120 terms is ______.",
+              "answer": [
+                "1085"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (101).png",
+                "topperAttemptPercent": 78.6,
+                "topperAccuracyPercent": 69.21
+              },
+              "area": "Number System",
+              "topic": "Number System · Q10"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g11",
+          "title": "Arithmetic · Q11",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "Elena deposits $68,000 into a business savings account that offers a 6% per annum interest rate. At the end of every 3 months, she withdraws $17,000 from this account to pay for software licenses and quarterly taxes. For each quarter, interest is calculated only on the principal outstanding at the beginning of that quarter. The interest earned in one quarter is not added to the principal for the purpose of calculating interest in the next quarter. Calculate the total amount of interest Elena will have earned at the end of 12 months.",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$1,700"
+                },
+                {
+                  "id": "B",
+                  "text": "$3,400"
+                },
+                {
+                  "id": "C",
+                  "text": "$2,550"
+                },
+                {
+                  "id": "D",
+                  "text": "$4,220"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (102).png",
+                "topperAttemptPercent": 72.4,
+                "topperAccuracyPercent": 95.3,
+                "topperTimeSeconds": 143
+              },
+              "area": "Arithmetic",
+              "topic": "Arithmetic · Q11"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g12",
+          "title": "Algebra · Q12",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "How many integer values of ‘m’ can be written in the form m = k² − 12k, where the equation x² − (k + 3)x + 4k = 0 has two distinct real roots in the ratio 2 : 1?",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "0"
+                },
+                {
+                  "id": "B",
+                  "text": "1"
+                },
+                {
+                  "id": "C",
+                  "text": "2"
+                },
+                {
+                  "id": "D",
+                  "text": "4"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (103).png",
+                "topperAttemptPercent": 60.0,
+                "topperAccuracyPercent": 79.67,
+                "topperTimeSeconds": 124,
+                "topperPValue": 47.8
+              },
+              "area": "Algebra",
+              "topic": "Algebra · Q12"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g13",
+          "title": "Algebra · Q13",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "If ‘P’ is a positive real number such Sₘ ≤ P ≤ Sₘ₊₁, where Sₙ is the sum of first ‘n’ terms of the sequence 1, 6/11, 10/11², 14/11³, 18/11⁴, …, the value of P cannot be ______.",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "3/2"
+                },
+                {
+                  "id": "B",
+                  "text": "59/50"
+                },
+                {
+                  "id": "C",
+                  "text": "71/50"
+                },
+                {
+                  "id": "D",
+                  "text": "83/50"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (104).png",
+                "topperAttemptPercent": 24.2,
+                "topperAccuracyPercent": 82.64,
+                "topperTimeSeconds": 64
+              },
+              "area": "Algebra",
+              "topic": "Algebra · Q13"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g14",
+          "title": "Modern Mathematics · Q14",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q14",
+              "sourceNumber": 14,
+              "type": "TITA",
+              "prompt": "How many paths are there from the origin (0, 0) to the point (6, 6), moving only one unit at a time either to the right or upward, that do not pass through the point (3, 3)?",
+              "answer": [
+                "524"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (105).png",
+                "topperAttemptPercent": 39.2,
+                "topperAccuracyPercent": 60.71
+              },
+              "area": "Modern Mathematics",
+              "topic": "Modern Mathematics · Q14"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g15",
+          "title": "Arithmetic · Q15",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q15",
+              "sourceNumber": 15,
+              "type": "TITA",
+              "prompt": "Two cars, a faster car and a slower car start at the exact same time from two different points. If they move directly towards each other, they meet after exactly 4 hours. If they move in the same direction (with the faster car chasing after the slower car), it takes the faster car exactly 12 hours to catch up with the slower car. If the slower car moves at a steady speed of 45 km/hr, what is the speed of the faster car in km/hr?",
+              "answer": [
+                "90"
+              ],
+              "selectionCategory": "A",
+              "area": "Arithmetic",
+              "topic": "Arithmetic · Q15"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g16",
+          "title": "Number System · Q16",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q16",
+              "sourceNumber": 16,
+              "type": "TITA",
+              "prompt": "The last two digits of (6^100 + 7^100) are ______.",
+              "answer": [
+                "77"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (107).png",
+                "topperAttemptPercent": 73.6,
+                "topperAccuracyPercent": 61.96,
+                "topperTimeSeconds": 102
+              },
+              "area": "Number System",
+              "topic": "Number System · Q16"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g17",
+          "title": "Arithmetic · Q17",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q17",
+              "sourceNumber": 17,
+              "type": "TITA",
+              "prompt": "Four software developers Alice, Bob, Charlie, and Diana are building a new mobile app together. They agree to divide the work and contribute to the total coding work in the ratio 2: 3:4: 1, respectively. If they were to code the entire app completely alone from scratch, it would take them 5, 10, 15, and 20 days, respectively. If they work on the app one after the other (sequentially) to complete their assigned shares, how many total days will it take to finish the app?",
+              "answer": [
+                "12"
+              ],
+              "selectionCategory": "A",
+              "area": "Arithmetic",
+              "topic": "Arithmetic · Q17"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g18",
+          "title": "Geometry · Q18",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "The coordinates of the vertices of △ABC are A (0, 3), B (0, 0), and C (4, 0). Given BD ⟂ AC such that A-D-C. Find the coordinates of point D.",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "(1.56, 1.88)"
+                },
+                {
+                  "id": "B",
+                  "text": "(1.44, 1.92)"
+                },
+                {
+                  "id": "C",
+                  "text": "(1.44, 1.76)"
+                },
+                {
+                  "id": "D",
+                  "text": "(2.56, 1.92)"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (109).png",
+                "topperAttemptPercent": 43.6,
+                "topperAccuracyPercent": 93.12,
+                "topperTimeSeconds": 101,
+                "topperPValue": 40.6
+              },
+              "area": "Geometry",
+              "topic": "Geometry · Q18"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g19",
+          "title": "Algebra · Q19",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "Let ‘x’ and ‘y’ be the integers greater than 1 satisfying 2x + 3y ≤ 12, x − y ≥ 1, x + y ≥ 4. What is the maximum possible value of (3x + 2y)?",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "10"
+                },
+                {
+                  "id": "B",
+                  "text": "11"
+                },
+                {
+                  "id": "C",
+                  "text": "12"
+                },
+                {
+                  "id": "D",
+                  "text": "13"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (110).png",
+                "topperAttemptPercent": 57.4,
+                "topperAccuracyPercent": 90.24,
+                "topperTimeSeconds": 82,
+                "topperPValue": 51.8
+              },
+              "area": "Algebra",
+              "topic": "Algebra · Q19"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g20",
+          "title": "Number System · Q20",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "If 24^n is a factor of (100!)²/(40!)³, the highest value ‘n’ can take is ______.",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "24"
+                },
+                {
+                  "id": "B",
+                  "text": "25"
+                },
+                {
+                  "id": "C",
+                  "text": "26"
+                },
+                {
+                  "id": "D",
+                  "text": "28"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied review screenshots",
+                "sourceImage": "Screenshot (111).png",
+                "topperAttemptPercent": 28.4,
+                "topperAccuracyPercent": 78.87,
+                "topperTimeSeconds": 69,
+                "topperPValue": 22.4
+              },
+              "area": "Number System",
+              "topic": "Number System · Q20"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g21",
+          "title": "Number System · Q21",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q21",
+              "sourceNumber": 21,
+              "type": "TITA",
+              "prompt": "On an alien planet, numbers are written in the octal system, using digits 0 to 7 instead of the decimal system used on Earth. Mr. Bean visits the planet and sees two house numbers 257 and 346. A local guide tells him that the lucky house is the one whose number is equal to the sum of these two house numbers. What is the decimal value of the lucky house number?",
+              "answer": [
+                "405"
+              ],
+              "selectionCategory": "C",
+              "area": "Number System",
+              "topic": "Number System · Q21"
+            }
+          ]
+        },
+        {
+          "id": "ims-simcat-2-2026-qa-g22",
+          "title": "Arithmetic · Q22",
+          "questions": [
+            {
+              "id": "ims-simcat-2-2026-qa-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "Three remote control cars Red, Blue, and Green are raced over a track of D metres. All cars maintain a constant speed throughout the race. The Red car beats the Blue car by 40 metres. The Red car beats the Green car by 76 metres. If the Blue car and Green cars run the same race against each other, the Blue car beats the Green car by 40 metres. Find the total length of the race track in meters.",
+              "answer": [
+                "400"
+              ],
+              "selectionCategory": "B",
+              "area": "Arithmetic",
+              "topic": "Arithmetic · Q22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "eco-blocks-table": {
+      "alt": "Original processing-plant table; the values are also transcribed above.",
+      "data": "data:image/png;base64,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"
+    },
+    "school-admissions-chart": {
+      "alt": "Fresh admissions: Class VII 2022, 32; Class VIII 2023, 25; Class IX 2024, 20.",
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARcAAACgCAYAAAAmayitAAA59ElEQVR4nO1dCXxcVb3+Zsu+p2mSNk3Tlq606UIpLWWngtYiiyBSpegDFxBQQVGEh/oUkSciKqLoEwSRXRAE2dGWtjTd9xbaptn3fZlJMjP3vN93JjedTGcmk2Zu7p30fvxCkzt37r3nf8/5n/92vmMRQgiYMGHCRJRhjfYFTZgwYcJULiZMmNAM9mO/Cng9HvT29MLjVWBzxCEhIQ7unm70uRUIixVxjjjEJ8TDatHugUyYMDHWlIsA3M52vPvcc/ioqQ1VFW58+97vwlK+ETff9wLOWnYq0pNn4Atf+iRS42y6PrQJEyaMD8uxgK6A4vXC6/XC6WzHO7/9PiyfvhsLPfvwjb9U4Yl7VyM1MREJ8XGwhLFczPiwCRMnJywBisHPLeIHCkpL3sf7W7ZgY81k/GxKPhLb2nFaRgn+8OD/oi9lMm679b+QmWiXZwdTLIqiyB8TJkycXIrFZrMNUjD2wSfYkF0wBcVKPHpbn8a2w9VYtXAefvyTeXB1V+PR276B3Ucvxbmzc326KAC0enbu3ImOjg55Eyob/38J/2PqQ/nD/3jg98N9FniN4X4WaHGFum+w84O1LfC+4e4feK2h7huNdgd7J8HOj0Ru4b4b7r4jaVOk94jWO/E/N9R7CnW+ZRhtC9WWSMdFpG0LNwaGe18iPT0dCxYskArmOOXCE11dHfDE52DOvPGI79yBktpWdJ2SDqstAV6vgM0aD4cttE/Ea/Bn+fLlsFrNLLcJEycLqGwCx/wgy6WvsxHPP/0KREICupt6cMU3ZqCxtASvrj8Am+JF3JIvoXhKdtiYC8GbmMrFhImTB8GsJr+ALi0PRbo2Qvi0kM1mheL1wKv4zCCrzQZrGM3idruxadMmZGZmmoFdEyZOIiQlJaGoqCi4W0RYLFbY7YNNG6vNDuswMs8JCQmYMWNGSP/WhAkTJ6FbFK2bqJFjEyZMnLyIunLp6+tDVVWV6RaZMHESgR5LXl5e6FR0NECLJScnJ9qXNWHChIFBlyhMEV30lEtiYuLAzYLlyYdbf+D/t7wWjIPh8lVEUp8QqiYi1Lmhrht4TyMjXL1IJH0lGMLVMsWCnCwR1Juox/wRSV1WJNcd7rMGIurKRa3S1RRCgUXRvxMIBrDMwLUJE1BjrZq6Rb29vThy5Ihv8A3TUjlu8Aabwb1eeEqPwLtxPWBRo9NUNJaA3/3/9Yf/Z4OuHOFnx67jWHIGrLNmDzo7VPuGqowd7qwcDURaXTuc7w/nc60xnP53Is+qdfvFMKuoI/n+UP3vROTDz+itFBYWaqtc4uPjMXXqVM2K6ITHg/qKchzeuxeWcBkpNpLmnfpvqGOB50d6LVgwddmZyJs2zUy7mzjpYQmwWo5XLv0ujZynLayy9c3Wirf/GCtvh9DE6k00Uy6M5Ry7WfiT1c/9zwt2LJLrBfmebCfbay51MGHiOAxSLlQsbnefrMhl8VxcnAPC64Hb7YEiBGw2OxxxcWHJonp6enDo0KETDgoNGWTzetHT0MDwNPRGXX092j/+OLTFEwaRBhRPJMB2IteOhQDnaMnPaM9jMUBbhwr+skJ38uTJwd0iuXCxrR5vvvQq6lwuHNxZg2/efw8yuyvx6CNPI7EgDWXV7fjmHXdjSlZiyEmebtGUKVM0cxWo7BorK9BpgE4/btw45E2dqvdjmDBh7FQ0P0jMGI9V114Hl7MNbzTdiX1VDcgpfx+u0z6HW1YW4cM/fw+b9pWj6OyZsIRICPM6cXFxmlXoKh4P7Aap/nXY7YiPizPdIhMmgiBgbZFA+eZ/440NG7C5eTrum5SDXR82oHBxjhzQ06afgr0dXcETKoNcK7dcAKkJyJaneE/IFYkmeHc+B9tqpqNNnMyw+C35CZEtYjBXIH3CFJx2ZiJsa59DyaEqxJG4W7LLCbg9bsQn2MNWsTmdTmzdulU7P5ertsvKdbcWKMSysnKUb9miu6IzYUJvpKWlYe7cuaHIooA+lwvWtAlYkDsBSd07sLG+C0smTcLrGw7h6llzsWXbfky9YnVIl4hISUnB/PnzNXWL6l1OHCINhJ76RQhMnTIF+UuX6q7oTJgwAsKuinZ3NeKZp15Aj8UBb48FV980B+OVfJy+89d49I+bkTj1Snxm9sSIvICRlBJHBuNYC2MxQzHaiNXnjuU2WqL4PMEK8AaRRSmKV9a0sHjfaiFZlI3pGXj761ysVpskkAoFxh9KSkpkFmWkAgvZSK8Xrh3b0fHi8/paDBYLUi+5FInLzpRWjFYdZ6TXGM5zaXGv4T7DcO5FjOS6I1XOI71XNKDFdUPJNhzUCl1/62WQ5ULlwZ/Bd7LBPgy2KO1T0V40VJSjQ+8ZTQiMy85G3pQpZkDXxEkPy5AVulGAGjXWrEJXWlVhSvVHEVabz7ozYy4mTnZYRkO5sEL36NGjUTHVgi7W8njgam42QIWuBY2NTXCWlg65KEzFiSw+G8mCw2g+T9QWnkbpOUd67+E+T7Dq1EjaIE6gjVrKRQtZqW5RQUFBaLcoGmAB3YQJE7RzizweNJYeQZvulotARkYGxk9kgNtIDDMmTIxRsijehJR3Wqai4+xRf+wTQpzDgaSEhPCrs02YOEkRc2RRDOhKU0x3ywVyMScLDE27xcTJDstokEWRoLusrEyz3D2Vi6ulWVJC6I3mpia4ysoMoehMmNATjLlMDAgRaEIWxVS0VtkiWaFbdlTGXPS2GFjPk8+0u+7BZRMm9EfgmNdkVGhZcehHOazZPUyYMDHycT9o4aLX40ZXZydcvR7EJyQjLS0JblcXOrqcELDCEZeIjIyUsGx0TEWTQ1dLt6insVF/a8FiQUNDAzoPHzbdIhMnPZKSkjBp0qQQbpEAetsb8c8X/wkl0YHt/96FG+/7KRJqNuCmX7yFz1++HOlJBVhx8RlIcljCukWBjFTRVi6N5WWyQldXt0gIZGdnI3fyZLNC18RJD2vYVLTFgoTMPKy+4SuSLCq1chN2VjZgsXDDk1iAJaefgfE5OUgM2Es6ELyBw+HQnizKAF6RzU4q0LFEFsUsnI63l31T70iaiRNF2DoXrisSigceVxNK9rbgs5/PQqZjKi6cthNPPfIrNCIPP/nx7RiXZA/ZBZiGJlGUlm6RL9WtP1mUbKvHY4Bq4ZHDQktQKNqKdahdF/irxQphFiXGHIYgi+I7VuDq7sY7zz6D+JXfRPGUTDhEOm7/3g/g6q7D43fejD2ljTj/1PyQE4zL5cKuXbsiKmEOpYCCnTNQaqwo8FRV6W4t8HmqqipRu2tX2FXRkZTQR1LmPdQ1gyFY6Xqwc+Tzl5fBsvbffntBBb2iBpbF4GuK+QvkT7DnjVQO4eR73N1DrIAe6lqhlgOEur4lwrYM997h2hHsWcItawiFoeROpKamYubMmaHIogTcPU5see4e7FLOxO2XLgS8HnS0twCORCieXvS4rEiItw8Z2FmwYIG8SagGBHvYUMIJHJAyFd3WikMsXtNTwQiBwkmFyF+0SM6+oTpZOIU63OXy/vcYqtOGUtDBzqXCbnB24yMqbR2rn4WioOjsszFp0SJZ9RyuTwQej7T/RPQcEW6HGgyBn1mG8RxD9ZUTeY6h+kok/SfweKjrhnWLelqr8X5JJ5TJR/H4Y3/Gqeddhhm2CrzwVgm8XismX3o7FhRlD4syNpxmDHVM/U6of42CYE8TymJDBOdG+gIDrxfs+oHfD3VM/q22RvfKZzXmE5w7JdixcIpmqP4TTimFk324fhjJuyFCWT5DnR94LNK+Eu76kfafSCaskOz/Kbmn4O5HHh24sFUGTgvwrVnLBv4ealM0bucarVXRobYWMcqq6KbGRjiPlOoe/4lGHKu3qckQrmZzSwt6S4/q+hwmhgeOdXosXBUdMuYilcdxWR5ylkR+Iy5aLCoq0o7PxetBfXk52nW3YgTG5eQgf+oYIItSFDTW1aBVcJ2UfgqGrzQrKxMFZtVzzEEaH+E4dLW8UbQglP7tXHVXLr4wpFyspbsVNTL4rEymanR/Ekn+bm6RG5sIjOEYmiwqGCRZVFOz/gPaQrKoRnQfOYJYx0DVs84WGBVLc3Mzeo4c0f1ZTETZLYoGWFQWuDoy2sql6WipdIv0rtDNyMxEbkFBzLtFVC4tVZWGWAyanp6OfHZSvScPE8Yki+ISAK0qdKlcuI2qEcBKZMaYYn0gULkYQaYCAnaHHYkmAVdMQnPlwmxRTU0NtBwIXe3tMALa2tqgVFcj1sH6ku62dt0tMLpFHR0dqKyuNt2iGAM9lvHjx2vLoWu32+XWjlqB2SJPQgKMAFotWrZ1NJWLkmgMmcbFxSOdMo1xV/NkA8e95pYL3SGWAmuWLWJANz7eENkimu/pqakGqLkZGYTiRW+C/jLl3RMS4pGWmmryEscYgsVYByuXfv5bmZi0WGG18gv9xwSXnViHLKIjeL5mAd0hKiRHE3wO8uhy0V8sQyiUKQwAX4Wuut7JROyloUNmixTFg7amBrR29SIhKQt5eelyfZGzvRENbS4kZ+ZgfGYapM7RKxVNDl2DVOg2NjWiu7Q05gcCLRcfAZf+MZfmlmb0lB6Rv5sYI6lontDdVINXX34bKeOSsfal93DjA79EjqsM997/IpZdPANr3/0At/zwIczKTQ7pEqtkUVpy6DaUHTVEhS7JovJIjKW7oosCAVdNNdqUIRZFa/0cADIzM1Ewuch0i2IMgVbLcWuLknMKcO0NX4bL2Q7bR+9hb1U9JlSuxbhPrcbKFQUYX7cVmw+WY2bu7JAzC6/D4I5mZFHkjTDIYLZZbTIdHfPKxWqVbTFAia6clBwOOyw2/VPjJkaG48iiFKUPXlcjNu5uxeevzkT15kaMX5IJu82OoqlTsaPLGZbWg/EWt9ut2d5FDOh6Fa/urgjvzudgW2NeuXi9PoIv3XngGN8TcLs9sCj6K7oRQfTz5JBMzL+v+sKYwRHss0iPhXsU9k+1jkmjWOjQZFH0vXt68NqTf0XmVbdjTmE6qrnsmqlKRUFPrwtJyY6wPZDfP3DggKYxF3dtne4DmiKoqalF0779hpjxRwROCDU1mrmykYLWcENDPVr374/9iIsQEJUV8L71hi8+GPUuEmwqCHKMCm7uPNiWLtM0vZ+SkoJp06aFJovy9HRj3ePfx0fx5+NbK+bKLMKkU6bilXd34JLJxVhXchCnrF4TNtjGwM68efM0XBXtRV1zIw4pQtf4AMEA1oTieQYILo8MnDwaO9pxUGcCLlbo5uXlY9K8ebEfcxECTb292FddHYRpYBQfQ1FQcNppmEKZaliFHTbmwlfrbK3Bpn0euMbtxSO/O4wFF30OF5yxEqsO/QaP/mEnJi+9Hstm5YdVgHQTuOWGVqBy6ejs0tt+l+joaIdVw7aOZgfkljJ6F65x0urs7EQ9ZRrrRXRCoLujvX/ADdOPiSJ45+7ubtQ1NGg6cbBCNysrK3iFLutaUvNOwV2/efhYnQt9KCi45Gs/wqr+mIzNNjT7PzNGWoExFwaMjQC73aFpW0d1VbRhZGpDXHx8zJf/C6Gg1+Hw/aGfbpG3pasSz10qNLSghqzQtdrskEmDQbBJpTKcm3Blq5YLF/sSE3UP6BLJSUnIzMjQPf4TDeXiSdJfpqJ/z+EsyjTW3SJFgUhK0l2mBCfArMxMzfmRNS//V6FZQNdIFbr9vLNGeZ4TBZ/eGE3w47o1xgONCMJATdBapkOX/0cBzBaVlpZqlooGK3SbjFGh29DQiC6SRRmpF50ImAk0CFlUUz9ZVMxDCPTW18vwgt4y5er9Q5Sphu9XrdDVdFU0TbDAPWNDYSj29pDVpEap0M3KQm5h4ZAvbbhbiIT73oleK9z1GdBtrq5CG9ePQecK3YwMTKRMAyaPSGURiXyiKcOQEAItTY368xJDyJX7hYWFEbuaJyKfUSGL4g1YtarlqmhZoau7cvFt5zomKnQVpT9GZgCZ2vqrnsdAzMVukDZwLMZRpvqloqODvr4+VGtIoETlIsmi9B7QFqC1tRXesUAW5fWiu63NAG4R0N7eAYwBsighBFytrbq3g7fv7OryEXBpNeELIbmNNCeL4szDbJGmpepGyBYJX2ZDy7aOamYjMVGa0BYD8LlkUKYxrlzAytikJN2XVHCYMFQhZarhhDyqZFGaLVxUyaIMAEkWlZYW+24R61zI7qe/V4SEeDLRkSzKGHU3I3E13VKm+gs1zhEnCbisat3NKEGTN6gpWZQkrjJGqlKSRbGtiG0MyFR3+EiruHjRYtEo2zjKMhW6LwaVTyNJzWihaomwZFFyM/peF+prq4D0QhRkxsPZ3oCPj5TDrbDyNhuzT52COJslLEF3RUWFpgsXna2t+sdc1D12yssNoehGOhBIwGUEsqiWtla4y8sNMCBHBsFUdFNTRMyNoxHHOlpWpqmFzZjLhAkTQikXAeHtw/aXfoN7/vgKzvnei7jr4nw0HdmG7z/4Ab5z46eRbnH7CsfCvHquMQjMd0c7oFt/5DBauSRfV/0ikJmVhbwxsMeOTO9XlKNF58Wg7FkZ6Rk+RjODZFpGorBb6uvRpPNeUJRpWloqJrM8hDLVkHIhdMyFVlOfEw3eqbhsxZmo93jlYcXrhWJJRFpKBgqLJiJuiIGkbuWqWfm/EP2zgf7WglXlsIh15dKfrtQf4phMY125WLjNr8UQbpEck+o+8KNoSR1TLmSQS8rEp65aibf+bw/q+49lTpyOyxfvxT8efxhHuzPxq4d+grwUe1CBceBz35kNGzZoOstauN2nAQbD4SOHcXj9BkMoupHOspZDh3SXKatZy8rLcXT9et1TuFEhrD5a6lPaOnYPypGlIVWUqYapaGZNi4uLBy0qtoffZB1Iy5uOr938Xbi6m/D0D2/G3tJ65M2bGFQdS6rM5GRMnz5du4Autx7t7ECVAbYeLZhYgGzyucT4QGCgr7XHiQq9ZSrI55KH3PnzY1+mQqBd8aKMMrXquCpaCOTk5CC/uFhTa5CFj4HeymD2f68b7a0taO3oRldnOzqcuehpqYJTiYdwN6ChIw6npSXqmoo20r5F6qZoes/40UlF6187xHgeU9FjYd8iwVQ0a4f0Vtj9cVBZMjHKtBqDA7p93Vj3r+ewu8UC0fki1p6yBgtTm/D0i2/ApSRi+fU/xLxJmfqSRXk86OjSn9iIoAsILk5DbENukdvZobsrIsmiurpQV19viPc7UuXibFfJovQD7+7sdqKW/VRDt4iFetwNI0S2yAJrfBouWfMtrOrf4EgGgMRkfPd7C2Xqlwzxvo3SwjTGYpGVq1qmonvso1sMFAp2h0MW0sU8FAW9dofuwUfenz47LcJYVy5gWUdcnN5P4SOL6pepRc8KXd7ccdwDMPMzPN9LS7IoRSWLMgCSk5N8JDxjwC1yG4TYKCkxwSfTMeAWKUnJhpApXU0ScMV8he5A1epJUqErnwexDeMQcKkVutr1n1GDwn7avzWyzo/CWJY6LmN6VTQrdCsrK7Xbt8goFboWC5qbxliFru7xAQta29rgoUxjHUKghxW6uqf3LTI2WMqqZw3fr1qhq+mqaEam8/PzNa3QbTh8CK16D2ghkJGZgdyJE3UflCMF96tqKi9DiyGqSdMwkTLVe/KIRoVuXS2a9N6uRQiZvZ1EmWroao4qWZRmqWir1TAkPDab3UfCE+sDwes1iEyF3F1CytQQzzMy5WI3yI4KVgu3yHXAGusE3f4LF2WOP+CGIz1GDt3ulhZDWAvNTU3oLS/3Vbj2UwOqz6X+rscxFZEeY3zAZQCZSreotRUeLrIzkDxP5JigW2QEXmKLBe0d7b6Fi3wWv+eJ1vjk78wQB3osUVcu1JCsCNRylm1OSZFukd7qheamlm0dNdCET01BswGCj8nJKcgdP35MpKLbqqrQpHd6XwhJnj0+J0dTazBwn2hNlAs1F7WYltu5djKlpnfMhfGl+HgkMy0e624Rd1x0xOkuU949Ls6BpMTEmHeLQJrLuDhDVOjSPeMeWzpz6Ap4PR6QzcBitcFus8pgn8fj9aXUGO9gsUyYm3g8HslzoimHrrPbEDMbt0BtYJYFsQ2psLu5Ra7ebhG3HnWi0QCZq6go7K5OQ7TD5XKhsanJFxvU4HmoQJnIyWR9UkiyKG4xUb4PTz//HDIvuA1rloxDb2cz3n72cWyr7URSwan4yheuQmZiaAUTzD+LKgb23tUfqrY2xtOMALINxmiFJcQsGHOwGEOi8hnUfqqRha2+r8Cx78fnIuDprMOv//s36ExXkNngghBeHNz0Gl7vWIx7b56LV3/1bWzcvxwrF4Xel4gxF64x0LJC15ucjFroj5SUFIzneooYN+FpuYiUFEO4Rax6ljI1SKblRCEUBdbUVEPINDEhETnjxvmyRbrxuaTm4a5HH8Q7j/8C24UiA311FTVYfM7FSEpMxpmL5+FftQ1YiUkhL6h1JaDRKnS1bOtoQcrUEO0g1yvgZfbN6yMri1kI9g0Dcehq/I4HrPhQbhHjLA6H3bfpWP9D9fX2Qlh8BTJxCfGwKOFF1d3djS1btgyrnHxYO+eRGU9jPtCIYLHI9F75li1hFV2othGh2uz/nWDHhn60Ye5EyI5nAJmSLKqqqgo1lGnIc4Yno6FkHd3n97umEBClRwxBFlVbW4eGzZtHlHgYqk+x+HHOnDmDPJYAgm4FXu4L5KV1ACjCgvScdGwua4R7VjKOHC5FweLPDFkGPHPmzEEaLPDBgv3tu3/wtzDoc6aiW5pRqXcUXgiZ1x83e/aAqRms5kGFvzz8B4X/3+qxoZTOSJXPcdf2etHa2YFyA1STcmOt3NmzpasZqo2RKM9A2QaTf+C1g30WeCwcBp0vBNp7e3GUMrVb9SWLGpeNCXPmMF888JwnomzD9bshVkWTz8WJHRvfx7bD1ahsew+7567EzAXn4uX7H8WLrgU4WDMJN88uCBts402oxbQs/3cahOZA3bdoLKSiexKNIFPygsT5CLhiPI4FUi4kGWP1PjM5UqYap6IDMYjPBfZ4zFq0HEXzlsmS4aS0DCTF5eCnDxbB2QdcdVUaUpLiw1oM6nauWvK5dEsSHuiOFlaTcjtXA8R/RqpculuNsJ2rRW6Dwa1HYx5CwNnSon96n9u5dnaisqpK00mQZFFht3O1Wu1IzxyHtH5zR02zJqVlI0kN2gxxE/pcUkuegFAjKT2W2aKEBDme9dYviYn9Oy5G0NZISqj1GtwyWyS3c9VfptzONVq7WEZayq4FBIOn5MjRGRwnLPZMS0+XMtWq7UNX6JJ9LsjNh7OxE2/CFK2WFbrOeP2rSYmEBG65kjIm3CIj8BKL/hkwNSVlTLhFffEJhqjQ5UJQ9lOdK3RHDlbotre3QyvImIurR3dzk3A6nWjVsK2jBamwXS7dZWrpryalTPV20aLiarqchmgHFxOTJ0erCl3/WGvIVHQ0wHw6G6NlzMXt8cAIoCLt6e3VfcYfMchU7zaKTL2y/8Q8hIC7z633U0iFzQxwb18va000uw8tztAVulGMTDOwo+XWIqx81G5/gcjB2MCE3Nwx4BZ5YTucijrd3SISG6UgPzc39t0iRUFTZQVqdJcpQz9JyM/NG/VsUcyNCgpLvi4DWAsDzxLrMExD9HchoipSAUOAaRitq9qDeSqakEWxylIzt4iroltb5T68eqOlpRnuigrEOlReYr3jA7x7W1s7lIoK3Z9lpBAki2ppNgZZFAskKyuPI4uKZltZPMvdMjUli2JgJ3BzpGgPBGtKCloMkIpOSUmVC8L0DoRGhe81JUV/YqP+hYuUqd5LEaJCFpWaiga9eYlJFpXYL9NYJ4viTejjabkqWpJFGQDxcXE+Ep4Yjw/IwkRu4GUAO55p0xSNiY1GLb0fp/+maATXC7Kf6rcqOgjkWiMWrSncTJubo9n8FjWG3s61vr5e02wRKw6NAJly59ajBhiUI4KioJNb0+ptwnOL3K4u1FCmsQ4hZCW53jIlurq7UVtXz4I1ze7BRA49lojcIioWxePGK7+/G3ucOchIyMSZl1yO06eNC2vm0TRiWkor+LZztRtmO1fuZherGFiIxrVFRpGpze6TqQEG5YiL6Oz6W9iUInd2iCejgYauJnmcIneL5G6CXtTU1eETX7oF8yZky4V6lghiLlpu5yrU7VwNYC3Q/cvMyIj5+ICsHTKATCWxUWKCT6ax7moqCrzJSYapeqZMjbO1SH9keVxmOl7922P4d3wGrvjK1zAnZ+iVnuq2IlpAy2sPG+qzGOV5RiJTGAGU5THKgliG6G+DEdZrjea4iaiIjsQ9Nns8PnvrA/hMbw+2v/kofvbbv+NPP/wiEkNMKnz4rq6uYZNFDXuRHbemNIC1UFZ2FOUk4YnxgUC3SCk9qrtM2TG5ereaMo11CIORRZWQLEo7NcfS/9mzZw/aCC68WyRIHmSTsYXscYXoa2qEl0x5ttANoatARipVg0VCuBMJeZR6DpVLU3sbygywIGxiQQHGFxcPECCHI34aDnmUP0KRQ0WKiEiQSMzu7Eap7mRRkLUSEyjTgOcIRVQU/DqDPxvqnYQjjAr8znAa0+r14LAByKJyx+egYH7xgKs5HGKsSNsukz0BrmzogC7/8zTiL7/5K+w541FfWYuvfv06JA0Ro6Kmpo+nZczFQe1oAGvBYXfI4iG9Z/yRggqbATn9IeS7lTIdAzGXOIfDEG4Rx6KMl45y0D7M3SyAbRxW33gTFElj54AjLm7I9QIki6qtrdW2QrfDGKtmudLUW1NjCEU3EjBw72w3CFkU3y1lGuMQ3BTNCARcFgs6u7okAZdWk6Baocs1hRHGXCyw2R1IThnejDYSsqhIZ1klIVH3alKCOwNmpKcj5kFiowT9yaJEP0eOlKkBJo8RQQhYSXOpd7aIAz8+HhkaZzWH4NCN3k24h7KWFbpOg9SWJCQmIC01dUy4RS7yEhvAAksghy5lOgbcor4EA3HoksBtlF3fqCsXukXczlXTCt1uJ4yAzs4uNDTShtJ/UI50INB01tta4N27up1oaKJMYxyCmVP9q54Jp9MlZarlJEgFxvo2TRcuBmaJtIFxBrOvmfp3oBHBAAMg8FH0jlWMlW5q6f+fuk2upvcaDbcoKytL++1cDWDCkyt4HFeAjwG3SCQn6+4WqcRGOWNhi1xFAVKMsp1rguynWi9cDFQuMTcqBh5/DExsJgKh/4QRVVhgCAyQZ4+yNagZWZRWeyhLeoDWVkOY8i3NzegjWZQBrKgR0wMYgizKgtbWNkkWFfMQAi7GjvSWqQVo7+jAUY0JuEaFLIrFWP757uFswRnqmHpcdYsaU1MlWZTe4F4wueR7tVoj3rc4XNuG2rJ1OBhq61f1fgN8r6VH0KQzARefhpnG/CF4iYO1Y6gqW//vhbrWSLbIPe5cIdBaXY1Gvd0iAaQkJw/wEkdzPPofp1LRPObCmzByrNm+RTYr7HabIawFxpdIGBX7BN1K/5oQI8jUJvtPrMdc0L9/st61QwNV85SpofYtEgJer48sivZVpGRRDQ0NmlboMgWstwlPdHB/nTFAbERXs4sEXHqb8P3p/br6Bv1HZDTIojr0ryTn7Z3dTtTW12ueih5HKs2IthYRAorixaGNr+O5bUcR72zD9Iv/C5efNjns4kpenP6XpmRRDmPMCHQBE8mDEutgwZcByKJEPyUjOV30VnRR2bfI4dDdwubtbVKmiZpX6Ea8bxFXRHt6a/HsE2/hyz/9CdwVG3HrI0/igkfuQmaCVTeyKMZceg1S+SjJorgHb4yb8FTYfdzX2ACuJicmlv9rTWw0KmRRSfrvFU3QJWI/NQyHrhROazlq7TlISU6EI38ichreQntvHzLCMNJRe/lnisItfQ88NtRxSbmgKD4N2U8PEDgc+G3VqhFBjiHI8VAI9bl6PLCtkSBU0CywzcE2UA917lDHhzyXMmU7KFc/4qjhyifY3wPPH+T4ce+u/xkUoUiFF0nbAo9HIodIaEBGDCGOybS/j4STa6hj/t87ERnLCUMymfa/4xOQW6jjgd8PjLuEoVzop5Ts34ieA9maaJfpwnDgXr87duyAVqCAevr60HHOebqbzofdHtRo2Fb0b8XJOJaWriY7YI/Lhc5zz9Pd2Txqs6Nh+w5N3y0HGmWqJdczhEBveyc62U/1hBDwpKSgdedOTWXa09ODpUuXythLRKuirVn5yHE3wdnTC6WhDi3Z2UiNo4IJDQ6CU089VbNskYQoBj5xUXRIfU4QAxpaYwVHZV1ZWYkZM2Zoeh85w11w4YjkF2laN2Q6VJapa1/sxVqs6upqTJ06FVpDnHtuxFm4kaaHg302Gv2Uyvo///mPVNj+RN2hlYvVCnt8IVaumInf/+VPSHZ5seaGa5EeiuOyH4y1UMFoFXM52UDLhbPBmAgcGwTs/GMmGG8AULn401tGxqHrSMDyK7+GMzwKrDY77A57KIZLEyZMmBgE+1Aa3u6Ig02exbiLgdODKtO6xTfbUznS+jLwExsY5E8+9hflabXZZOzNRBSkK3wuIUs9KGcZzxyDsh0yMMJByviJ1TpUKFcfMGXe09mKTevewtvvvIv9FY3Ys+453PbMTigs/hvWxRTUlu7Hx7XtktpTUdw4ursEh6tbUXVwKyrq29FasQ+Vrd3G2d4kqhBQvB6U7d+CN996G++V7EJbUyVu/v5PUN7aN7xMNes8XO34YPNeuLjqmn931WPThq3obqnEnkMV6Onpwp4Dh9Hn6sSH2w/CJdnfxyiEkO0s+eAdvPX2O9hZWoe97/0N1/1+PTzD7ad0Rfq6sXfnTjQ3VGLdhhI4ez3o62jE2rVb0dl7LNOmJ2K7bh0C3p4WPP6DW7G3LRHTJudj966taGxtR3tXDzxeBR6PWxJYeb2KnCk8Hg/cbo9PeXi98Lg98Hh8nZ+oK9uGB55aB6fHC4+rA4/95jGUtnRh22t/xKYDtSgreRmbSxtwAv3B8GAmrnr7K/jdX/+DadOmIaltDzZVdKK5tRW9blZq+zJXlB/lRYuG8lTlx61/+RllTTvS4nXiyQd+iV31lL8H5R/+A797cT/6qrfguTc2wtXdhGdffQ+97fX49WOvod3tNcACBG3g9Xbi5f+9E/tabJg2aTwObHsfdW0daO7ohsfj2zaZsqUsGcOgvPi3l9u+8G+13/Z3PMXZhGf/+gTK2t3Y+OxvsbmqCRve/Bv+b3sDLFL6+iOmK5WoD6r2fYiNCRfiVyuWITvJjqJpM1Dyxp+kcDvqKrH+nVexv6IJ4+dciNWfno1Xn3gGda44nH/ZlchTjuDx5z5EWn4Rrr56Fcal2FFYOAtdf3gCZQ3nIN9TgY78YswvTMXG/hdOhUTFNLhyZixAQOnrwt+feBHLv/QQiqaMwylTi9DVVI4/s6lKL/a99zbWHzyM2mqBm+78Bhp3vo1/fViO/Nmn45qLTsXrTz2JI612zP7U5Vg5Lw/WpGxcsdCKDz7YjeJL5mLt5hqs+vKNsCrr+wdQv0wVIZUU61vGKhoPlODt+gm4Z/kZKMxOwtSZc7HzX4/Kz5zNtfj3e69jf1UDkictxXWXLcbrTz+DijZg2SVX4hRHOZ58dj0cmRNw2dWXojDbR0lKGSrWFHz2C5/FvT//FdKS4nHX989EosNmiJ4Z45aLgqamSqRNLEBSvI8gmFkq6cAJAUdiEorPXYVrLj0bH+9ch7aWHdhareCq1VeiKDcNeze+Ce+8T+HSS85Bkl1ydSF14hSsyKnBzv3lqD5YgtlLlyPdcRLEbmh59HXho2oXcvN8FdayHMHi6yICVoybOgcrP3MV5maVYV9VFda9/28sWHUFViybja6WMry+rQ4XX3MZ5o9Plt+xWOw4/apLUb95A3pcnShHBi6enjUm4wvhIdDcWA1PSi6Sk+KO9VM1ZZuYhLlnXYTPXfkZlO/fhNaWA9hU4cEVn/8spuWmYffGt9BceD4uv/wCZMQP7ou8xpR5Z2NG55vomVCM/LQEGcIwAmJcuViQlJiN5rpGOQsObAVKtSMEynb9B79//E3sO3QUTg9f4un47Dn5+N09d+DVzYcxf8UXMav1Pdx330P4qNElv2ePS8PKm67Gke0bUfLhHiyeM+kkGQwWWBzxyHJY0NLughjw+3z/el31ePJ/f4V/b9yFho5euJQ4XHLNGpQ++xv8/A/PwZIxFTevORsv/+pe/Pa13XB7uWmdBekTzsKUrHbs3fEKsiafiiTOqieDOAfBgqTkDPS0NKHP7ava9W336uuvtfvX4Y9/fBm7D3wMp0eBI2kWVl9UhP/76V144YODWHjhNViesA0///kD2FrW5ltIrIL9fM8G1M76AlKqtqG6Y5ixMQ0R08qFnbdwziLMaluHV95Yhz27d+K9zbvR62UZshUtjbXoSslCarxAV6cCi6sUTbY8nHvhItTWNqKmsQYTZizEzHQFR9t8pN9Wqx1phRfDWfoWNtRkoSg/cyCYLTNQA87QGBsh3KYqLh1XrDkb6597Frv37sG2Te9jb3OfVK7C1YED1e1Iy0lHR1sPbN4+HKlrxeJLPovk1lo0ONtwtDsR5yyfj0PbDkGqamYb41Mxb2YK7rjzBcw+dTpsnFVZ8d1f+S0l2l88p/cKYi0xYfYinJlVjnfeXYddO7fh3fWb0OkRUgbt9TVocyQhO4Wr070Q7hq0IBtnX7AYR8vqcKSpEdmTT0Vxpgelde3HlhHQ2uxpxSsvvI4b/msNLl2eg/ufehddBgnoWkQU0x4MQO3evRsLFiwYtSI6xeNGR0sjtpZsQqfXhinFS5FjaUJ5TyZOzVWw7oPNECIB44qm4tQp47F3yzo0dCRiyTlnIr6nBus370ZK1jQsPbMYKXG+EJS714mPdm1Di6MQZy2cDOHpRdXB7fBkTEdaXxW6Uqdi8rjUUbFouPc2K3S5D6/WYFfw9Hbj451bcaC6FfE5k3BW8TTs3PsxiufOQnvVbmze24j8CeNRNGcevHX7sf2jGhRMLUbxzFzs3bwWFU02LD7/LBRkpsIuzXOBlprDWLelGmeedwZy0hLQ11KOAw0KTpmUhUOltZg1NR8leypx+uLZSHKErwCPVql6RUWF9lXPARvPdbc1Y/PGjWjpEyictxQF9hYc7EjGkqJEbNzwIbp74pA9aRKKZ0zEwe0bUNNqw+KzzkSSux6btu6FNXEili1fiLTEOKCvC3v2HkR2dgoOVXbhjCXzYe1twcbNu1G89HyMS3WM2vTH2M8777yDs846Sy7mHSCKi3XlQgwsaOwnxjnuM8Hjvo6utlYuP+cCOfm3JcBP9Tsv6MItzrIYFYymclFBWcqgtYy5MPfQb6ep5ry6QG1gkSPl5+tkPtkMtkKOyc4nt5Bdrt+iwRhULhJyUaZPhtIK9mus6ib5ZHvsXLU/H+vHx76nynHgen5ZotG0AkMpl5jOFqmQnTmEMhss5AClEPCCQ543yi9Lb1Dx2oKSogcM/oC/rdZI3sHJJctBUJV1AO+J76PjOhysPj0e/HO/Y8c+M1YtWkzHXEyYiEVYIlSusa6Do2a5yApMWWDlK1rTdFX0SQTKkjLlSl4T0ZMp62pMmUYHvpqlY4WomiiX7du3y21FGCcwEb2B0N3dLXmJTUQHVCydnZ2oqakxRRoltLW1acf+zwuffvrpkh5g/vz5puUSJTidThl8nDVrVrQuedKDFguD5KeccspJL4toWS7vvfeedpaLrOZkIJA7BPT/mBg5VFkG48swceKWiynT6CqXYGEQ+2jtYaIVqC2ZWjx69KhkF+OmWpzlSRKusnJxpvroo4/Q2NiIwsJCyUCmDlYKhibdxx9/LE3liRMnyhlNZdTi5/wev0+/ctKkSSgqKhrVwT6a8lTBttbW1uLIkSNSBlzISNmokwaP0aI6fPgwMjIyMHPmTLl3tr/MS0tLpevBd8LP/d8JXT3KlLIvKCgYeCej0c7jsyzaQuGmc01Nsr2Mn7G97ENqH6M8WlpasHfvXilfpsi5TYc6YPkd9u2ysjJ5jJ/n5OQcN4HThWYpCK3d0047bVBaWEsE48+VEFFEX1+f2Lp1q/B4PGI0oCiKaGlpET/72c9EcXGxGD9+vJg8ebJYs2aNqKyslM/R1dUl7r//fjFr1iz5+WmnnSYee+wx+axer1eUlZWJL33pS6KwsFDk5OSIefPmiQcffFB0dHQIt9stNm7cKFatWiUmTJgg8vLyxJIlS8Tzzz8vvz8a6OzsFPv37xejCbbt3XffFStWrBD5+fkiNzdXnHfeeeKNN94Qvb29Ui5r164VF198sfycsr3ttttEQ0ODlCll/tBDD4lFixZJuU2fPl1cf/314siRI/Lz1tZWcffdd4s5c+bIz5cuXSr+/ve/C5fLNSrt430++uijUeujmzdvFpdddplsK/sg5fLkk09KObGPfvzxx+KLX/yi7INFRUXi6quvFvv27ZOy4rt46aWXpPwLCgpk/2Z/3LBhw6A+yPuwr7L/Lly4UF5ztMYhn/PNN9+U7eFzqIhp5cJGvfDCC/KFsYP/4Ac/EOeff77IyMgQN910k+zEHCQcABT4nXfeKWbMmCFmzpwpdu/eLdrb28UNN9wgz+dAueOOO8S0adNkJ3j55ZflYOHxrKwsce2118pr8l68xpYtWwYJciwpl0OHDokFCxaI7OxsKR8qBv5OZbB3715RW1srzjjjDDFx4kSpVC644AIpw0ceeUT09PSIV155RQ4Eyumuu+6Sn6empopbb71Vfv7rX/9aKnIOmFtuuUUqLw6qHTt2jIpMR0u5KP2T34UXXijld80118j2su2UzwcffCAH5Ne//nUpv+uuu04qFsqKMudzUt7su+x3/O7q1atFSkqK7Jfsnyqam5vFFVdcIZKSkqQsqZw4CeipXGLWkVe39aCpSXP8lltuwXXXXYeSkhJ84QtfkJkrmqL/+te/pOl977334rLLLpOM7w8++CA+/PBDaTYeOnRIVr/y2JQpUySv6kMPPYT9+/dj+vTp0jVYtmwZHnjgAWn2dXR04KWXXpIm6sKFC8dcbIlypbtDt+aiiy7C/fffL9tNs3zTpk0yEMrMFd2hlStX4u6775a7PXz+85+Xsr7iiiuwbds2afJ/61vfku9kw4YNuPrqq6VMabpnZ2fLd/GNb3xD7itOl3bdunXyPfGdjiWZNjc3o7W1FUuWLMEvfvELpKWlSbfl6aeflrKcPHmy7LN0lX70ox9JF599cu3atfLzffv2yXdBed1zzz0yE7tz506Ul5dLd53uE92mP/zhD/jggw/k70YpUoxZ5aIGkG+44QZcddVVssPSZ+fLYQfmS+Pf9EGpfOjzkzicioTxhIMHD+Kaa67BX/7yF/lCGEvh9RgL4L/8m8rmxRdflBkwxgvYSahcqKDy8vIM8xKjCbZp8eLFePXVV6WCYLyEHZoDgnLMysqSyoO7EtD3pywYL5kwYYJUuJTPTTfdJGXLuAA/5+Cg0uI5/PvKK6/E5Zdfjvb2djkotm7dKo9pvmuEDpg0aRKef/552S72UfY9xvYoB8qHfYoKaNGiRVLWVD7sq//85z+lcrnwwgvlJMa+y8/4XcqT/Y+xLsqVyuZPf/qTVGB79uyBUWCN9YFAzc3OzRfD4CMtDAr9q1/9qnwhVBx8sVQ06s4EBAcHj3HGoBLhS2InoDI544wzcM4558hzGXhjIJMZhieffFLOMqtXr0ZxcfGYVC4ElQjbTWVAZXvfffdJS+Xaa6+VsqZMKS8qH8qUypc/PlY6jxxEDIpTIdOy/O1vfysHBhUOZc5zKVsGfGnV8P1woI016lCLxSLbyomOSobtoxKgVcIJcd68eQMFaKosKR//Psp3wf5JZcKg789//nOplPl9yre+vl5a5XxX119/vbZ7MZ1sykU1oalYbr/9dmmR3HHHHXKDJnbacB1W/T4tnbfeegv//d//LbNJv/zlL6VCUZUSZ+0///nPcpZdvnw5vve97yE5OXnMKhcfZ7LPinv44Yfxt7/9DZdccgm+853vyM4eDAM7YvottqO7c+utt0ol8j//8z9yYZv/eXPnzsVjjz0mBwoH3SuvvCIH2liChbQT/Rb1U089JRUtrRT2IU6C4fqQKkv2UVqEP/3pT6VFQ2udipqfPfHEE9i8eTNuvPFGZGZmDnyP1qY6CeiFmFYuBDU/O+83v/lNmfb83e9+J2Mu6t5JtGjYYfly1RQowZmUL4czLS2W2267TZqV/D5nXX6X51PxMAZDf5l+L3/nLDHWzHd/qKlkzogc9LQC6e+rMqNi5b9UujyXMyx/Z7yKcSweY3zlK1/5ijT7GbdhLIafscMzdvP6669LGXNGpunP90h3i+9jrMHtduP3v/+9VA6f/vSnpYKhxUxrRf2h/CgDtXqY8qW8CVon3/72t2WhGhU8f6ciYV/+xz/+IS0ZTog8znPr6uqkUme8ZrjbDUcTMT1C2Inpl1Kx0GKhWUiLgx2bf7Pzkv6BL4Edlx2d/j1fJv17goFEmpo0y7/85S/Ll7xr1y75gqhY6ApR4TAO8alPfUoGeBks5rXGmhmvgoqYFstf//pX6R6ed955clkH5UJZ0pynomBdBoPmjGtRsVOmnI0ZQ/jxj3+MAwcOSAVDBcL3wUAlr83gOQPwb775pjT1GTPgAFRn3rEEr9eLZ555RsqTcmMQXJUZA9iMYeXm5so6KwbNaYFTVnSF6E6xD1JeDJZ/8pOflC47LULKltdm/RH7OBU7FRLPV5MdVFS6WoKxmopmyouptgceeEAkJyeLuLg4kZaWJtPGTPsxzVleXi5KSkpkKlqtpxg3bpyYPXu2OHz4sKiqqhJnn322/G5CQoLIzMyU32c9C6/Lc3iuw+GQ92C6kNfm9ZiqZgpurKWiKddNmzZJebHdTG1SLmw36zDWrVsnU6BM+fPYueeeK8sAeA7rf7q7u8XDDz8s0tPT5fcpb8qTaevPfe5zwul0iscff1we5/X4npiKpkzXr18/KunT0UxFl5eXyz4UHx8v+xjlwj7GdDTlxXqq7373uyIxMVHMnTtXnst+/J3vfEc+J2uLJk2aJGXJc9Q+yvT0gQMH5PeZhuYPyyNYSsFaGNbW8F2MRh8dc6logqY706ZqYMy/UpABSQa35syZI03GF154QaZQP/GJT8jAJGMrtHBoxVDzE2qMhkE4ziicSWjR0LUi1Gvz81Cxh7EAzowM3NJ0948JcHZk/IAWBmVKl4nWC2dZxgFWrFghLZMtW7bIrJz/O6FsGXwn6F7yvNdee03GEmgZrVmzZsyl9gX5bcvKpBtNF0flcVHlwT7EvkTLm/+yPILnrFq1Cl//+tfleXRtKN/8/Hx5TfV90EJn/6aLqoKBdI4FWivsv7ymnu571Jjo1CASOxsDdf7lwENtRO7/r//5/tceYLey2wci7PyhmU7zL3DzbcZcKHz+TlNRjblQmfA4Bc9YARUUv+//fLwHz/OPK/h/rnYMnqPeL1AW4Y77P+dQMuH9qeRYcxPIiheMJS+YzMMdC/Z8qlz8TWo1MEnZ8Ycyo0zVbBzlyeN8N/yumn72vx/lpQbC1XPUuha+L1Xmgc883HYFyjRQ5v4b0YeTRbD3F+qdBftckDbU45HvMJCSgO1U+ygR2Ef5GeXNd6FSRPhDfRdqZon3Vak5+C/dVnV5QSg5hGpTsD4Rrq38YXiBk4QmNJfsJPQVqWD8d7qPNjhrUoB8YZEgXCcZ6tiJnh9NqEqUg3c0EQ25GRVqPCISmWrVV0QMyi0UVAXDmJt/Kjyqlov6oyWCzdYmTJjQF8EWL0aVoJswlYsJEycfgnL8Rlu5mDBhwgQl8P8+uvZmJe3bSwAAAABJRU5ErkJggg=="
+    },
+    "school-failures-table": {
+      "alt": "Original table of fresh-admission students failing promotion; the values are transcribed above.",
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYEAAABhCAYAAAAwah0SAAA+d0lEQVR4nO3dCdxuU/UH8HOvSxIZIkJFkllU5i4yX2OFRolECsmUoRIlZQwVGaMMFZFQZIgGJRqoSCKiUEqGcrvde8//893/u97Pucczvs973+F59/p8nvvc9zzn7LP32muvvfbaa/32hLIsyyJTpkyZMo1LmuSf6dOnp099PpgwYULba/5Gra41uqdeVvy/Ufnt3tdJXeO5RnXtpPxG1K6uaMaMGcWkSZOe185WZXVT107rWS2rkz5rVn6za53WtVGfz8m6zpw5M32iDzqV37EwFgZ7LY+FoZGvRjSax0K1nBe84AUDz6ZJ4N///nex9tprF4cddtjAQ9VKdqMYJ06cmAZdvbGNnu+Usc0Y0uz/9fp3Umar8hvVudk7q/f8/e9/L/75z38WK6ywQtO6NeNRJ+1rVZ/4v/7w//o7OuFTu7p1quBa8b+RTITybndvszKr7Zo6dWrxmc98pvj0pz89cE+nPK7en8dCb2Nh2rRpxRlnnFHsv//+Dfspj4UJc3wsxDeDf/fdd0+GEfr/f4uimHfeeYv3vOc9LRVCfWB0c70XqiqcRu+qv68TS7X+ezvrvFF59ffVr//pT39Knze96U1d86Ndm5vVoV7HbtrV6rdW1mMn9euFeuHFs88+W5x55pnFrrvu2vHkFJTHwtDxgqF59dVXp37ol7FQNnlPu/r1Qr3y4r///W9x8cUXz3ZtYBLwcMwMmYaGWOE+c80115AKQqbB9UGmkSP8z2Nh5MkqoE4TR6QmmWaj//znP8XTTz+dXBeWfv6O/w+W7EXcc889xT777FPccccd6e9e6bzzzisuvfTS4n//+9+w9KA6X3nllcWXvvSl5E6Y04PjmWeeSZ/YR/jXv/7VcNB0Q+r95S9/Oblan3zyyZ7r+Ze//CWV9cADDxTDRXjw4Q9/uHjuueeGpc+t3oyHkP+nnnqq5/5XLgtYOx577LGe6/n0008XRx11VPHb3/62GC5i1R9wwAHFo48+OqTl5klgFNBZZ51VrLbaasUVV1yRBtznP//54vjjj+9JAVHUn/vc54of/ehHxR/+8IeGy1qD7Gc/+1nx+9//vqMyTQA/+clPOq6XiewHP/jBoAedgXvbbbcV3/3ud3tWxp3Udbvttive/va3J9cF3myyySY9TXjKePDBB4sjjjgi7Q81U2RPPPFE8cMf/jAt1VuRPsTLb3zjG8Vf//rXjuvxxz/+sfjVr341aB7qBxNZu/oNBXnHLrvsUmy66abF448/nq698Y1v7Elx4xvFaQJQJgXeiJ588skkr2ShHZmoLrvssuL+++/vuB4PPfRQkudeZPnss88eEmOiStn/MwqIxY6+8IUvFJtttllaCSAKiMD4jh39eeaZ53muJcqGleZev80999xJ4diPoNh8LMcNZmX5cP35tmH6hje8ofjoRz864DLx7TfLd/cp2zuU6Vs56hj1euELXzhQdgw61/72t78VH/nIR4qjjz662HLLLdO97lG+tvhWZwPfnlQoSdeV4b2xqRgWuvb73UCN9jbjSzekDhSNNt96663FxhtvnFYCwYdou3fPN9986VqV1NO96uX/+gDdeeedxQILLJAm5IUXXnigX92nvur9y1/+svj4xz+eVj0veclLEm894z5lead3e8ZveB39Ee9Tjr4KeYnn8Oab3/xmmuhPOeWUVG68228RNRXP6TfvcF0bvSsCC1x3Tdu8z2+xYvV31KEX0g+PPPJIatv3v//9tE+pH/zt43fvUw/90MjNV73P7z7GmPqdcMIJxcte9rJ0nzY/99xzA2Pm7rvvThPFtddeWyy++OLJGHjRi140wO+QS202CUREZfSn+7xDWdV+UFfy/b3vfa+46qqrigsuuKBYcMEFZ5MBfIvx4aNvtCHq75r7oh9MZJ5xX8hGRMFFv3ZM8gT+9a9/la997Wv9N9MQ0v3331/ecMMN5cyZM1vet9dee5U777xzOWXKlPIrX/lKecQRR6TPvffeW2622WblvPPOW77kJS8pjzvuuPJ///vfbM8q+89//nO54YYbDtx30EEHlZ///OfLCRMmlBMnTixvueWWcvr06eXf//739I5NNtmk3GOPPcpLL720nH/++csXvvCF5ZFHHlm+5z3vKffee+/y8ccfL9dff/3y+OOPL++6665y2WWXLRdaaKFykUUWKffdd9/ynnvuKd/0pjeVL3jBC8oll1yyvPzyy8uzzjqrXG655cpXvOIV5cILL1yee+655QEHHJDq9OIXv7i88sory91226184xvfWL797W8v//KXvwzwaPnlly9/9rOflaeddlq5zDLLlL/5zW/Kww47rPzEJz6RvhdbbLFUxitf+crEz0ceeSS11/u19+STTy6nTZvWkLdPPfVUueaaa7btqyeeeKJcY401ykMOOaRceeWVU/3U5Z///Gf5mc98plx66aXT+17/+tenOs+YMWO25/XLF7/4xcQP962zzjrlT3/603KFFVZI/bDaaqsl/nvuxhtvTH9vvfXW5fnnn1+utNJKqZ/w4Q9/+EM5adKk8tlnny3POOOMcqONNiofeuih8r3vfW/qJ/XA35tuuqm88MILy8UXXzy9761vfWviyxZbbJHKnm+++cq11lor8XLRRRdN5W+66ablL37xi/T7tttuW5533nmJb88991z56U9/utx1111TGfr6lFNOKX/yk58kHujvueaaq1x99dXLF73oReXuu++e+HrssceWSyyxRHo/eXFfM9Ke7bbbru1YwG9lqc+KK66Y6rPUUkulsXD22WeXr3rVq8q555479ZG21ftB+Zdcckmq9zzzzJPaevvtt5frrbde4gF+GS+e8/xqs3hx5plnlptvvnm6B39//etfp+effPLJVJ5+JxMHH3xwucACC6R+IHuXXXZZed1115Uvf/nLU72MLXx417veleSJ3K6yyirlAw88MNDP2vXLX/4y6dztt98+8fq///1v+px++ulpjD722GPp/gMPPLD8/e9/n+TozjvvTONJ241b8vOPf/wjjT1jQ33VUx83I33t/qoeye6gUUKLLbZYse+++ybL3Exvxj/nnHOSJcKdc9xxxxVf/epXn+fbZyGwLNxvufmJT3wiWbI77rhjsc466xRHHnlkCv8Na5J1s8QSSxS77bZbscUWWySLl4/54IMPTuXFUjWsi+uuu65YccUVi9/97nfpm7Xy4x//uPjNb35TnHjiicXrX//6ZGGyWlix3/nOd4opU6YUN998c2rPSiutlHyxkydPTu1aZJFFij322GPAKvbMsssum5bhLD9WnPL9f4cddkj3+P3Xv/51sfrqqxff/va3i/PPPz9ZVg8//HBqL+tqKPzVLDaRXOrm/XjKCvVO/cK1o/14Uu8HfBOKevrpp6f+YnFznX3sYx8rlllmmeSW0/Yqj7faaqvEq1NPPTX1lX7TN1G2vvV/rqSf/vSnxUUXXZTKn3/++VM/chta5ZENdVJX9bPq+sUvfpH2DfSj1dh73/ve4lvf+taAHOgP/e9vFiY32A033JCeW3rppVP/2Ut6+ctfnuqv3GOOOSaFed51111p1fS1r30t1Z1LRF09PxSkH7hHhVZfeOGFiQfaa0XzoQ99KLl0WPON9qe0Dc8/+clPpvYvv/zyqf9cW3LJJZMcLbXUUunesPAnT55cbLPNNsnHT8asmrw7XKhxHxnDl5NPPjm9W3+65jn9pz+4e7jf8Ou1r31tWuXpP/zab7/9im233Tb1pXGt7muuuWa6ph+sIPxfH6iDlY6VpFWM/6+66qqJNwceeGAaU1b63Fyi3w4//PC0X/TSl7401a0rfg9Jr2XqmXQut8wrXvGKtGyMZbg8g3/84x9JsAgCBWKwh8uIsHnWNb5CijGWmLF0D9cF5WHgUhJ77bXXgLIhoOF/JVSE1mZchMhZenLHhHsGWW6uscYaxac+9anikksuSe+zhDbQKI1YmvrmFvL8SSedlJTRBz7wgeLPf/5zKkebTEgGqknsbW97W3HuueemdysLUcqWzyaMcE2oI186vnjPUEX/LLTQQsnvahM8XAAGKxcF/uKLAaw94RKoEsWjv9QNvyMyLNwr6k5hKP/6669PStQ1ZSvTJOh+PnyDPJRcbJgqO1xUCK/5z+3tLLrooun6Kqusknjn/Ugd8IuMuJ9ipVgYCN7nGZMPhf/FL34xBRNoL5+3/go3G9/8q171qgG3iI9+JKOUNFfSUJG6My7sk4X7R7vJN14Ff70X3+qTAd7hFcX44he/eKAfIkpJ3bXlwgsvTG4gk0bwWJnhqrn99tvT5B/lq4vxoM3RV8iktNFGG6V+eN3rXpfeYULRD+Q33q0PPE9Z29vxPhNUlKUPPX/aaacVb33rW9M1+zHGRbyL/OiraAcydtRJ+eSzG8qTwCggFgXLkbCy6igW/6eoCdeb3/zmZCnbYNTJW2+9dbI4EMF697vfnSwe11mfLHADhEJTbggPBcb3T/g22GCDpLhZQXygrFDWIKX6wQ9+MCld9XrLW96SBsc73vGOZIkQaEqHFfu+970vrThuuummJHgUOgudMlB/H5aONhFSljIFv9Zaa6W6IcqRRWrAsv6UqY0E3buUqS3q6h0GiUnDIGC94QNLlx+0FzJZ4pV2v/KVryyWW2659C5/77nnnsm6YqUZ6N7LKhWpEREs2sEitFozeNddd93EO3VXTnWSuvHGGwdWfPqB0qaE+b8pGwPeasmkiwcsc/H1FBXF7Jq+sddCSZIPPNDP+OWjPe7TFza4KU/K5uc//3mqp78333zzgXrhr7qw6rVTnciLtlI23qdM5eGTCZmcaa8VmxWl53ol9SA35IMC3XDDDQfGB+PBisq+mRUmfplIjZPoB3Ulbwyp7bffvnjNa16TxgeeRBsQXlnpHHXUUWnCw4tXv/rV6X5GkolGH+y9997FfffdN2CImBStxkxQVu/4YEXM4scHskmx41MYASHHZFqfk3GTvH0gKxOrz+gHcqR9VgPGxXrrrZcMC/2A8IWsG2d44qPvrQTdbwWjDt3QhFl+0yTcKpRp6EjnsUgMwlabloQmNo8Is/6IgczNwiohJDo8NoYMFvcj11gv7vWM68qL+2JVEBth7guF7f+skNhQYqUoQz1iA1A5no06xoaud3o3YY9BGM/63UDwPpNIdVMt3h2C73eK3/3VzeN4HqlHbLTF5qWyXPd3DO46aQ8FZZC2otiQi2W5svEGz9UvNsdjktN2/IhNvdhc1Zf+7z78DFdGWKN+U248j3faHOXjTWxsRl2ifBavMv3ft+eVo97R794XK0H3R/2rm5Ce8X/v9lxkpXqnenjG/z0Xm6+sTEowXCOxkekd6uO+qFMj8s53vvOdafO71ViIfgjeqocPAyCCBfBZW70zVsTVzdCQzdio1V/hClWONseG7jPPPDPAC++MgAN/x9iIjeOQMTKl3JBL71V2jCN1i5WSd5PtGLuxke8esqJsdYrAhpAP7XRdXZQb+sDkFJa+32KlH4ETIZ/N+sH7eQOqGcN5EhgFk0CmOUedTgKZ5ix1OglkmrPUaBLI7qBMmTJlGseUJ4FMmTJlGseUJ4FMmTJlGsfUdhKIePEIA+sWg8Zms/jZ4cAdCbKxIvY9ImiaUXWTbrDYOngjC1Haf7coldV6iMoR6ysKqE6RMauOQseEtLXCFdIm90Ft7AV/SPQEPg5F34E50L4qj+yXiHARQjoaSDtFAR1yyCFpM69a19hctZknZ0JobDP4gSBht/Iv6mV1WycQIqJFeiVyIXNZ2GPUx+aiCKOvfOUrxWgh9RTdIx6ebFR5FxvYxqzwVNE9wkXb8VA/1MvqhqZOnZqigER2DbaM6ngGFSMqL/SOflC2yKNRNwlgoHji9ddfP4WuiSnHfEkTnRCBE07XDe6IZBvxtoMlA1UClcHaigjU17/+9SRs6id8Tpy8jpEMBRyq3eTgOQk0FOZgyTt0vmSee++993m/C6+0uSwyQH3xp5VyDyEzMfUyCUgKwseIwOiFxKmLQa9vnEuAajeIG5GBKDxQXw8V4bMJQEigSbdK+CikzyQhjFJuRP2eOjGcyIZJYLBE+SiDPPZK5EJ/kuuQCxEylJGJoFuKBEXhxUMJKmgMClPW5rpsqDdlLL/CfZKm8LkVhVFkUh6sAp82bVoao3REr5MAXl1++eWJb6FffDMAu030CjLBGe+DAdprCzBBgKE42tVn1ZsExOpiKiUhHMmLhSppiE/gXpjdAtPC9cA6QRFOVj3VLMKuZMrKqiOcrjUK06qG7UXWI3KtiusR4Xb1Q0EC1lZsvVh5YZnivsU+ixNm6QnrImzqGvX0XBUrx7t6HQDqbGIVxQI8C48iHNK7JZYYvBFmhiJ0LEIC63WqC0PcX22D/0fIX7xLxEDgoEQ4W7wz+BkJRsFz/A2MlGr/VPuuWk6E+UX4aJ0X1WuRgBTyFHhGyhKXbVCK7Y669Iq6KjTQZCUGPMI9I4qCfKhDhFKHVRq8Dv75Wz9E5ne17VV5DHmOfgweCgf0vOss3npCWrXvI5Q2QhurOEKuRT9HSGTUJfjvnmayEnIRYY/R93HNu+UtSHyjgMSw95q0551WiPhgBSR2P1bqkXAXORR0kboEjlLUOfohwk31Q9UYquL9oCruUvCqOs5j5RH8C4rffEe/hZxWQ6zVNcK/far9ECHE6hLjLSjqUy1POSEbVVwi+UFwj6wY5S501Q/tsIP+9re/JUwTmCQwYh5++OGEmQHfBB7Hbbfdln6/7777EobLq1/96oQ9s/HGGyecC5gasFtggMBlgXkB1wS+TeCzwLuAewEL4+67707YHcpXBiydVVddtdxqq63K66+/PtUJ7scdd9yRyoZpAv8DFge8Gs/CB/H8Oeeck+oMe8THb97hW3vhc8DHgWly6KGHpvrCBfFOeC8+8HRgwKy99toJGwQOiHd/61vfSvghgWtz0kknPQ8XpVPsIHgheAKXBZYMbBb88Lf6wdV52cteljBP1l133dQm+DOwSdQJpssf//jHxB/4PbBfFlxwwcTvwAiBPwJzBL/wAi4MPB+8gzsCF+iiiy4q//rXv6Z+1U/4i5cwb5CyPvrRjyYsGhhBt956a3nFFVckXBP1VY+bb765/PjHP574Bo8Hfs3HPvax8le/+lVqD1684x3vSOXDnVGX3/3udwO8eP/7358wU/DVb9pOtiZPnpywc/DhhBNOSJgq+lif6Ytm1Cl20DPPPJP6WJ/jBd5oO36RT/Kl3sccc0xqM/wXPMcPbcHzo48+OmHfuI8cuUed4caQWfhNn/rUp1Jf4xfMKONL/ciV696lzhdccEF6PywifUkmg+ALwSbyXuPC/bCnPE8W4T/pM2MLb6+99tokF+RRXxkXP/7xj9PvysZnYyDI+NUHxoj677nnnqnu8KXw3zVjE56PPsAzuERPP/10z9hB//73v8ttttkmlak9ZJqs6QfyS9/ss88+6aMN9A18KzhG+oCM7bfffgnzZ//99x/A7vG8+6If8AD/5pprrnKnnXZK96ufe7VP+/XNNddck95P5ykLjlTgFT344IOJD+4nn2QIPpZ6KFu5eEkO4Bf98Ic/TDhc+oE+NU7oO2OQvBiHsKKCyJLxY8x7h/KmTp2acMH0HcymwIfyO56RC/p8SLGDZNldc801ydqSmWfGkbkK3oAPK1KXY5Yza1luwr6AeyHb0gxmuWKpw5qStcpFJKXbs+9617tSxpuVBQvp/e9/f8qU815+VzO7GGNYHNV68SfzZZoZuY9Y7bBFuKoktsya5FIZrknHZk2DKLCEZHEEwfUA2wAyQMbnzjvvnDL7LAFZ4chvZlhuG6sjmYgsIIlAvZByZOHKgORykx3I7WOFws1UX2mwHrhR1MWqCWmT9HLZh6wBWapV0m6uDhme6qsfw+Lm2pDdyg+rz2RQWu1ZkleJO0qf8yv7Vo4VoXpbycgohmOCwooMayf6QtmWvSxIGCyNLHjZz8pnjd9yyy2pzurPVQYrSObxZz/72WS9RaZmryQBhyUlU5YbkbxrZ0D32oepE1cIdwS/tGxWmdhcFOSYfNsLqxO3qjKtOPEh+AQDCPYOt5l36Vf1MS4C/iEIP2SS6ytZotxiVjGyUOEqwV4KFwnehzUZ5J2egcnEJaFOdcJbR0FyW4BW4AJTJ6ukwCUyzmXn6nf92S1cQSNifeMNeAtjmizIlNaucC/XCc+NU5mzhx56aNoL4/oh49yi4uKrRMfoZ7J6xBFHpNVkWOewsLih8MvY015Z8fhUH+e8I57RXzKJ3U9eQZ/DsyKb+BYrr1h5V8n9ylW+vqyTMU4XwbIyxrVVm+hQ48Eqg9zoI1n02m6sdEMtJwHCYnNVZ1CuCiekKmY5YkAjyxkK3eZfnIvp93DNRMNdJ7zcLRSOVHmTCIAzqfqxvFG+JZwyQRlQuHBnwm8Zh41oeKTGx0RkScW1E0IfZZq0YNt4F8wQ16qHM4SLQftAGPibK8z/tcVAlJJtIJgw1NHSzwTTK856wMXGEs4GKuWIP1VXQlBkeGq3OlH+YAUC56ZRnUyCBgNBiaxTH/2BHwZFuJbCpVT3eQd+Cx4ZZPy16mFZjlcUTyiswCOqlxFnnAbvGu25kAWQAZbX4Ur0TspYuQZNuAbgurTzzXdCgcEUfUC5A8OztA4I3zoFpg3Z2mmnndJkyuAJF0Qd912bKR4Gkb6NCcC7TTquhdsAkTs8qhsB+EfG8d9EEGMQ/8NFEi4sCiqwb+ptCJwcnzrhA5lgeIVcqE/gIvl/QHgbc/p6KA4uin6I/uUS5m7iaiIPrfoBvAY4E3qCjATkeX3PQD+AL2EELrnkkrNBTph09DkjMsZIs3Eerhz8iD0bOg+P9LF+imx9EyZDqVE/KEM9G+1v6QfQKyBVquPTO7XL+yKb2HX93+15BW1XAqwxMw9rS2VYrASDsPKbsyZgYrAaRbiw0CkmWBxmUMIROCBWBWFBs7IC58RHpwcuBtwVQs7KYHW7V6cYKNFZsEMocXgoGKPT1cfqwWpj5ZVXTgpJPT2LmepGcfp4l+vex4JxDSAayxYjA4lR21km7lFvH7O7aAOWnMkRsFYvqwFtN8Gqk7axrFg1JsFog9+1wXv8zS/q2yrKBEDwPGMFxjJn3Wlf7IHoJ8JmlRX+/+C9cnwIv761AlEmwTXJhkJRB+23MmKJKJ+1yFDAL2Xhi30WPFRHk4w6GwzaZ3/DCstmvL6KPg+KOrnft3fCLSI/sGBYPSxp7WIhsZZDEfZKgd+kPvhgRcAKjbrgETkI3sEXsgKwYWylql7aB0PnoIMOSpOCCS0gAfQfGbZCYK1re/R9QF/E//HVakI5DJdY2SLjyPv1vW+rP7Av+sYmsj62EqQQrZys6ijI6njTR3HguPfp+yD10E7tDWBAxgNeW20r38oFBpQxo21WZr1umAZ5Nz54P36ZTFnsAbEQYzagI/DYKpehqB+gnWoT/cNbAOeHPnB/9AP9YUK+8sorE2+jzQHhQA6UbWVhfxLP8bjaDyZ+44ocqiP96BrZtjqE4WNPwyqbDvMuKxzlhh6yD0gOrCTUr7qCV6e4N/rB7/SRFZr3kg2eA7JIVwvi6bYf2sJGBA5H4FcEPkmEDWIKSyxmnwCZCuyV2CyMDcMIdQxMErNwHHARwEtVjA3XvT8YErgfgbETK484zCEOWwhLOcrCaO8O90NsxMUGUnVzLcoKDJ/Y7IuNpFD4sfEXVkt9OdwpbER1EzbwUGLzUPvDCjMwtC8ONQmMERSAbHHoSLRTncJ6cG8VJyg2tALTJt5RRccMvgcWSWxgocC9iT4N5agsvIv+jQNk9KNJpVpGbJ5FfZUVmDmxqex57Yq6a5Pv2JTXd4Gj1AtsRGxKh/WmDb5DccTmYRwaEjwMnodyqm62ei5waQL7xu/+xpvAqFF2HOATchsWemzC4m3IS/Rl8NzfPrFRHPhHrsXzUYfqeIu/w5BCsbEdq1M8ZEC5HjIfCjiO5Yxx32xDshvYiOo4VF51nFf7wTdehG6Jg46ibtXNX8+S7aoc483EWQfn6Ifq4U3qG/yujqkA6YvVeGBxVfshcJrwI4Jk4kCewFwKCtmO1QzexkQTG8ChQ000+qEuc+ru/zF2vLfZoTIZO2iYKWMHjTxl7KDRQRk7aHRQxg7KlClTpkyzUYaNyJQpU6ZxTPmg+RGk6tkBvR6KMpIUURL8kUMRJhjJQb2G3nZCfLB843Eo+1CdUDYSFOc7aEez8xU6pUh6wo9m+y1DTXGuxlAcWD+S9J9ZPv7qXtdgKfZnInltXK0EhD+JDhJ2OlRRB6OJtEkEjSieCLUdTRThtp1ARtiQErkjmgVVD1gZTDa1CC2RLsPVThE1onCGEvpgqCg2FTsJ+5OnYPM1Qhmrhw11Cx9ig1PUW6Pw0TlF4uBFGY7GfpjWJHu7EQlrFT1VDSkdbD94Rj+IvJxTNGonAUIoooMiiR33+O4FD2c0EYGK83sj+iUUKKEJeIUqNeJFRNtEVEUIbFjUEZfvHfEe31F+pNHHMwEpIF9BiGwIr2sRKRYRWv7WR/IEQmH4Tdgm4RWjHkkyEQtdj5VWTtQtJg8rpHinvwPKIiJjom0R9RTREt1SnNjlfcHzgNLwzmp74/4qP92vDlX++Dt4GBAe1ROjor7B84A7iHeqT1jiwm8lEQm1DniEaj0jqsu1OMs5+tS3ENEvfOELA/xzb4ypKr9CBqK+kaMQ9QjZiLZGOSEbAa3QS85M9Hu9ftEPdSVal+tqP8TfVeC/eD5ymMLImTZrPMTv0Z6QO++RjCeZVIJWQD/Ux1D0gxj+aoSdOgitFa4aUDfB67rcVsd/nKqmH4If7q/KTJRT7d+AoRjzkwCKxsoslTHIymGxRXJQhNz5Oz51nJDRTjpc1rNYX5acThULz7IWB15FDNVeMcKyEeVtiIfWZgMdj1yTO6EcisPzhBZPIoZc/obfxVV7h7wCPJa56Hkf+REydiXdiLGWvaxcMfHKlUhFyEQ/SeZzMHk1YUt9xczLqPVeEwFLxv/Fp0taCyF1rxwH7XJWrhyMaC+hhmKqznIOrJysDL1TjDTeGJza6dMO1bMVSUaTGyHvI5SR+H/vxreqdS27U1vkRIhFl08AdE78vPh+Wb5442/8srLRr/IDtEddWbyybJXveiD16hfXTMBCAsWya6Msdkpe30+ZMiX1hXOC9Z3yyY+M4aqsyK7VV3JzyJh2eZfnZf9XE7zIIbmQ43DssccOhB77Xbaq+Hdn30ry9JvxqBwIuuSL/GkrZdcLaTN50hf6m1zxCMhDgSVUVW54LofEOCDLJkyran2Dj+pIbsmWujvX2fOy7fFPHP9uu+2W8lX8HkraPXKOXFMX9cA/shfZ8XIvjBV/CwPHP8mrcjNkY1f7wRiU0Ol3+QL4JVlNn5EF7agCycX5yHKgIoFMOZJ26UC5WtqgrvKo9IM8CvdKrNMP2jLmJwENhJapYZQJIZPwYhBE6jiBkZgmRt5HDDq4idG4nGxGYY1IBCHMlLLEFEkg/KIhuCEIFIKOls1JkPCCkpU84lBuQhECTKAclE25eM6B8LJSKQAky5GilwxjMEmQkpRF4RBq/F599dVTQoykKdY+695g9CyFZ6KWcVyHm15xxRWTX5rS10+UNh+//jGR61vkORnYFKmUfQo0+i+sfkJuYqQ0peQb6Aav8iUp8Zf26j4ykLVV6j+eU4QSuihkA5jcRR+YIMCF8NGqK9A/beTOsCciblviHgXmefzCe8pD/WUYcxlQyJKYKHHtN+itoLgS9IvJVwar9+AjnuGVZD7KzTtMruRGwiYlVTWAyJTkJLKiPyh571InPJSghL/axHqVDCYBzESsrtEHlJjy1dUkZvIF3UEZkVOTk4ndJE4WeiHvVWeTqMQnGfrgZuTayDEAmRH9QDdQjHhv/INcIeuUMPkl65K9jA8KV5KjLHBJmDLol1pqqTR+TPbapw36nwKliPUD6AlGgGQsckbBaq/xgq9i/ilm75AkppwqSgKilyS9KYOMe7cxqk3aYbzHfg7ZkkwpYVS7AglZeWRUch74G/KJR2TVCsV4VwZ+mYjUbcxPAnUyyA0S6dOBP4+5ZtGAOGAJsgZ63YwZTjLAWSUsDgOYsmZ5sDa1iaDWD40mgBQABUGgCSIhlyltABM2v7MyYvnpPbJ8WaAEkmIiPJQBYUKsTxa393mvCZbQEjqJhMpmbXpvLE1ZjuouWzHI8wYDZchqDzeCScOgDHRZpH7ebyCxrE1AkWRmEFglULiBrGpCkIVpUlJ3dVYXkwHLdrBErgJBltIz+JSnHyi2+sa9Cc0Eq96xHJctLFOUslQGZaJP8FGfapOkTJOgicDzVh76hlVPOeg3ysReEYVmYsZbljE+eQ/FhEeyeClvv+MrBRUb2/pAJi3lry8oD8qb9ap8KxiKK6ArTCayUSl5ikX/o0higq/DPWuMMQ6MRSsEBolxaEJhnbrWixGmviY6Mk7p6QfGh34IWI0q+ZtRQ5GGC0eyFcWOh+ptMtFmcmzy1F5KEs9WXnnlNIn7XTvIuImCha/vTJjGIQMhstfxnAybQLzPeCOnfjfGjImBQ9wnTEj11o/6wARuLDHYyLt6B3y9epkE6S/9QJbwA4X71STlvcaUxDHttHK3AtP3yjNZMkg6dc2NmS34yKisRm9Edt9YJst5ikQHG4QbbLBBUrKUgvaxnOuTAAUYEN4E23I2eANCwKqAsBFeSidguwcOlp4VgRHlmhRY1Z5RJqVCgVB03DqEWLlgEChtStHvrrNmLZWrOEzqbUBRGCZv1qd3sdS8x2qDlYpMFJSUJT8rxuALAsTGgsaX8IFaKUj5tzpkNfsY0KxgPItB0y1RFpQonoEfsCIzuCgi1r3VUJVYbAa7gcZqowACHhq/TbAmNJFflJh+iMNc3BOZr5FB6hkuABMlpUWpUG7uY/RQ3nz77tdO163KWM3qQql4D4VUhUvHZ32oDSZ0iofrT9+YhCIjXRsoIvKnzvoM4bnVi5VfTM54YiLyfiu0wCwCm0BZB7T8YEifm4gpV4pQ/ShlEyBZobSrZMIhV+pFjslKyLp2sJApef3DqLBqArIWWbhzzeoH/49xQQa5uay09YPzC8gzxc+wsjJ0PwOMG1F9yYffjRMyVDWK8JfMc616jiEDmM4qijI3IRvP7mPgWNUoxwTH4g+ywmGEKUN7vRv/9Zkxr09BvdAZVpLK7kQ/jtpJAJYJgWUxYZLZnSBzAxDYfiCdzUdI2RpEBpVBy3dooFIwlEk9XM7gJSAsTMJH0RI69xEw1pnBZEBwI+AbK5fiJvSW/QSez9pAMXhF9lBSyqXcWBmsCtYm5WGpT9lSSH5TZxOA5+KcA/chwmyiYJ0QTJMaobTEdp92hqVp0LE8WeImGL5nqzt/U5zhcw4F4F0mBha0tlFOrEWyAnOqW4olPteGsrQNDy2pDUgK10CqDmqEp1ZVBm/gJrEsI7xRv3L5UGbqxXrGQ4pWG/QHy1B/e45Mu08b8ZjlyTXjfjygjEz4rDzuO0oAv2Ez8X1bQRr8LMmwlgOR1ztYxSZIfMRf/FcfCsV9rpvMuVdMsj7qZRxSnHCyyI8Jh8xpM4tYH1OQ6kb5kc2AW+iWGANk1woFD2HuaItxYqWiH7S3SuSZLLhfnfST1SEeu5/BpG4mAN8mCgo23Gy777574oX2s/wpZu/VVkrefWRD+drK2CCb+tYK1RjFV3xiJDEcjCfPVkM6rYjVx5g1pvHaGLV6NPkHJIVnuK3IuDGkPlYX6qM/wmVrTPg2BrzLvo+2G1smB6sy/dIRtTtPINPgqdPzBDol5WyyySbl1VdfnTDRM7WnTs8T6JRgyX/3u99N4+XRRx/NXdAhdXqeQKekHGc8wP83zjJ1Ro3OExi1K4FMjckykgVQdxFlGh5irbHYbbJ2bGllmiP9YKXGDcItmWnwlCeBMSb4lumZRrYPKP88AYw8cfl0e4BKpudTNiczZcqUaRxTngQyZcqUaRxTngQyJRJ/LjQyYsdF6kieEXkj+kRkj7h594jP54sVmtqPuE6jhUT6CCsU/SFkU1SQkEjJU+LxM++Hjx544IGUW6NPjA1ho5HwONYpTwKZElEu4rFlHIt3JuxCE4WsCTcTWy10kTIyUchmlZCSFdGcI2GRJgETtPhwSkgSGpiQKp5RpjlP8847bwrdZhiBVJEr0C+UN4YzJRIvLuqFhSmDWYJQxOXHgduNPpnmHAWP5STIiJYXIL9AvoZ48BwhNny02GKLpbwY8f4S9GTJy2HqB8orgUyJJKvIXAYNILFGJqJElbGekd0PRNlLmJIMBs9IglOOihl+I2mNNdZIk4Fscgma/TI28iSQ6f8FYeLEZPnLfpQFDAZCNmKmkSdZw1xwJgCQBjBlTNSZho+mTZuWIEtMBjKCZVF3ctbGWKA8CWSaLQUflADEVpMByIiIjW/2yTTnKHgMjgGODvAy36AbYu8m0/DQww8/nOBNALbpA4ERAPn6wSWa9wQyzbYaAFQGDwW+iuWuSCEIkZbBMGggYMKOAaQVeCeZ5gzBrcFvWDzwa2AcwZMBQ+xa5v3w0fTp0xOgn36wSaxf+mVPZgLsCJYFsC4Qp5mGNqwM4iLc8DxgR4YA2G288cZpryPTyBFES3tOAPDyWBg5Emkmwsm+UgBTDqwE4ni0TENHcczgWDrkpt8I/+PIzUwjR3HUYx4LI0uN+D8wCdjksNlhlm7k56peb3RPzO6uV2f66n3xXP356vX6M9WyG/3WrD6trjerd7v7mr2j+ny1LXDWYbzDXm/V5lbXG93Xqs7t+qnV883q0i0vmpUd1zvlRTdlN2sz1xZoXSdhdcOLTtufx0JzXlb7VT/EKWh5LEwYkbEQFHt9z5sE+BhtemQaOuIKEtXBHZGXwCND8PxlOzsJK9PIESPTeQ36IY+FkSOTsUTPhpOAjhlLxzKOBRJOxu+WN1BHjuL0rizbI++GEH2Wx8LIUvUM6qD+2N7OlClTpkzDGyJqRomNTxYv35Oj1xyz5ujBwZDylMNiiPNM7WZH+UKyfHtnHN0Wf/tuZ+3FJm2cQerbOyyR4sxR33GfOsRZqa7Z2PJ7v2QKtqPgAx5ZKQqN65ewuLHWD3FoOLnPfTAyNHOWrvBNB9AP/eDaGtSIxgS+VngmzuN02hVwMeeZ3nHHHYOuDFQ+YWQ2VCl1DN95551TqKVMSWejOmy5ehi5+yQ3QVZsV2fnpDr825mdkj8odeeESsJxTqlrokiUpR4B1KUeDvl21vEZZ5yRnhsPhO8O8YaX4mznnJw0/ES+wRQYBz4ZOG5kaObMmWlf4yMf+UgaDz/60Y/6ZjwMahKQVwBAycHKDj4W/WITFKN6UZA2p0EXO+wag2VFKtMh2z//+c/TYez3339/mgiq5Ji5+gHUdVIOpS4TVqyyCUzsciRCeafDwR0UbePEwc4UvjaqhzhzB1IrA6TveJgIxNhbiV111VUJSiL71YefjANGkeMsxXY7DF2fZBpemjp1atrUliTpkPiDDz446bxxOwlQxGZCcKpCvkANQzYMoQVJLLNxkUUWKY488sjiiSeeSJC4jkbERLgnhx56aLHccssV73vf+xI+N6JkPQMjhQKCY7/99tu3XP5SxpQ6XI+zzz47rUxge6y66qqzJb9ZulkJqM8KK6yQJgXwvBAawSPLwrztttuK17zmNUnhwWeJicUK4JxzzikOOeSQYv7550/X+mEZ2AnpBxOjPu8Xy2csEbclxFCuOK6gvLE6MvTUU08VN998c9JhXN7rr79+Cv8et5MAC5pSZUETSgLq77rVDWPjggsuSNj0p59+erHtttsWH/zgB9OyClQxl8vee+89kLmmrD322CNZ2mKKhVfKZK6W3Wi5bCII//Wdd95ZHH744ekdJoaw2Clt79GR6u8e9VR3/j2+fx3tPtdNcOARYOmoV+RRcB294Q1vGBeTgAmRGwxpu8NNGkUXZJrz+EFkm7EFriD2qTINH5VlmWSfQerTT+N/UJMAa51QXnvttSkRh0XN2keUMR8mlw0XSmQJfulLX0rL2iOOOCJZNHISADA5KKOKxjdlypT0t9WElQGrvVOGu497yuoB7KsVRigt9YIHTqkde+yxCZrXBrbTspyUZfLgKmL5SixSdy4jEwffuOWf+7nBxguWvlWSVRWerr766inOezy0ezQRfrM4gZdZ5RoTrYyiTHOG5pmFkwXMjy6h9/olQGRQ0UHcOLvuumtx6qmnJgsftjlXTETX2By+9dZbE+Nco9T9TsnaPzAZ+F5iiSXSRFB1M1hqOTyD++W4444biOQJa12Z9g6CdExcd5/fDBITjWcia+6hhx5K5blmH+B1r3tdqhO3FbA0deACMoGdd9556Zmddtop7TdY+pnwlGV1YbViUuj3KA0uPy4x7eQqA6DVTxbQWCByeeaZZ6ZVN5kVgadPYvWcaXho/vnnT54LrmoeAi7teubtuAOQEzFDgVsBYAYLhd+YgFIUrEaTg5UARcqVYIN36aWXTvd7llvG3xRxVbkoh3XOAmWxs87dzz1hQrEhM3ny5HQvS/+ee+5Jg4Ll6h32A2wws9yd/qNsGzsmnrBkF1544WK11VZLMzrF72/+PnVS93AjxYpBfVwzwShTndtZZGMdQI4FSia022lKPmPNCh3rAHLGmVWqMYrIuMmAG3MsUT8AyE2dOjUZQyK0nMJnYhhrbWkEINczimgdK6h+vRPslcGU2+p9rcqs16NZmZ1gw7SjsT4JBLXi6WinsT4JoDq2zFikfpgE+mE8tEQRHSw1Y0Zcb/f7YMvt9n3dllm9NlY7fKhovLd/pCnzf3TRhD4bD5OqM4TwzWYooPVrrZBCB/PsYO7p9blGq4dWbem2TjaRuFTsbzRCWBwuHjRqYysU0+Go02DrXa9nu/K5D+1BsUJb1WGoZXVO8mUoyx6usUC/cOnSMXksTOi674aqb7h2N9tss6LhJMDXG+GAVcGo/78RNerUTu9v1KhGZbSqT7t7O1GGrWgw97tHaKws5A022KDj+jdSzt28s5lCand/q3c2q2+ziaTRe+rXqu/spK7d3h+/ixBzGpSs9ka/dyK7o3UsNFMIo3EsmAQEZOiHfhkLEzowqhq9p36tWkYnde32/mp9BRpwyTWcBETYiMzJNHRkr4UVKqS2KpCZhndPwGZqlu2R3xMQuZfHwshSo2zz/o5xzJQpU6ZMLSlPApkyZco0jmlQ0UEQRIG5yQSWF/Doo48mf98NN9wwKBhpmxXKCCgK3zZUJWRYPnKpLL744ulvYU3eAVJCNrF7+bz8pl5i+NvV3buQunMVWCLJA+CyeelLX5rif90nt0ESmvvEZdvolawj4UxeRL9kDGYavWRsQOiV/0LOubXIaE4WG3567rnnEpwNonv6BVCx65UARQh3Z/PNN0/wDDJn+fso6sECjBHur371qwlMTlmUsmzks846KyFYiuwwCPbff/+0sfTb3/42gWrF+zz//e9/P2UEt6Nddtml2HrrrYstttii+MAHPpAGGQiLLbfcMsXzg7Xgy993330TbpBsYkB2JgS4Qdttt12KO1fffGh2pjlNZFwGuwRGY0+0U79nqo9GmjFjRnHZZZcl5AHoAUAn44yHsU5dS9MVV1yRLH5wEbfcckuCVogdaJl08PnhBIFkYHHHGa/nnntuyny0UQeaGUCb8wOQ5yl1mbsyeE0oAOYoYYwm+Mo2E8f/lRO4QN4tg1cWnxWBZIhrrrkmpdvfdddds+2eU/Z+A2YH38j9gLkA3ZkM1D/CZbVz0UUXTRnJBp7JSN1ZYyJ/2kUpZMrUK5ExCghUy8orr5yytnOQwfDThAkTkhFIfwixpEP6BVW3a3cQKxzcwoYbbphcKUsuuWRStIhlzIKmxFktsGccNAM2eptttkkuHsraoS4UPBcLKAgKdr311ktlgC2OaCX3el8nA0U6t1XDOuusk+oABsJkIcX+8ssvH1i6sf7VDzSF+wIICkCad5pcdLiVAkUPYM4ERfH7bYcddkhRDiaEfiaKB5/itDc84XrDh+yKGD4yNowThx7h/4knnpiMnYwkOrw0cRZyKMVP3/EI9Ms46HolQCFwl2BG9fjBVNjEiQlcjZDy7d97773Jfwkr6Pbbb0+YPnCEKGiM5FcLBYOhJgwrhptuuimhgMLtGQyZnFj50EJNPHFeAYrTgdSDewlFWyi+AKcT3w/m2iEeZn915C464YQT0urgwAMPnK3cfiP9Cn/JpAxywTeXRD7QZHiJsneOhUOVrr766nSwCWMk0/DTzJkzk1F64403Jkj8ftkT7HoSMANy21CQoJkJKIsbcZucdNJJxfLLL5+A4RAfv3vXWmut5LPHSCd4scyd2hVLKkqWi0YZkPoc4TbYZa+Bs+CCCyYAuyrgWSQOmZycHOYEMfe4X53Uz8pGHb2fK0sdvv3tb6dJDLS0DWkuqjhrtF+J9QlPygouPngXh+pkGh4ytowHxPhiLI01EL9+oBkzZiSjiM4Dfz/WAPyGdBJg5YNB4EuH+c8txGKn9Fnvzv+1B8DSdo2lb4MXgqdNV1YMCx1T+d2rSyp+T6sFp5SBk7ayEBXELURZU9xgXLkkIIwOoOBNmJBWF1YcJhf3m6XVK66hOJA+QJQcE0eR+7b68BtL30rCR13dZ8/AqoXLyqlj/n/xxRcPKhJqLBG+xiEa/XaQxlghfLcKkHXOJcTlaSxkGl6aMWNGOmeEB4NL2L4Ab0E/0KBQRLkK4sBryta3D4GlVP1GQUcUAwb6PQ5mYEX7jjMAgkJBI795Plw17gvL2/9Z9RR1bErHfeqjDN/x3jjnwP89FzDR4W91vVon38qovs8nNr89p/x+h5LuBxrrKKJkMMYbGQqZH2s01lFEZ87Sa7FHZuzTAWNtX2DIUEQp1VYbU+18Zc0YRzgcBtPJu6puCc9V7wu/fl1Ju696IE2rOhlsjahfYoMzjQ0Kg6Nf/M9jlSbOMhj7yQ0UNKk604mU6QSUqP57WNl1cCNlNgJzqpZRvd4MGKvR882AmOr3RR0aldMICKoeg92oDq3Aqar1EF1jlRV8rb+vGS9a8aH+nmZ1a9SWOi+aldMOIK4RwFe1XtX3tAIcaycX0YZGstiMF/V62ddhwTn8qFpuK5CvVgBtjSiPhfZjQUAGK7SfxkLZAtRvNI4F341ymwYmAe4QIZ3NGBqNabeUqz8TzO9EiTZD82v2TLv7Wk0ezdrRrM7N2tiqXrKqCX2VWvGvGTphN+1vVs9qu5q9uxGvuuVxu/taDbhG/497m7WxXt/qgA83n4mYbHdSRjN+5LHQ21jQDxI+Y5O7LgONyq3ek8dC2fNYqE88z5sEuGHE7mcaOsp7AiNP8lVEc9jMyzSyewICLPRDpxNxpqEnqzH9UKXZHOE5HX1oKUfWjDzF6jXL9shSRJflKLORpUbjIIOQZMqUKdM4pp7im2Kjgb/PDCM6hx9cVh2QtsFSJGKJ2LGhJFJH+ZGUFjv01fDRVqFayrIMcq9nq+GePq6pe4SBCSEVjRGRQOqjnaKN6tFLmTJlGh80ffr05NZCdNJYCw9tRoNeCVCiFCuEwzXXXDMhioIVkFkrGaxdREUrkoQmQ9VG0vrrr58SuUR5HHTQQQm9L+i+++5LKJ/ua0YUu44DSQFXyBGacgWA20EtVfeTTz45KX+Z0ECi4A1deuml6VkTguQ32EJS9jNlyjT+qJwFV8+4lSBLV/QLgNygJwGWMYV81FFHJQwegGuRdVu9x0QR1nU14SIUrP9X8YeQ0EqK3b0mA3ANFLFktipwG3yiI488MlntOiTgHCKhA7luIwTonTqChpD+fcYZZyRscHU/5phjEqAcyGhgcRLn9tlnn1QnkSXerx3gpDNlyjT+aMaMGUknQTeGOAwKp19wtAY9CbCmr7vuuoTPz8p2rgBgNkQBA24zYzoUBhQE2GlQ0tLfKVn4/1LgWeJSsG+++eaBTN4gLpoPf/jDKesWkBs8H9g+8Q6KO363ElEPE8Nb3vKWAZAtLh3IoeoH9iGSwACiQTfVmbCOrGBMBvvtt1+CrAB8h0455ZRUx8mTJw+ey5kyZRrTNGnSpASD40wBkDH0Ub8k8A16EgirntLlr+cvrydKwDqh3MFFA4vjvjF5cKvAIAIWh5FHH310ctU0Ch2DCaTsOGWsWTysj7LM1D/4wQ8GfHdRV+4fMLzcQbCFkPsjWoG7yX3qBD/IeQmWfNxdJhizfpxtMB5IW6dMmZImQO4xH/ALoLUzDR9ZnQb/ffRHuCozDS/NN998Ce9MKD2Xd7+gCA96Z4MCdewigYT+yYqHsFm10gHH8bFbFZgsWPzcM04HY72HZc8iB81qVVENYXKvw2eWWGKJYscdd0zAddxDJoY6eU75a6+9dhogVXfQHXfckfYT9tprrwRyR+krwwlBQOscLQnl1Cxv0DnVbKWVVkpooyyAPffcM3W4lYmJzP5Av8c6m3idw1DNMMSLfrF+xgpxf5L9qptVIEO/y99oo+mzoObJv4mYUcg91A8gkoNeCXCzsOhFy1DMZkhnoboe0TxcMjZdJey4z6lksW8A4ZPVbqWAsbCAQrDda9bFdJMMBc6do0xKuqqUDAjv9O0ZyguMdOzcmxAcBcmqN3uzZm+99dY0OXFnSV7hnlpxxRUTZPTdd9+dDptxnzICS99qwKaQyWE8DEBt1w+EPD7B30zDR8YG1NBqPwTIYabho7Isi09+8pPFN77xjXTmCb3BOB23KKJBFCz3CNcLKznCJ11jaVsBxLI1witdo2AofbNrnJlqUgiXkvL8pkx1c4iLe7hsYgJBselcXT2YgEA1mAgCSZQVH3sEyo9Jwns8b5AZWMoPd48yuZ8idDTQRz3bKeWM4ZGnsY4i2i/UDyiiU6dOTfoL0UljEUxyyFBEgyhKyrx+0EhMBo18+PXZs9EhJVUEzyrqZ10BN0P1i01dZGJpVEdU70STS6PTzKKMTJkyjU+aOHFi0kXNUIjHMuWM4UyZMmUaxzSpeoCL07o6QeFshgDa7FoV0a4On1q91gghr5P3DXVdG5XfiNrVNfIguKXqaKxBjZA1O4HJbdbmZvXspKz6OzvhaTfl19vaDGa31d+dvi+u6QMfst2q3c3qOprHQi/XRmos6Id+GQuNaDSPhcDROuyww2Zzoac9AR0USVz1QuoDot1v9Qo1qkgzavSOekMbDZJm17rtwEb1afTeRu3pViibtbXZfZ2+s1V9u2l3N33cKZ+6bWv9t+o7OpHFXvt/tI+Fdu/NY2HOjoXBjMGRHgu+Gf3V4II0CTStSaZMmTJl6mvKewKZMmXKVIxf+j8RAb4j3ZMGGgAAAABJRU5ErkJggg=="
+    }
+  }
+}
