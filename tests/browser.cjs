@@ -13,7 +13,7 @@ fs.mkdirSync('test-results', { recursive: true });
   page.on('pageerror', e => errors.push(e.message)); page.on('dialog', d => d.accept());
   try {
     await page.goto(url); await page.waitForSelector('.card');
-    assert.equal(await page.locator('.card').count(), 4);
+    assert.equal(await page.locator('.card').count(), 6);
     await page.screenshot({ path: 'test-results/dashboard.png', fullPage: true });
     await page.click('[data-source-analysis]'); await page.waitForSelector('#analysisTabs');
     assert.match(await page.textContent('.metrics'), /39:47/); assert.match(await page.textContent('#analysisBody'), /17.1%/);

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CAT Sectional Practice</title>
+<style>
+:root{--navy:#18263d;--blue:#2459a9;--blue2:#e9f0fb;--ink:#202938;--muted:#657187;--line:#d8dee8;--bg:#f3f5f8;--green:#16815d;--greenbg:#e6f5ee;--red:#bd3b3b;--amber:#a86d0a;--amberbg:#fff3d8;--white:#fff}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+button,input,select,textarea{font:inherit}button{cursor:pointer;border:1px solid var(--line);border-radius:7px;padding:9px 13px;background:#fff;color:var(--ink)}button:disabled{opacity:.45;cursor:not-allowed}.primary{background:var(--blue);color:white;border-color:var(--blue)}.danger{background:var(--red);color:#fff;border-color:var(--red)}.subtle{background:#f7f9fc}.app-header{background:var(--navy);color:#fff;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:14px}.brand{font-weight:750;letter-spacing:.2px}.header-meta{display:flex;align-items:center;gap:14px;font-size:13px}.pill{border:1px solid #ffffff55;border-radius:20px;padding:5px 10px}.wrap{max-width:1440px;margin:22px auto;padding:0 18px}.setup{max-width:850px;margin:32px auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:26px;box-shadow:0 4px 18px #18263d0b}.setup h1{margin:0 0 8px;font-size:26px}.muted{color:var(--muted)}.setup-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0}.field label{display:block;font-weight:650;margin-bottom:7px}.field select,.field input,.field textarea{width:100%;padding:10px 11px;border:1px solid #cbd3df;border-radius:7px;background:#fff}.field textarea{min-height:150px;font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace}.full{grid-column:1/-1}.help{font-size:13px;color:var(--muted);margin-top:6px}.rules{background:#f7f9fc;border:1px solid var(--line);padding:14px 17px;border-radius:8px}.rules ul{margin:8px 0 0;padding-left:20px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.test{display:none}.test-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}.section-name{font-size:20px;font-weight:750}.timer{font-size:21px;font-weight:800;font-variant-numeric:tabular-nums;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 14px;min-width:108px;text-align:center}.timer.warning{color:var(--red);border-color:#e4aaaa}.progressline{height:5px;background:#dfe5ee;border-radius:10px;overflow:hidden;margin-bottom:16px}.progressline>div{height:100%;width:100%;background:var(--blue);transition:width .3s linear}.layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:16px}.panel{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}.panel-head{padding:13px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}.question-body{padding:22px;min-height:350px}.q-meta{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:13px;margin-bottom:18px}.q-text{font-size:17px;white-space:pre-wrap;line-height:1.65}.passage{white-space:pre-wrap;background:#f7f9fc;border-left:3px solid #9bb4df;padding:13px 15px;margin:0 0 20px;line-height:1.65}.options{display:grid;gap:10px;margin-top:22px}.option{display:flex;align-items:flex-start;gap:11px;padding:12px 13px;border:1px solid var(--line);border-radius:8px;cursor:pointer}.option:hover{border-color:#8aa7d8;background:#fafcff}.option.selected{border-color:var(--blue);background:var(--blue2)}.option input{margin-top:4px;accent-color:var(--blue)}.answer-input{margin-top:22px;max-width:320px}.answer-input input{width:100%;padding:12px;border:1px solid #bdc8d8;border-radius:8px}.question-footer{border-top:1px solid var(--line);padding:14px 18px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.btn-group{display:flex;gap:8px;flex-wrap:wrap}.sidebar{padding:15px}.sidebar h3{margin:0 0 5px;font-size:16px}.legend{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px;color:var(--muted);margin:14px 0}.legend span{display:flex;align-items:center;gap:6px}.dot{width:12px;height:12px;border:1px solid #bbc5d4;border-radius:3px;display:inline-block}.dot.answered{background:var(--green);border-color:var(--green)}.dot.review{background:#7b59c5;border-color:#7b59c5}.dot.ansreview{background:#7b59c5;border:2px solid var(--green)}.dot.skipped{background:var(--amberbg);border-color:#e7c575}.q-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:13px}.qnum{padding:9px 0;border-radius:6px;font-weight:700;font-size:13px;position:relative}.qnum.current{outline:2px solid var(--blue);outline-offset:1px}.qnum.answered{background:var(--green);color:#fff;border-color:var(--green)}.qnum.review{background:#7b59c5;color:#fff;border-color:#7b59c5}.qnum.ansreview{background:#7b59c5;color:#fff;border:2px solid var(--green)}.qnum.skipped{background:var(--amberbg);border-color:#e7c575}.qnum.notvisited{background:#fff}.side-stats{margin-top:18px;border-top:1px solid var(--line);padding-top:13px;font-size:13px;display:grid;gap:7px}.bottom-mobile{display:none}.modal-backdrop{position:fixed;inset:0;background:#101a2ccc;display:none;align-items:center;justify-content:center;padding:18px;z-index:5}.modal{background:#fff;border-radius:12px;max-width:520px;width:100%;padding:24px;box-shadow:0 15px 60px #0004}.modal h2{margin-top:0}.summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}.summary-item{border:1px solid var(--line);border-radius:8px;padding:12px}.summary-item strong{display:block;font-size:23px}.result{display:none}.result table{width:100%;border-collapse:collapse;margin-top:16px}.result th,.result td{text-align:left;padding:10px;border-bottom:1px solid var(--line)}.notice{padding:11px 13px;background:#fff3d8;border:1px solid #f0d28d;border-radius:8px;font-size:13px;margin:12px 0}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{order:2}.question-body{min-height:250px}.q-grid{grid-template-columns:repeat(8,minmax(0,1fr))}.setup{margin:16px auto}.wrap{padding:0 10px}.app-header{padding:12px 14px}}
+@media(max-width:560px){.setup-grid{grid-template-columns:1fr}.full{grid-column:auto}.app-header{align-items:flex-start}.header-meta{flex-direction:column;align-items:flex-end;gap:5px}.question-body{padding:16px}.question-footer{padding:12px}.q-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.btn-group button{padding:9px 10px}.q-text{font-size:16px}.timer{font-size:18px}.sidebar{padding:12px}}
+</style>
+</head>
+<body>
+<header class="app-header">
+  <div class="brand">CAT Sectional Practice</div>
+  <div class="header-meta"><span id="headerSection" class="pill">Practice mode</span><span id="headerClock">40:00</span></div>
+</header>
+<main class="wrap">
+<section id="setupScreen" class="setup">
+  <h1>Sectional test</h1>
+  <p class="muted">A standalone CAT-style practice interface. Choose a section and start a 40-minute test. Your answers and per-question time are tracked in this browser tab.</p>
+  <div class="setup-grid">
+    <div class="field"><label for="sectionSelect">Section</label><select id="sectionSelect"><option value="VARC">VARC — Verbal Ability & Reading Comprehension</option><option value="DILR">DILR — Data Interpretation & Logical Reasoning</option><option value="QA">Quantitative Aptitude</option></select></div>
+    <div class="field"><label for="durationSelect">Sectional duration</label><select id="durationSelect"><option value="40">40 minutes (CAT sectional practice)</option><option value="20">20 minutes (quick practice)</option><option value="60">60 minutes (custom practice)</option></select></div>
+    <div class="field full"><label for="jsonInput">Question data (optional for now)</label><textarea id="jsonInput" placeholder='You can leave this blank and start with a demo. Later, paste your question data as JSON. See the example below.'></textarea><div class="help">Question data can be added now or later. If you leave it blank, the app loads a small demo set so you can test the interface.</div></div>
+    <div class="field full"><label>Expected JSON format</label><textarea readonly id="jsonExample">{
+  "VARC": [
+    {
+      "id": "V1",
+      "type": "MCQ",
+      "passage": "Optional reading passage shared by a group of questions.",
+      "question": "Which option best captures the author's central argument?",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "answer": 1
+    },
+    {
+      "id": "V2",
+      "type": "TITA",
+      "question": "Enter your numerical or text answer.",
+      "answer": "42"
+    }
+  ],
+  "DILR": [],
+  "QA": []
+}</textarea><div class="help">MCQ answer is a zero-based option index (0 = first option, 1 = second). TITA uses a typed answer. The answer field is optional and is used only in the post-test review. You can include a shared passage in each relevant question, or group questions using the same passage text.</div></div>
+  </div>
+  <div class="rules"><strong>Test behaviour</strong><ul><li>40-minute default countdown; the test auto-submits when time runs out.</li><li>Question-level time tracking, question palette, Previous/Save & Next, Mark for Review, Clear Response, and Submit.</li><li>Statuses: Not Visited, Not Answered, Answered, Marked for Review, and Answered & Marked for Review.</li><li>Question content and answers remain in this session; this file does not send data to a server.</li></ul></div>
+  <div class="actions"><button id="startBtn" class="primary">Start sectional</button><button id="loadDemoBtn">Load demo questions</button><button id="clearDataBtn" class="subtle">Clear question data</button></div>
+  <div id="setupMessage" class="help" role="status"></div>
+</section>
+
+<section id="testScreen" class="test">
+  <div class="test-top"><div><div class="section-name" id="sectionTitle">VARC</div><div class="muted" id="sectionSubtitle">Sectional test · 40 minutes</div></div><div class="timer" id="timer">40:00</div></div>
+  <div class="progressline"><div id="timeProgress"></div></div>
+  <div class="layout">
+    <section class="panel">
+      <div class="panel-head"><strong id="questionLabel">Question 1</strong><span class="muted" id="questionTime">Time on question: 00:00</span></div>
+      <div class="question-body" id="questionBody"></div>
+      <div class="question-footer"><div class="btn-group"><button id="prevBtn">← Previous</button><button id="clearBtn">Clear Response</button></div><div class="btn-group"><button id="reviewBtn">Mark for Review</button><button id="nextBtn" class="primary">Save & Next →</button></div></div>
+    </section>
+    <aside class="panel sidebar">
+      <h3>Question palette</h3><div class="muted" id="paletteHint">Select a number to navigate directly.</div>
+      <div class="legend"><span><i class="dot"></i> Not visited</span><span><i class="dot skipped"></i> Not answered</span><span><i class="dot answered"></i> Answered</span><span><i class="dot review"></i> Marked for review</span><span><i class="dot ansreview"></i> Answered + review</span></div>
+      <div id="questionGrid" class="q-grid"></div>
+      <div class="side-stats"><div>Answered: <strong id="answeredCount">0</strong></div><div>Not answered: <strong id="unansweredCount">0</strong></div><div>Marked for review: <strong id="reviewCount">0</strong></div><div>Not visited: <strong id="notVisitedCount">0</strong></div><button id="submitBtn" class="danger" style="margin-top:7px">Submit sectional</button></div>
+    </aside>
+  </div>
+</section>
+
+<section id="resultScreen" class="setup result">
+  <h1>Section submitted</h1><p class="muted" id="resultSubtitle"></p>
+  <div class="summary-grid"><div class="summary-item">Answered<strong id="resAnswered">0</strong></div><div class="summary-item">Unanswered<strong id="resUnanswered">0</strong></div><div class="summary-item">Marked for review<strong id="resReview">0</strong></div><div class="summary-item">Time used<strong id="resTime">00:00</strong></div></div>
+  <div class="notice">This is a practice summary. The app does not assume official CAT marking rules. If answer keys were supplied, response correctness is shown below; scoring can be adjusted to match your practice scheme.</div>
+  <div id="resultDetails"></div>
+  <div class="actions"><button id="restartBtn" class="primary">Back to setup</button><button id="downloadBtn">Export attempt JSON</button></div>
+</section>
+</main>
+
+<div class="modal-backdrop" id="submitModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal"><h2 id="modalTitle">Submit this sectional?</h2><p id="modalText">Review your attempt summary before submitting.</p><div class="summary-grid"><div class="summary-item">Answered<strong id="modalAnswered">0</strong></div><div class="summary-item">Unanswered<strong id="modalUnanswered">0</strong></div><div class="summary-item">Marked for review<strong id="modalReview">0</strong></div><div class="summary-item">Not visited<strong id="modalNotVisited">0</strong></div></div><div class="actions"><button id="cancelSubmit">Continue test</button><button id="confirmSubmit" class="danger">Submit test</button></div></div>
+</div>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const DEMO = {
+ VARC:[
+  {id:"V1",type:"MCQ",passage:"Reading passage (demo): The value of a public institution cannot be measured only by the speed with which it delivers a service. It must also be judged by whether its procedures are transparent, whether citizens can challenge decisions, and whether its benefits are distributed fairly. Efficiency matters, but efficiency without accountability can make an institution effective at doing the wrong thing.",question:"Which option best captures the central argument of the passage?",options:["Public institutions should prioritise speed above all else.","Efficiency is useful, but institutions also need transparency, accountability and fairness.","Citizens should be allowed to make every administrative decision.","Public institutions are inherently inefficient."],answer:1},
+  {id:"V2",type:"MCQ",passage:"Reading passage (demo): The value of a public institution cannot be measured only by the speed with which it delivers a service. It must also be judged by whether its procedures are transparent, whether citizens can challenge decisions, and whether its benefits are distributed fairly. Efficiency matters, but efficiency without accountability can make an institution effective at doing the wrong thing.",question:"The phrase “effective at doing the wrong thing” most strongly suggests that:",options:["efficiency guarantees fair outcomes.","an efficient process can still produce undesirable outcomes.","accountability always slows institutions down.","institutions should avoid measurable goals."],answer:1},
+  {id:"V3",type:"TITA",question:"(Demo TITA) Enter the word that means the quality of being answerable for decisions.",answer:"accountability"},
+  {id:"V4",type:"MCQ",question:"Choose the sentence that is grammatically correct.",options:["Neither of the reports were complete.","Neither of the reports was complete.","Neither reports was complete.","Neither of reports were complete."],answer:1}
+ ],
+ DILR:[
+  {id:"D1",type:"MCQ",passage:"DI set (demo): A club has 120 members. 60 play chess, 55 play badminton and 40 play both. Assume every member plays at least one of these two games.",question:"How many members play only chess?",options:["20","35","40","60"],answer:1},
+  {id:"D2",type:"MCQ",passage:"DI set (demo): A club has 120 members. 60 play chess, 55 play badminton and 40 play both. Assume every member plays at least one of these two games.",question:"How many members play at least one game, based on the stated counts?",options:["75","95","120","155"],answer:1},
+  {id:"D3",type:"TITA",question:"(Demo TITA) If a value increases from 80 to 100, what is the percentage increase? Enter the number only.",answer:"25"},
+  {id:"D4",type:"MCQ",question:"Four people P, Q, R and S sit in a row. P is left of Q, R is right of Q, and S is left of P. Who is at the far left?",options:["P","Q","R","S"],answer:3}
+ ],
+ QA:[
+  {id:"Q1",type:"MCQ",question:"If 3x + 5 = 26, what is x?",options:["5","6","7","8"],answer:2},
+  {id:"Q2",type:"TITA",question:"A number is increased by 20% and becomes 72. What was the original number? Enter the number.",answer:"60"},
+  {id:"Q3",type:"MCQ",question:"The average of 4, 8, 10 and x is 9. Find x.",options:["12","13","14","15"],answer:2},
+  {id:"Q4",type:"MCQ",question:"A train travels 150 km in 2.5 hours. What is its average speed?",options:["50 km/h","55 km/h","60 km/h","65 km/h"],answer:2}
+ ]
+};
+let questions=[], states=[], current=0, remaining=2400, totalSeconds=2400, interval=null, lastTick=0, startedAt=0, finishedAt=0, submitted=false, sourceData={};
+function formatTime(sec){sec=Math.max(0,Math.floor(sec));return String(Math.floor(sec/60)).padStart(2,"0")+":"+String(sec%60).padStart(2,"0")}
+function activeState(){return states[current]}
+function getAnswer(q){return q.type==="TITA" ? (activeState().responseText||"").trim() : activeState().selected}
+function hasAnswer(i){let s=states[i];return s && (s.selected!==null || (s.responseText||"").trim()!=="")}
+function status(i){const s=states[i];if(s.review&&hasAnswer(i))return "ansreview";if(s.review)return "review";if(hasAnswer(i))return "answered";if(s.visited)return "skipped";return "notvisited"}
+function statusLabel(s){return ({ansreview:"Answered & Marked for Review",review:"Marked for Review",answered:"Answered",skipped:"Not Answered",notvisited:"Not Visited"})[s]}
+function parseInput(){
+ const raw=$("jsonInput").value.trim(); if(!raw)return JSON.parse(JSON.stringify(DEMO));
+ let data;try{data=JSON.parse(raw)}catch(e){throw new Error("The question data is not valid JSON: "+e.message)}
+ if(Array.isArray(data)) data={[ $("sectionSelect").value ]:data};
+ if(!data||typeof data!=="object")throw new Error("Data must be an object with VARC, DILR and QA arrays, or an array of questions.");
+ const out={VARC:[],DILR:[],QA:[]};
+ for(const key of Object.keys(out)){
+  const arr=data[key]||data[key==="QA"?"Quantitative Aptitude":key]||[];
+  if(!Array.isArray(arr))throw new Error(key+" must be an array.");
+  out[key]=arr.map((q,i)=>{
+   if(!q||typeof q.question!=="string")throw new Error(key+" question "+(i+1)+" needs a question string.");
+   const type=String(q.type||((Array.isArray(q.options)&&q.options.length)?"MCQ":"TITA")).toUpperCase();
+   if(type==="MCQ"&&(!Array.isArray(q.options)||q.options.length<2))throw new Error(key+" question "+(i+1)+" is MCQ but has fewer than two options.");
+   return {...q,id:String(q.id||key+(i+1)),type:type==="TITA"?"TITA":"MCQ"};
+  });
+ }
+ return out;
+}
+function startTest(){
+ let data;try{data=parseInput()}catch(e){$("setupMessage").textContent=e.message;return}
+ const section=$("sectionSelect").value;questions=data[section]||[];
+ if(!questions.length){$("setupMessage").textContent="No questions found for "+section+". Add questions to that section or load the demo questions.";return}
+ sourceData=data;current=0;totalSeconds=Number($("durationSelect").value)*60;remaining=totalSeconds;submitted=false;startedAt=Date.now();finishedAt=0;
+ states=questions.map(()=>({visited:false,selected:null,responseText:"",review:false,seconds:0,lastEntered:0}));
+ $("setupScreen").style.display="none";$("resultScreen").style.display="none";$("testScreen").style.display="block";
+ $("headerSection").textContent=section;$("headerClock").textContent=formatTime(remaining);
+ $("sectionTitle").textContent=section==="VARC"?"VARC — Verbal Ability & Reading Comprehension":section==="DILR"?"DILR — Data Interpretation & Logical Reasoning":"Quantitative Aptitude";
+ $("sectionSubtitle").textContent=questions.length+" questions · "+(totalSeconds/60)+" minutes";
+ current=0;enterQuestion(0);renderPalette();updateStats();updateTimer();
+ clearInterval(interval);lastTick=Date.now();interval=setInterval(tick,250);
+}
+function enterQuestion(i){
+ if(i<0||i>=questions.length)return;
+ const now=Date.now(); if(states[current]&&states[current].lastEntered)states[current].seconds+=(now-states[current].lastEntered)/1000;
+ current=i;states[current].visited=true;states[current].lastEntered=now;renderQuestion();renderPalette();updateStats();
+}
+function renderQuestion(){
+ const q=questions[current],s=states[current];$("questionLabel").textContent="Question "+(current+1)+" of "+questions.length;$("questionTime").textContent="Time on question: "+formatTime(s.seconds);
+ let html="";
+ if(q.passage)html+='<div class="passage">'+escapeHtml(q.passage)+'</div>';
+ html+='<div class="q-text">'+escapeHtml(q.question)+'</div>';
+ if(q.type==="MCQ"){
+  html+='<div class="options">'+q.options.map((o,i)=>'<label class="option '+(s.selected===i?'selected':'')+'"><input type="radio" name="answer" value="'+i+'" '+(s.selected===i?'checked':'')+'><span><strong>'+String.fromCharCode(65+i)+'.</strong> '+escapeHtml(String(o))+'</span></label>').join("")+'</div>';
+ }else{
+  html+='<div class="answer-input"><label for="titaAnswer"><strong>Your answer</strong></label><input id="titaAnswer" type="text" autocomplete="off" placeholder="Type your answer" value="'+escapeAttr(s.responseText)+'"></div>';
+ }
+ $("questionBody").innerHTML=html;
+ $("questionBody").querySelectorAll('input[name="answer"]').forEach(el=>el.addEventListener("change",e=>{s.selected=Number(e.target.value);renderQuestion();renderPalette();updateStats()}));
+ const ti=$("titaAnswer");if(ti)ti.addEventListener("input",e=>{s.responseText=e.target.value;renderPalette();updateStats()});
+ $("prevBtn").disabled=current===0;$("nextBtn").textContent=current===questions.length-1?"Save Response":"Save & Next →";
+ $("reviewBtn").textContent=s.review?"Unmark Review":"Mark for Review";
+}
+function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function escapeAttr(v){return escapeHtml(v).replace(/`/g,"&#96;")}
+function renderPalette(){
+ $("questionGrid").innerHTML=questions.map((q,i)=>'<button class="qnum '+status(i)+' '+(i===current?'current':'')+'" title="Question '+(i+1)+': '+statusLabel(status(i))+'" data-index="'+i+'">'+(i+1)+'</button>').join("");
+ $("questionGrid").querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>enterQuestion(Number(b.dataset.index))));
+}
+function updateStats(){
+ const counts={answered:0,skipped:0,review:0,notvisited:0};
+ states.forEach((s,i)=>{const st=status(i);if(hasAnswer(i))counts.answered++;if(st==="skipped")counts.skipped++;if(s.review)counts.review++;if(!s.visited)counts.notvisited++});
+ $("answeredCount").textContent=counts.answered;$("unansweredCount").textContent=counts.skipped;$("reviewCount").textContent=counts.review;$("notVisitedCount").textContent=counts.notvisited;
+ $("questionTime").textContent="Time on question: "+formatTime(states[current].seconds+(Date.now()-states[current].lastEntered)/1000);
+}
+function updateTimer(){
+ $("timer").textContent=formatTime(remaining);$("headerClock").textContent=formatTime(remaining);
+ $("timer").classList.toggle("warning",remaining<=300);
+ $("timeProgress").style.width=(remaining/totalSeconds*100)+"%";
+}
+function tick(){
+ const now=Date.now();const delta=(now-lastTick)/1000;lastTick=now;remaining=Math.max(0,remaining-delta);
+ updateTimer();updateStats();
+ if(remaining<=0){clearInterval(interval);finishTest(true)}
+}
+function next(){if(current<questions.length-1)enterQuestion(current+1);else openSubmitModal()}
+function prev(){if(current>0)enterQuestion(current-1)}
+function clearResponse(){states[current].selected=null;states[current].responseText="";renderQuestion();renderPalette();updateStats()}
+function toggleReview(){states[current].review=!states[current].review;renderQuestion();renderPalette();updateStats()}
+function openSubmitModal(){
+ const ans=states.filter((s,i)=>hasAnswer(i)).length,rev=states.filter(s=>s.review).length,nv=states.filter(s=>!s.visited).length,un=states.length-ans;
+ $("modalAnswered").textContent=ans;$("modalUnanswered").textContent=un;$("modalReview").textContent=rev;$("modalNotVisited").textContent=nv;
+ $("modalText").textContent=remaining<=0?"Time is up. Your test will be submitted.":"You can continue the test or submit now. Submitted tests cannot be resumed.";
+ $("cancelSubmit").style.display=remaining<=0?"none":"inline-block";$("submitModal").style.display="flex";
+}
+function finishTest(auto=false){
+ if(submitted)return;submitted=true;clearInterval(interval);finishedAt=Date.now();
+ if(states[current]&&states[current].lastEntered){states[current].seconds+=(Date.now()-states[current].lastEntered)/1000;states[current].lastEntered=0}
+ $("submitModal").style.display="none";$("testScreen").style.display="none";$("resultScreen").style.display="block";
+ const answered=states.filter((s,i)=>hasAnswer(i)).length,review=states.filter(s=>s.review).length;
+ $("resultSubtitle").textContent=$("headerSection").textContent+" · "+(auto?"Automatically submitted because time ran out.":"Submitted by you.")+" · "+questions.length+" questions";
+ $("resAnswered").textContent=answered;$("resUnanswered").textContent=questions.length-answered;$("resReview").textContent=review;$("resTime").textContent=formatTime(totalSeconds-remaining);
+ let correct=0,known=0;
+ const rows=questions.map((q,i)=>{
+  const s=states[i],user=hasAnswer(i)?(q.type==="MCQ"?String.fromCharCode(65+s.selected)+". "+String(q.options[s.selected]):s.responseText):"—";
+  let key="Not provided",verdict="—";
+  if(q.answer!==undefined&&q.answer!==null){
+   known++;key=q.type==="MCQ"?(Number.isInteger(q.answer)?String.fromCharCode(65+q.answer)+". "+String(q.options[q.answer]??""):String(q.answer)):String(q.answer);
+   const isCorrect=q.type==="MCQ"?s.selected===Number(q.answer):String(s.responseText).trim().toLowerCase()===String(q.answer).trim().toLowerCase();
+   verdict=hasAnswer(i)?(isCorrect?"Correct":"Incorrect"):"Unanswered";if(isCorrect)correct++;
+  }
+  return {id:q.id,question:q.question,response:user,answer:key,result:verdict,time_seconds:Math.round(s.seconds),status:statusLabel(status(i))};
+ });
+ let table='<table><thead><tr><th>Q</th><th>Your response</th><th>Answer key</th><th>Result</th><th>Time</th><th>Status</th></tr></thead><tbody>';
+ rows.forEach((r,i)=>table+='<tr><td>'+(i+1)+'</td><td>'+escapeHtml(r.response)+'</td><td>'+escapeHtml(r.answer)+'</td><td>'+escapeHtml(r.result)+'</td><td>'+formatTime(r.time_seconds)+'</td><td>'+escapeHtml(r.status)+'</td></tr>');
+ table+='</tbody></table>';
+ if(known>0)table='<p><strong>Correct answers:</strong> '+correct+' of '+known+' questions with answer keys. No score is calculated because marking rules have not been configured.</p>'+table;
+ $("resultDetails").innerHTML=table;
+ window.lastAttempt={section:$("headerSection").textContent,started_at:new Date(startedAt).toISOString(),submitted_at:new Date(finishedAt).toISOString(),duration_seconds:totalSeconds,remaining_seconds:remaining,questions:rows};
+}
+$("startBtn").addEventListener("click",startTest);
+$("loadDemoBtn").addEventListener("click",()=>{$("jsonInput").value=JSON.stringify(DEMO,null,2);$("setupMessage").textContent="Demo question data loaded. Choose a section and start."});
+$("clearDataBtn").addEventListener("click",()=>{$("jsonInput").value="";$("setupMessage").textContent="Question data cleared. Starting with blank data will load the demo set."});
+$("prevBtn").addEventListener("click",prev);$("nextBtn").addEventListener("click",next);$("clearBtn").addEventListener("click",clearResponse);$("reviewBtn").addEventListener("click",toggleReview);$("submitBtn").addEventListener("click",openSubmitModal);
+$("cancelSubmit").addEventListener("click",()=>$("submitModal").style.display="none");$("confirmSubmit").addEventListener("click",()=>finishTest(false));
+$("restartBtn").addEventListener("click",()=>{clearInterval(interval);$("resultScreen").style.display="none";$("setupScreen").style.display="block";$("testScreen").style.display="none";$("headerSection").textContent="Practice mode";$("headerClock").textContent="40:00";$("setupMessage").textContent="Attempt saved in the summary above only. Start a new sectional whenever you're ready."});
+$("downloadBtn").addEventListener("click",()=>{const blob=new Blob([JSON.stringify(window.lastAttempt,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="cat-sectional-attempt.json";a.click();URL.revokeObjectURL(url)});
+document.addEventListener("keydown",e=>{if($("testScreen").style.display!=="block"||$("submitModal").style.display==="flex")return;if(e.key==="ArrowRight"&&!e.target.matches("input"))next();if(e.key==="ArrowLeft"&&!e.target.matches("input"))prev()});
+</script>
+</body>
+</html>

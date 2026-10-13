@@ -5,10 +5,10 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
  await page.click('[data-split="ims-simcat-2-2026"]');await page.selectOption('#splitCode','DILR');
  const dp=page.waitForEvent('download');await page.click('[data-split-export]');const download=await dp;await download.saveAs('test-results/separated-dilr.json');
  const extracted=JSON.parse(fs.readFileSync('test-results/separated-dilr.json'));assert.equal(extracted.sections.length,1);assert.equal(extracted.sections[0].code,'DILR');
- await page.fill('#splitTitle','Separated SimCAT DILR');await page.click('[data-split-save]');await page.waitForFunction(()=>document.querySelectorAll('.card').length===5);
+ await page.fill('#splitTitle','Separated SimCAT DILR');await page.click('[data-split-save]');await page.waitForFunction(()=>document.querySelectorAll('.card').length===7);
  await page.click('[data-action="compose"]');await page.fill('#mockTitle','Real custom mock');
  await page.selectOption('#composeVARC','ims-simcat-2-2026');await page.selectOption('#composeDILR','ims-dilr-section-1-2026');await page.selectOption('#composeQA','ims-simcat-2-2026');
- await page.screenshot({path:'test-results/custom-mock-builder.png',fullPage:true});await page.click('[data-action="create-mock"]');await page.waitForFunction(()=>document.querySelectorAll('.card').length===6);
+ await page.screenshot({path:'test-results/custom-mock-builder.png',fullPage:true});await page.click('[data-action="create-mock"]');await page.waitForFunction(()=>document.querySelectorAll('.card').length===8);
  const custom=await page.evaluate(async()=>{const t=(await Store.all('tests')).find(t=>t.title==='Real custom mock');return {t,counts:t.sections.map(s=>CAT.flatten(s).length)};});assert.deepEqual(custom.counts,[24,22,22]);assert.equal(custom.t.testType,'full');assert.ok(custom.t.assets['DILR-hockey-table']);
  await page.screenshot({path:'test-results/new-test-library.png',fullPage:true});
  await page.click('[data-start="ims-simcat-2-2026"]');await page.selectOption('#startMode','DILR');await page.check('#ready');await page.click('#beginBtn');await page.waitForSelector('.exam-header');assert.equal(await page.locator('#palette button').count(),22);assert.match(await page.textContent('#main'),/musical instruments/);

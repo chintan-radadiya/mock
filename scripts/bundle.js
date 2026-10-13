@@ -25,8 +25,8 @@ const demo = {
     ] }
   ]
 };
-const real = ['varc-section-6','dilr-section-1','simcat-2'].map(name => CAT.validate(JSON.parse(fs.readFileSync('samples/'+name+'.json','utf8'))));
+const real = ['varc-section-6','dilr-section-1','simcat-2','simcat-3','take-home-1'].map(name => CAT.validate(JSON.parse(fs.readFileSync('samples/'+name+'.json','utf8'))));
 CAT.validate(demo);
 fs.writeFileSync('samples/sample-full-mock.json', JSON.stringify(demo, null, 2));
 fs.writeFileSync('app/data.js', 'window.DEMO_TEST = ' + JSON.stringify(demo) + ';\nwindow.BUNDLED_TESTS = ' + JSON.stringify([...real,demo]) + ';\n');
-console.log('Bundled three imported tests and original three-section demo.');
+console.log('Bundled ' + real.length + ' imported tests and original three-section demo.');

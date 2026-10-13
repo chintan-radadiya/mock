@@ -1,4 +1,27 @@
 const {test}=require('node:test');const assert=require('node:assert/strict');const CAT=require('../app/core');const A=require('../app/analysis');const fs=require('node:fs');const t=JSON.parse(fs.readFileSync('samples/varc-section-6.json'));const mock=JSON.parse(fs.readFileSync('samples/sample-full-mock.json'));
+test('October full mocks preserve complete sections, source scorecards and original figures',()=>{
+ for(const [name,score,attempted,sectionScores,sets] of [['simcat-3',20,23,[13,2,5],[4,5,5,4,4]],['take-home-1',22,18,[17,3,2],[5,4,5,4,4]]]){
+  const t=CAT.validate(JSON.parse(fs.readFileSync('samples/'+name+'.json'))),r=A.build(null,t,true);
+  assert.deepEqual(t.sections.map(s=>CAT.flatten(s).length),[24,22,22]);
+  assert.deepEqual(t.sections[1].groups.map(g=>g.questions.length),sets);
+  assert.equal(t.sections[0].groups.filter(g=>g.questions.length===4).length,4);
+  assert.equal(r.score,score);assert.equal(r.attempted,attempted);assert.equal(r.correct,9);
+  assert.deepEqual(r.areas.filter(a=>a.depth===1).map(a=>a.score),sectionScores);
+  for(const s of t.sections)assert.deepEqual(CAT.flatten(s).map(q=>q.sourceNumber),Array.from({length:CAT.flatten(s).length},(_,i)=>i+1));
+  const a=CAT.createAttempt(t,{mode:'full',shuffle:true},1000,'test-'+name);
+  assert.equal(a.snapshot.sourceAnalysis,undefined);assert.equal(A.build(a,t).score,0);
+  for(const s of t.sections)assert.deepEqual(a.snapshot.sections.find(x=>x.code===s.code).groups.map(g=>g.questions.map(q=>q.id)).sort(),s.groups.map(g=>g.questions.map(q=>q.id)).sort());
+  const split=CAT.extractSection(t,'DILR','split-'+name,'DILR');assert.deepEqual(split.sections[0],t.sections[1]);assert.equal(split.sourceAnalysis,undefined);
+  const graphs=Object.entries(t.assets).filter(([,a])=>a.alt.includes('graph'));assert.ok(graphs.length);
+  for(const [key,a] of graphs){assert.match(a.data,/^data:image\/png;base64,/);assert.ok(split.assets[key]);assert.doesNotMatch(a.alt,/\d/);}
+ }
+ const s=require('../samples/simcat-3.json'),t=require('../samples/take-home-1.json');
+ assert.doesNotMatch(s.sections[1].groups[4].stimulus,/35%|25%|10%/);
+ assert.doesNotMatch(t.sections[1].groups[1].stimulus,/\(p%\)|\(q%\)|\(r%\)/);
+ assert.match(t.sections[0].groups[3].stimulus,/discovery of a never-before-seen human relative/);
+ assert.equal(CAT.flatten(s.sections[2])[4].answer[0],'1540');
+ assert.match(CAT.flatten(s.sections[2])[4].prompt,/x ≥ 1/);
+});
 test('screenshot totals and selection matrix reconcile exactly',()=>{const r=A.build(null,CAT.validate(t),true);assert.equal(r.score,1);assert.equal(r.count,24);assert.equal(r.attempted,15);assert.equal(r.correct,3);assert.equal(r.accuracy,20);assert.equal(r.viewedMs,2387000);assert.deepEqual(r.selection[0].cells.map(c=>[c.correct,c.incorrect,c.skipped]),[[2,4,2],[0,6,7],[1,2,0]]);assert.deepEqual(r.areas.filter(a=>a.depth===2).map(a=>[a.count,a.score,a.correct]),[[16,0,2],[8,1,1]]);});
 test('new attempts do not inherit source results or percentiles',()=>{const a=CAT.createAttempt(t,{mode:'sectional',section:'VARC'},1000,'a');const r=A.build(a,t);assert.equal(r.score,0);assert.equal(r.attempted,0);assert.equal(r.sourceAnalysis,null);assert.equal(r.accuracy,null);assert.equal(r.timePerAttemptMs,null);assert.equal(a.snapshot.sourceAnalysis,undefined);});
 test('historic metadata enriches only unchanged questions',()=>{const a=CAT.createAttempt(t,{mode:'sectional',section:'VARC',shuffle:true},1000,'a');for(const g of a.snapshot.sections[0].groups)for(const q of g.questions){delete q.benchmark;delete q.selectionCategory;}const r=A.build(a,t);assert.ok(r.rows.every(q=>q.benchmark));a.snapshot.sections[0].groups[0].questions[0].prompt+=' changed';assert.equal(A.build(a,t).rows[0].benchmark,undefined);});

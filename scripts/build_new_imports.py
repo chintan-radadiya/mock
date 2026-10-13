@@ -144,6 +144,7 @@ def build(d,tid,title,full):
 
 dilr=build('dilr-sectional-1','ims-dilr-section-1-2026','DILR Section Test 1 · 2026',False)
 mock=build('simcat-2','ims-simcat-2-2026','SimCAT 2 · 2026',True)
+mock['revision']=2
 
 # Tables checked visually against original screenshots; retain actual chart/table crops too.
 dg=dilr['sections'][0]['groups'];mg=mock['sections'][1]['groups']
@@ -155,12 +156,7 @@ s=mg[1]['stimulus'];a=s.index('Processing Plant');b=s.index('Additional Informat
 mg[1]['stimulus']=s[:a].rstrip()+'\n\nProcessing plant | Plastic content (% of total raw material) | Processing loss (% of total raw material)\nAlpha | 40% | 20%\nBeta | 30% | 25%\nGamma | 50% | 10%\nDelta | 25% | 20%\n\n'+s[b:]
 mg[1]['stimulus']=mg[1]['stimulus'].replace('Tota/', 'Total').replace('tosum','to sum').replace('non-plasticraw','non-plastic raw').replace('6.1n','6. In')
 s=mg[3]['stimulus'];a=s.index('35');b=s.index('The following facts',a)
-mg[3]['stimulus']=s[:a]+'''Fresh admissions (bar graph):
-Class VII in 2022: 32
-Class VIII in 2023: 25
-Class IX in 2024: 20
-
-Number of fresh-admission students who later failed and could not be promoted:
+mg[3]['stimulus']=s[:a]+'''Number of fresh-admission students who later failed and could not be promoted:
 Admission cohort | To class VIII | To class IX | To class X
 Class VII in 2022 | 5 | 2 | 0
 Class VIII in 2023 | — | 5 | 2
@@ -177,7 +173,7 @@ def add_asset(t,g,d,n,box,key,alt):
 add_asset(dilr,dg[1],'dilr-sectional-1',24,(49,361,385,488),'spanish-scores','Original Spanish game score table; the values are also transcribed above.')
 add_asset(dilr,dg[2],'dilr-sectional-1',31,(57,475,605,615),'hockey-table','Original hockey tournament table; the values are also transcribed above.')
 add_asset(mock,mg[1],'simcat-2',74,(38,405,423,480),'eco-blocks-table','Original processing-plant table; the values are also transcribed above.')
-add_asset(mock,mg[3],'simcat-2',82,(38,393,317,553),'school-admissions-chart','Fresh admissions: Class VII 2022, 32; Class VIII 2023, 25; Class IX 2024, 20.')
+add_asset(mock,mg[3],'simcat-2',82,(38,393,317,553),'school-admissions-chart','Original fresh-admissions bar graph from the supplied question image.')
 add_asset(mock,mg[3],'simcat-2',82,(38,600,423,697),'school-failures-table','Original table of fresh-admission students failing promotion; the values are transcribed above.')
 
 for name,t in [('dilr-section-1.json',dilr),('simcat-2.json',mock)]:

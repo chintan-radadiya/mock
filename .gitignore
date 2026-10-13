@@ -3,3 +3,4 @@ source-images/
 extraction/
 test-results/
 *.zip
+__pycache__/

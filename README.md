@@ -74,6 +74,8 @@ TITA questions omit `options` and use `"type": "TITA", "answer": ["42"]`. Each s
 
 Use Unicode for mathematical notation. Diagrams, complex tables and equations can use embedded images. Attach `assetIds` to a group or question and define assets at the root: `"assets": {"figure-1": {"alt": "Description", "data": "data:image/png;base64,..."}}`. Only embedded PNG, JPEG and WebP images are accepted. Arbitrary HTML and scripts are displayed as text; external image URLs are rejected. The import UI limits JSON files to 30 MB.
 
+For DILR graphs/charts, use only a legible crop of the original source image, preserving axes, legends, labels and units. Embed it as an asset on the relevant set (or question). Do not transcribe graph values into the stimulus or alt text, convert the graph to a table, or recreate it using HTML, SVG, canvas or another visualization. Keep the surrounding set instructions, conditions, questions and options as text. Use a short descriptive alt label without extracted values. If the source graph is unreadable, request a clearer image instead of reconstructing it. Apply this rule to both sectionals and full mocks, including question review.
+
 The previous prototype's unversioned arrays are not this import format. Timing and scoring are fixed application rules; importing different duration/scoring fields does not change them. Small papers are supported and shown with their actual question count, but still run for 40 minutes per section.
 
 ## Development and verification
@@ -118,3 +120,11 @@ To reuse a full mock:
 - Use **Build a full mock** to select VARC, DILR and QA independently from any sectional or full mock. For example, SimCAT 2 VARC + DILR Sectional 1 + SimCAT 2 QA. Sets, answer keys, assets and benchmarks are copied without changing source tests or past attempts.
 
 Rebuild the reviewed new imports with `python scripts/build_new_imports.py`, then `node scripts/bundle.js`. The OCR intermediates in `extraction` are local extraction aids. `npm run test:new-imports` checks section extraction, download, mixed-source composition, real DILR content, embedded images and analytics in Chrome with the local server running.
+
+## SimCAT 3 and Take Home 1
+
+`samples/simcat-3.json` and `samples/take-home-1.json` are standalone full-mock imports from the supplied ZIPs. Take Home 1 is labelled SimCAT 101 in its source screenshots. Each contains 24 VARC, 22 DILR and 22 QA questions, four intact RC passages, five intact DILR sets, answer keys, and source benchmarks. DILR graphs and diagrams use cropped original images only; tables and the QA geometry figure are embedded too. The files work with section extraction and the custom-mock builder.
+
+Each file includes a separate original-attempt analysis, with the supplied question outcomes and times. SimCAT 3 reconciles to 20 marks (13 VARC, 2 DILR, 5 QA); Take Home 1 reconciles to 22 marks (17 VARC, 3 DILR, 2 QA). Source percentiles and reference values are retained only from the supplied screenshots and are never assigned to a new attempt. Provider question times are preserved even where their total differs from a strict 40-minute section.
+
+Import either JSON on an existing hosted dashboard, or refresh the updated local app to load both bundled tests. Rebuild reviewed data using `python scripts/build_oct13_imports.py` and `node scripts/bundle.js`; this requires the local extraction intermediates. Run `npm test` and, with the local server running, `node tests/oct13-imports.cjs` for browser verification.
