@@ -145,3 +145,27 @@ Take Home 3 (SimCAT 103) is available as `samples/take-home-3.json` and in the b
 Take Home 5 (SimCAT 105) is available as `samples/take-home-5.json` and in the bundled library, with all 68 questions, supplied analysis and original figures. The six previously hidden DILR answers (1-4 and 21-22) are verified from the follow-up screenshots. Its source attempt reconciles to 47 marks (40 VARC, -1 DILR, 8 QA), with 43 attempts and 18 correct answers. All three sections can be extracted and reused in custom mocks.
 
 For both QA and DILR, figures must be original image crops. Extract surrounding questions/options as text, but do not redraw diagrams, generate SVG/charts, or substitute figure labels/data for the original figure. Crop out answers, selections, browser chrome and unrelated controls.
+
+## Take Home 4 (SimCAT 104)
+
+`samples/take-home-4.json` is imported from `TakeHome 4 DONE.zip` and included in the bundled library. It contains 24 VARC, 22 DILR and 22 QA questions, four RC passages, five intact DILR sets and all 68 verified answer keys. Nine original image assets preserve the DILR figures/tables, admission-call graphs, QA geometry figures and logarithmic expression. The whole-set screenshot supplies the complete admission-call conditions. Sections can be extracted for sectionals and custom mocks.
+
+The ZIP has no separate scorecard. Only 26 questions show both original outcomes and timings: VARC 1–16 and DILR 6–12, 14, 16–17. Source analysis explicitly covers that subset (18 marks), not a full-mock score. Visible benchmarks and categories are retained where supplied; unavailable percentiles, timings and p-values are omitted. Missing source results are excluded from totals. New attempts receive complete analysis for every question.
+
+Rebuild with `python scripts/build_takehome4_import.py` and `node scripts/bundle.js` after preparing the local extraction intermediates.
+
+## Take Home 6 (SimCAT 106)
+
+`samples/take-home-6.json` is imported from `TakeHome 6 DONE.zip` and bundled in the library. It contains 24 VARC, 22 DILR and 22 QA questions, four RC passages, five intact DILR sets, and six original image assets. Sections can be extracted for sectionals and custom mocks; shuffling preserves sets.
+
+The supplied source analysis reconciles to 45 marks (24 VARC, 14 DILR, 7 QA), 33 attempts and 18 correct answers. All 68 source outcomes/timings, supplied categories, benchmarks, percentiles and the percentile mapper are included separately from new attempts. Question timings use the question-wise analysis screenshots consistently. QA area assignments reconcile the source area times and selection matrix.
+
+Rebuild using `python scripts/build_takehome6_import.py` and `node scripts/bundle.js` with the local OCR intermediates available. Run `npm test`; browser verification uses `node tests/takehome6-import.cjs` with the app served on port 4173.
+
+## SimCAT 5
+
+`samples/simcat-5.json` is the completed 68-question import from `SimCAT 5 DONE.zip`, included in the bundled library. Follow-up screenshots confirm VARC Q20 = D and Q24 option D = Option 1. Four RC passages and five DILR sets retain their source order, and the original bonus table and QA series expression are embedded. Sections can be extracted and reused in custom mocks.
+
+Source analysis reconciles to 35 marks (30 VARC, 5 DILR, 0 QA), 20 attempts and 13 correct answers, with 68 supplied outcomes/timings. Source selection totals and area classifications are preserved; no percentile is invented. New attempts do not inherit source results.
+
+Rebuild using `python scripts/build_simcat5_import.py` and `node scripts/bundle.js` with the local OCR intermediates available. Checks: `npm test` and `node tests/simcat5-import.cjs` (local server on port 4173).

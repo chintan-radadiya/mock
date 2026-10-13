@@ -1,0 +1,2905 @@
+{
+  "schemaVersion": 1,
+  "testType": "full",
+  "id": "ims-simcat-5-2026",
+  "revision": 1,
+  "title": "SimCAT 5 · 2026",
+  "description": "68 questions, four intact RC passages, five intact DILR sets and supplied original-attempt analysis.",
+  "sections": [
+    {
+      "code": "VARC",
+      "groups": [
+        {
+          "id": "simcat-5-varc-group-1",
+          "title": "Technology and evolution",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "Which one of the following best summarises the passage?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "A",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Much like evolution, technology develops slowly through gradual variation and selection, though digital technology has accelerated and transformed the process."
+                },
+                {
+                  "id": "B",
+                  "text": "Even though people generally credit single inventors, technological change actually depends on networks of people and ideas that slowly combine and improve over time."
+                },
+                {
+                  "id": "C",
+                  "text": "New developments in biotechnology and information technology are blurring the line between nature and machines, making it possible to design new forms of life."
+                },
+                {
+                  "id": "D",
+                  "text": "From printing presses to social media, information technologies have repeatedly changed social institutions by reshaping how people communicate, think, and organize politically."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 323,
+                "topperAttemptPercent": 91.6,
+                "topperAccuracyPercent": 75.98,
+                "topperPValue": 69.6
+              }
+            },
+            {
+              "id": "simcat-5-varc-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "According to the passage, why is the success of a technology impossible to determine in advance?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "A",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Because people keep experimenting with technology by combining existing parts like chips, networks, sensors, screens, and software in new ways."
+                },
+                {
+                  "id": "B",
+                  "text": "Because technologies are built in parts, so each new version can be made by improving and rearranging older ones in countless ways."
+                },
+                {
+                  "id": "C",
+                  "text": "Because technology interacts in unexpected ways with nature, materials, society, and competition."
+                },
+                {
+                  "id": "D",
+                  "text": "Because people's creativity and desire to make things better cannot be predicted."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 68,
+                "topperAttemptPercent": 93.8,
+                "topperAccuracyPercent": 91.04,
+                "topperPValue": 85.4
+              }
+            },
+            {
+              "id": "simcat-5-varc-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "According to the author, technological evolution resembles biological evolution in all of the following ways EXCEPT that:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "A",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Both operate through processes of variation, selection, and replication that determine which designs persist over time."
+                },
+                {
+                  "id": "B",
+                  "text": "In both cases, the success of a given variation can be determined only after it interacts with its environment."
+                },
+                {
+                  "id": "C",
+                  "text": "In both domains, unsuccessful variants tend to disappear while successful ones spread and proliferate."
+                },
+                {
+                  "id": "D",
+                  "text": "Both depend on mostly random changes that create new forms producing results that no one can fully foresee in advance."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 83,
+                "topperAttemptPercent": 91.0,
+                "topperAccuracyPercent": 80.22,
+                "topperPValue": 73.0
+              }
+            },
+            {
+              "id": "simcat-5-varc-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "The passage implies all of the following about information revolutions EXCEPT that:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "A",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They change society in ways that people cannot easily predict when they first appear."
+                },
+                {
+                  "id": "B",
+                  "text": "They put pressure on social institutions to change and survive, or else fall behind."
+                },
+                {
+                  "id": "C",
+                  "text": "They deeply change how people think, feel, and live together in groups."
+                },
+                {
+                  "id": "D",
+                  "text": "They are mainly driven by deliberate attempts to redesign politics and moral values."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 68,
+                "topperAttemptPercent": 92.0,
+                "topperAccuracyPercent": 89.78,
+                "topperPValue": 82.6
+              }
+            }
+          ],
+          "stimulus": "Technological change is often described as the work of heroic inventors such as Thomas Edison or Tim Berners-Lee. In reality, it emerges through an incremental process of trial and error, shaped by networks of people working in ecosystems of innovation. Technological change is an evolutionary process, much like biological evolution. Both physical and social technologies follow evolutionary dynamics and co-evolve as physical change spurs social change, which in turn spurs further physical change.\n\nVariation in biological evolution arises from random genetic mutations and natural selection. With physical and social technologies, variation comes from human imagination and the desire to improve things. We constantly tinker with our technologies. When the smartphone was invented, it was a novel combination of existing components - computer chips, communications systems, sensors, displays and software. Likewise, the modern joint-stock company was a new combination of laws, accounting conventions, property rights and business practices. The modularity of both physical and social technologies means that each generation can build on what came before, opening up an infinite space of possible designs. Occasionally, discoveries such as fire, electricity or the laser introduce new building blocks that vastly expand this space of possibilities.\n\nAlthough technological variation is intentional, it remains Darwinian. We cannot know, at the moment a new technology is created, whether it will succeed. The usefulness of a design - whether an arrowhead, a market institution or a digital platform - can be tested only through experience. Success depends on variables too numerous to be solved in advance: the environment, the available materials, complementary tools, user behaviours and competing alternatives. Designs that work spread; those that fail disappear. The same process of variation, selection and replication shapes social technologies, from legal systems to political parties.\n\nToday, new physical technologies make it possible not only to manipulate our environments but also to alter our own biological makeup. CRISPR gene-editing tools blur the boundary between biological and technological evolution by allowing direct changes to the human germ line. Neurotechnologies can restore missing senses and augment brain function. We are even on the brink of creating life from non-living materials, designing novel living technologies. With all branches of what the philosopher Pierre Teilhard de Chardin called the “noosphere” evolving in tandem, humanity may become the first species capable of designing its own evolutionary successors, whether composed of carbon, silicon, or both.\n\nYet the most rapid evolutionary forces today come from information technology. Computing and the internet have dramatically enhanced our ability to communicate, coordinate and control. They underpin the explosive growth of both physical and social technologies, reshaping identities, institutions and behaviours. Language, writing, printing and digital networks are successive information revolutions, each transforming social orders in unpredictable ways. Who could have foreseen that Gutenberg’s press would catalyse the Reformation, the scientific revolution and democratic politics?\n\nToday's Information Revolution changes our cognition, our emotional lives, our moral values and how we organise our societies. It blurs the boundaries between humans and machines and challenges our traditional modes of governance. Algorithms make decisions once left to human judgment; platforms shape our relationships, our political choices and even our sense of self. As information technologies accelerate, they exert evolutionary pressures on social institutions, forcing them to adapt - or risk becoming obsolete."
+        },
+        {
+          "id": "simcat-5-varc-group-5",
+          "title": "Verbal ability · Q5",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2, 3, or 4 indicated in the paragraph.\n\nSentence: The quiet Lot region, far from rail lines and military targets, became a crucial refuge.\n\nParagraph: As World War II engulfed Europe, French officials launched a meticulous plan to protect the treasures of the Louvre and other national museums. __(1)__. Beginning in 1939, thousands of artworks were evacuated from Paris, coded by importance and dispersed across rural France.____(2) ___.At Chateau de Montal, the Mona Lisa and 1,300 other works were hidden under constant guard, while other chateaus sheltered masterpieces such as the Seated Scribe. Curators endured cold, damp conditions and the threat of bombing, carefully monitoring the crates and conducting fire drills. They also secretly protected looted Rothschild artworks by disguising them as state property.___(3)__. After the war, despite shortages and hardship, every artwork safeguarded in the Lot returned safely to Paris—a testament to the courage and vigilance of museum staff and local communities.___(4)__.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "C",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 4"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 97,
+                "topperAttemptPercent": 85.0,
+                "topperAccuracyPercent": 34.35,
+                "topperPValue": 29.2
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-varc-group-6",
+          "title": "Verbal ability · Q6",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage According to Foucault, governmentality, a form of power that is grounded in the management of populations, is central to modernity. The regulation of environments and human-environment relations is a particular sub-variety of contemporary governmentality. Digital media increasingly embody this role by surrounding and co-constituting human environments through pervasive networks of devices and sensors that generate vast data streams, which are continuously fed back into systems that monitor, execute, and adjust actions. Environmentality thus understood is a manifestation of power that does not target human actors and human populations directly like other forms of governmentality do. Instead, it is a regime of management and control that seizes on the relationality of humans with their environments.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "B",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "In modernity, digital media represents a form of “environmentality,” where power works not through direct control but through data-driven systems that subtly shape behavior."
+                },
+                {
+                  "id": "B",
+                  "text": "“Environmentality” is a modern expression of “governmentality,” indirectly influencing people through widespread data systems embedded in digital media."
+                },
+                {
+                  "id": "C",
+                  "text": "In modernity, “governmentality” and “environmentality” operate as modes of control that regulate people and their interaction with the environment through data-driven systems."
+                },
+                {
+                  "id": "D",
+                  "text": "Digital media enact “environmentality,” a modern form of power that governs people indirectly by managing their environmental relations through data-driven systems."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 105,
+                "topperAttemptPercent": 62.8,
+                "topperAccuracyPercent": 62.74,
+                "topperPValue": 39.4
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-varc-group-7",
+          "title": "Time and narrative",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "According to the passage, all of the following statements reflect the author’s argument about time and narrative EXCEPT:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Though time appears real and concrete, it remains deeply unstable on examination."
+                },
+                {
+                  "id": "B",
+                  "text": "Stories organize our experience of time and give it structure and meaning."
+                },
+                {
+                  "id": "C",
+                  "text": "Even when forms differ, literature presents time as orderly in a logical way."
+                },
+                {
+                  "id": "D",
+                  "text": "Mann portrays time in a way that questions the idea of steady historical progress."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 230,
+                "topperAttemptPercent": 61.6,
+                "topperAccuracyPercent": 78.57,
+                "topperPValue": 48.4
+              }
+            },
+            {
+              "id": "simcat-5-varc-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "The phrase “simultaneity of the dissimultaneous” in the context of Mrs. Dalloway most nearly implies:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Many events being packed together into a tight timeline."
+                },
+                {
+                  "id": "B",
+                  "text": "Different kinds of time being experienced at once."
+                },
+                {
+                  "id": "C",
+                  "text": "The feeling that private and public experiences happen at different times."
+                },
+                {
+                  "id": "D",
+                  "text": "Memories and history slowly coming together into a clear sequence."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 51,
+                "topperAttemptPercent": 72.6,
+                "topperAccuracyPercent": 78.79,
+                "topperPValue": 57.2
+              }
+            },
+            {
+              "id": "simcat-5-varc-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "The author disagrees with Ricoeur’s rejection of a Bergsonian reading of Proust because:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ricoeur overlooks the fact that Proust mainly uses figurative language to enrich his storytelling."
+                },
+                {
+                  "id": "B",
+                  "text": "Ricoeur fails to recognize that Proust’s novel actually follows a clear and orderly timeline."
+                },
+                {
+                  "id": "C",
+                  "text": "Ricoeur underestimates the influence of early twentieth-century industrial and technological change on Proust’s writing."
+                },
+                {
+                  "id": "D",
+                  "text": "Ricoeur misses how Proust’s novel shows a deeply personal experience of time that cannot be reduced to narrative structure."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 66,
+                "topperAttemptPercent": 66.4,
+                "topperAccuracyPercent": 88.86,
+                "topperPValue": 59.0
+              }
+            },
+            {
+              "id": "simcat-5-varc-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "“Tropes—such as metaphor, metonymy, and synecdoche—do not merely decorate narrative but make temporal experience thinkable.” Which one of the following sentences best illustrates this idea?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "“Grief is a season that returns each year, no matter how carefully one shuts the door.”"
+                },
+                {
+                  "id": "B",
+                  "text": "“The sunset spilled gold across the river, painting the sky in extravagant colour.”"
+                },
+                {
+                  "id": "C",
+                  "text": "“The story begins in winter and ends in spring, marking the passage of several months.”"
+                },
+                {
+                  "id": "D",
+                  "text": "“Her memories were described in rich and beautiful language to heighten the emotional tone.”"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214236.png",
+                "topperTimeSeconds": 50,
+                "topperAttemptPercent": 59.2,
+                "topperAccuracyPercent": 70.61,
+                "topperPValue": 41.8
+              }
+            }
+          ],
+          "stimulus": "Does time exist as an objective phenomenon, or only as something humans experience and interpret? Thinkers as varied as Aristotle, Augustine, and Henri Bergson hesitated before answering this question, noting that the past no longer exists, the future has not yet arrived, and the present vanishes as soon as it appears. In response to this paradox, Paul Ricoeur proposed that time is not primarily measured by clocks but configured through narrative. In his three-volume work Time and Narrative, Ricoeur argues that narrative gives form to temporal experience, both in historiography and in fiction.\n\nRicoeur’s analysis of fiction focuses on three so-called “novels of time”: Mrs. Dalloway by Virginia Woolf, The Magic Mountain by Thomas Mann, and In Search of Lost Time by Marcel Proust. Although these works appear formally distinct, Ricoeur treats their temporal structures as variations of a single, largely homogeneous narrative time. This time, rooted in a Hegelian-romantic tradition, follows a logic of development, continuity, and eventual decline.\n\nSuch an approach, however, underestimates the diversity of temporal experiences these novels articulate. Rather than expressing a unified temporality, the three texts present at least three fundamentally different modes of time. Mann’s The Magic Mountain ironizes the romantic notion of historical rise and fall by staging time as both suspended and exaggerated within the isolated space of a sanatorium. Woolf’s Mrs. Dalloway constructs what may be called the “simultaneity of the dissimultaneous,’ where private memory, social routine, and historical trauma unfold at once within a single day. Proust’s novel, finally, reveals a deeply heterogeneous time grounded in memory, in which past and present collapse into one another. Ricoeur explicitly rejects a Bergsonian reading of Proust, yet this dismissal obscures what is most distinctive about Proustian temporality. Henri Bergson defended a concept of duration in which time is qualitative, uneven, and irreducible to chronology. In In Search of Lost Time, involuntary memory reveals precisely such a duration, one in which temporal boundaries dissolve. Here, time is not produced by narrative structure but disclosed through experience.\n\nThis difference points to a deeper methodological disagreement. For Ricoeur, narrative emplotment produces time; temporality is the outcome of storytelling. An alternative view holds that time is first experienced, then rendered intelligible through figurative language, and only later organized into narrative form. Tropes—such as metaphor, metonymy, and synecdoche —do not merely decorate narrative but make temporal experience thinkable. In this sense, figurative language reveals time before it is narrated.\n\nSuch an approach also invites historical context. The early twentieth century saw radical changes in how time was perceived, driven by industrialization, new technologies, and war. Thinkers and artists challenged the idea of uniform, linear time. In this setting, Woolf, Mann, and Proust do not follow a single narrative temporality but resist it, each offering a distinct response to temporal instability.\n\nTaken together, these novels suggest that time is not singular or uniform but composed of multiple, competing temporalities—continuous, fragmented, and recursive. Rather than merely illustrating theory, they reveal aspects of temporal experience that historiography often overlooks, showing that narrative is both a literary form and a way of thinking through time."
+        },
+        {
+          "id": "simcat-5-varc-group-11",
+          "title": "Verbal ability · Q11",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q11",
+              "sourceNumber": 11,
+              "type": "TITA",
+              "prompt": "Arrange the four sentences below into a coherent paragraph. Enter the sequence of the four numbers as your answer.\n\n1. Other microbes display different physical extremes: Spirostomum ambiguum contracts to half its length in milliseconds, generating powerful shock waves, and the plankton Pyrocystis noctiluca rapidly expands to regulate buoyancy during deep-water migrations.\n\n2. Science writer Amber Dance draws on research by Manu Prakash to compare extraordinary microbes to elite athletes, showing that for them, feats of speed, force and precision are matters of survival rather than sport.\n\n3. The parasite Anncaliia algerae fires a microscopic harpoon to invade host cells, illustrating how life at tiny scales obeys physical rules that may inspire future technological innovation.\n\n4. The bacterium Magnetococcus marinus can swim up to 500 body lengths per second using rotating flagella and internal magnetic crystals, while the archaeon Methanocaldococcus villosus achieves comparable speeds in extreme hydrothermal vents.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "C",
+              "answer": [
+                "2431"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 98,
+                "topperAttemptPercent": 84.6,
+                "topperAccuracyPercent": 20.8,
+                "topperPValue": 17.6
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-varc-group-12",
+          "title": "Verbal ability · Q12",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage. Human behavior can take advantage of cultural conditions and deceive others to promote one’s own interests. So, if science receives cultural authority, it should surprise no one that those seeking power or profit might try to mimic it. Indeed, the more authority we give to science, the greater the likelihood of science imposters - and the more sophisticated their deceptive tactics. Cultural anthropologist Chris Toumey likens the process to a magician’s illusions. Imitators “conjure” science, he says, “from cheap symbols and ersatz images”. It is an apt and vivid label. We could just as easily call them science con-artists. Liars. Cheats. Seeking our confidence using a semblance of science. Predictable opportunists, perhaps.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "When science holds cultural authority, pseudo-scientists exploit it for power or profit."
+                },
+                {
+                  "id": "B",
+                  "text": "The more authority science has, the more opportunists counterfeit it to deceive others."
+                },
+                {
+                  "id": "C",
+                  "text": "Science impostors imitate the symbols and methods of science for power or profit."
+                },
+                {
+                  "id": "D",
+                  "text": "Human behavior exploits cultural authority and attracts frauds, and science is just one case."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 96,
+                "topperAttemptPercent": 78.0,
+                "topperAccuracyPercent": 50.26,
+                "topperPValue": 39.2
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-varc-group-13",
+          "title": "The precautionary principle",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "All of the following are presented as features of the precautionary principle EXCEPT that it:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Works as a general guide for making decisions, not as a strict rule that tells policymakers what to do."
+                },
+                {
+                  "id": "B",
+                  "text": "Clearly puts environmental and human health concerns ahead of economic considerations."
+                },
+                {
+                  "id": "C",
+                  "text": "Applies equally to different technologies or policy choices when there is uncertainty."
+                },
+                {
+                  "id": "D",
+                  "text": "Mandates adoption of restrictive measures even when proof of risks may be missing."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 194,
+                "topperAttemptPercent": 59.2,
+                "topperAccuracyPercent": 64.86,
+                "topperPValue": 38.4
+              }
+            },
+            {
+              "id": "simcat-5-varc-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "Which one of the following best explains why the precautionary principle is described as “normative”?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It replaces scientific uncertainty with legally binding rules and dictates regulatory outcomes."
+                },
+                {
+                  "id": "B",
+                  "text": "It derives its authority mainly from ethical philosophy rather than from environmental or legal practice."
+                },
+                {
+                  "id": "C",
+                  "text": "It incorporates value judgments about risks and priorities without justification or proof."
+                },
+                {
+                  "id": "D",
+                  "text": "It reflects political preferences that conflict with the standards used in conventional risk assessment."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 61,
+                "topperAttemptPercent": 54.4,
+                "topperAccuracyPercent": 70.22,
+                "topperPValue": 38.2
+              }
+            },
+            {
+              "id": "simcat-5-varc-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "Which of the following statements, if false, would contradict the argument that “the inherently normative character of precaution renders it irrational”?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "C",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "When scientific methods are used correctly, they can completely remove personal values and bias from decisions."
+                },
+                {
+                  "id": "B",
+                  "text": "Moral principles are considered reasonable only when they match current economic priorities."
+                },
+                {
+                  "id": "C",
+                  "text": "Even methods that are seen as objective in policy making still involve value judgments and choices about how problems are framed."
+                },
+                {
+                  "id": "D",
+                  "text": "Using precaution works better than cost-benefit analysis in preventing harm from new technologies."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 43,
+                "topperAttemptPercent": 45.0,
+                "topperAccuracyPercent": 49.78,
+                "topperPValue": 22.4
+              }
+            },
+            {
+              "id": "simcat-5-varc-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "Which one of the following policy responses would the author be most likely to criticise as a misuse of the precautionary principle?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Withdrawing an already prescribed school textbook because its long-term cultural impact is uncertain, while discouraging academic rebuttal or review."
+                },
+                {
+                  "id": "B",
+                  "text": "Imposing temporary limits on the use of a new pesticide whose environmental effects remain uncertain, while comparing its risks with those of existing agricultural chemicals."
+                },
+                {
+                  "id": "C",
+                  "text": "Assessing the uncertain consequences of deploying a new energy technology alongside the uncertain environmental costs of maintaining current fossil-fuel systems."
+                },
+                {
+                  "id": "D",
+                  "text": "Publicly acknowledging that decisions about an uncertain genetically modified crop involve value judgments, and allowing disagreement over acceptable levels of environmental risk."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 39,
+                "topperAttemptPercent": 47.8,
+                "topperAccuracyPercent": 79.5,
+                "topperPValue": 38.0
+              }
+            }
+          ],
+          "stimulus": "Few issues in contemporary technology policy are as contentious as the precautionary principle. The topic features prominently in political and academic debates across multiple disciplines. Originating in the international initiatives for environmental protection in the 1970s, it first came to legal maturity in German environmental policy in the 1980s. Since then, it has been championed by environmentalists and strongly resisted by some of the industries they oppose. Its influence has extended from environmental regulation to wider policy- making, becoming a general principle of European Community law and a focus of attention in high-stakes disputes.\n\nA widely accepted formulation of it is provided by Principle 15 of the 1992 Rio Declaration: “Where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures.’ Though called “better safe than sorry,’ this expression holds specific implications. It hinges on the presence of a potential for irreversible harm and a lack of scientific certainty. It embodies a normative presumption favoring the interests of the environment and human health rather than economic interests. It refers to the reasons for action, not to the substance of possible actions, and applies in principle symmetrically to all technological or policy alternatives.\n\nAt root, the precautionary principle involves a particular normative distillation of more than a century of experience with the unexpected consequences of new knowledges and technologies. It relates closely to principles such as “prevention”, “polluter pays”, and “clean production”. Like them, it enriches appreciations of the duties of commercial firms and the responsibilities of governments. It requires more explicit and rigorous attention to the implications of incomplete knowledge than is routinely provided in conventional risk assessment. The precautionary principle has been subject to a wide array of criticisms. One concern is that it is ill-defined. How “serious” is “serious”? What exactly does “irreversible” mean? Does “full scientific certainty” ever exist? Such concerns appear valid if precaution is treated as a comprehensive rule. However, legal scholars point out that, like principles such as proportionality and cost-effectiveness, it is not a decision rule in its own right. Rather, it serves as a general guide to the development and application of more detailed complementary methods and processes.\n\nA further criticism is that the inherently normative character of precaution renders it irrational. This rests on the assumption that science-based procedures transcend normative content. Yet practical applications of risk assessment and cost-benefit analysis require evaluative judgments in setting levels of protection and balancing harms and benefits. Moreover, extensive literature shows that such methods involve divergent framings. When analysis is acknowledged to be framed by value judgments, the explicit normativity of precaution may be more, rather than less, rational.\n\nA related concern focuses on the orientation of precaution in favor of the environment. Under positions prioritizing economic competitiveness, this presumption may appear unreasonable. Yet such positions do not have a monopoly on rationality. These criticisms reflect disagreement with underlying values rather than refutation of rationality. Precaution should not be invoked to suppress deliberation, argument, or dissent.\n\nA further concern is that precaution may be used selectively to serve political or economic interests, such as protecting domestic industries or blocking technologies. Excessive reliance may also discourage innovation, highlighting the need for transparency and balanced evaluation."
+        },
+        {
+          "id": "simcat-5-varc-group-17",
+          "title": "Legal insanity in Victorian Britain",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "Which of the following did NOT add to the uncertainty about judging insanity after the M’Naghten case?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Competing theories of mind and institutional rivalries."
+                },
+                {
+                  "id": "B",
+                  "text": "Causes and diagnosis of mental illness."
+                },
+                {
+                  "id": "C",
+                  "text": "Conflict between law and medical science."
+                },
+                {
+                  "id": "D",
+                  "text": "Social biases related to class, gender, and morality."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 211,
+                "topperAttemptPercent": 74.6,
+                "topperAccuracyPercent": 79.09,
+                "topperPValue": 59.0
+              }
+            },
+            {
+              "id": "simcat-5-varc-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "All of the following may be inferred from the passage about insanity trials in Victorian Britain EXCEPT that:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Law could no longer retain final control over criminal responsibility."
+                },
+                {
+                  "id": "B",
+                  "text": "Class and gender influenced insanity judgments."
+                },
+                {
+                  "id": "C",
+                  "text": "Legal insanity is a social construct shaped by power and culture."
+                },
+                {
+                  "id": "D",
+                  "text": "Psychiatry sought authority but faced resistance from courts."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 57,
+                "topperAttemptPercent": 70.2,
+                "topperAccuracyPercent": 83.76,
+                "topperPValue": 58.8
+              }
+            },
+            {
+              "id": "simcat-5-varc-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "The passage most strongly supports the view that criminal responsibility is shaped by:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "A",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A process shaped by compromise between law, medicine, and social beliefs."
+                },
+                {
+                  "id": "B",
+                  "text": "Defeat of psychiatry over moral and legal ideas about personal responsibility."
+                },
+                {
+                  "id": "C",
+                  "text": "A clear definition of mental illness through better medical knowledge."
+                },
+                {
+                  "id": "D",
+                  "text": "Firm legal rules that protect criminal law from social and political influence."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 49,
+                "topperAttemptPercent": 67.2,
+                "topperAccuracyPercent": 94.35,
+                "topperPValue": 63.4
+              }
+            },
+            {
+              "id": "simcat-5-varc-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "The passage refers to legal insanity as a “social construct.” Choose the one option below that comes closest to the opposite of this idea.",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "selectionCategory": "B",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A legal concept shaped by experts, accepted by institutions and cultural order."
+                },
+                {
+                  "id": "B",
+                  "text": "A rule that reflects common worries about social norms and abnormal behaviour."
+                },
+                {
+                  "id": "C",
+                  "text": "An idea whose meaning changes with professional power and historical conditions."
+                },
+                {
+                  "id": "D",
+                  "text": "A biological condition requiring medical care accepted by law and society at large."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 49,
+                "topperAttemptPercent": 62.0,
+                "topperAccuracyPercent": 67.42,
+                "topperPValue": 41.8
+              }
+            }
+          ],
+          "stimulus": "In Victorian Britain, the courtroom became an unlikely arena for some of the era’s deepest debates about the human mind. Criminal trials involving pleas of insanity did not merely determine guilt or innocence; they exposed unresolved tensions between law, medicine and morality at a moment when all three were undergoing profound transformation. In Trial by Medicine, historian Roger Smith traced how legal insanity emerged not as a purely legal doctrine, but as a contested social construct shaped by professional ambition, cultural anxieties and evolving ideas about responsibility.\n\nThe nineteenth century was marked by institutional reform and growing confidence in scientific expertise. Psychiatry, then known as alienism, sought professional legitimacy, while the legal system attempted to preserve notions of rational agency essential to criminal responsibility. These ambitions collided most visibly in trials where defendants claimed insanity. Such cases became public spectacles, reported widely in the press, and transformed courtrooms into stages where rival explanations of human behavior—medical determinism and legal voluntarism—were forced into uneasy dialogue.\n\nAt the center of this history stands the 1843 case of Daniel M’Naghten, whose attempted assassination of the British prime minister led to the formulation of the M’Naghten Rules. These rules defined legal insanity in narrowly cognitive terms, asking whether a defendant knew the nature of the act or understood that it was wrong. While enormously influential—persisting in many common-law jurisdictions for nearly two centuries—the rules also hardened the boundary between legal and medical authority. Psychiatry could describe mental disturbance, but the law reserved the final judgment on responsibility.\n\nSmith showed that the aftermath of M’Naghten did not bring clarity but prolonged uncertainty. Medical experts disagreed sharply among themselves, divided by institutional loyalties and competing theories of mind. Prison doctors, asylum superintendents and courtroom specialists offered conflicting testimony, often blending speculation with claims to scientific rigor. These disputes reflected deeper philosophical uncertainties about free will, reason and moral culpability, as well as struggles for authority over who could legitimately speak about madness.\n\nCrucially, Smith situated these debates within their broader social context. Class and gender shaped how insanity was perceived and adjudicated. Female defendants, particularly in cases of infanticide, were often judged through lenses of domesticity, sexuality and poverty. Other conditions—intoxication, epilepsy, sleepwalking—further blurred the line between illness and vice. In this way, insanity trials became mirrors of Victorian moral order, revealing fears about degeneration, deviance and social control.\n\nThe persistence of these tensions was made clear in the twentieth century. The acquittal of John Hinckley Jr. in 1981 reignited public outrage and renewed calls for reform, echoing patterns Smith had identified a century earlier: expert disagreement, legal acquittal and political backlash. Despite repeated reviews and criticism, the insanity defense remains tethered to nineteenth-century concepts.\n\nSmith's work ultimately suggests that conflict between law and psychiatry is not accidental but structural. Legal standards seek clarity and stability; medical knowledge evolves and resists fixed boundaries. Trial by Medicine endures because it shows how criminal responsibility has always been negotiated at the intersection of science, culture and power—and why that negotiation remains unfinished."
+        },
+        {
+          "id": "simcat-5-varc-group-21",
+          "title": "Verbal ability · Q21",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q21",
+              "sourceNumber": 21,
+              "type": "TITA",
+              "prompt": "Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.\n\n1. When Weizenbaum, then a professor at MIT, wrote code that could mimic human language, his goal was to demonstrate technical capacity, not to illuminate human reaction to it.\n\n2. To his surprise, many users quickly attributed human understanding to the program, revealing what later became known as the “Eliza effect,” the tendency to project empathy onto machines.\n\n3. Disturbed by how easily people trusted a script that merely rearranged their own words, Weizenbaum turned into one of the earliest critics warning that computers might overstep roles requiring human judgment and wisdom.\n\n4. Joseph Weizenbaum created the chatbot Eliza in the 1960s not to simulate therapy convincingly, but to demonstrate how simple language rules could mimic conversation.\n\n5. His legacy lies not only in inventing the first chatbot but in urging society to question whether technological capability should always define what technology is allowed to do.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "C",
+              "answer": [
+                "5"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 98,
+                "topperAttemptPercent": 89.2,
+                "topperAccuracyPercent": 32.29,
+                "topperPValue": 28.8
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-varc-group-22",
+          "title": "Verbal ability · Q22",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.\n\n1. He built institutions, journals and publishing networks to preserve African American scholarship, insisting that history should serve ordinary people as much as academics.\n\n2. Having grown up in the Jim Crow South with limited access to formal schooling, Woodson believed that historical knowledge was essential to dignity and collective identity.\n\n3. He believed that if he didn’t document the chronicles of Black people and people from the African diaspora, if he didn’t write this record, that Black people wouldn't be acknowledged with their humanity.\n\n4. In 1926, historian Carter G. Woodson launched Negro History Week to challenge the widespread belief that Black people had contributed little to history and to encourage communities to study and celebrate their past.\n\n5. Over time, his weeklong observance expanded into Black History Month, a lasting legacy that continues to shape how Americans understand the nation’s shared story.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "C",
+              "answer": [
+                "2"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 79,
+                "topperAttemptPercent": 88.2,
+                "topperAccuracyPercent": 26.76,
+                "topperPValue": 23.6
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-varc-group-23",
+          "title": "Verbal ability · Q23",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q23",
+              "sourceNumber": 23,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer\n\n1. The adjective’s casual overuse to describe everyday inconveniences, trivializes and dilutes its profound existential weight.\n\n2. As critic Frederick R. Karl explains, the Kafkaesque describes a surreal condition in which one’s habitual structures of meaning and control collapse, compelling a desperate struggle against incomprehensible powers that ultimately render resistance futile.\n\n3. Although derived from a non-Anglophone writer, the word first appeared in the British magazine The New Statesman and Nation in 1940, and its contemporary resurgence demonstrates its enduring and expanding resonance in the English-speaking world.\n\n4. In the twenty-first century's third decade, the term “Kafkaesque” has come to signify far more than mere stylistic resemblance to the works of Franz Kafka, encompassing instead a pervasive sensibility rooted in disorientation, futility and oppressive, impersonal forces.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "C",
+              "answer": [
+                "4231"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 89,
+                "topperAttemptPercent": 78.6,
+                "topperAccuracyPercent": 22.65,
+                "topperPValue": 17.8
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-varc-group-24",
+          "title": "Verbal ability · Q24",
+          "questions": [
+            {
+              "id": "simcat-5-varc-q24",
+              "sourceNumber": 24,
+              "type": "MCQ",
+              "prompt": "The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2, 3, or 4 indicated in the paragraph.\n\nSentence: His project earned the $25,000 top prize at the Thermo Fisher Scientific Junior Innovators Challenge.\n\nParagraph: Fourteen-year-old Miles Wu, a student at Hunter College High School in New York City, has adapted the traditional Miura-ori origami fold to design strong, collapsible emergency shelters. ___(1)___. Inspired by natural disasters such as hurricanes and wildfires, Wu explored whether geometric folding patterns could produce structures that are sturdy, affordable and easy to deploy. ___(2)___. Using computer-designed variations of the Miura-ori pattern—originally developed by Japanese astrophysicist Koryo Miura—Wu conducted 108 strength tests on 54 folded models made from different types of paper. To his surprise, the strongest version held more than 10,000 times its own weight.___ (3) __. While scaling the design for real-world shelters requires further engineering, experts praised Wu’s innovative application of origami principles to structural design.__(4)__.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 4"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 1"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214244.png",
+                "topperTimeSeconds": 82,
+                "topperAttemptPercent": 79.2,
+                "topperAccuracyPercent": 54.8,
+                "topperPValue": 43.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DILR",
+      "groups": [
+        {
+          "id": "simcat-5-dilr-group-1",
+          "title": "Sharma family ages",
+          "questions": [
+            {
+              "id": "simcat-5-dilr-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "Suppose no family member died between 1980 and 2040. Similarly, no one was born during this time in the family. On 1st January, 2040, when each of their ages were expressed as the percentage of their total ages on the day (after rounding off to the nearest integer), the percentage figures were integers for exactly n number of family members. Find the value of n.",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "B",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1"
+                },
+                {
+                  "id": "B",
+                  "text": "2"
+                },
+                {
+                  "id": "C",
+                  "text": "3"
+                },
+                {
+                  "id": "D",
+                  "text": "4"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 260,
+                "topperAttemptPercent": 36.6,
+                "topperAccuracyPercent": 85.79,
+                "topperPValue": 31.4
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "How many of the following statements are true about the numerical value of the age of Divya on 1st January, 2013 (after rounding off to the nearest integer)? St-l: It is a composite number. St-Il: It is divisible by 3. St-Ill: It is divisible by 7.",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "C",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "0"
+                },
+                {
+                  "id": "B",
+                  "text": "1"
+                },
+                {
+                  "id": "C",
+                  "text": "2"
+                },
+                {
+                  "id": "D",
+                  "text": "3"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 45,
+                "topperAttemptPercent": 33.4,
+                "topperAccuracyPercent": 82.04,
+                "topperPValue": 27.4
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q03",
+              "sourceNumber": 3,
+              "type": "TITA",
+              "prompt": "How many of the family members’ ages as on 1st January, 2007 (after rounding off to the nearest integer) were prime numbers?",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "C",
+              "answer": [
+                "4"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 29,
+                "topperAttemptPercent": 45.2,
+                "topperAccuracyPercent": 56.19,
+                "topperPValue": 25.4
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "In how many calendar years starting from 1980 till 2020, the age of Divya is perfectly divisible by the age of Anand on 1st January of that calendar year? (Ages rounded off to the nearest integer value.)",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "C",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "0"
+                },
+                {
+                  "id": "B",
+                  "text": "1"
+                },
+                {
+                  "id": "C",
+                  "text": "2"
+                },
+                {
+                  "id": "D",
+                  "text": "More than 2"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 33,
+                "topperAttemptPercent": 30.0,
+                "topperAccuracyPercent": 75.33,
+                "topperPValue": 22.6
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q05",
+              "sourceNumber": 5,
+              "type": "TITA",
+              "prompt": "What is the difference between the ages of Anand as on 1st January, 2023 and Chetan as on 1st January, 2011? (Ages rounded off to the nearest integer value.)",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "C",
+              "answer": [
+                "0"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 30,
+                "topperAttemptPercent": 41.2,
+                "topperAccuracyPercent": 55.83,
+                "topperPValue": 23.0
+              }
+            }
+          ],
+          "stimulus": "There were five members in the Sharma family. Anand was the youngest, while Eshan was the eldest. Divya was the second eldest member of the family. The remaining two members were Bidisha and Chetan. Bidisha was younger than Chetan but older than Anand. Chetan was younger than Divya. The difference between the ages of any two members of the family is at least 2 years. On 1st January 1980, their ages were rounded off to the nearest whole number and recorded on a piece of paper. It was found that -\n\n1. The sum of their ages on 1st January 1980 was 100.\n\n2. Eshan was four times as old as Anand on 1st January 1980.\n\n3.On 1st January 2000, each member’s age, rounded off to the nearest whole number, was expressed as a percentage of the combined rounded ages of all five members. Each such percentage was an integer.\n\n4. On 1st January 2020, each member’s age, rounded off to the nearest whole number, was expressed as a percentage of the combined rounded ages of all five members. Each such percentage was an integer.\n\n5. No family member died between 1980 and 2020, and no new member was born into the family during this period."
+        },
+        {
+          "id": "simcat-5-dilr-group-6",
+          "title": "Employee bonuses",
+          "questions": [
+            {
+              "id": "simcat-5-dilr-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "What is the value of (A), the average bonus (in thousands of Rupees) of Female employees in the HR department?",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "19.5"
+                },
+                {
+                  "id": "B",
+                  "text": "20"
+                },
+                {
+                  "id": "C",
+                  "text": "21"
+                },
+                {
+                  "id": "D",
+                  "text": "21.5"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 412,
+                "topperAttemptPercent": 63.4,
+                "topperAccuracyPercent": 84.86,
+                "topperPValue": 53.8
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q07",
+              "sourceNumber": 7,
+              "type": "TITA",
+              "prompt": "What is the absolute difference between the number of Male employees in the HR department and the number of Female employees in the Tech department?",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "B",
+              "answer": [
+                "10"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 63,
+                "topperAttemptPercent": 63.8,
+                "topperAccuracyPercent": 81.19,
+                "topperPValue": 51.8
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "If the company decides to equalize the number of Male and Female employees in the HR department by hiring new Male employees, and these newly hired Male employees are given an average bonus of 12 (in thousand Rupees), what will be the new overall average bonus of the HR department?",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "16.5"
+                },
+                {
+                  "id": "B",
+                  "text": "17"
+                },
+                {
+                  "id": "C",
+                  "text": "17.2"
+                },
+                {
+                  "id": "D",
+                  "text": "17.5"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 49,
+                "topperAttemptPercent": 53.6,
+                "topperAccuracyPercent": 89.55,
+                "topperPValue": 48.0
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "Which of the following statements is definitely TRUE?",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The Tech department accounts for exactly 32% of the total employees in the company."
+                },
+                {
+                  "id": "B",
+                  "text": "The total bonus paid to Female employees in the Ops department is more than half of the total bonus paid by the entire company."
+                },
+                {
+                  "id": "C",
+                  "text": "The overall average bonus of all employees in HR and Ops combined is exactly 23."
+                },
+                {
+                  "id": "D",
+                  "text": "The number of Female employees in the Tech department is greater than the number of Male employees in the Ops department."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 47,
+                "topperAttemptPercent": 53.0,
+                "topperAccuracyPercent": 84.91,
+                "topperPValue": 45.0
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "The total bonus pool received by all Male employees in the Ops department is approximately what percentage of the total bonus pool received by all Female employees in the Tech department?",
+              "area": "Data Interpretation",
+              "topic": "Data Interpretation",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "84%"
+                },
+                {
+                  "id": "B",
+                  "text": "88%"
+                },
+                {
+                  "id": "C",
+                  "text": "92%"
+                },
+                {
+                  "id": "D",
+                  "text": "96%"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 52,
+                "topperAttemptPercent": 53.8,
+                "topperAccuracyPercent": 94.05,
+                "topperPValue": 50.6
+              }
+            }
+          ],
+          "stimulus": "A multinational company has exactly three departments: Human Resources (HR), Operations (Ops), and Technology (Tech). The employees in these departments are classified as either Male or Female. The table below displays the average annual performance bonus (in thousands of Rupees) received by Male and Female employees, as well as the overall average bonus for each department and the entire company. Some values are intentionally hidden and marked as (A) and (B).\n\nAdditional Information:\n\n• The ratio of the number of Male employees in the HR department to the number of Female employees in the Ops department is 2 : 9. • The total number of employees in the company across all three departments is 250. • The number of Male employees in the Tech department is 20 more than the number of Male employees in the Ops department.",
+          "assetIds": [
+            "s5-dilr-bonus"
+          ]
+        },
+        {
+          "id": "simcat-5-dilr-group-11",
+          "title": "Mislabelled research kits",
+          "questions": [
+            {
+              "id": "simcat-5-dilr-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "If the kits labelled SSS, CCC and MMM are opened and together contain exactly 3 Sensors, 3 Chips and 3 Modules, which of the following must be true?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The kit labelled SSC contains at least one Module."
+                },
+                {
+                  "id": "B",
+                  "text": "The kit labelled CCM contains no Module."
+                },
+                {
+                  "id": "C",
+                  "text": "The kit labelled SCM contains exactly two Chips."
+                },
+                {
+                  "id": "D",
+                  "text": "The kit labelled CCC contains exactly three Modules."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 183,
+                "topperAttemptPercent": 62.4,
+                "topperAccuracyPercent": 88.46,
+                "topperPValue": 55.2
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "If the kits labelled SSS and CCC are opened and together contain exactly 3 Sensors, 2 Chips and 1 Module, and it is also found that the kit labelled MMM contains exactly one Module, which of the following statements must be correct?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "C",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The kit labelled CCM carries all the three components of the same type."
+                },
+                {
+                  "id": "B",
+                  "text": "The kit labelled SSC carries all the three components of the same type."
+                },
+                {
+                  "id": "C",
+                  "text": "The kit labelled SCM carries all the three components of the same type."
+                },
+                {
+                  "id": "D",
+                  "text": "More than one of the above"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 104,
+                "topperAttemptPercent": 57.6,
+                "topperAccuracyPercent": 39.93,
+                "topperPValue": 23.0
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q13",
+              "sourceNumber": 13,
+              "type": "TITA",
+              "prompt": "If the kits labelled SSS and CCC are opened and together contain exactly 3 Sensors, 2 Chips and 1 Module, and it is also found that the kit labelled MMM contains exactly one Sensor, how many distinct assignments of actual compositions to the six labels are possible?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "C",
+              "answer": [
+                "4"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 68,
+                "topperAttemptPercent": 58.2,
+                "topperAccuracyPercent": 47.77,
+                "topperPValue": 27.8
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "If it is found that the kit labelled SSC contains exactly one Sensor, and the kit labelled SCM contains exactly two Chips, which of the following must be true?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The kit labelled SSS contains exactly one Module."
+                },
+                {
+                  "id": "B",
+                  "text": "The kit labelled MMM contains no Module."
+                },
+                {
+                  "id": "C",
+                  "text": "The kit labelled CCC contains exactly one Sensor."
+                },
+                {
+                  "id": "D",
+                  "text": "The kit labelled SCM contains no Module."
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 69,
+                "topperAttemptPercent": 50.6,
+                "topperAccuracyPercent": 88.93,
+                "topperPValue": 45.0
+              }
+            }
+          ],
+          "stimulus": "A research lab is testing six sealed kits. Each kit contains exactly three components, chosen from among Sensors, Chips and Modules. No two kits have the same composition. The six possible compositions are three Sensors, three Chips, three Modules, two Sensors and one Chip, two Chips and one Module, and one Sensor, one Chip and one Module. Accordingly, each of the six labels SSS, CCC, MMM, SSC, CCM and SCM is used on exactly one kit. However, owing to a labelling error, no kit carries the label that correctly describes its actual contents; instead, each kit carries the label meant for one of the other five kits."
+        },
+        {
+          "id": "simcat-5-dilr-group-15",
+          "title": "Galactic Nexus Cup",
+          "questions": [
+            {
+              "id": "simcat-5-dilr-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "What was the exact scoreline of the match between the Cygnants (C) and the Draxons (D) in that order?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1 - 0"
+                },
+                {
+                  "id": "B",
+                  "text": "2 - 0"
+                },
+                {
+                  "id": "C",
+                  "text": "3 - 0"
+                },
+                {
+                  "id": "D",
+                  "text": "2 - 1"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214302.png",
+                "topperTimeSeconds": 289,
+                "topperAttemptPercent": 54.2,
+                "topperAccuracyPercent": 88.56,
+                "topperPValue": 48.0
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q16",
+              "sourceNumber": 16,
+              "type": "TITA",
+              "prompt": "How many total Orbs were scored in the entire tournament by all four teams combined?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": [
+                "12"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214310.png",
+                "topperTimeSeconds": 54,
+                "topperAttemptPercent": 56.0,
+                "topperAccuracyPercent": 69.29,
+                "topperPValue": 38.8
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q17",
+              "sourceNumber": 17,
+              "type": "TITA",
+              "prompt": "What was the total number of points accumulated by the Boriols (B)?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": [
+                "3"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214310.png",
+                "topperTimeSeconds": 29,
+                "topperAttemptPercent": 59.2,
+                "topperAccuracyPercent": 86.82,
+                "topperPValue": 51.4
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q18",
+              "sourceNumber": 18,
+              "type": "TITA",
+              "prompt": "How many total Orbs did the Draxons (D) score across the tournament?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": [
+                "2"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214310.png",
+                "topperTimeSeconds": 28,
+                "topperAttemptPercent": 56.6,
+                "topperAccuracyPercent": 75.27,
+                "topperPValue": 42.6
+              }
+            }
+          ],
+          "stimulus": "Four elite teams—the Aerons (A), Boriols (B), Cygnants (C), and Draxons (D)—competed in the annual Galactic Nexus Cup of Orb-Ball. The tournament followed a single round-robin format (every team played against every other team exactly once). A win awarded 3 points, a draw awarded 1 point, and a loss awarded 0 points. If teams are tied on points, their position is determined by \"Net Orbs\" (Total Orbs Scored minus Total Orbs Conceded). Data known:\n\n1. The Aerons (A) remained undefeated and finished at the top of the points table with exactly 7 points.\n\n2. The match between the Aerons (A) and the Cygnants (C) was a defensive masterclass that ended in a goalless draw (0-0).\n\n3. C finished with 4 points while scoring the minimum possible number of orbs to achieve that.\n\n4. The Boriols (B) and the Draxons (D) finished the tournament with the exact same number of points. However, the Boriols had a \"Net Orbs\" of exactly zero.\n\n5. The Boriols (B) lost exactly two matches in the tournament, and both of these defeats ended with an identical scoreline of 1-2 (meaning the Boriols scored 1 Orb and conceded 2 Orbs in both games).\n\n6. The Draxons (D) had a leaky defense, conceding a total of exactly 5 Orbs across all their matches.\n\n7. The Aerons (A) dominated one of their matches, scoring exactly 3 Orbs and keeping a \"clean sheet\" (conceding 0 Orbs) in that specific match."
+        },
+        {
+          "id": "simcat-5-dilr-group-19",
+          "title": "Jumbled telephone extensions",
+          "questions": [
+            {
+              "id": "simcat-5-dilr-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "If Jeremy’s original extension number is 233, what is Larry’s original extension number?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "231"
+                },
+                {
+                  "id": "B",
+                  "text": "232"
+                },
+                {
+                  "id": "C",
+                  "text": "234"
+                },
+                {
+                  "id": "D",
+                  "text": "Multiple answers possible"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214310.png",
+                "topperTimeSeconds": 280,
+                "topperAttemptPercent": 73.4,
+                "topperAccuracyPercent": 74.39,
+                "topperPValue": 54.6
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "If the difference between Mark and Nelson’s original extension numbers is 4, which number should be dialled to contact Jeremy after the rains?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "231"
+                },
+                {
+                  "id": "B",
+                  "text": "232"
+                },
+                {
+                  "id": "C",
+                  "text": "235"
+                },
+                {
+                  "id": "D",
+                  "text": "Multiple answers possible"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214310.png",
+                "topperTimeSeconds": 113,
+                "topperAttemptPercent": 66.2,
+                "topperAccuracyPercent": 62.54,
+                "topperPValue": 41.4
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q21",
+              "sourceNumber": 21,
+              "type": "MCQ",
+              "prompt": "If the difference between the extension numbers to be dialled to contact Larry and Nelson after the rains differ by 3, what is the difference between the extension numbers to be dialled to contact Jeremy and Mark after the rains?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "C",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1"
+                },
+                {
+                  "id": "B",
+                  "text": "2"
+                },
+                {
+                  "id": "C",
+                  "text": "3"
+                },
+                {
+                  "id": "D",
+                  "text": "Multiple answers possible"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214310.png",
+                "topperTimeSeconds": 86,
+                "topperAttemptPercent": 51.8,
+                "topperAccuracyPercent": 47.88,
+                "topperPValue": 24.8
+              }
+            },
+            {
+              "id": "simcat-5-dilr-q22",
+              "sourceNumber": 22,
+              "type": "MCQ",
+              "prompt": "If Nelson’s actual extension number is same as the extension number to be dialled to reach Kevin after the rains, what is the difference between Kevin’s actual extension number and the extension number to be dialled to reach Kevin after the rains?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1"
+                },
+                {
+                  "id": "B",
+                  "text": "2"
+                },
+                {
+                  "id": "C",
+                  "text": "3"
+                },
+                {
+                  "id": "D",
+                  "text": "Multiple answers possible"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214310.png",
+                "topperTimeSeconds": 77,
+                "topperAttemptPercent": 47.8,
+                "topperAccuracyPercent": 84.1,
+                "topperPValue": 40.2
+              }
+            }
+          ],
+          "stimulus": "Jeremy, Kevin, Larry, Mark and Nelson are 5 specialists from the Academics team of JNS Education Services. Each of them has been provided with landline phones having extension numbers 231, 232, 233, 234 and 235 (in no particular order). Due to heavy rains, the telephone lines in their section got jumbled, meaning that when someone tried to call any specialist on their original extension number, the call would go to some other specialist’s phone. The following things were discovered.\n\n- After the rains, when anyone tried calling Jeremy, it would ring at Larry’s phone.\n\n- The extension number that had to be called in order to reach Kevin after the rains didn’t have all dissimilar digits.\n\n- The extension number that would ring Mark’s phone after the rains was 3 higher than his original extension number.\n\n- The difference between Kevin and Nelson’s original extension numbers is 1."
+        }
+      ]
+    },
+    {
+      "code": "QA",
+      "groups": [
+        {
+          "id": "simcat-5-qa-group-1",
+          "title": "Quantitative ability · Q1",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q01",
+              "sourceNumber": 1,
+              "type": "TITA",
+              "prompt": "A regular polygon has 12 sides. How many triangles can be drawn using its vertices that share exactly one side with the original polygon?",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "selectionCategory": "B",
+              "answer": [
+                "96"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 119,
+                "topperAttemptPercent": 67.6,
+                "topperAccuracyPercent": 63.91,
+                "topperPValue": 43.2
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-2",
+          "title": "Quantitative ability · Q2",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "If f and g are real valued functions defined on real numbers, such that f(x) = 3x + a, g(x) = bx - 5, and f(g(x)) = 21x - 13, then find g(f(3)).",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "selectionCategory": "A",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "50"
+                },
+                {
+                  "id": "B",
+                  "text": "76"
+                },
+                {
+                  "id": "C",
+                  "text": "72"
+                },
+                {
+                  "id": "D",
+                  "text": "82"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 133,
+                "topperAttemptPercent": 67.8,
+                "topperAccuracyPercent": 96.17,
+                "topperPValue": 65.2
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-3",
+          "title": "Quantitative ability · Q3",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "The difference between the compound interest (compounded annually) and simple interest on a certain sum at 15% per annum for 3 years is Rs. 5,670. Find the principal.",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "A",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rs. 75,000"
+                },
+                {
+                  "id": "B",
+                  "text": "Rs. 80,000"
+                },
+                {
+                  "id": "C",
+                  "text": "Rs. 85,000"
+                },
+                {
+                  "id": "D",
+                  "text": "Rs. 90,000"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 153,
+                "topperAttemptPercent": 95.0,
+                "topperAccuracyPercent": 99.79,
+                "topperPValue": 94.8
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-4",
+          "title": "Quantitative ability · Q4",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "A trader, who sells only one type of product, offer 2 additional pieces free for each complete dozen of products bought. For example, if you get 25 pieces of the product from the shop, you need to pay only for 23 pieces. On the other hand, if you get 28 pieces from the shop, you need to pay only for 24 pieces. The selling price of each piece is 20% more than the cost price. Rohan got 21 pieces from the shop and paid as per the rule set by the trader. Rita got the same number of pieces from the shop but she argued that for the first 14 pieces she will pay for only 12 pieces, and for the remaining 7 pieces she will pay for only 6 pieces. The trader accepted the bargain. The difference (in percentage points) between effective discount percentages received by Rohan and Rita, is nearest to .",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "B",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "4.4"
+                },
+                {
+                  "id": "B",
+                  "text": "4.6"
+                },
+                {
+                  "id": "C",
+                  "text": "4.8"
+                },
+                {
+                  "id": "D",
+                  "text": "5"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 106,
+                "topperAttemptPercent": 41.2,
+                "topperAccuracyPercent": 93.2,
+                "topperPValue": 38.4
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-5",
+          "title": "Quantitative ability · Q5",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q05",
+              "sourceNumber": 5,
+              "type": "TITA",
+              "prompt": "Let ‘A’ be a natural number such that LCM(A, 63, 147) = 882 and ‘A’ leaves remainder 3 when divided by 5. What is the remainder when the smallest value of A divides the largest value of A?",
+              "area": "Numbers",
+              "topic": "Numbers",
+              "selectionCategory": "B",
+              "answer": [
+                "8"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 142,
+                "topperAttemptPercent": 64.0,
+                "topperAccuracyPercent": 59.38,
+                "topperPValue": 38.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-6",
+          "title": "Quantitative ability · Q6",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "Find the minimum value of logₙ(m²) + logₘ(n²) + logₙ²(m³) + logₘ²(n³), for m, n > 1. (The bases of the last two logarithms are n² and m² respectively.)",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "6"
+                },
+                {
+                  "id": "B",
+                  "text": "7"
+                },
+                {
+                  "id": "C",
+                  "text": "8"
+                },
+                {
+                  "id": "D",
+                  "text": "9"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 83,
+                "topperAttemptPercent": 60.6,
+                "topperAccuracyPercent": 88.45,
+                "topperPValue": 53.6
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-7",
+          "title": "Quantitative ability · Q7",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q07",
+              "sourceNumber": 7,
+              "type": "TITA",
+              "prompt": "From a point P outside a circle, a tangent and a secant are drawn. The length of the tangent segment is 22 cm. The secant intersects the circle at A and B, P-A-B. If the length of PB is 44 cm, find the length of the chord AB.",
+              "area": "Geometry",
+              "topic": "Geometry",
+              "selectionCategory": "B",
+              "answer": [
+                "33"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 65,
+                "topperAttemptPercent": 50.8,
+                "topperAccuracyPercent": 83.46,
+                "topperPValue": 42.4
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-8",
+          "title": "Quantitative ability · Q8",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q08",
+              "sourceNumber": 8,
+              "type": "TITA",
+              "prompt": "Find the sum of all two-digit natural numbers a for which (a + 3)! / a! has two trailing zeroes.",
+              "area": "Numbers",
+              "topic": "Numbers",
+              "selectionCategory": "C",
+              "answer": [
+                "582"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 78,
+                "topperAttemptPercent": 38.2,
+                "topperAccuracyPercent": 20.42,
+                "topperPValue": 7.8
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-9",
+          "title": "Quantitative ability · Q9",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q09",
+              "sourceNumber": 9,
+              "type": "TITA",
+              "prompt": "Let N be the smallest four-digit number such that N/5 is a perfect square and N/8 is a perfect cube. What is the sum of the digits of N?",
+              "area": "Numbers",
+              "topic": "Numbers",
+              "selectionCategory": "B",
+              "answer": [
+                "8"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 120,
+                "topperAttemptPercent": 58.2,
+                "topperAccuracyPercent": 73.88,
+                "topperPValue": 43
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-10",
+          "title": "Quantitative ability · Q10",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "For real values of x, the maximum value that |x² − 6x + 8| / (x² − 10x + 26) can take is _____.",
+              "area": "Algebra",
+              "topic": "Algebra",
+              "selectionCategory": "C",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "√5 + 1"
+                },
+                {
+                  "id": "B",
+                  "text": "√5 + 2"
+                },
+                {
+                  "id": "C",
+                  "text": "2√5"
+                },
+                {
+                  "id": "D",
+                  "text": "√5 + 3"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 100,
+                "topperAttemptPercent": 26.2,
+                "topperAccuracyPercent": 82.44,
+                "topperPValue": 21.6
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-11",
+          "title": "Quantitative ability · Q11",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "A student buys exactly 50 stationery items consisting of erasers, pencils, and pens, priced at Rs. 2, Rs. 5, and Rs. 8 respectively. The total cost is Rs. 115, and at least one item of each type is purchased. What is the difference between the number of erasers and the number of pens purchased?",
+              "area": "Algebra",
+              "topic": "Algebra",
+              "selectionCategory": "A",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "50"
+                },
+                {
+                  "id": "B",
+                  "text": "51"
+                },
+                {
+                  "id": "C",
+                  "text": "42"
+                },
+                {
+                  "id": "D",
+                  "text": "45"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 157,
+                "topperAttemptPercent": 91.4,
+                "topperAccuracyPercent": 96.28,
+                "topperPValue": 88
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-12",
+          "title": "Quantitative ability · Q12",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "The sum of the lengths of one space diagonal and one face diagonal of a cube is 5√(5 + 2√6) cm. If V denotes the volume of the cube and S denotes its total surface area, then find the value of V + S^(3/2).",
+              "area": "Geometry",
+              "topic": "Geometry",
+              "selectionCategory": "C",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "(250 + 250√6) cm³"
+                },
+                {
+                  "id": "B",
+                  "text": "(250 + 550√6) cm³"
+                },
+                {
+                  "id": "C",
+                  "text": "(125 + 250√6) cm³"
+                },
+                {
+                  "id": "D",
+                  "text": "(125 + 750√6) cm³"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 63,
+                "topperAttemptPercent": 24.0,
+                "topperAccuracyPercent": 85.0,
+                "topperPValue": 20.4
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-13",
+          "title": "Quantitative ability · Q13",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "For a specific type of work, Tamannah is 11⅑% more efficient than Pallavi, and Anupriya is 11⅑% more efficient than Tamannah. Tamannah alone takes 900 hours to complete the entire work. Pallavi starts the work and works alone for the first 300 hours. After this, Tamannah works alone for another 300 hours. The remaining work was completed by Anupriya. How many hours does Anupriya take to complete the remaining work?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "A",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "295"
+                },
+                {
+                  "id": "B",
+                  "text": "296"
+                },
+                {
+                  "id": "C",
+                  "text": "297"
+                },
+                {
+                  "id": "D",
+                  "text": "298"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 128,
+                "topperAttemptPercent": 65.2,
+                "topperAccuracyPercent": 93.87,
+                "topperPValue": 61.2
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-14",
+          "title": "Quantitative ability · Q14",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "A queue for a rollercoaster has not more than 300 people. The ratio of people standing ahead of Leo to the people standing behind him is exactly 3 : 7. What is the furthest back (maximum possible position) Leo could be in the line?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "A",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "85"
+                },
+                {
+                  "id": "B",
+                  "text": "88"
+                },
+                {
+                  "id": "C",
+                  "text": "87"
+                },
+                {
+                  "id": "D",
+                  "text": "91"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 113,
+                "topperAttemptPercent": 93.6,
+                "topperAccuracyPercent": 90.81,
+                "topperPValue": 85.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-15",
+          "title": "Quantitative ability · Q15",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "Find the sum of the infinite series shown.",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "selectionCategory": "B",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "8"
+                },
+                {
+                  "id": "B",
+                  "text": "7"
+                },
+                {
+                  "id": "C",
+                  "text": "5"
+                },
+                {
+                  "id": "D",
+                  "text": "3"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 72,
+                "topperAttemptPercent": 36.4,
+                "topperAccuracyPercent": 93.41,
+                "topperPValue": 34
+              },
+              "assetIds": [
+                "s5-qa-series"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-16",
+          "title": "Quantitative ability · Q16",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "In a series of 5 tests, the number of students scoring full marks remains the same for the first two tests. In the third, fourth and fifth tests, the numbers become 4/5, 3/5, and 3/5 respectively of that in the first test. The maximum marks in the five tests (in that order) are in increasing arithmetic progression. The total of maximum marks across all tests is 700, and the maximum marks in the fifth test is 220. If we consider all the full scores achieved across all the tests, then what is the average of such scores?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "B",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "125"
+                },
+                {
+                  "id": "B",
+                  "text": "126"
+                },
+                {
+                  "id": "C",
+                  "text": "127"
+                },
+                {
+                  "id": "D",
+                  "text": "128"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 117,
+                "topperAttemptPercent": 44.4,
+                "topperAccuracyPercent": 92.34,
+                "topperPValue": 41
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-17",
+          "title": "Quantitative ability · Q17",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "A and B started a business with investments of ₹1,20,000 and ₹1,80,000 respectively. After 4 months, A increased his investment by ₹60,000. After 6 months from the start, B withdrew ₹60,000. C joined the business 5 months after it was started, with an investment of ₹2,40,000. At the end of one year, the total profit earned was ₹2,79,000. If 10% of the profit was kept aside as reserve and the remaining profit was distributed among A, B and C, what was C’s share of the profit?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "A",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "₹72,480"
+                },
+                {
+                  "id": "B",
+                  "text": "₹75,600"
+                },
+                {
+                  "id": "C",
+                  "text": "₹78,120"
+                },
+                {
+                  "id": "D",
+                  "text": "₹81,900"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 152,
+                "topperAttemptPercent": 69.0,
+                "topperAccuracyPercent": 92.75,
+                "topperPValue": 64.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-18",
+          "title": "Quantitative ability · Q18",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "In a manufacturing unit, the number of units produced in a day varies directly as the number of machines used and as the square root of the number of working hours per day, and varies inversely as the square of the defect percentage. When 18 machines work for 9 hours a day with a defect percentage of 4%, the unit produces 4050 units in a day. How many units will be produced in a day when 24 machines work for 16 hours a day with a defect percentage of 6%?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "B",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "3000"
+                },
+                {
+                  "id": "B",
+                  "text": "3200"
+                },
+                {
+                  "id": "C",
+                  "text": "3375"
+                },
+                {
+                  "id": "D",
+                  "text": "3600"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 96,
+                "topperAttemptPercent": 58.2,
+                "topperAccuracyPercent": 94.85,
+                "topperPValue": 55.2
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-19",
+          "title": "Quantitative ability · Q19",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "Let x and y be two positive real numbers such that x² + y² = 12 and x³ + y³ = 40. The value of xy is _____.",
+              "area": "Algebra",
+              "topic": "Algebra",
+              "selectionCategory": "B",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "2"
+                },
+                {
+                  "id": "B",
+                  "text": "3"
+                },
+                {
+                  "id": "C",
+                  "text": "4"
+                },
+                {
+                  "id": "D",
+                  "text": "6"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 124,
+                "topperAttemptPercent": 60.4,
+                "topperAccuracyPercent": 86.75,
+                "topperPValue": 52.4
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-20",
+          "title": "Quantitative ability · Q20",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q20",
+              "sourceNumber": 20,
+              "type": "TITA",
+              "prompt": "Every day, Ramesh cycles from his home to a park at a constant speed of 6 kmph. His friend Suresh travels daily from the park to Ramesh’s home on a bike. They meet everyday at a specific café on the way. One day, Ramesh starts 30 minutes later than usual and meets Suresh at a point 2 km closer to Ramesh’s home than their usual meeting point at the café. What is the speed of Suresh in kmph?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "selectionCategory": "B",
+              "answer": [
+                "12"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 91,
+                "topperAttemptPercent": 59,
+                "topperAccuracyPercent": 60.68,
+                "topperPValue": 35.8
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-21",
+          "title": "Quantitative ability · Q21",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q21",
+              "sourceNumber": 21,
+              "type": "MCQ",
+              "prompt": "Given: x = 1/11 + 1/13 + 1/15 + … + 1/49. Which of the following is definitely true?",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "selectionCategory": "C",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "0 < x < 1/5"
+                },
+                {
+                  "id": "B",
+                  "text": "1/5 < x < 1/2"
+                },
+                {
+                  "id": "C",
+                  "text": "1/2 < x < 3/5"
+                },
+                {
+                  "id": "D",
+                  "text": "x > 3/5"
+                }
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 65,
+                "topperAttemptPercent": 33.2,
+                "topperAccuracyPercent": 60.24,
+                "topperPValue": 20.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "simcat-5-qa-group-22",
+          "title": "Quantitative ability · Q22",
+          "questions": [
+            {
+              "id": "simcat-5-qa-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "Out of 60 students enrolled in a class, each student plays at least one of the three games - football, cricket, and hockey. The number of students in the class who play football, cricket, and hockey are 35, 40, and 20, respectively. If the number of students who play only football is (x), then the number of students who play all three games and the number of students who play only cricket are (x) and (x + 5), respectively. There is no such student who plays cricket and hockey but not football. How many students play football and hockey but not cricket?",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "selectionCategory": "B",
+              "answer": [
+                "0"
+              ],
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis",
+                "sourceImage": "Screenshot 2026-10-13 214326.png",
+                "topperTimeSeconds": 120,
+                "topperAttemptPercent": 48.6,
+                "topperAccuracyPercent": 82.72,
+                "topperPValue": 40.2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "s5-dilr-bonus": {
+      "alt": "Original department bonus table.",
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA2UAAAFPCAYAAADN3mYqAABmRklEQVR4nO3dBZQcxf64/QqE4O7uFjS4a9DgFtw9+MW5uEPg4iG4Bg9BQ4IGl0CQ4K7BXYIs+56nfm/Nv3d2ZndmrVeezzlzkp3pmenuqa6ub2m3mpqa2iBJkiRJysU4+XytJEmSJAnds6dh1KhRnhVJkiRJqkKvXr1CiwVlLfGB6pwI2E0bksw3JOXNMonam5Zo2LL7oiRJkiTlyKBMkiRJknJkUCZJkiRJOTIokyRJkqQcGZRJkiRJUo4MyiRJkiQpRwZlkiRJkpQjgzJJkiRJypFBmSRJkiTlyKBMkiRJknJkUCZJkiRJOTIokyRJkqQcGZRJkiRJUo4MyiRJkiQpRwZlkiRJkpQjgzJJkiRJypFBmSRJkiTlyKBMkiRJknJkUCZJkiRJOTIok9qpMWPGhDnnnDOMO+64YdJJJw0vvvhi3rvUpdXW1obzzjsvjDfeeGGllVYKn332WS77ce+998Y0wWPnnXcuuc2vv/4a1lhjjcJ2vEdd11lnndVomlHb+fjjj8NSSy0VJphggjBgwICYt+SBtNBYHpHNb8hTyFukSmXvRdlyDP/yt+mqLoMytZkPP/wwzDbbbIUMfr311gt//PGHv4A6hLfeeiuceuqp4d9//w3PPPNMGDRoUN671GWdeOKJhXyke/fuYdiwYXnvklSxc889N4waNSr8/fff4eyzzw5ffPGFZ6+Lq6mpCU8//XTYcMMNw2STTVbI32adddaw3377xfKTOj+DMrUZCrKff/554e/HHnssvPzyy/4Ckir2ww8/hPvvv7/wN60M1157bfjnn388i5I6nC+//DKsu+66YeWVV45522+//VZ4jYCd1tR55pknVgoSyKvzMihTm6BF7Prrr6/z3F9//RWGDx/uL6AOYYEFFgjHHHNMGGecccLyyy8ftt1227x3qUt6/vnn63XlffLJJ8Onn36a2z5J1TjkkENCr169Ylfoww47LMw000yewC7clXW11VYLjzzySPybNLH77rvHnhiXX355WHXVVQvbHnfccbHVzMCs8zIoU5t44403YsEJiyyySGySx6233hq++uorfwW1e926dQsHHXRQvCGSlmeZZZa8d6nLoVXslltuif/ye6y11lrxeVrgs61nUns2++yzh5EjR4axY8eGffbZJ6ZldT207p9yyinh3XffjX/PO++8YfTo0WHgwIGhb9++Yddddw0PP/xwuOmmm2JlIK688krHCHdiBmVqEwwW/v333+P/uQnRbxpvv/12nS6MFLhSX+qNNtqozpiz7777LtYu8trUU08dMy/8/PPP4cgjj4zP8RqDp/fcc886EzFkB5uusMIKcXzQ1ltvHWulmEyDSTXAv8cee2yYa665Cvux4oorhqeeeqpe/+/bbrstLLroooXtih/ZAfXsC/vEvqX9Z5/Z92q6OKR9Tufno48+qrMNhdXHH388rLLKKoXt+K5DDz20cIzFg/+nn3768Nxzz4WjjjqqcA7nm2++8MADDxQGoDc06Ui5weLFx0w/+eLfpdyAcm5CBOwE7/zNvjblXBZvWyptVPqZpQYs0yV3wgknjM+RFr7++uvC9hS4Nttss3rjnlLa6dmzZ500xu9WPOCf7z/44IML+7XccsuFF154IVSLfad2Pvs5jGnBxRdfXNgPamx/+umnwvs4npTGs9dcXkjvDz30UPz/ggsuGI444ogwxRRTFNJPyi8o7NCSmY6LQk7WiBEjCtdHdmxrJekgey3wHa+//no8b9kB6/yOXFPbbLNNYXxISntcx1npO7PjSLKP7PWWrm/SS3qddER6Il1Vgs/IXlszzDBDuOKKK+q9P+WrM844Y510SvCb3TZ7PkirTzzxRGH/OMd77713+P777xuddKTcwP9S1wtpstwxV5rXV3MuS23L+bvooovq3KMqvbaLJ+tpanqt5N6XrRhN6TT9Ltn8qlLsS8oTJplkknDSSSfF/eHBvqVjoKtdFtdtqWPoyl555ZVw8803x/8TmJ9++umxm2IWz3MfSdcK6YhxiJSH8szjSOvkBXx29rMoR2S7X6pKNTU1tekxcuTIwv99eA5aKm18++23tUsttRR3pNoZZpih9t133629//77a7t16xaf69u3b+2ff/4Zt33vvfdqZ5555vj8RBNNVPv8888XPmf48OGF92y22WbxPR988EHtvPPOG58rfkwzzTS1zz33XHzvTz/9VLvqqqvG58cZZ5zaKaecsrDdGmusUfvzzz/XPvTQQ/E7S30W7xk2bFj8rH/++af2jDPOKLld9rHDDjvE7Z955pnaKaaYouQ2Cy20UDyGUufts88+q51tttkK26ZjL37/mDFjKtqv7Pngcfrppzf42dljzu5L8e/Ccab33HXXXfG5hn6XXr161X7zzTf1jpf3pm2mnXbaOu+57777qj6X99xzT9nfk9//pZdequozs2konYPvv/++dtllly1sP2TIkML3jx49unaqqaaKz5P+uQ7Gjh1bu/vuu5f9jc4+++z4O/J+Ppu0WUkaK35k97Xc70t6ePXVV+tcc2zHdZY+h+NJ22ev00ofLX1Puf766wv7c9RRR9X++uuvtWuvvXb8u0ePHrVPPvlkYdtBgwYVtuVccE7Sa/vtt1/hNT6zmnRQfC2MP/74he123XXX2r/++ivuW7nfLHvNNnSdpEdKa41d33vttVdMX6XOW2PXOo9LLrmksH1j+5X9ruz5KPfZffr0ib9V8b5k0y/HmK7X9Hs1dsxXX311g2m/XF5fzbnk30MOOaTstuuss078zGqu7Wxel85Btem10ntfY2m7OO9uKF8u9/secMAB8diyx9CzZ8/ar776qnBv2mmnnQqvsV1z84LOUF7t379/4ZzMPvvstZ988knZbbPln5Qn5JXHkd65H5RLS9nrvdR9s9z1XtMOfpO806QtZWrTMSDUXDID4+KLLx7mn3/+Qo3OJ598Ev8/xxxzhN69e8f/07KWbZF59NFHC7WNW2yxRexGtv/++xea/ml9ox82NTXUEH377beFWrwsZs+jNaBfv36xxpiZsCaeeOLYdYB9o5vADjvsED8r1U7xnnPOOSd+FrWLl112WXx+ookmirVWjJejJinZZZddYq0X29I//Mcff4zP77bbbvE7+RfUQDHNeiVTItOixbZ8H9+b3j9kyJD4f7o5HH300fH/HAOtCNn94nzQH50atmJ8//bbbx+uvvrq+NukY77qqquaNIHC4MGDC78LNWmcS8ZOUOtODe1UU03V4Pu/+eabsNBCC8U+9ffcc08cAF3NuWRbav9S6yzngHNBeqBFYvPNN4+12c39fSaffPKwySabFP5OrTigJSq1EKy//vphyimnjOeTVgnMPffc4dJLL40P/o8zzzwz1miDms80ziClM/aFlo1q0Zp3wgknxO9KXYdJD6RjrrmNN944Psdxkp74l8edd95ZqK3daaedYotfexiXyn4wMJ7j2mCDDQpjVO+7777C9ixbQDcxvPbaa4UxZ0wU8uyzz8b/zzzzzHF8YFPTAemLGmLOLdv/97//jX8vu+yy8RqcdtppY5pjv9N1xWfRmlLuOuGz0vXN9XLDDTfE92avb9Jw//794+cuvfTS8TmuFfLSxnAMdI3ivXxnQqsPaYLznM1X+W62ze4XaZPjLfXZ5KGcK/Kf1OXqwQcfbNKkTqXyWo5zzTXXjMdNGmhIuby+mnPJvxwPOB4+i9+J/DKN/+Ezq7m2S6kmvRb/Rg3d+2jVIC9MaTv9nhxH+n0qxe+b8tJsKydplBZJXmPsLd58883C/ZvJKpjYC7yevVd29ZayhHyY+0k5jDvkHpLyHVqz8srjSO8s6QDSN+/L3ltoQaN1WE3Q2WoefLSvGoDiGrJUY8Pz++67b+H5Cy64oPCebCtaahHLtkikGiVqxakd5zlqy1PNDI9UU01LBS0WxS0Hp556aqHWMvtgu2yNDd/D92Vb+T7++ONCy8JKK60UW32oHT/ppJPq1Tpma7I43vSdHBPHVlyjmH1ka6u6d+9e+/DDDxdeO+644wqfy+f89ttvdWqueD1t+/XXX8fWqVTTyfktrrHeZpttCvs2YsSI+H3p+H788ceqW8qoTUvPXX755SXPdUM1snPNNVft+++/X+f1as5ldtull146noNS31nNZ5ar8XvllVcKtY+pRYz3p9+jVKsa2/O+tB/Zcz5gwIA6rcs8rrvuusK2t99+e71a9lLpOJver7rqqpLHnPY3ey0tsMACtV988UWdtM9+s/9tlW+UemRrVtN+F5//tO+l8piU92SPlbypuIa/sXRQ3DJ00003lcz3yBeyLVfZVseUr51yyimFz7nxxhvj+956662Y/rM1yNn0lL2GeZAnkTfxGrXjpc5d9lrfeOONC/uVbSUl/ZEOs+eH19gmfQ7pKH1OynOz52PCCSesffbZZ+udOx6k22pbymjNnnTSSeNziy++eKGFsaFHY3l9Necyuy2PY445pmReVs21XZzXpXNQTXqt5t6X/f4ZZ5yx9u233y58H/l+cd7dUL7MfSTlpcW9BNL+Zu9N6VrKpv3svak5j85QXs3eO8vl5eV6zvC75JnHUeYhLfBvqXyGdFh8PdpSVtNomrClTG02BoQafsaypJp3arjTAOfseJAll1wyjhcBNW1MBPLee+/FmiD06dMn1hrxN7XjYBZH+ren/tW0UoGWCmY3KrbwwguXHFzNZ/CgNokaUmr36C8N+lxTA8VxpNp5JnygNrxHjx5xZiRMM800sT82WHckueSSS2INP/s3/vjjx1pyULuVXSqgFD6f8RYJ5yih5YtzlM4Px0UNWkI/b44X1IJla+cS9iudD1of+D7QgtmUxUJTayf22GOPWKt24403VtzXnBo3zmNWNecyuy2tFpyDUlri92EMADWRoCb8gw8+iL9Hqqnkt6BVjtriVLNN+lpsscUK6ZUZtlKLJGPGGHfE54DfPf1+oCa8WtnjZ39Tiwe1p4x9o/Y81V5T4026Z/xYasHebrvtGqzFbetxqUzwkWqNqaldZpll6o1RJT3TipnSNfkQ6Z8xT+QbPE+LEf82NR1wraSWkCw+k9ZgWiIYw8G+03KQWhq5ZjnvtPQwJo794hzzOi0J6bcnjVArTXpJ1zfb0vKa0g4t/GmcGumvsWuMlqGUhsi70hgW0l/6npSvMnaI1rqEdJjSDukk1bpnjzu1vnAs7HuS0n41aD3g2gG/K2N9GZPMcVa64HJxXl/NueSazearXKel7hvVXNvlVJNeq7n3cRzp+7mvpt+Tz6m25Zu0wzUB8gPGHidpHBu9ENI4z7vuuiuur5VmWeZ5Xld9jd1rSVfFr+eZx6UxZLRGk/b5rbNjR8uNHVfDDMrUZmuTcbPjppduHtwM0401u2YZhXG6J4KbyksvvRQLuBTIssFccYGgudgXMiduNGQ2DGjdcccdY0Evi8yMbjR0cSx102LNJLreITtpQmshI+V7UoZNJppuiqU0pXBULQYm77XXXoW/+W05l8xYyAQiTVHNucxuS/eNlvjMcgjaU1ogjdI1KhvQkF75TXiNgnglstsSfEw33XShNVDJQGDG/jH4O93c6bbItcA1wfnjWm1Pa5NR8Ez5CAXSVOgrXrOMyoAUsJHHvP/++7EbNOg+nboUtvR1SmBEVzIKrnQvonsofxd3BWbiIiY3KtWdd6uttopdhvhN6KrdlMqRapE3ZPNV8uJUKVUu7bQmzt8FF1xQqKCh4o7ujMzgywQETfndqjmX2W0bylerubYbUml6rebel92WazkbKLekdF+hUoH8H9z7KaynbtjrrLNOoXuj/q/SJVuB3VB6JvDnmgMVIym4ziuPozxHd0j2Jf3mlIvUPPkNEFCXXJusnDQeJLU4rL322uGMM86IzzOmiAwptRClDCg7JTljjuhjX4wbKa9VUqv6v//9L457qsQ777wT94sMiQIiGSQZEwFdtiUju4/MxLbpppvW+ywK3ak2uFLZdUpoVaLwQuE0nfeGbtoExq2Nc0BtHAVRZpfi/wQptDb+5z//iYVRxshVo5pzmW3VaSgIreYz//zzz7KfQ5qkwEMhhL70tOyS5mhVTeN2+ByCdgpwFO4YY5Jae7K4yfL7EXCAa6AlZyqjZjNdD9mAj0oIjoNZA2+//fbC9gQUtFi0t7XJykljVGlVIR1QEOSYeI48hqnIwW+d0mA16YDxOg2hEE9rQHZ8YTkEaQS/1DAzLojgnjSyxBJL1GndJDDid+IYqBQ6+eSTS9Zek/9UU+gmHWRnGiRvSHktOFaCjVKBWWtWFhRfD9S6U+BkrNcdd9wRn2d8C63QjI2qRjXnMpuvct0y1rWUaq7thjQlvTZ276OFNltZQJpribGhpJ1sJUO6r/DZTOXOODPyLsYWksbaw7jU9oYWf9IL+T2/N/lcqbyH88x9NOXbVEqkFu488jiuR76T1nK1LK8OtcnaZNngpXibE088sTCpADcXMhEyHQI0CljUgqfJKdKECakWiM9NN0tu0NmCPjVDvE6A0FjNKDVQ1FinfWXANt0kwdTzxQPor7nmmpiRMqidAljxcWW7ziUcA/vPzRIcM5+RpsKuFO9LNY+gQEFAwDlL3XrYXwrZ3AjpSpe6zfB3tutja6IAwI2AQJcaNQqdtJxy4yBTrzYoq+ZcMqEMExeAbhucg/R9KS1Q2KrmMxsKytIENbTSkOZ5D+i6RBoBBUHSLDWMpE2CaW5sCYVfbr7sFwVHupb98ssvcd8JLAky0NyFQ7nxpyCPG3vaV27udKHj5p5u/nRjpUUiz3WUsmuTIQUvWZw3JnGgMML5HTp0aKGwTkslEzmQT3DdEgBxXOn6bunrlFbhNKkBhXBadijovPrqq7GLaOqCCX7XNOkHabZc1y4KbrS+c3wcK4FXdlvSBJ9bbRdTeiKkZQ7oJkuaJBjk/FCg5li4VlMBMPVYAPtDXpxq71sLx8ZvQAGWB+eLKe7RlOUhqjmXvJ7yVVDg5ZrlemCfOHbOWzXXdmMqSa/V3PvSUABwHKRvti0OqqpFK2laViN1dU1Sd2ju3Snop8InDV/Q/0ktTEwSw+9BJWY24Mr24CEtgLTHPTV7rbd1HkfFYwrICO6ohOAeSL6bJo1SE3W2gZM+WuccNCVtZAf8rrfeenEyiuJtspMJFE8pzuQf6flSU14zWH2LLbaoM6Urk0ow2JVpinmOKYrZrnjwd/GgZga3Msg1TaN88sknx8/ZfPPNC+/JDlLNDtBlIDiDaG+99dbaRx55pPa7774rfC4DYZloIm272mqrxc9lP3meQbRMzVxq8HjxwF625739+vWL+1g8bT3/Zp8/4ogj4vZ8Z/qM7IQNlQy45/vZD347fsO0/ZZbbln7wgsvxIHv6Tuz55XfkcHl7DPHynTQ6TPLTWySHVBeaorcas4lEwKQHorPHYOPxxtvvMLkH9V8ZrkBy6UmqCk39TMTdmTT0wknnBDTDVNKM0kCU1wzLXHxBDlMcsB+MYXyZJNN1ujg8OL0Pvfcc9deeuml8fuyywRkp0Evnvih1CQCbZFvFD8amrI/+8im52z6yU6bX+o6qDZtNTTpTfHU1UzYcc0119RedNFFddJj2r/stcYEE+edd15MD4MHD44TfmQnCnnssccKg/e55sgH2JYJhlhCggkmmPK6sXND+uc64Niy+5SmsebB/4vTXnHaSWm70kmA2Ifi88M+M4kA1w7fU3x+ePTu3TteG1wjfGc2H0oTZzSU9ktNYFHNuczmqzx22223uB8bbrhhnck/Kr22i/O64mu4kvRazb2v+B678847x/3iOLLfUclEH+n4i+8r2WUe0iM7sUTxZF4t8egs5dXipQ24PvntOH/8ptm0nP1dq00zLZnHcd2lz1l++eXjvjJpUba8ktK1E33UVJUeDMrawUXZER7VZoDZIKehDLl4dqvsWkjZdZ7KFRDJ0LIFi+LHMsssEzOYxm7UfGd2xsD04GZcKnPKBpylHltttVUhQ2S9GNaNKbctN9dSa3QUz4BUao2YbAbdnHXKGgvKUqCVLZyUenBema2xofW1CNBKpYXGgrJqz2VD65TNOuustS+//HJVn9lYUFac5rMzAaYHvxVrIJX7Lj536NChhWuu1Joy4447btkCXXoUp/dSvxu/UfGMiqShPfbYo8XWE2qJglO2AFDqnKZHdsax4gqc7GeUy48qTQeNFVg++uij2nnmmafe+1kvKwXUKX0XB8HFD7ZPa/Tx23DtlNuW3/jiiy8ueW6y13qaiS/7KA7omrpOWSVBWQq0GspH0vm58847y66NRVpgJtzG0n6pYKOac9nYOmUpXVRzbTcUlFWaXiu997FtuWPN5iWVBGXZ7bPn6rbbbit5/0rXQfEsni3x6CxBGY/PP/+80TUpeRx22GFl1yJsyzwuW0bIPpjdM+XBBmU1TUoLTvShVsH4j9SXnXE1dKUrhf7ldI9K47DolsdsTamPOt1VkjRhQhaD6OkuxvgzZmRM6J5C9zU+r1zXwuL9oAmemQLT7GF8BuNCbrrppsKMY6A7BrMrNtQ3nvEOdNVLXZjoBnTwwQcXBorzHXTnoCsO68s01q2FLpR0nUmDpOnaxgB4jjGdO7o1HHrooXGQ74orrlg4Dr6T72YfGhvT0BDOPzMopvPM5x5++OFxIHd2vRu68zDug98kraECuq4wWQP70lTVnEu6Z9AVjzFdaf/oZkTXD7qS0U2k2s9sSHaCGpDmi8fc8FtdeOGFcTxitisP2zGrHNcM4ynBuDsmRUmTxvDeAw44IHYbyXYVagzb0p01fR/XEL8b65EVd3djzB/npr2sJ0Q3y7RWGvgty41j4vdM+Qxd70iXqcsj+Uia8IXfmG6lxVoqHdB1jfEfac0rPmPLLbeM3QS5PrP4TRua+IDfg/UR6QrM9c2+0R03m6bpfsekIMyqyhqADeE9XJuko/R+utmRV6WxuuC6pZsr10r2fJOGSLuk4abMAgrOId18OSdpH/hcuroVd32iq+pTTz0Vr+X0fSk/I01nx8lUo5pzyfeSl/GbprU1wXXJcyldVHNtN6aS9FrNve/AAw+M94uUrtmevJz8pZq1ys4///w4mUO6D5PG6aqbJvbIYuKKNNlRexiX2p5RRuK3YNZE0np2XCi/FemHccr81uWuu7bM4xjzyvZpLCb7RBojj+P6UdN1IzJLf9A/mIKAVMy08f/Q/5vgjRs7GRFjQUD/fCa04EZJf25uimniEqkjYOwWlSRgiYfjjz++WZ9nvlEe4zoYh0gQTGH/mGOOKUyowURCnH8mZWFK6+uuu84JEtRhcC9ktl3yk9a6F5q3qL1piTTpRB9SlWilonaJAhMr2fMotssuuzSrVUrKo1UqDSZ3PaHWx/pAqRWKZTcoxJZqfT3kkEMMyNSh0Jo/bNiw+H9a29O07JIaZvdFqQnd+GgNK+5mQBM+3VPoPnjxxRc3uXuPlAdm1HrwwQcLadz1hFoX3YToAkSXpOIp2emaduyxx8bZGa3cUUdCl+GBAwcWlmVhevziYQeSSrP7oipiVwFJ1TLfkNQazFvUGdNks1rK7r333rimQakHfeMZa8MkCS258KkkSZIkdSat1n2RBRiZ+Wz77bcPiy22WJMWeWwvWIiRAJNgk0C0I2KBZvZ/5513zntXJEmSJLXGRB9MD37yyScX+sYThNGvmCl933///bDuuuvG1b6z0+52FEzt+sYbb4SOiumUGQMlSZIkqRO3lDHt6Zprrhk233zz+GDwMsFYWueGQZ+sjcI0wB3N66+/Hn755ZfQUX311VcdOqiUJEmSOrNWnX1xqqmmCmeddVZh4V1az1iMNztLDzN+sdBtGovWs2fPOCMVC/Qm2bFrLMrLArQsiMrfzGB17rnnxu6S2c+l6+Q222wTJptsssIYtz333DN8+eWXhe1+/fXXuNgor9M9kWlct9566zhrHosDP/vss/H5nXbaqfAeFkFke14fM2ZMYd94D4tGnnTSSXGfeI6um3R9ZM0ZgtN0DBwvAwKL0ap45JFHhqmnnrrOPn/22Wcl95kFhVkIkJnS+P70HC17GDt2bNhvv/3idLTpuK+//vrCfnTUrpiSJElSZ9Lq65Sxujwri9N1EQQuacXv/v37xyAki/VaCIz22muvuHp88bTiBDrZgI1JRA477LDYEse4KdaOYsHT008/vc77CNquvPLKGGgRGKb1YRICxpVWWin88MMP8e955pknfs9rr70WP7MxbLPpppvGgDBhkhMCLQLEb7/9tvA8+7DhhhuGxx57LH4PPv7447DOOuvEKZCL9/muu+4K9913X72pkXmOADX7nTxHUMYxEgzTQkb3RUmSJElddJ0yWnuya7B88cUXMUh4+OGHw9FHHx2fozWLAI1WnKWXXjo+d/nll4cRI0bU+zwCJSar4LVjjjkmdOvWLT4/YMCA2NJFC9Cyyy4bF/dlkV9arvjctHghXRFpiSsVVNGq1a9fv9gaR+sb498IiFZeeeXCdgSAvM73scBqFsHRbrvtVuf7CJIIyNjnSy+9NMw666zxeVrZBg8eXAgs999//0JARsA2aNCgcNRRR8WglPdzHKVmsZx00knja2effXahRZJjZK0sWuwIbNnnhGNh/3k0d+pOSZIkSR2gpQwzzzxznaCM1qOrrroqBkIEVTfffHNsJcJyyy0XAwe629Gq1rt37zqfRWvWeeedF4MRAh8msCBA+/7772OXwAUXXDB252McFdukljb+v8kmm8T/00JFS1wx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Wb84HQP5SvHn8GCbcmOA2e8NN9wwvPHGGyFXrFOWHiNHjiz834fnwLRRU3vXXXeRS8RHt27dCv9Pjz59+tROM8009Z6fccYZa99+++14Dn/++efavn371tsm+xm//vpr3Pann36qXXXVVePzE000Ue3zzz8fn//nn39qzzjjjLKfsddee9WOHTu25HVbzXtb4nizx8BjnHHGaXB7jpFj5Xnex/sr2W/247nnnovbHnfccYXn11tvvdrffvut3r706NGj9sknn6zqfFSz7W233VbyWHkcfvjhXTJP7ez3lK+++qq2Z8+eJX/z2Wabrfazzz6L6WP33Xcvm4bOPvvsmM74vNNPP73B62+bbbYpmcaWXnrp2q+//rrq/KbctVfNPhc/2vp4Ocec6/QZpT4nu31Tj3mhhRaq/eCDD2q///772mWXXbbw/IABAwrHnv1stmHbas5Hpds2li9dffXVuV8bHSFveffdd2tnmGGGeM6WWmqp2m+//bb2ggsuKJxH7itp20GDBhWez6YbHvvtt1/hteuvvz4+98wzz9ROMcUUDaal4nsUaX3KKacsbLfGGmvU/vDDD7VHHXVUg+lyzJgx8bNIb7yn3LbpwX2+OWWKbDkh5XM8/9dff9Xed999hePm3+zv1NA5Kb4W7mqkLMLjkksuKXz2DjvsUHiefKXUvrJNY+eJ9PDWW2/lliYNytpB5tIRHp29cFXukb2geey2224x01188cXrPL/zzjvXXnrppbWzzjpryYyBzIbn5p577trzzjuvzrZkOPfff3+DQdmwYcMKhZPJJpustn///nE/KGykzJxtSh1DNe9tieMtDsrYhkLC8OHD6xRguZE1VEjK7jf/HnHEEXFfVltttXqFrVdeeaXOjYC/iz977bXXjoXRas5HpdtSEE6ZfHZft9xyy9o55pijdvTo0bmn5TweXSHf4Aa/9957F9LkyiuvXHvrrbfGwgnpjYJDeo3rn+uGB/9PlQuvvvpqvSBlvPHGi4Wx4usspS/ylJS2eQwZMqTq/KbctVfNPhc/2vp4s0EZD/Iq8rGbbropVv4UB0+VHDOv832XX355LPSm57fYYotYUM0W3FO+Unw8bFPt+ah02y+++KJ2rrnmqreva665ZsybUiG9Mz9aIm/J/o6kPZ7L3ktSoMbzn3zySe3ss88en59qqqkKeTqvsx3Pzzzz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SZIkSTkyKJMkSZKkHBmUSZIkSVKOutXU1NSmP0aNGpXnvkiSJElSh9OrV69mvb97S3+gOicCdtOGJPMNSXmzTKL2piUatuy+KEmSJEk5MiiTJEmSpBwZlEmSJElSjgzKJEmSJClHBmWSJEmSlCODMkmSJEnKkUGZJEmSJOXIoEySJEmScmRQJkmSJEk5MiiTJEmSpBwZlEmSJElSjgzKJEmSJClHBmWSJEmSlCODMkmSJEnKkUGZJEmSJOXIoEySJEmScmRQJkmSJEk5MiiTJEmSpBwZlEmSJElSjgzKJEmSJKmjBmVjxowJc845Zxh33HHDzjvvXHa7s846K24z6aSThhdffLHwPO/h+eLHNNNME3bdddfw9ttvN2f3JEkd0EMPPRTWWmuteI9pqjfeeCOstNJKYdSoUS26b5IkdZmWsh9++CFce+21YeGFFw6DBw/Oe3fUTLW1teGee+6JQXlDwfvDDz8cunfvXjJQ32OPPfwdpC7g119/DaeddlqoqamJeUYpH374YZhtttli3nDLLbeU3IbKvZ9//jmcccYZ4e+//27lvZbUkXz00Udh2WWXjQ0L5Sp//vjjj3DRRReFWWedNeY14403XlhllVXC448/Hss1UqcMyri5fvbZZ/Em/Ndff4Vhw4bFi+Dff/8NBx10ULwBq2PiN+3fv3/YZJNNwu+//97gtq+++mqYfPLJw8CBA8Ott95aeNx1112xYCWp87vvvvvCE088EY444ogwySSTlNzm/vvvD59//nn8P/nDP//8U2+b6aabLvTr1y9+3siRI1t9vyV1DM8880wMyBrKF3766aew0UYbhQMPPDCsscYaYdCgQbFs8ttvv4U111wz3HnnnW26z+oauod2htqI3r17x5rSHXbYId546cZIbYY6FmqZDjnkkHDZZZeFZZZZJowePbrR7ka0jvbt27dsDbmkzovg6vbbbw9LL710WG655coWlm688cawwAILxAo9KvHeeuutmHcU22CDDcKZZ54ZC1R8Xrdu3drgKCS1R7Ru3XHHHWH77bcPM8wwQ5h33nnDn3/+WXLbBx54IDzyyCPh1FNPjRVEKe/YeOONQ58+fcLxxx8fW81okZc6VUtZKZNNNlnh/6VqQdW+UZu0zTbbxIDspJNOCjfffHODmRfb052AFtJyteOSOrdPPvkkPP3007FmmlbzUp59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pBwZlEmSJElSjgzKJEmSJClHBmWSJEmSlCODMkmSJEnKkUGZJEmSJOXIoEySJEmScmRQJkmSJEmdISj7448/wk033RSWX375MN5444Vxxx03/svfPM/rkiRJkqRWCMpefvnlsNhii4Xtt98+PP/88+Hff/+Nz/Mvf/M8r7Oduo6amppw2223hZ49e8YgnQf/Hzx4cKitra23PYH7RRddFGadddbC9iuuuGJ46qmnctl/Se0/38j69ddfQ58+fWKF4K233tro9pK6ljfeeCNssMEGhcaDqaeeOhx11FHht99+q7ftm2++GaaddtpCPpR9rLXWWiXfI+UalBF0rbnmmuH9998Pk002WbjuuutiQuXGyr/8zfO8znZsr87v77//Dvvvv3/YZpttYpB1/fXXh8svvzxMOOGEYcsttwz9+/evU2D66aefwuabbx4OPPDAsMYaa4RBgwaF8847L3zxxRdhtdVWiwUySZ1btflGFs8PGDAgDBs2LJx22mlx+27durX5MUhqn+68886wxBJLhNdffz2ce+65sZxBgHbWWWeFTTbZJJZDsj7++ONY0XP66afHSp70oDxy1VVXhYknnji3Y1Hn1K2mpqZwhxs1alTo1atXxW8msVKQfuihh8IUU0wRhg4dGpZZZpl62xGIrbfeeuHHH38MvXv3DnfccUeYZJJJWu4o1OqqTRukCX7zffbZJ/zvf/+LNUsg09t4443DBx98EEaMGBHmnHPO+PzAgQNDv379wvnnnx/23XffQmHqo48+ijVS1FaRviaffPJWOkJJHS3fyKKg1Ldv37DrrrvGFndqwiV1TtXmLV9//XUsf1J58+CDD4YZZpghPs/fZ555ZjjmmGNikEYekpAH8Xj66afDLLPM0irHoa6bJlu8pYxuZQ8//HD8/wEHHFAyIAPP8zrYPnVHe/HFF8Okk04aD+Kzzz6LtaA0JXMjnm+++cIDDzxQp1aUljeamdM2E0wwQdhzzz3je9W+3HPPPbGFlN8nFaxAULXOOuuEzz//PLz99tvxubFjx8bt559//rDFFlvUqd2effbZw7LLLhu7HBCgSeq8qsk3st577714j9l0001jrbcBmaSs1157LZYj9t5770JABsob9OKiNZ5KoSy2pwLIymC1lWYFZffff38MmiaaaKLYBNwQXmc7tud9WaNHj44XxRFHHBFb00B3xw033LAQ9DHeiC4t3HDTNnR1ufLKK+OYtV9++aU5h6IWRovXd999FxZeeOF6rxFckxGmghPB9b333hu7FEw//fR1tqUb7J9//hm37dGjh7+T1IlVk28ktKLRsrbgggvGro4WoCQVo4z5zz//xB45xShjUJ6kjJrtCUY5lKCMxgOpXQdltG6QYDHNNNOEmWaaqcHteZ3twPt4f8KEIDxoOeOieemll8Jss80WnzvnnHNiQEbg9sgjj8Sb8o033hi3ozmapuWTTjrJi6aDoMBFbRTpYa655mp0e1rHnnnmmTDvvPM2msYkda18g0q+E044IXZp/Pbbb8NUU00VW9joHs99wVl/JTWEPGT48OGxTLnCCisUnqei/8MPP4xdGrMTfCy66KLh0UcfdRIhta+gjAT8+++/N+m9vI/3Z9ECtvjii8egi5kat9tuu/j8q6++GsaMGRN+/vnnGMjRxEzNBdvRjZEuK6usskpTD0NtnPlRk/3CCy/EcWNzzDFHg9tTc8WA/S+//DIcdNBB1oBLXVBD+QY9KRg/Ns4448QxZ2+99VbsiUGX5xNPPDHmG+QjklQKcx5Qub/yyiuHddddt/B89+7d43AK8hEaBMhbyGsI1tZee+04aYjU0ro3+Y3du9dp6q0G7+P9WcVdUpZbbrlC1xRqSRljNvfcc8exAyuttFIM2uiystRSS9UZe6D2W7BiJs5jjz02zq7Ib9fQzGgpILv22mvD7rvvHseKSOpaGso3qNhjBjTuJQRiq6++enyeVnW2pVs73du32mqr2HVJkoqnvCefYGgEDQPZrs9MLnb22WfX2Z68hYmImHzs+OOPjw0CqQeYlGtLGeOACJJAtxGmLm8Ir7MdeB/vrwTdT7766qs4PfINN9wQFlhggditkamSaWpmHIHrn3WMghXBFZnYLbfc0mCrVwrI6H7ETGpMje/AfalraSzf+Oabb2LXZgKu5Zdfvs57yS8obPEZdIuXpOKAbKONNgrff/99nGCo3ER1xWipZ/1UhlYwZb7Ubib6WH/99WOtJd0R04Qc5TCRA9uxPe9rTOpyQqvajDPOGP+/9NJLx7FlXEx0W6QrI+PT6NJSvL6E2mfBikVhGfdRaUB2wQUXxN9ZUtdRSb7BhE8MxqemulQlH+PPmtqbQ1LXCciyY8kq4WRCapdBGbUFqVsI6zyUWxia5ylcg+15X2M3ZPrwpibk4ulL6cpIH2DWO+Nvxpw1dXybWg+/4yWXXFJVQHb00UcbkEldWKX5Bs+xPiY9MLITRyVMnc99wfWFJCX0rKILYlMDMnpvvfPOO3HpjimnnNITq/YTlDHD1cknnxxvjNRaso4MMyOmGyT/8jfP8zrbsX2phaNvvvnmOHaMKdAZQHnFFVfE5xm8TY0na5ExCJOZcCi882DgNzdwPs/ube0LvwuBMy2aBOGkg8YCsgMPPDCce+65cbwgXRZtIZO6lmryjemmmy7eE+ilwb0giwIXC9LPPPPM9bo2SuqaRo4cGcujTNZx6623NhiQUdlTam3UoUOHxplgGataahF7qTm61dTU1DZ3NWpqHkigaYr8UhhHxkXADIsJff1XW221sq1cDKocNmxYXED40ksvLbm+BBiMecghh1S936pcNWkjFawOO+ywsMgii4QjjzyyZNDMJC38tikgoxBFSyqLO2YXDQeD+SmkOahW6jhaM98AYzooZFF42muvvWLLGuOXqdyhB8VNN93kJEFSJ1RteZWArE+fPnEmb4ZIsOxSMYbKUIlDa1jfvn3jBELkL4xPZUI5/mZuA2ZqpCEh24tLGtXEGKrFgzKQiIcMGRK7KZL4mYyDaYoXWmih8J///CdOLVrc8pENyk4//fRw1113hWeffTa+b6eddgqnnHJKIdHTgkaAduqpp8ZtMP/888dtmJmvoZn81HzVpA0mZmGGzA8++KDB7XbYYYdwzTXXhFdeeSWsuuqqjS4ATho5/PDDq9pvSZ0z30hSIYtp8+mRQSDH7Gh0qe/Zs2ezj0FS+1NteXWPPfaIs7U2hEDt6aefjsEZ+QoVxQMGDChM6EFlEA0Au+22mz151L6DsqbIBmUEZBtssEGbfbeq09ZpQ1LHZ74hybxFXcGoFignN2tMmSRJkiSpeQzKJEmSJClHBmWSJEmSlKPueX75kksu2ejkDpIkSZLUmdlSJkmSJEk5MiiTJEmSpBwZlEmSJElSjgzKJEmSJClHBmWSJEmSlCODMkmSJEnKkUGZJEmSJOXIoEySJEmScmRQJkmSJEk5MiiTJEmSpBwZlEmSJElSjgzKJEmSJClHBmWSJEmSlCODMkmSJEnKkUGZJEmSJOXIoEySJEmSctStpqamNv0xatSoPPdFkiRJkjqcXr16Nev93Vv6A9U5EbCbNiSZb0jKm2UStTct0bBl90VJkiRJypFBmSRJkiTlyKBMkiRJknJkUCZJkiRJOTIokyRJkqQcGZRJkiRJUo4MyiRJkiQpRwZlkiRJkpQjgzJJkiRJypFBmSRJkiTlyKBMkiRJknJkUCZJkiRJOTIokyRJkqQcGZRJkiRJUo4MyiRJkiQpRwZlkiRJkpQjgzJJkiRJypFBmSRJkiTlyKBMkiRJknLUIYOyX3/9Nayxxhph3HHHDTvvvHPeuyNJkiRJbR+U3XvvvTEoquQx6aSThhdffLHpe6kO66GHHgprrbVWGDNmTJPe/9tvv8XA+3//+1+L75skSZLUHnTIljJ1nBbN0047LdTU1MTAvKFgfrzxxguLL754uP7668Mff/xR+IyJJpooTDnllOGcc84J7733Xo5HI6ktkF/cdtttoWfPnoX8gf8PHjw41NbW1tv+4YcfDt27dy+Zr+yxxx7+aJIK3njjjbDBBhvEMgd5xNRTTx2OOuqoWAHc3Lyo2JtvvhmmnXbaknkTldWlvlNdW/emvpFETYLNFsA32mijMGLEiLDqqquGu+++O0wyySQttZ/qgO67777wxBNPxECsOC2svPLKYf/99y/8/fXXX4cBAwbEVrEnn3wyXHTRRTHT7NatW9h9993DoEGDwo033hiOP/74HI5EUlv4+++/w4EHHhguu+yysOaaa4b//ve/YezYseHiiy8OW265ZTjjjDPCoYceGvOF5NVXXw2TTz55OPPMM2MFTjL++OOH5Zdf3h9OUnTnnXeGbbbZJsw444zh3HPPDdNNN124//77w1lnnRVGjhwZbr/99piXNDUvKvbxxx/HsvHpp58e5p577sLzVCItscQSYeKJJ/aXUcsEZVJD/vnnn5jBLb300mG55Zar9/occ8wRNt988zrPbbvttmHjjTcO11xzTdhhhx3CSiutFJ+nZqpPnz7h1ltvDXvvvXeYfvrpPflSJ0Sl3uWXXx723Xff2GWZGmWQV5A3XHjhhWGLLbYIc845Z52a74UXXjj07du30CIvSVlU/FKpO++884YHH3wwzDDDDPH5rbbaKiy44ILhmGOOCQ888EDMR5qaF5VrKaNsM8sss/iDqP10XyzVDLzaaqvFG2ol26644orh8ccfr9dkzN8U1medddZCUzQ1INRyKD+ffPJJePrpp+OELKnmqTFst84668SA7scffyw8T03UpptuGt55550wevToVtxrSXm65557wmSTTRb23HPPQiEomzd8/vnn4e233y48T/efjz76KOb/9syQVM5rr70Wy5tU7KaALJUvaAmbcMIJ4xj4puZFpfB9BG2VloGkNgnKCJCobdh6663rJGK6ttGEy5iAxrZ99tlnw+qrrx6GDBlS57Pp0kZz9BdffBH/pjB/2GGHhauuuspfN0cEUNRM8ZtVit/+hRdeCFNMMUVsSctaaKGFYleD559/vhX2VlJ7cP7554fvvvsutnwVIwCjAEW35uTnn3+OY00XXXTRBrsRSeraCLyo8O3Xr1+91/78889Y/mAMe1PzomJ0W3z//fdjUGYLvtpVUMagyCuuuCIm+DvuuCP89ddfMcEee+yx8ULg359++qnOtqA5mZsu2w8bNiyOLaLlJYu+uTQx09f3m2++KXR5Iyj74Ycf2uLwVALjPAiiGmraT0gL7777bthvv/1i94FTTjklBmFZdAGYZ555wuuvv17RAFtJnQeFI2qxZ5pppjDXXHMVnqcy7ttvv433kOwg+nK9MCQpi/LE8OHDY8C2wgorNDkvKvbLL7+EDz/8MI6Hz+ZNVCA9+uijlmOUT1BGsMSMemASB/rikjBpKqYQThdFCvC0rGS3XXvtteOMOAyEZPvevXuHgQMH1msGpkVt1113jTUWU001Vdhrr73i85999plBWY4Isnr06BF/51L4nVMmxW+6wAILxOcuvfTS2F2guNabzyHIoxDmjEVS1yo0UfFGKzq9KLKt6Ezssd1224X+/fuHZ555JrzyyivhpJNOiv8ymZAt65IaQh7BmDHyi3XXXbfJeVExGgwYc3biiSeGRx55JLz11ltxAjOCNcq3TDoitflEH7RW0bqBSy65JD5K+eqrr+JAyLTtkksuWbZA3xD6AIMWNlvK8kMLaEPN9gyWpXtA8umnn4Ybbrgh7LbbbnF2I1pUswNjyeAI0KmlktQ1UAi67rrrYksYvST22WefOhU21FRTkZNFdyMq8XgQoDHh0AQTTJDD3ktqz5iIY/vtt48VyMzA2NDYr8byomL07jn77LPrPMckI+utt16cDp9JR1ZZZZUwzTTTtOgxqWNrN+uUUeguFVyp42LClnJdDenKyrS06bHMMsuECy64IM68yNS0xZmZpK4lFYLotk7h5ZZbbql4wDzdn5n5lUo+K+ck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v//9L9YSYfPNNw8bb7xxuPDCC8MWW2wRx+WRsZ1wwgnh0UcfjRnXVlttVfictdZaK6adww8/PNx9990Nppvvv/8+bLvttuHBBx+M3WZfeOGFNjlWSW2fbxSjEHXiiSfG/y+77LJVfzeFpKOPPjrstttu4aCDDjIgkzqRr7/+Ohx//PGxPEoZYYYZZojPU95YcMEFwzHHHBMeeOCB0Ldv32bnReCzHnnkkXDqqaeGI444opCf8F5a49kXWs2mmWaaNjsH6uQtZU899VR4+OGH4/8POOCAOgFZFs/zOtie97344oth0kknjQmd1pBihx56aHxthRVWKNRe/Pzzz+HII4+Mzc2pexstIjyfDRSpleD1+++/P7a4pKbjffbZJ25DEEDzMRdEasJmm5tvvjm28Kn57rnnnthCSvfDlJlh8sknD+uss074/PPPw9tvvx2f++ijj2KgTgC24YYblkw7/F6km3K++OKL0Lt37/DYY4+Fa665Jpx33nmhR48e/pRSJ803ssjTueZvvPHG2F1ovvnmq+p733vvvZjPbLrpprHWnPuCpM7jtddei10X995770JABoIlWq5oAXvooYeanRdlW+0nmmiiWK7JtrhTfl1ggQViuYdtpBYLygh6uBmS8GgCbgivsx3b8z765a600krxNQKnf/75p7Dtt99+G7uQgJY2LgISLwX0s88+u9A1hZpRxg4RhFELUoxuLDQ9U2BHr169YtBFILf66qvHQn7q4sY2fNcVV1zRnFOi/9/5558fvvvuu7DwwgvXOyc035NJpYIPGRsZHEEyGWMxMswUZJfDOLSTTz45PPPMM2GHHXawllvq5PlGcSvXf//733DKKafE/KIaVPpRYUdtOTXj3G8kdS7kC5Qz+/XrV++1P//8M5YnKaM2Ny9KZplllvD777/XC9wYYvHVV1+FOeaYI8w+++zNPi51Lk0OysaOHRvHiYHm15lmmqnB7Xk9NdPyPhI0tZJ4+umnwyeffFLYlla0N998M3aJXHXVVeOFxEDMd999Nyy11FLhrbfeisEVgdrKK68cRo0aFccCFPvhhx/iTZp9ZftU48HNd/zxx483YF6jdY0ADtSyEhSqdZDJURtFephrrrnic6+++mr8d5FFFin5HmqW0rhEfq9SSE90CSDwltT5842E+wDdDhkTUm23w9R1mq5K5PtTTTVVvEfQ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"
+    },
+    "s5-qa-series": {
+      "alt": "Original infinite-series expression.",
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsYAAAA3CAYAAAAPOYwgAAAskUlEQVR4nO3dCbht9fgH8IXM80xmkqJ7MyZJpDTSHJEiQyVCbqWopJGSJGlQcWUuTUglESqJylAoJDOpJJR02//n8+v/u8+6qz2sc/beZ691zvt9nv3ce8/de5/1m973+46/uyxatKhTBAKBQCAQCAQCcxx3nfQDBAKBQCAQCAQCTUAQ40AgEAgEAoFAIIhxIBAIBAKBQCBwB8JjHAgEAoFAIBAIBDEOBAKBQCAQCATuwFL//2dx17uG8zgQCAQCgUAgMPtx++23d/15sOFAIBAIBAKBQCCIcSAQCAQCgUAgcAfCYxwIBAKBQCAQCAQxDgTq47jjjit+8YtfzIop+81vflOcc845xTXXXFPMhjwx6/KVr3yl+Mc//lG0Hbfccktam29/+9uTfpRG4Oqrry7OPvvs4ne/+10xl2D9zzjjjGKu41e/+lXx9a9/vfjzn/9czCWceeaZxTe/+c1JP8bcLr6bi7jooouKX/7yl8WznvWsYt68eUXT8K9//au44oorigsuuKC48sori5tvvrl46EMfWrziFa8onv3sZxf3v//9iybg5z//eXHxxRcXP/nJT4rrrruuuN/97peeb7311ise+chHFm2DcRx66KF3+vkPfvCD4nGPe1yx3HLLFW3C8ccfX/zoRz8q/vOf/yz+mXV6xCMeUbzjHe8o2qYkKQzjKRPjv//978XKK69crLTSSkVb8L///S+d68MOOyz9vfxzZ935eclLXlK0Hf/973/Tun3nO99JBsxNN91UPPCBDyxWX331YpVVVike9rCHpff95S9/SQT4W9/61hKfv/7664vll1++eMxjHlO0Cc6bfXrJJZek8ZPn5MdLX/rS4vnPf35x73vfO71v0aJF6Rz++9//XuLzv/71r4sXvehFaR+0GdbbPJCf1r/T6RRPecpTirXXXrt4+tOfXtz3vvdN7/vDH/6Q1v+73/3uEp93tufPn1889alPLdoEz33eeecVP/vZzxKpN27jXXPNNYtnPOMZS8yP9ff/ZeAmG2ywQbHGGmtM4OnnNqZNjAkrCuoFL3hB8fjHP764293uVrQFvGQ8Ml/72tcWk82mEeN//vOf6VB9/vOfT0qEIKFgTj/99ESWd9tttyRc73nPe070OQm7T37yk2n9Ka6H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wbp5p00G3cDQsZYMAdEOHvEM66sGwhl//etfn8bMocHgdQZ8RleHtkEkSE0Q0ku3WOuyp9wZes1rXpMMP+vP+JSuSgaYM+d5UGRVhw8ywO9gbLaxSLxRWLRoUcerH/z/BRdc0Fl99dU72267bWe2YNddd+2svfbandNOO63TVJj766+/vnPKKad0Vltttc6FF17YufnmmztNxTXXXNPZb7/9Ossss0xngw026Pmse+21V2ejjTbqnHzyyWN7lttuuy19/5prrtnZY489hvqu8847r7P88st3dt99987VV1/daTOsycEHH9xZdtllO0cccUSn7bjppps6q666amfevHmdK664otN22LOrrLJKkrU33HBDrc8ceeSRnXXWWadz7LHHjlUWnX/++UkPbL/99lP67O2339655ZZbOuecc05n4403TvLsxhtvrPXZrbfeurPiiit2Tj/99E4bYQ2POeaYzi677NI588wza33m8ssv72y55Zadddddt3PRRRd12g5757rrruscddRRnS222KJz6aWXdm699dZan91kk0068+fP75x77rmdNo77qquu6ixYsKBz4IEHdq688span7vsssuSftx00007l1xySa3PHHrooZ3111+/s3DhwiGfeu4g89/qq1Y8WKhSYrfQMu9GYObAw8CzyovEy8fDwtOkaKUJ3TSEfOTgqkwH3t9Xv/rVKW1Bjq7OGt3A88OLKwSUPztq8LILXZrDur0gPYt8XJ6aMngmeXZ49NpUOGM8N9544xJzzCMn/G0cIhBtgrXx3OWuIjxsQrAKOp2LtsAY7E1nqNzD1PrwIhknD20d8Crao8K14zpPua+6qGG3vNF+kF8rUvG+970vhcWlJYksGXsuIvYeZ7baMUZ0RtTGPm4bjInnlxyUNsazZ7y5Z7F1J2vMbXnc1l/EwP4QYp8NEU/t60488cTUxkyaiJ+bnzxuZ9caV9dfqpcIpDlqG+xbXaV4v0UKeH+NOesXc0CmGVtVBlh/8yHaUAciDnSUlnfjkgFzBbWIMTIg38cGrRN2tcA2d7VhdWBqoDQUTH34wx9eLEyQYmSPsNXDcNIQ7tlzzz1TnmOGZ0S8EBavbhASEzIzhnFV1CNKvp9Q6pbS0Q16azJCFBWV9y/BxRAh2BQ4tAGe3/7RDcD65PEQxLmgsG19Ug855JBErMikapcEsqlN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"
+    }
+  },
+  "sourceAnalysis": {
+    "label": "Original IMS attempt supplied with SimCAT 5. Outcomes and timings use the question-wise analysis screenshots.",
+    "sourceImages": [
+      "Screenshot 2026-10-13 214222.png",
+      "Screenshot 2026-10-13 214236.png",
+      "Screenshot 2026-10-13 214244.png",
+      "Screenshot 2026-10-13 214302.png",
+      "Screenshot 2026-10-13 214310.png",
+      "Screenshot 2026-10-13 214326.png",
+      "Screenshot 2026-10-13 214411.png"
+    ],
+    "reportedScore": 35,
+    "questionResults": [
+      {
+        "questionId": "simcat-5-varc-q01",
+        "outcome": "Correct",
+        "timeSeconds": 455
+      },
+      {
+        "questionId": "simcat-5-varc-q02",
+        "outcome": "Correct",
+        "timeSeconds": 78
+      },
+      {
+        "questionId": "simcat-5-varc-q03",
+        "outcome": "Correct",
+        "timeSeconds": 96
+      },
+      {
+        "questionId": "simcat-5-varc-q04",
+        "outcome": "Incorrect",
+        "timeSeconds": 76
+      },
+      {
+        "questionId": "simcat-5-varc-q05",
+        "outcome": "Correct",
+        "timeSeconds": 103
+      },
+      {
+        "questionId": "simcat-5-varc-q06",
+        "outcome": "Unanswered",
+        "timeSeconds": 8
+      },
+      {
+        "questionId": "simcat-5-varc-q07",
+        "outcome": "Incorrect",
+        "timeSeconds": 405
+      },
+      {
+        "questionId": "simcat-5-varc-q08",
+        "outcome": "Unanswered",
+        "timeSeconds": 15
+      },
+      {
+        "questionId": "simcat-5-varc-q09",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "simcat-5-varc-q10",
+        "outcome": "Unanswered",
+        "timeSeconds": 2
+      },
+      {
+        "questionId": "simcat-5-varc-q11",
+        "outcome": "Unanswered",
+        "timeSeconds": 8
+      },
+      {
+        "questionId": "simcat-5-varc-q12",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "simcat-5-varc-q13",
+        "outcome": "Unanswered",
+        "timeSeconds": 3
+      },
+      {
+        "questionId": "simcat-5-varc-q14",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "simcat-5-varc-q15",
+        "outcome": "Unanswered",
+        "timeSeconds": 3
+      },
+      {
+        "questionId": "simcat-5-varc-q16",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "simcat-5-varc-q17",
+        "outcome": "Correct",
+        "timeSeconds": 327
+      },
+      {
+        "questionId": "simcat-5-varc-q18",
+        "outcome": "Correct",
+        "timeSeconds": 200
+      },
+      {
+        "questionId": "simcat-5-varc-q19",
+        "outcome": "Correct",
+        "timeSeconds": 85
+      },
+      {
+        "questionId": "simcat-5-varc-q20",
+        "outcome": "Incorrect",
+        "timeSeconds": 62
+      },
+      {
+        "questionId": "simcat-5-varc-q21",
+        "outcome": "Correct",
+        "timeSeconds": 161
+      },
+      {
+        "questionId": "simcat-5-varc-q22",
+        "outcome": "Correct",
+        "timeSeconds": 80
+      },
+      {
+        "questionId": "simcat-5-varc-q23",
+        "outcome": "Correct",
+        "timeSeconds": 86
+      },
+      {
+        "questionId": "simcat-5-varc-q24",
+        "outcome": "Correct",
+        "timeSeconds": 127
+      },
+      {
+        "questionId": "simcat-5-dilr-q01",
+        "outcome": "Unanswered",
+        "timeSeconds": 99
+      },
+      {
+        "questionId": "simcat-5-dilr-q02",
+        "outcome": "Unanswered",
+        "timeSeconds": 12
+      },
+      {
+        "questionId": "simcat-5-dilr-q03",
+        "outcome": "Unanswered",
+        "timeSeconds": 6
+      },
+      {
+        "questionId": "simcat-5-dilr-q04",
+        "outcome": "Unanswered",
+        "timeSeconds": 3
+      },
+      {
+        "questionId": "simcat-5-dilr-q05",
+        "outcome": "Unanswered",
+        "timeSeconds": 8
+      },
+      {
+        "questionId": "simcat-5-dilr-q06",
+        "outcome": "Unanswered",
+        "timeSeconds": 186
+      },
+      {
+        "questionId": "simcat-5-dilr-q07",
+        "outcome": "Unanswered",
+        "timeSeconds": 21
+      },
+      {
+        "questionId": "simcat-5-dilr-q08",
+        "outcome": "Unanswered",
+        "timeSeconds": 7
+      },
+      {
+        "questionId": "simcat-5-dilr-q09",
+        "outcome": "Unanswered",
+        "timeSeconds": 5
+      },
+      {
+        "questionId": "simcat-5-dilr-q10",
+        "outcome": "Unanswered",
+        "timeSeconds": 4
+      },
+      {
+        "questionId": "simcat-5-dilr-q11",
+        "outcome": "Unanswered",
+        "timeSeconds": 363
+      },
+      {
+        "questionId": "simcat-5-dilr-q12",
+        "outcome": "Incorrect",
+        "timeSeconds": 172
+      },
+      {
+        "questionId": "simcat-5-dilr-q13",
+        "outcome": "Unanswered",
+        "timeSeconds": 58
+      },
+      {
+        "questionId": "simcat-5-dilr-q14",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "simcat-5-dilr-q15",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "simcat-5-dilr-q16",
+        "outcome": "Unanswered",
+        "timeSeconds": 163
+      },
+      {
+        "questionId": "simcat-5-dilr-q17",
+        "outcome": "Unanswered",
+        "timeSeconds": 71
+      },
+      {
+        "questionId": "simcat-5-dilr-q18",
+        "outcome": "Unanswered",
+        "timeSeconds": 26
+      },
+      {
+        "questionId": "simcat-5-dilr-q19",
+        "outcome": "Correct",
+        "timeSeconds": 488
+      },
+      {
+        "questionId": "simcat-5-dilr-q20",
+        "outcome": "Correct",
+        "timeSeconds": 421
+      },
+      {
+        "questionId": "simcat-5-dilr-q21",
+        "outcome": "Unanswered",
+        "timeSeconds": 167
+      },
+      {
+        "questionId": "simcat-5-dilr-q22",
+        "outcome": "Unanswered",
+        "timeSeconds": 126
+      },
+      {
+        "questionId": "simcat-5-qa-q01",
+        "outcome": "Incorrect",
+        "timeSeconds": 177
+      },
+      {
+        "questionId": "simcat-5-qa-q02",
+        "outcome": "Unanswered",
+        "timeSeconds": 54
+      },
+      {
+        "questionId": "simcat-5-qa-q03",
+        "outcome": "Unanswered",
+        "timeSeconds": 242
+      },
+      {
+        "questionId": "simcat-5-qa-q04",
+        "outcome": "Unanswered",
+        "timeSeconds": 49
+      },
+      {
+        "questionId": "simcat-5-qa-q05",
+        "outcome": "Incorrect",
+        "timeSeconds": 33
+      },
+      {
+        "questionId": "simcat-5-qa-q06",
+        "outcome": "Unanswered",
+        "timeSeconds": 192
+      },
+      {
+        "questionId": "simcat-5-qa-q07",
+        "outcome": "Unanswered",
+        "timeSeconds": 3
+      },
+      {
+        "questionId": "simcat-5-qa-q08",
+        "outcome": "Unanswered",
+        "timeSeconds": 5
+      },
+      {
+        "questionId": "simcat-5-qa-q09",
+        "outcome": "Incorrect",
+        "timeSeconds": 340
+      },
+      {
+        "questionId": "simcat-5-qa-q10",
+        "outcome": "Unanswered",
+        "timeSeconds": 20
+      },
+      {
+        "questionId": "simcat-5-qa-q11",
+        "outcome": "Unanswered",
+        "timeSeconds": 158
+      },
+      {
+        "questionId": "simcat-5-qa-q12",
+        "outcome": "Unanswered",
+        "timeSeconds": 18
+      },
+      {
+        "questionId": "simcat-5-qa-q13",
+        "outcome": "Unanswered",
+        "timeSeconds": 324
+      },
+      {
+        "questionId": "simcat-5-qa-q14",
+        "outcome": "Unanswered",
+        "timeSeconds": 242
+      },
+      {
+        "questionId": "simcat-5-qa-q15",
+        "outcome": "Unanswered",
+        "timeSeconds": 9
+      },
+      {
+        "questionId": "simcat-5-qa-q16",
+        "outcome": "Unanswered",
+        "timeSeconds": 13
+      },
+      {
+        "questionId": "simcat-5-qa-q17",
+        "outcome": "Unanswered",
+        "timeSeconds": 264
+      },
+      {
+        "questionId": "simcat-5-qa-q18",
+        "outcome": "Unanswered",
+        "timeSeconds": 237
+      },
+      {
+        "questionId": "simcat-5-qa-q19",
+        "outcome": "Unanswered",
+        "timeSeconds": 8
+      },
+      {
+        "questionId": "simcat-5-qa-q20",
+        "outcome": "Unanswered",
+        "timeSeconds": 19
+      },
+      {
+        "questionId": "simcat-5-qa-q21",
+        "outcome": "Unanswered",
+        "timeSeconds": 4
+      },
+      {
+        "questionId": "simcat-5-qa-q22",
+        "outcome": "Unanswered",
+        "timeSeconds": 6
+      }
+    ],
+    "reportedAreas": [
+      {
+        "label": "Overall",
+        "score": 35,
+        "accuracy": 65,
+        "timeLabel": "02:00",
+        "marksPerMinute": 0.29,
+        "timePerAttemptLabel": "06:02"
+      },
+      {
+        "label": "VARC",
+        "score": 30,
+        "accuracy": 78.57,
+        "timeLabel": "00:39",
+        "marksPerMinute": 0.75,
+        "timePerAttemptLabel": "02:51"
+      },
+      {
+        "label": "Reading Comprehension",
+        "score": 15,
+        "accuracy": 66.67,
+        "timeLabel": "00:30",
+        "marksPerMinute": 0.5,
+        "timePerAttemptLabel": "03:21"
+      },
+      {
+        "label": "Verbal Reasoning",
+        "score": 15,
+        "accuracy": 100,
+        "timeLabel": "00:09",
+        "marksPerMinute": 1.57,
+        "timePerAttemptLabel": "01:55"
+      },
+      {
+        "label": "DILR",
+        "score": 5,
+        "accuracy": 66.67,
+        "timeLabel": "00:40",
+        "marksPerMinute": 0.12,
+        "timePerAttemptLabel": "13:26"
+      },
+      {
+        "label": "Data Interpretation",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:05",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "00:00"
+      },
+      {
+        "label": "Logical Reasoning",
+        "score": 5,
+        "accuracy": 66.67,
+        "timeLabel": "00:34",
+        "marksPerMinute": 0.15,
+        "timePerAttemptLabel": "11:25"
+      },
+      {
+        "label": "QA",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:40",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "13:29"
+      },
+      {
+        "label": "Modern Math",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:07",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "07:22"
+      },
+      {
+        "label": "Arithmetic",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:23",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "00:00"
+      },
+      {
+        "label": "Numbers",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:06",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "03:09"
+      },
+      {
+        "label": "Geometry",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:00",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "00:00"
+      },
+      {
+        "label": "Algebra",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:03",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "00:00"
+      }
+    ]
+  }
+}

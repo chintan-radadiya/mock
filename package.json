@@ -5,7 +5,7 @@
   "description": "Local CAT sectional and full mock practice workspace",
   "scripts": {
     "start": "node scripts/server.js",
-    "test": "node --test --test-isolation=none tests/core.test.js tests/analysis.test.js",
+    "test": "node --test --test-isolation=none tests/core.test.js tests/analysis.test.js tests/simcat5-import.test.cjs",
     "test:browser": "node tests/browser.cjs",
     "test:new-imports": "node tests/new-imports.cjs"
   },

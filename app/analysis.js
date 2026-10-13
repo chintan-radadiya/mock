@@ -42,6 +42,7 @@
     const groups = [{key:'overall',label:'Overall',depth:0,rows}];
     for (const s of snapshot.sections) {
       const selected = rows.filter(q => q.section === s.code);
+      if (source && !selected.length) continue;
       groups.push({key:s.code,label:s.code,depth:1,rows:selected});
       for (const label of new Set(selected.map(q => q.area))) groups.push({key:s.code+'|'+label,label,section:s.code,depth:2,rows:selected.filter(q => q.area === label)});
     }
@@ -53,7 +54,9 @@
       const complete = selected.length===g.questions.length && selected.every(q => Number.isFinite(q.benchmark?.topperTimeSeconds));
       return {id:g.id,section:s.code,title:g.title,...summarize(selected),topperTimeMs:complete ? selected.reduce((n,q)=>n+q.benchmark.topperTimeSeconds*1000,0) : null};
     }));
-    return {source, snapshot, rows, ...summarize(rows), areas, sets, categories,
+    const totalQuestions = snapshot.sections.reduce((n,s)=>n+CAT.flatten(s).length,0);
+    return {source, snapshot, rows, ...summarize(rows), areas, sets:source?sets.filter(s=>s.count):sets, categories,
+      totalQuestions, partialSource:source && rows.length<totalQuestions,
       selection:groups.map(g=>({...g, cells:categories.map(c=>({category:c,...summarize(g.rows.filter(q=>q.selectionCategory===c))}))})),
       sourceAnalysis:source ? test.sourceAnalysis : null,
       benchmarkAvailable:rows.some(q=>q.benchmark), pValueAvailable:rows.some(q=>Number.isFinite(q.benchmark?.topperPValue))};
