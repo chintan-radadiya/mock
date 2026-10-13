@@ -86,7 +86,8 @@
           check(r && questionIds.has(r.questionId) && !resultIds.has(r.questionId) && ['Correct','Incorrect','Unanswered'].includes(r.outcome) && Number.isFinite(r.timeSeconds) && r.timeSeconds>=0,'Invalid or duplicate source question result.');
           if(r) resultIds.add(r.questionId);
         }
-        check(a.percentileMapper===undefined || (Array.isArray(a.percentileMapper) && a.percentileMapper.every(r=>r && Number.isFinite(r.percentile) && r.percentile>=0 && r.percentile<=100 && Number.isFinite(r.score) && ORDER.includes(r.section))), 'Invalid source percentile mapper.');
+        check(a.percentileMapper===undefined || (Array.isArray(a.percentileMapper) && a.percentileMapper.every(r=>r && Number.isFinite(r.percentile) && r.percentile>=0 && r.percentile<=100 && Number.isFinite(r.score) && (ORDER.includes(r.section)||r.section==='Overall'))), 'Invalid source percentile mapper.');
+        check(a.sectionScores===undefined || (Array.isArray(a.sectionScores) && a.sectionScores.every(r=>r && ORDER.includes(r.section) && Number.isFinite(r.score) && Number.isFinite(r.percentile) && r.percentile>=0 && r.percentile<=100)), 'Invalid source section scores.');
       }
     }
     if (errors.length) throw new Error(errors.join('\n'));

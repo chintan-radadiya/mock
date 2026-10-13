@@ -107,7 +107,8 @@ The browser imports JSON; ZIP image extraction happens in chat. DILR Sectional 1
 
 Optional question metadata: `area`, `selectionCategory` (A/B/C), and `benchmark` with required `source` plus optional `sourceImage`, `topperTimeSeconds`, `topperAttemptPercent`, `topperAccuracyPercent`, `topperPValue`. Percentages must be within 0–100. Root `sourceAnalysis` stores a separately labelled reference result with `sourceImages` and `questionResults` mapped by stable question ID. See the updated VARC JSON for a complete example.
 
-To regenerate bundled data after the original extraction: `python scripts/build_data.py`, then `python scripts/add_varc_analytics.py`, then `node scripts/bundle.js`. Run `npm test` and `npm run test:browser` (requires local server and Chrome).
+To regenerate bundled data after the original extraction: `python scripts/build_data.py`, then `python scripts/add_varc_analytics.py`, then `node scripts/bundle.js`. Run `npm test` and `npm run test:browser` (requires local server and Chrome).
+
 
 
 ## DILR Sectional 1 and SimCAT 2
@@ -121,10 +122,17 @@ To reuse a full mock:
 
 Rebuild the reviewed new imports with `python scripts/build_new_imports.py`, then `node scripts/bundle.js`. The OCR intermediates in `extraction` are local extraction aids. `npm run test:new-imports` checks section extraction, download, mixed-source composition, real DILR content, embedded images and analytics in Chrome with the local server running.
 
-## SimCAT 3 and Take Home 1
+## SimCAT 3, Take Home 1 and SimCAT 4
 
-`samples/simcat-3.json` and `samples/take-home-1.json` are standalone full-mock imports from the supplied ZIPs. Take Home 1 is labelled SimCAT 101 in its source screenshots. Each contains 24 VARC, 22 DILR and 22 QA questions, four intact RC passages, five intact DILR sets, answer keys, and source benchmarks. DILR graphs and diagrams use cropped original images only; tables and the QA geometry figure are embedded too. The files work with section extraction and the custom-mock builder.
+`samples/simcat-3.json`, `samples/take-home-1.json` and `samples/simcat-4.json` are standalone full-mock imports from the supplied ZIPs. Take Home 1 is labelled SimCAT 101 in its source screenshots. Each contains 24 VARC, 22 DILR and 22 QA questions, four intact RC passages, five intact DILR sets, answer keys, and source benchmarks. DILR graphs are embedded only as original image crops; original tables and the QA geometry figure are embedded where present. The files work with section extraction and the custom-mock builder.
 
-Each file includes a separate original-attempt analysis, with the supplied question outcomes and times. SimCAT 3 reconciles to 20 marks (13 VARC, 2 DILR, 5 QA); Take Home 1 reconciles to 22 marks (17 VARC, 3 DILR, 2 QA). Source percentiles and reference values are retained only from the supplied screenshots and are never assigned to a new attempt. Provider question times are preserved even where their total differs from a strict 40-minute section.
+Each file includes a separate original-attempt analysis, with the supplied question outcomes and times. SimCAT 3 reconciles to 20 marks (13 VARC, 2 DILR, 5 QA); Take Home 1 reconciles to 22 marks (17 VARC, 3 DILR, 2 QA); SimCAT 4 reconciles to 26 marks (18 VARC, 5 DILR, 3 QA). Source percentiles and reference values are retained only from the supplied screenshots and are never assigned to a new attempt. Provider question times are preserved even where their total differs from a strict 40-minute section.
 
 Import either JSON on an existing hosted dashboard, or refresh the updated local app to load both bundled tests. Rebuild reviewed data using `python scripts/build_oct13_imports.py` and `node scripts/bundle.js`; this requires the local extraction intermediates. Run `npm test` and, with the local server running, `node tests/oct13-imports.cjs` for browser verification.
+
+
+## Take Home 2 (SimCAT 102)
+
+`samples/take-home-2.json` is the full mock imported from TakeHome 2.zip and included in the bundled library. It contains 24 VARC, 22 DILR and 22 QA questions, with four RC passages and five DILR sets. Original graph/table images and the original QA 21 expression are embedded. Sections can be extracted and reused in custom mocks.
+
+The supplied original-attempt analysis reconciles to 41 marks (29 VARC, 9 DILR, 3 QA), with 27 attempts and 16 correct answers. Supplied question timings, A/B/C categories, topper benchmarks, scorecard percentiles and percentile mapper are preserved separately from new attempts.

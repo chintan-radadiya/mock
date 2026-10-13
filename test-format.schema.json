@@ -139,9 +139,22 @@
                 "enum": [
                   "VARC",
                   "DILR",
-                  "QA"
+                  "QA",
+                  "Overall"
                 ]
               }
+            }
+          }
+        },
+        "sectionScores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["section", "score", "percentile"],
+            "properties": {
+              "section": {"enum": ["VARC", "DILR", "QA"]},
+              "score": {"type": "number"},
+              "percentile": {"type": "number", "minimum": 0, "maximum": 100}
             }
           }
         },

@@ -28,7 +28,8 @@ def run(job):
     if enter:
         r['type']='TITA';r['prompt']='\n'.join(l['text'] for l in ls if start<=l['y']<enter['y'])
         if correct:
-            r['answer']=[ocr(im.crop((x,max(0,int(correct['bottom']+5)),min(w,x+220),min(h,int(stats-12)))),out/'answer',7,True)]
+            answer_y=int(correct['y']+14);answer_x=x+int(correct['x'])
+            r['answer']=[ocr(im.crop((max(0,answer_x),max(0,answer_y-3),min(w,answer_x+230),min(h,answer_y+45))),out/'answer',7,True)]
         else:r['answer']=[]
     else:
         r['type']='MCQ'
@@ -58,7 +59,12 @@ def run(job):
     return r
 
 if __name__=='__main__':
-    jobs=[(d,i,p) for d in ['simcat-3','take-home-1'] for i,p in enumerate(sorted((Path('source-images')/d).glob('*.png'))[:68],1)]
+    jobs=[]
+    for d in ['simcat-3','take-home-1','simcat-4']:
+        paths=sorted((Path('source-images')/d).glob('*.png'),key=lambda p:p.name)
+        if d=='simcat-4': paths=[p for p in paths if int(p.stem.split()[-1])<=112823]
+        else: paths=paths[:68]
+        jobs.extend((d,i,p) for i,p in enumerate(paths,1))
     with ThreadPoolExecutor(max_workers=6) as pool:
         records=list(pool.map(run,jobs))
     Path('extraction/oct13-records.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')

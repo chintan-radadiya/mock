@@ -15,6 +15,6 @@ def run(p):
         subprocess.run(['tesseract',str(stem)+'.png',str(stem),'--psm','6','txt','tsv'],capture_output=True,check=True)
     return p.parent.name+' '+p.stem
 
-paths=[p for d in ['simcat-3','take-home-1'] for p in sorted((Path('source-images')/d).glob('*.png'))]
+paths=[p for d in ['simcat-3','take-home-1','simcat-4'] for p in sorted((Path('source-images')/d).glob('*.png'),key=lambda p:int(p.stem.split()[-1]))]
 with ThreadPoolExecutor(max_workers=6) as pool:
     for result in pool.map(run,paths):print(result,flush=True)
