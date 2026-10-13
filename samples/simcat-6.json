@@ -1,0 +1,2009 @@
+{
+  "schemaVersion": 1,
+  "testType": "full",
+  "id": "ims-simcat-6-2026",
+  "revision": 1,
+  "title": "SimCAT 6 · 2026",
+  "description": "66 questions: 24 VARC, 20 DILR and 22 QA. Four intact RC passages, four DILR sets and the original QA figure. Source analysis is partial; new attempts receive complete analysis.",
+  "sections": [
+    {
+      "code": "VARC",
+      "groups": [
+        {
+          "id": "simcat-6-varc-group-1",
+          "title": "Aeonophiles: life, time and energy",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "All of the following can reasonably be inferred from the passage EXCEPT that:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "DNA sequencing can uncover entire ecosystems that traditional lab methods are unable to grow or even detect."
+                },
+                {
+                  "id": "B",
+                  "text": "In some cases, organisms can survive mainly by maintaining themselves over time instead of reproducing frequently."
+                },
+                {
+                  "id": "C",
+                  "text": "The discovery of aeonophiles overturns evolutionary theory by showing that reproduction is unnecessary for natural selection."
+                },
+                {
+                  "id": "D",
+                  "text": "When life does not show long-term metabolic activity, it becomes much harder to identify and detect it beyond Earth."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "The phrase “Scarcity at this scale alters the basic logic of life” most nearly means that:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "When energy is extremely limited, organisms focus on conserving it over long periods rather than on growth or active living."
+                },
+                {
+                  "id": "B",
+                  "text": "Life deep underground appears to follow biological patterns that differ significantly from those seen on the surface."
+                },
+                {
+                  "id": "C",
+                  "text": "In very harsh conditions, organisms reduce or stop reproduction and instead focus on surviving for extremely long periods."
+                },
+                {
+                  "id": "D",
+                  "text": "Long geological timescales slow down biological processes, but the basic mechanisms of life remain unchanged."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "The suggestion that rare geological disruptions may function as evolutionary opportunities for aeonophiles depends on which one of the following assumptions?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aeonophiles have special abilities that help them sense and take advantage of earthquakes or tectonic activity."
+                },
+                {
+                  "id": "B",
+                  "text": "Evolution through natural selection can still work even when organisms do not reproduce over long periods of time."
+                },
+                {
+                  "id": "C",
+                  "text": "Events like earthquakes or tectonic movements sometimes bring enough energy underground to allow organisms to reproduce."
+                },
+                {
+                  "id": "D",
+                  "text": "Underground ecosystems go through changes that are almost similar to seasonal cycles on the surface."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "What does the author mean by the statement, “From a thermodynamic perspective, life can be understood as a process that maintains systems far from equilibrium in order to dissipate energy,” in the context of the passage?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The essential difference between living and non-living systems lies in the speed at which they consume and expend energy."
+                },
+                {
+                  "id": "B",
+                  "text": "Aeonophiles survive because they eventually accumulate large amounts of energy despite their slow metabolism."
+                },
+                {
+                  "id": "C",
+                  "text": "Biological explanations of life are inadequate unless they are replaced entirely by physical laws governing energy and equilibrium."
+                },
+                {
+                  "id": "D",
+                  "text": "Life should be defined primarily in terms of its ability to process and dissipate energy over time, rather than by observable biological activity."
+                }
+              ]
+            }
+          ],
+          "stimulus": "If one were asked to name the slowest and longest-living organisms on Earth, bacteria would hardly come to mind. Microbes are typically associated with speed: rapid growth, swift death, and explosive reproduction. Some, such as E. coli, can divide every 20 minutes and be eradicated just as quickly. This intuition, however, reflects only surface life. Beneath Earth's surface, biology proceeds at a pace that challenges ordinary assumptions about what it means to be alive.\n\nEvidence increasingly suggests that microbes buried kilometres underground can remain metabolically active for extraordinarily long periods, potentially hundreds of thousands or even millions of years. These organisms, termed aeonophiles, exist in environments so energy-poor that reproduction is effectively suspended. Unlike animals that hibernate or plants that lie dormant between seasons, aeonophiles are not waiting for predictable cycles. Their lives unfold on timescales more commonly associated with geological change than biological activity. The existence of such organisms came into view with advances in DNA sequencing that allowed scientists to identify microbes directly from their environments rather than cultivating them in laboratories. This revealed vast ecosystems within Earth’s crust, populated by intraterrestrials inhabiting tiny pores in sediment and fractures in rock, sometimes as deep as five kilometres below the surface. In these settings, meaningful inputs of new energy may be separated by thousands of years.\n\nScarcity at this scale alters the basic logic of life. In much of the subsurface, there is insufficient energy to support even minimal rates of cell division. Instead of reproducing, aeonophiles devote their limited power to maintaining cellular integrity, repairing molecular damage just quickly enough to avoid death. They survive on power levels orders of magnitude lower than those required to sustain non-growing laboratory cultures of familiar bacteria. As a result, long-term metabolic dormancy becomes the dominant state rather than an emergency response.\n\nThis raises a conceptual difficulty. How long can an organism persist when growth is absent and change is barely perceptible? In principle, there may be no fixed upper limit, provided repair continues to outpace decay. Aeonophiles thus occupy an ambiguous zone between longevity and immortality. They are not eternal, yet their lifespans extend far beyond conventional biological expectations. The usual markers of life—growth, reproduction, visible activity—become unreliable guides.\n\nThese organisms also complicate standard accounts of evolution. Natural selection presumes reproduction, yet aeonophiles may pass tens of thousands of years without dividing. One way to resolve this tension is to reconsider dormancy itself. Just as surface organisms endure harsh seasons to gain later reproductive advantage, aeonophiles may be waiting for rare disruptions—earthquakes, landslides, tectonic shifts—that suddenly deliver energy after immense delays. For a being whose lifespan spans geological epochs, such events may be neither accidental nor improbable.\n\nSeen through this lens, aeonophiles force a reconsideration of how life relates to time and energy. From a thermodynamic perspective, life can be understood as a process that maintains systems far from equilibrium in order to dissipate energy. Aeonophiles accomplish this not through speed or abundance, but through persistence. By spreading minimal metabolic activity across vast stretches of time, they extend the temporal domain over which life operates. If life elsewhere follows similarly slow rhythms, it may escape detection precisely because it changes too little within human observation windows."
+        },
+        {
+          "id": "simcat-6-varc-group-5",
+          "title": "Verbal ability · Q5",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nThe adaptive immune system plays a vital role in protecting individuals against invading pathogens primarily through its ability to discern self versus non-self-antigens. Conditions leading to the breakdown of such immune surveillance can have devastating consequences, one of them being erroneous recognition and immune response against self-antigens, resulting in autoimmunity. Autoimmune diseases (AID) are widespread and span multiple organ systems and cellular functions. Historically, the etiology of AID is multifarious and complex owing to a mix of genetic predisposition and environmental conditions. However, the study of somatic mutations could help in understanding the basis of AID. Somatic mutations commonly result from elevated DNA damage and inefficient DNA repair and have been linked to cancer. Moreover, the hyper-inflammatory microenvironment is highly conducive to the accumulation of DNA damage in immune cells. Thus, understanding the mutational burden and landscape of somatic mutagenesis in the context of AID can illuminate the basis of disease development and progression.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Autoimmune diseases lead to failures in the immune self-recognition system due to complex genetic and environmental factors. However, as DNA damage is the main cause of such failures, studying mutational burden and somatic mutagenesis in the context of these diseases can help clarify how they develop and progress."
+                },
+                {
+                  "id": "B",
+                  "text": "Autoimmune diseases, widespread and spanning multiple organs and cellular functions arise owing to complex genetic and environmental factors leading to the failure of the autoimmune system. However, study of somatic mutations - the primary cause of DNA damage- could help in understanding the basis of these diseases."
+                },
+                {
+                  "id": "C",
+                  "text": "Complex genetic and environmental factors lead to autoimmune diseases when the adaptive immune system fails to distinguish self from non-self-antigens affecting multiple organ systems and cellular functions. Studying DNA damage in immune cells due to mutational burden as a contributing factor can help clarify how these diseases develop and progress."
+                },
+                {
+                  "id": "D",
+                  "text": "Autoimmune diseases arise when the adaptive immune system, influenced by complex genetic and environmental factors, fails to distinguish self from non-self-antigens. Studying mutational burden and somatic mutagenesis as contributing factors can help clarify how these diseases develop and progress."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-varc-group-6",
+          "title": "Verbal ability · Q6",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q06",
+              "sourceNumber": 6,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer.\n\n1. For long stretches of human history, horses entered collective memory less as agents of movement than as recurring objects within subsistence and imagination — appearing both in food remains and in symbolic representations.\n\n2. Only in retrospect did the rapid spread of warfare, exchange and cultural contact reveal how profoundly a redefined relationship with horses had altered the structure of connection itself.\n\n3. What later unfolded on the Eurasian steppe — the domestication and harnessing of horses for sustained mobility — seemed at first a localized adjustment in human practice rather than a transformation of historical scale.\n\n4. The world that existed before large-scale mobility was not necessarily smaller, but it remained fragmented by the limits of how quickly people, goods and ideas could travel.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": [
+                "4132"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-varc-group-7",
+          "title": "Kerala and development",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "The passage challenges linear developmental models primarily by:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "suggesting that social welfare programs can permanently replace economic growth as the foundation of development."
+                },
+                {
+                  "id": "B",
+                  "text": "arguing that market-oriented reforms naturally fix the problems created by redistributive political systems."
+                },
+                {
+                  "id": "C",
+                  "text": "showing that development is shaped by shifting interactions among historical, political and global forces."
+                },
+                {
+                  "id": "D",
+                  "text": "asserting that external remittances are the decisive factor that ultimately determines long-term economic prosperity."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "Which of the following best explains how political adaptability and structural change are connected in the passage?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Political institutions supported change by adjusting their ideas to fit new economic realities while still retaining the earlier welfare policies."
+                },
+                {
+                  "id": "B",
+                  "text": "Economic change happened independently of political institutions and was mainly driven primarily by remittance inflows from external labour markets."
+                },
+                {
+                  "id": "C",
+                  "text": "Political flexibility appeared only after economic change had already been completed through market liberalisation."
+                },
+                {
+                  "id": "D",
+                  "text": "Economic change required removing earlier welfare and redistribution policies so that market-led growth could happen."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "Which one of the following best explains how the paradox of “high welfare alongside economic inertia” was resolved?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "By restructuring redistributive policies and focusing on fast industrial growth to increase incomes."
+                },
+                {
+                  "id": "B",
+                  "text": "By depending on existing welfare achievements to naturally create growth and expansion within the local economy."
+                },
+                {
+                  "id": "C",
+                  "text": "By increasing labor activism and stricter regulations to protect social benefits while limiting private business."
+                },
+                {
+                  "id": "D",
+                  "text": "By using remittances from overseas to make up for weak local investment and stimulate economic change."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "All of the following statements are supported by the passage EXCEPT:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Kerala displayed unusually strong social indicators relative to its income levels in the decades following Independence."
+                },
+                {
+                  "id": "B",
+                  "text": "Kerala’s eventual economic expansion required a fundamental departure from its earlier welfare-oriented political framework."
+                },
+                {
+                  "id": "C",
+                  "text": "Historical exposure to maritime trade and patterns of migration shaped Kerala’s social development independently of post-independence ideological choices."
+                },
+                {
+                  "id": "D",
+                  "text": "Labour militancy and regulatory constraints contributed to capital withdrawal and concerns about economic stagnation."
+                }
+              ]
+            }
+          ],
+          "stimulus": "Development economics has long proceeded from a relatively stable assumption: durable social progress follows sustained economic growth. Kerala's trajectory complicates this assumption by presenting a sequence in which improvements in literacy, health and longevity preceded — rather than resulted from — significant income expansion. The case therefore invites a reconsideration of whether economic prosperity is the cause, consequence, or merely one component of broader developmental change.\n\nIn the decades following Indian Independence, Kerala remained comparatively poor when measured through per-capita income. Yet it displayed social indicators that far exceeded those of wealthier regions. Scholars initially attributed this divergence to deliberate political choices: strong public investment in education and healthcare, social reform movements challenging hierarchy, and an influential Left tradition that prioritised redistribution over accumulation. In this interpretation, the state demonstrated that human capabilities could expand independently of rapid industrialisation, thereby offering an implicit critique of growth-first developmental models.\n\nSuch narratives, however, risk overstating ideological intentionality and understating historical structure. Kerala's long-standing integration into maritime trade networks produced a socially diverse and outward-looking economy long before modern policy interventions emerged. Religious pluralism, patterns of migration, and exposure to external markets generated social mobility and literacy incentives that cannot be reduced to political ideology alone. Moreover, high social development coexisted with weak domestic investment, suggesting that welfare achievements did not automatically generate productive expansion. Indeed, labour militancy and regulatory constraints in the post-independence decades contributed to the withdrawal of private capital from industry and agriculture, deepening concerns about stagnation and fiscal fragility.\n\nThe apparent paradox — high welfare alongside economic inertia — was resolved not through internal transformation but through external integration. Beginning in the 1970s, large-scale migration to the Persian Gulf introduced sustained remittance flows that altered household economies. Initially supporting consumption and construction, these transfers gradually became a source of entrepreneurial capital, financing small enterprises in services, healthcare, tourism and education. The influx of migrant earnings effectively substituted for missing domestic investment, allowing economic restructuring without abandoning existing welfare commitments.\n\nSimultaneously, political institutions adapted. Left-oriented governments, historically associated with state control and class-based mobilisation, moderated their stance toward private enterprise. Rather than reversing earlier welfare policies, they sought to reconcile them with market expansion through infrastructure investment, decentralised governance, and a more pragmatic relationship with capital. This evolution blurred conventional ideological distinctions: a political framework once viewed as anti-market became instrumental in enabling market-driven growth.\n\nBy the early twenty-first century, Kerala’s income levels had risen significantly above national averages, prompting a reassessment of earlier interpretations. Yet the new prosperity introduced contradictions of its own. Economic dynamism increasingly depended on remittance-backed consumption, service-sector expansion, and environmentally sensitive tourism, raising concerns about ecological strain and structural dependence on external labour markets. An ageing population and uneven higher-education outcomes further complicated the sustainability of growth.\n\nKerala’s experience thus resists linear explanation. It neither confirms the primacy of welfare-led development nor validates unqualified market liberalism. Instead, it suggests that developmental trajectories emerge from the interaction of historical connectivity, political adaptability, demographic transitions and global economic linkages. The state's transformation underscores a broader lesson: development is less a single pathway than a sequence of negotiated adjustments, where success depends not on ideological purity but on the capacity to absorb and reinterpret structural change over time."
+        },
+        {
+          "id": "simcat-6-varc-group-11",
+          "title": "Verbal ability · Q11",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2, 3, or 4 indicated in the paragraph.\n\nSentence: Trails that were reliable for decades now require detours or closures.\n\nParagraph: For more than two centuries, mountain huts have supported hikers and climbers across the Alps. These shelters were built during the Golden Age of Alpinism and became symbols of endurance in harsh terrain. Today, however, the ground beneath them is shifting.__(1)__. Rising temperatures are melting permafrost, the frozen layer that once acted as glue for rock and ice. As it thaws, mountainsides weaken. Rockfalls are becoming more frequent. Glaciers are retreating at unprecedented speeds.__(2)__. Some huts face cracked foundations, water shortages and expensive repairs. Alpine clubs and local municipalities are investing millions in monitoring systems and structural reinforcements.___(3)__. Yet the pace of change often exceeds their capacity to respond. Tourism continues to grow, especially during heatwaves. More visitors seek refuge in higher, cooler altitudes.__(4)__. But the infrastructure that makes such journeys possible is entering an uncertain future shaped by climate change.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-varc-group-12",
+          "title": "Verbal ability · Q12",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nCurrently, the law doesn’t recognise a proprietary right in most of the unique things that make you “you”. Under copyright law, the concept of your presence or self is abstract, much like an idea is. Copyright doesn't offer protection for “your presence” or “the self” as such. That’s because there has to be material form in specific categories of works for copyright to exist: these are tangible things, such as books or photos. However, typed responses or the voice recordings submitted to the AI for training are material. This means the data used to train the AI to create your digital twin would likely be protectable. But fully autonomous AI generated output is unlikely to have any copyright attached to it. Under current law, it would likely be considered authorless because it didn't originate from the “independent intellectual effort” of a human, but from a machine.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "While copyright law requires material form for protection, it remains unclear whether AI-generated content should be treated as authorless or attributed to the human who provided training data."
+                },
+                {
+                  "id": "B",
+                  "text": "Like the abstract concept of one’s “self.” fully autonomous AI-generated outputs cannot be protected under current copyright law because they lack human intellectual effort and are considered authorless."
+                },
+                {
+                  "id": "C",
+                  "text": "Copyright law protects tangible human generated content used to train AI, but not the notion of one's “self” and fully autonomous AI outputs are unlikely to attract copyright due to the absence of human authorship."
+                },
+                {
+                  "id": "D",
+                  "text": "Under the current law only material originating from “human intellectual effort\" can be protected. Hence material inputs such as typed responses or voice recordings used to train AI may be protectable."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-varc-group-13",
+          "title": "Alienation and identity",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "The shift described in the passage from Left to Right politics primarily illustrates that:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Political attention has moved away from economic issues and increasingly focused on cultural questions across different political sides."
+                },
+                {
+                  "id": "B",
+                  "text": "Class-based politics has been completely replaced by identity politics in contemporary political movements."
+                },
+                {
+                  "id": "C",
+                  "text": "The language of alienation shifted from criticizing capitalist production to defending cultural and ethnic sameness seen as being under threat."
+                },
+                {
+                  "id": "D",
+                  "text": "Discussions of alienation have moved away from abstract theory to practical concerns about migration and controlling borders."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot 2026-10-13 221552.png",
+                "topperAttemptPercent": 61,
+                "topperAccuracyPercent": 76.72,
+                "topperTimeSeconds": 189
+              }
+            },
+            {
+              "id": "simcat-6-varc-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "In the passage, the term “alienation” is associated with all of the following meanings EXCEPT:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A condition in which individuals are not reconciled to the capitalist mode of production."
+                },
+                {
+                  "id": "B",
+                  "text": "A sense of estrangement from one’s community and from a stable, coherent self."
+                },
+                {
+                  "id": "C",
+                  "text": "A sense of inferiority before the foreigner, the stranger, and the vagabond."
+                },
+                {
+                  "id": "D",
+                  "text": "A progressive dismantling of fixed identities that results in a multiplicity of the self."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (280).png",
+                "topperAttemptPercent": 63.8,
+                "topperAccuracyPercent": 29.47,
+                "topperTimeSeconds": 48,
+                "topperPValue": 18.8
+              }
+            },
+            {
+              "id": "simcat-6-varc-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "Which of the following, if true, would most strongly support the author’s claim that attitudes toward alienation in culture are changing?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Younger generations increasingly prefer mixed identities and see fixed ideas of cultural purity as limiting rather than attractive."
+                },
+                {
+                  "id": "B",
+                  "text": "Rising economic inequality in many countries has renewed interest in Marxist criticism of capitalism."
+                },
+                {
+                  "id": "C",
+                  "text": "Many governments have introduced stricter immigration policies to prevent large demographic changes."
+                },
+                {
+                  "id": "D",
+                  "text": "Researchers have shown that alienation is still a useful idea for studying industrial work conditions."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (281).png",
+                "topperAttemptPercent": 58.8,
+                "topperAccuracyPercent": 82.99,
+                "topperTimeSeconds": 37,
+                "topperPValue": 48.8
+              }
+            },
+            {
+              "id": "simcat-6-varc-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "The author’s tone toward the populist Right can best be described as:",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mocking and dismissive, portraying its concerns as intellectually unserious and absurd."
+                },
+                {
+                  "id": "B",
+                  "text": "Sympathetically understanding, recognising its anxieties as justified responses to rapid social change."
+                },
+                {
+                  "id": "C",
+                  "text": "Measured yet sceptical, explaining its fears while questioning their assumptions about purity and decline."
+                },
+                {
+                  "id": "D",
+                  "text": "Neutral and detached, presenting its position without evaluative language or implicit judgement."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (282).png",
+                "topperAttemptPercent": 60.6,
+                "topperAccuracyPercent": 69.31,
+                "topperTimeSeconds": 40,
+                "topperPValue": 42
+              }
+            }
+          ],
+          "stimulus": "One... cause of the waning popularity of ‘alienation’ deserves attention. Hidden in the word itself is an anxiety about the power of the other, the foreigner, the stranger - ‘the alien’ This figure threatens to invade, pollute and disrupt the purity of the homogeneous group. This, at a time of global migration on massive scales - generated by political unrest, economic desperation or natural disasters - arouses fears in the most enduring communities. Alienation has come to suggest not only the loss of control over what one has produced and of one’s traditions or tribal integrity; it also denotes the corrosion of a coherent, autonomous self. It implies the superiority of the domestic over the foreign, the stranger, the vagabond.\n\nBut in an era of modernity, defined by incessant change, why should sameness and identity be preferred over otherness and difference? What if the purity of the community and the self came under suspicion as ideologies of restriction and exclusion? What if hybridity came to be preferred to polar oppositions and categorical distinctions? What if hospitality to the alien was privileged over the imperative to defend the homeland against alleged intruders? Accepting the stranger within, the other in the self, could then be credited as a sign of maturity. The weakening of the discourse of alienation reflected these changes in the cultural climate.\n\nIn an increasingly unsettled world, it would be foolish to claim that literal homelessness and displacement should be celebrated as inherent values in themselves. There is too much suffering caused by forced migration, and the stress involved in the assimilation of those who have lost their homes. For all its potential to sow division, identity politics might reflect a search for roots and community. But it’s true that many now celebrate the freedom to alter identities rather than accept them, and that post-identitarian multiplicity is enjoying a renewal. Such discourses complicate a simple denunciation of alienation from wholeness.\n\nThis change is most clearly registered in political terms. In the heyday of Marxist Humanism, alienation could be understood in terms of the capitalist mode of production, which thwarted the possibility of unalienated labour. But eventually the Left came to de-emphasise class and substitute questions of culture for those of production. When Leftist politics embraced tolerance of difference, it grew wary of stigmatising the alien. Rather than yearning for ‘well-rounded wholeness’ or a comforting immersion in the warm bath of communal uniformity, this political shift meant recognising the virtues of protean personal identities and diasporic dispersion. Hostility to the alien ‘other’ has now migrated to the populist Right. Those who most loudly broadcast their alienation today are likely to be from once-comfortable and hegemonic segments of the population. They feel threatened by the erosion of their status in a society that they remember as homogeneous, integrated and settled. Religious, ethnic, national and gender identities become more rigidly defended against perceived erosion. Many people panic when faced with fluid selves that embrace rather than bemoan the ‘alien’ within. And they are even more unnerved by the literal arrival of non-citizen ‘aliens’, legal as well as illegal, who threaten their alleged ethnic purity and cultural unity. For them, ‘hybridisation’ is really ‘mongrelisation. Attempting to restore past ‘greatness’ or fend off ‘pollution’, they agitate for walls to keep dangerous others out."
+        },
+        {
+          "id": "simcat-6-varc-group-17",
+          "title": "Verbal ability · Q17",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q17",
+              "sourceNumber": 17,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer\n\n1. The spread of digital reading did not immediately weaken libraries; instead, it exposed how much of their value lay beyond the circulation of books.\n\n2. What appears today as adaptation to technology is therefore better understood as the continuation of a transformation that had been underway for decades.\n\n3. Long before screens entered everyday life, however, libraries had already begun shifting toward roles that blurred the line between archive, classroom and civic refuge.\n\n4. Public libraries are described as quiet institutions resisting change, yet their survival has depended on repeated acts of reinvention.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": [
+                "4312"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-varc-group-18",
+          "title": "Chance and scientific laws",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "Which one of the following best summarises the central argument of the passage?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Research in quantum mechanics and molecular biology shows that many things once believed to be purposeful are actually caused by random mutations and unpredictable physical events."
+                },
+                {
+                  "id": "B",
+                  "text": "Experiments such as Richard Lenski’s long-term study of E. coli show that major evolutionary changes often depend on earlier neutral mutations rather than direct natural selection."
+                },
+                {
+                  "id": "C",
+                  "text": "Discoveries in quantum physics and evolutionary biology have shown that randomness is a basic part of reality, shaping outcomes in physics, biology, and even history."
+                },
+                {
+                  "id": "D",
+                  "text": "Although natural laws still guide the universe, some scientific interpretations suggest that determinism can remain even when events appear random."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "In the context of the author’s discussion of quantum mechanics, molecular evolution, and historical contingency, which one of the following best captures the tension the passage identifies between law and contingency?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Scientific laws are increasingly being displaced by evidence showing that randomness alone governs both physical and biological processes."
+                },
+                {
+                  "id": "B",
+                  "text": "Although events may appear random, deeper scientific interpretations preserve a fully deterministic account of physical and biological processes."
+                },
+                {
+                  "id": "C",
+                  "text": "Chance events occasionally modify lawful processes, but the overall direction of evolution and physical change remains largely predictable and law-driven."
+                },
+                {
+                  "id": "D",
+                  "text": "While scientific laws structure the broad framework of reality, specific outcomes within that framework often depend on chains of accidental, contingent events."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "Which one of the following, if true, would most weaken the passage’s claim that neutral mutations play a decisive role in shaping evolutionary outcomes?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Many mutations initially classified as neutral are later found to confer extremely small selective advantages detectable only over long time scales."
+                },
+                {
+                  "id": "B",
+                  "text": "The citrate-metabolising adaptation would eventually have emerged through alternative genetic pathways even if the earlier mutations had not occurred."
+                },
+                {
+                  "id": "C",
+                  "text": "In highly stable environments, populations often accumulate large numbers of neutral mutations without any observable change in form or function."
+                },
+                {
+                  "id": "D",
+                  "text": "Some evolutionary biologists argue that the apparent randomness of molecular change reflects limits in current measurement techniques rather than genuine biological contingency."
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-varc-q21",
+              "sourceNumber": 21,
+              "type": "MCQ",
+              "prompt": "In the sentence, “They remind us that profound transformations—whether in physics, biology or human affairs— can emerge not from grand, predictable forces but from the tiniest, most accidental events,” which one of the following best describes the use of the word “grand” in this context?",
+              "area": "Reading Comprehension",
+              "topic": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It denotes morally admirable or noble forces that shape history through deliberate human intention."
+                },
+                {
+                  "id": "B",
+                  "text": "It describes complex scientific laws whose mathematical sophistication makes them difficult to understand."
+                },
+                {
+                  "id": "C",
+                  "text": "It implies dramatic, spectacular events that attract public attention because of their scale and visibility."
+                },
+                {
+                  "id": "D",
+                  "text": "It refers to large-scale, law-like forces traditionally assumed to drive major change in a systematic and predictable manner."
+                }
+              ]
+            }
+          ],
+          "stimulus": "The second wrinkle in our belief in an orderly, predictable world emerged from the discoveries of quantum mechanics in the early 20th century. Scientists found that the Universe is not merely governed by elegant, deterministic equations but is infused with irreducible randomness. Even at the smallest scales of reality, outcomes can defy prediction. This shift moved science from the certainties of Newton toward a world in which indeterminism plays a central role. Though some interpretations of quantum physics maintain a deterministic structure, the broader lesson was unmistakable: the fundamental workings of nature include an element of unpredictability.\n\nThis realisation profoundly reshaped our sense of causality. If randomness is built into the fabric of the Universe, then unpredictability is not a failure of our models but an inherent feature of reality. And, as scientists soon discovered, this unpredictability extends deeply into the evolution of life. For generations, Darwinian evolution had been understood as a process shaped by clear, directional forces—natural selection acting on variation. Evolution seemed orderly, purposeful even, as organisms adapted to their environments. But in the 1960s, the Japanese evolutionary biologist Motoo Kimura introduced the ‘neutral theory of molecular evolution’, which challenged this intuition. Kimura argued that most genetic mutations are not helpful or harmful. They are simply neutral—arbitrary tweaks that drift through populations by chance rather than selection. Evolution, at the molecular level, was far more haphazard than anyone had imagined.\n\nEvidence soon accumulated across many species. Whether studying viruses, fruit flies, blind mole rats or mice, biologists observed that countless mutations shaping evolutionary history were neither purposeful nor adaptive. They were accidents that nonetheless altered the course of life. As research progressed, it became clear that many evolutionary changes depended on long chains of seemingly meaningless events, each one enabling the next. A fortunate mutation might help an organism thrive, but only because dozens of arbitrary, neutral changes had preceded it.\n\nThe US biologist Richard Lenski’s long-term evolution experiment, which has been running since 1988, dramatically illustrated this idea. By cultivating populations of E. coli bacteria over tens of thousands of generations, Lenski showed that major adaptations—such as the ability to metabolise citrate—arose only after a series of neutral, contingent mutations. If any one of those haphazard tweaks had not occurred, the later transformation would have been impossible. Evolution, at times, is less a story of purposeful adaptation and more a tale of flukes and accumulated quirks.\n\nThe implication is unsettling but clear: outcomes that appear inevitable in retrospect may in fact rest on chains of accidental events. Whether in physics, biology, or human history, chance and law coexist in shaping the world.\n\nTaken together, quantum randomness, molecular drift and the cascading consequences of small historical contingencies reveal a world shaped as much by chance as by law. They remind us that profound transformations—whether in physics, biology or human affairs—can emerge not from grand, predictable forces but from the tiniest, most accidental events."
+        },
+        {
+          "id": "simcat-6-varc-group-22",
+          "title": "Verbal ability · Q22",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer\n\n1. The growing interest in ergodicity economics arises from the observation that what is true across a population at a single moment need not match what happens to one person repeatedly exposed to risk.\n\n2. Conventional economic models often rely on averages taken across many possible outcomes, even when individuals experience only one unfolding path through time.\n\n3. Seen this way, the debate is less about replacing markets or incentives than about deciding whether time or probability provides the more meaningful frame for understanding economic change.\n\n4. Policies evaluated as efficient under ensemble expectations can therefore produce systematically fragile outcomes once compounding and irreversibility enter the picture.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": [
+                "2143"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-varc-group-23",
+          "title": "Verbal ability · Q23",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q23",
+              "sourceNumber": 23,
+              "type": "MCQ",
+              "prompt": "The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2, 3, or 4 indicated in the paragraph.\n\nSentence: The announcement sparked excitement online, but many scientists were skeptical.\n\nParagraph: For more than 10,000 years, dire wolves have existed only in fossils and Ice Age lore. That changed in April 2025, when a biotech company called Colossal Biosciences announced it had created three animals it described as modern dire wolves—Romulus, Remus and Khaleesi.__(1)__. In explaining how the animals were produced, researchers said they had extracted ancient DNA from dire wolf remains, compared it with living canids and identified a small set of genetic differences.__(2)__. They then edited gray wolf DNA to produce traits associated with dire wolves, such as larger size, broader heads and white fur, and implanted the modified embryos into surrogate dogs.___(3)__. The animals, they noted, are still genetically gray wolves with a few engineered changes. In fact, research suggests dire wolves were not true wolves at all, but members of a different lineage. The project has revived debate over “de-extinction,” with critics questioning its ethics and cost, even as global leaders cautiously endorsed continued research in synthetic biology.__(4)__.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 4"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-varc-group-24",
+          "title": "Verbal ability · Q24",
+          "questions": [
+            {
+              "id": "simcat-6-varc-q24",
+              "sourceNumber": 24,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.\n\nToday we see the principle of equality being undone by the laws of autochthony and common origin, as well as by divisions within citizenship, which is to say the latter’s declension into “pure” citizenship (that of the native born) and borrowed citizenship (one that, less secure from the start, is now not safe from forfeiture). Confronted with the perilous situations so characteristic of the age, the question, at least in appearance, is no longer to know how to reconcile the exercise of life and freedom with the knowledge of truth and solicitude for those different from oneself. From now on, it is to know how, in a sort of primitive outpouring, to actualize the will to power by means that are half-cruel, half-virtuous.",
+              "area": "Verbal Reasoning",
+              "topic": "Verbal Reasoning",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Societies are redefining citizenship in ways that weaken equality and increasingly prioritise the assertion of power over reconciliation of freedom, truth, and concern for others."
+                },
+                {
+                  "id": "B",
+                  "text": "Modern states are abandoning equality for half cruel, half virtuous politics by distinguishing between native-born and foreign-born citizens."
+                },
+                {
+                  "id": "C",
+                  "text": "Modern political life is defined by autochthony that replaces universal equality with the divisive pure and borrowed citizenship to actualize half cruel half virtuous will to power."
+                },
+                {
+                  "id": "D",
+                  "text": "Societies are weakening equality by privileging native identity over universal citizenship and replacing shared humanity with harsher exclusionary power politics."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DILR",
+      "groups": [
+        {
+          "id": "simcat-6-dilr-group-1",
+          "title": "NCAT scores",
+          "questions": [
+            {
+              "id": "simcat-6-dilr-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "What can be the maximum value of the total scores of all the students who cleared all the 3 sections?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "801"
+                },
+                {
+                  "id": "B",
+                  "text": "803"
+                },
+                {
+                  "id": "C",
+                  "text": "807"
+                },
+                {
+                  "id": "D",
+                  "text": "813"
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-dilr-q02",
+              "sourceNumber": 2,
+              "type": "TITA",
+              "prompt": "A student scored 17 marks in DI-LR section. How many distinct combinations of the number of correct and incorrect attempts (in terms of number of questions) are possible to achieve this score?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": [
+                "4"
+              ]
+            },
+            {
+              "id": "simcat-6-dilr-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "What can be the maximum value of the total marks of all the students who cleared exactly two sections?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1069"
+                },
+                {
+                  "id": "B",
+                  "text": "1073"
+                },
+                {
+                  "id": "C",
+                  "text": "1078"
+                },
+                {
+                  "id": "D",
+                  "text": "1083"
+                }
+              ],
+              "selectionCategory": "B"
+            },
+            {
+              "id": "simcat-6-dilr-q04",
+              "sourceNumber": 4,
+              "type": "TITA",
+              "prompt": "Given that the total score of the students who cleared exactly two sections is maximised, what is the maximum possible total score of the students who cleared exactly one section?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": [
+                "110"
+              ]
+            },
+            {
+              "id": "simcat-6-dilr-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "Given that the total score of the students who cleared exactly two sections is maximised, what is the highest possible value of the lowest total score among all ten students?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "60"
+                },
+                {
+                  "id": "B",
+                  "text": "59"
+                },
+                {
+                  "id": "C",
+                  "text": "58"
+                },
+                {
+                  "id": "D",
+                  "text": "55"
+                }
+              ],
+              "selectionCategory": "C"
+            }
+          ],
+          "stimulus": "Ten students appeared in the National Common Admission Test (NCAT). All of their total scores were distinct. The examination had three sections, viz. Quantitative Ability (22 questions), DI-LR (22 questions), and VARC (24 questions). Each correct answer fetched 3 marks, while there was a penalty of 1 mark for every incorrect answer. There was no penalty for a question not attempted. The total score of a student was the sum of their scores in the three sections. A student should score at least 30% of the maximum possible marks in a section to clear the section. Among these ten students 6 cleared the QA section, 4 cleared the DI-LR section, and 5 cleared the VARC section."
+        },
+        {
+          "id": "simcat-6-dilr-group-6",
+          "title": "Scholars and presentations",
+          "questions": [
+            {
+              "id": "simcat-6-dilr-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "For how many presenters can we uniquely determine the subject of their presentation as well as the day of their presentation?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "All 7"
+                },
+                {
+                  "id": "B",
+                  "text": "5"
+                },
+                {
+                  "id": "C",
+                  "text": "4"
+                },
+                {
+                  "id": "D",
+                  "text": "Fewer than 4"
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-dilr-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "Which of the following presentation(s) is/are definitely scheduled before the presentation on Linguistics?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only Mathematics"
+                },
+                {
+                  "id": "B",
+                  "text": "Only Astronomy"
+                },
+                {
+                  "id": "C",
+                  "text": "Only Ecology"
+                },
+                {
+                  "id": "D",
+                  "text": "Both Astronomy and Ecology"
+                }
+              ]
+            },
+            {
+              "id": "simcat-6-dilr-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "How many presentations were scheduled between Anaya’s and Charvi’s presentations?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "0"
+                },
+                {
+                  "id": "B",
+                  "text": "1"
+                },
+                {
+                  "id": "C",
+                  "text": "Either 0 or 1"
+                },
+                {
+                  "id": "D",
+                  "text": "More than 1"
+                }
+              ],
+              "selectionCategory": "A"
+            },
+            {
+              "id": "simcat-6-dilr-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "Whose presentation was scheduled between the presentations of Esha and Dhruv?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only Falguni"
+                },
+                {
+                  "id": "B",
+                  "text": "Only Gaurav"
+                },
+                {
+                  "id": "C",
+                  "text": "Both Falguni and Gaurav"
+                },
+                {
+                  "id": "D",
+                  "text": "Neither Falguni nor Gaurav"
+                }
+              ],
+              "selectionCategory": "A"
+            },
+            {
+              "id": "simcat-6-dilr-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "How many of the following combination(s) is/are definitely correct? Combination A: Wednesday - Mathematics - Gaurav Combination B: Friday - Philosophy - Esha Combination C: Tuesday - Astronomy - Charvi",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "0"
+                },
+                {
+                  "id": "B",
+                  "text": "1"
+                },
+                {
+                  "id": "C",
+                  "text": "2"
+                },
+                {
+                  "id": "D",
+                  "text": "3"
+                }
+              ]
+            }
+          ],
+          "stimulus": "Seven scholars named Anaya, Bhavesh, Charvi, Dhruv, Esha, Falguni, and Gaurav presented their research at a prestigious 7-day Indian academic symposium. Each scholar presented on a different day of the week (from Monday to Sunday), and each on a unique topic: Ayurveda, Astronomy, Philosophy, Mathematics, Linguistics, Ecology, and Metaphysics — not necessarily in that order. The following information is known:\n\n1. Charvi presented after Bhavesh but before Esha.\n\n2. The presentation on Ecology was scheduled on Monday.\n\n3. Gaurav presented on Mathematics, but not on Sunday.\n\n4. Dhruv presented on Ayurveda, and his session was held after Falguni’s.\n\n5. The Linguistics session occurred after Charvi's presentation, but not on Sunday.\n\n6. Esha did not present on Linguistics or Metaphysics.\n\n7. The presentation on Metaphysics took place immediately after the presentation on\n\nPhilosophy.\n\n8. Only one scholar presented after the Metaphysics presentation.\n\n9. Neither Anaya nor Charvi presented on Philosophy or Metaphysics."
+        },
+        {
+          "id": "simcat-6-dilr-group-11",
+          "title": "Kabaddi player auction",
+          "questions": [
+            {
+              "id": "simcat-6-dilr-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "How many Raiders were sold in the entire auction?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "6"
+                },
+                {
+                  "id": "B",
+                  "text": "7"
+                },
+                {
+                  "id": "C",
+                  "text": "8"
+                },
+                {
+                  "id": "D",
+                  "text": "9"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (293).png",
+                "topperAttemptPercent": 63.8,
+                "topperAccuracyPercent": 93.1,
+                "topperTimeSeconds": 298,
+                "topperPValue": 59.4
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "What was the highest final price paid for any Defender sold in the auction?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "15 Lakhs"
+                },
+                {
+                  "id": "B",
+                  "text": "20 Lakhs"
+                },
+                {
+                  "id": "C",
+                  "text": "25 Lakhs"
+                },
+                {
+                  "id": "D",
+                  "text": "10 Lakhs"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (294).png",
+                "topperAttemptPercent": 61.6,
+                "topperAccuracyPercent": 88.96,
+                "topperTimeSeconds": 68,
+                "topperPValue": 54.8
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "Which of the following teams had the lowest average cost per player in their final squad?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rohtak Raiders"
+                },
+                {
+                  "id": "B",
+                  "text": "Panipat Panthers"
+                },
+                {
+                  "id": "C",
+                  "text": "Sonipat Strikers"
+                },
+                {
+                  "id": "D",
+                  "text": "Hisar Heroes"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (295).png",
+                "topperAttemptPercent": 61.4,
+                "topperAccuracyPercent": 93.16,
+                "topperTimeSeconds": 35,
+                "topperPValue": 57.2
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "What is the sum of the final selling prices of all the All-Rounders sold in the entire auction?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "105 Lakhs"
+                },
+                {
+                  "id": "B",
+                  "text": "115 Lakhs"
+                },
+                {
+                  "id": "C",
+                  "text": "120 Lakhs"
+                },
+                {
+                  "id": "D",
+                  "text": "95 Lakhs"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (296).png",
+                "topperAttemptPercent": 58,
+                "topperAccuracyPercent": 93.45,
+                "topperTimeSeconds": 35,
+                "topperPValue": 54.2
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q15",
+              "sourceNumber": 15,
+              "type": "TITA",
+              "prompt": "What is the absolute difference between the total amount spent (in lakhs) on all Raiders combined and the total amount spent on all Defenders combined across the entire auction?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": [
+                "30"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (297).png",
+                "topperAttemptPercent": 58.2,
+                "topperAccuracyPercent": 70.1
+              }
+            }
+          ],
+          "stimulus": "The organizers of the local \"Haryana Yuva Kabaddi League\" (HYKL) held a player auction for the upcoming season. Four franchise teams participated: the Rohtak Raiders, Panipat Panthers, Sonipat Strikers, and Hisar Heroes.\n\nThe Rules of the Auction:\n\n1. The Pool: There were exactly 20 players in the auction pool. Every single player was sold.\n\n2. Squad Size: Each franchise had to build a squad of exactly 5 players.\n\n3. Categories: Players belonged to one of three categories: Raider (R), Defender (D), or All-Rounder (A). Under mandatory league rules, every franchise had to buy at least one player from each of the three categories.\n\n4. The Budget: Each franchise was given the maximum auction budget of ₹80 Lakhs. A franchise did not have to exhaust their entire budget if they could buy the players as per their requirements for less than ₹80 Lakhs.\n\n5. The base prices were strictly fixed: Defenders = ₹5 Lakhs, Raiders = ₹10 Lakhs, and All-Rounders = ₹15 Lakhs.\n\n6. All final selling prices were integer multiples of ₹5 Lakhs. No player could be sold below their base price.\n\n7. Note: The \"premium\" is the amount paid over a player's base price.\n\nAuction data received:\n\n1. Across the entire auction, exactly 6 All-Rounders were sold.\n\n2. Panipat Panthers bought the maximum possible number of All-Rounders that any single team could buy subject to other rules. Interestingly, they exhausted their entire ₹80 Lakhs budget. They bought all their All-Rounders at different prices, and did not secure their sole Defender at base price.\n\n3. Rohtak Raiders bought exactly three Defenders. Their sole Raider accounted for exactly 50% of their total ₹80 Lakhs auction budget. Every other player in Rohtak's squad was secured at their respective base prices.\n\n4. Hisar Heroes bought more Raiders than Defenders. Only one player in Hisar's entire squad was bought at a premium. That player was an All-Rounder bought for ₹25 Lakhs.\n\n5. Sonipat Strikers spent exactly ₹15 Lakhs more than Hisar Heroes’ total squad cost. For Sonipat, both their Raiders were bought at the exact same price, and both their Defenders were bought at the exact same price. Furthermore, Sonipat paid more for each of their Defenders than they did for each of their Raiders. Their All-Rounder was bought at base price."
+        },
+        {
+          "id": "simcat-6-dilr-group-16",
+          "title": "Gold coin transfers",
+          "questions": [
+            {
+              "id": "simcat-6-dilr-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "What was the initial number of gold coins Aman possessed?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "12"
+                },
+                {
+                  "id": "B",
+                  "text": "14"
+                },
+                {
+                  "id": "C",
+                  "text": "16"
+                },
+                {
+                  "id": "D",
+                  "text": "18"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (298).png",
+                "topperAttemptPercent": 33.8,
+                "topperAccuracyPercent": 80.47,
+                "topperTimeSeconds": 298,
+                "topperPValue": 27.2
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "On Day 2, how many gold coins did Deepa transfer to Aman?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "12"
+                },
+                {
+                  "id": "B",
+                  "text": "10"
+                },
+                {
+                  "id": "C",
+                  "text": "7"
+                },
+                {
+                  "id": "D",
+                  "text": "8"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (299).png",
+                "topperAttemptPercent": 31.8,
+                "topperAccuracyPercent": 79.87,
+                "topperTimeSeconds": 46,
+                "topperPValue": 25.4
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q18",
+              "sourceNumber": 18,
+              "type": "TITA",
+              "prompt": "What was Deepa's coin balance at the end of Day 2?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": [
+                "17"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (300).png",
+                "topperAttemptPercent": 37.2,
+                "topperAccuracyPercent": 47.31,
+                "topperTimeSeconds": 34,
+                "topperPValue": 17.6
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "Which of the following statements is definitely TRUE?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Boman had exactly 33 coins at the end of Day 1."
+                },
+                {
+                  "id": "B",
+                  "text": "Deepa's lowest coin balance during the festival was 19."
+                },
+                {
+                  "id": "C",
+                  "text": "The difference between Aman's and Deepa’s initial coin balances was exactly 5."
+                },
+                {
+                  "id": "D",
+                  "text": "Chirag transferred 7 coins to Deepa on Day 1."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (301).png",
+                "topperAttemptPercent": 26.2,
+                "topperAccuracyPercent": 82.44,
+                "topperTimeSeconds": 27,
+                "topperPValue": 21.6
+              }
+            },
+            {
+              "id": "simcat-6-dilr-q20",
+              "sourceNumber": 20,
+              "type": "TITA",
+              "prompt": "What was Chirag's coin balance at the end of Day 1?",
+              "area": "Logical Reasoning",
+              "topic": "Logical Reasoning",
+              "answer": [
+                "23"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question statistics (visible fields only)",
+                "sourceImage": "Screenshot (302).png",
+                "topperAttemptPercent": 35,
+                "topperAccuracyPercent": 56,
+                "topperTimeSeconds": 45,
+                "topperPValue": 19.6
+              }
+            }
+          ],
+          "stimulus": "Four traders, named Aman, Boman, Chirag, and Deepa, deal in rare gold coins. At the start of a 3-day trading festival, they each possessed a distinct positive integer number of gold coins. The total number of gold coins among the four of them was exactly 100, and this total remained strictly constant throughout the festival. Over the 3 days, exactly six one-way transfers took place, with exactly two transfers each day. On any given day, no trader was involved in more than one transfer. Following are the details of the transfers that took place over the three days: Day 1: Aman transferred some coins to Boman, and Chirag transferred some coins to Deepa. Day 2: Boman transferred some coins to Chirag, and Deepa transferred some coins to Aman. Day 3: Chirag transferred some coins to Aman, and Boman transferred some coins to Deepa. All six transfer amounts over the three days were distinct positive integers. At the end of Day 3, the festival concluded, and it was found that all four traders ended up with exactly the same number of gold coins. Following information is known:\n\n1. The total number of coins transferred across all pairs on Day 1, Day 2, and Day 3 were 16, 19, and 13 respectively.\n\n2. Aman's initial number of coins (at the start of Day 1) was exactly twice the number of coins Boman transferred to Chirag on Day 2.\n\n3. The absolute difference between Boman's initial number of coins and Chirag's initial number of coins was exactly 1.\n\n4. The number of coins Aman transferred to Boman on Day 1 was an even number, and this specific amount was less than the number of coins Boman transferred to Deepa on Day 3.\n\n5. At the end of Day 1, Deepa's coin balance was a prime number.\n\n6. Chirag's initial number of coins was a multiple of 11.\n\n7. Among the six transfer amounts made during the festival, exactly two were prime numbers."
+        }
+      ]
+    },
+    {
+      "code": "QA",
+      "groups": [
+        {
+          "id": "simcat-6-qa-group-1",
+          "title": "Quantitative ability · Q1",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "Two distinct regular hexagons ABCDEF and BGHIDJ do not completely coincide but overlap in common region. If BD = 2 cm, determine the total area covered by the two hexagons, excluding the overlapping portion. Express your answer in cm².",
+              "area": "Geometry",
+              "topic": "Geometry",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "8√3/3"
+                },
+                {
+                  "id": "B",
+                  "text": "10√3/3"
+                },
+                {
+                  "id": "C",
+                  "text": "8√3"
+                },
+                {
+                  "id": "D",
+                  "text": "10√3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-2",
+          "title": "Quantitative ability · Q2",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q02",
+              "sourceNumber": 2,
+              "type": "TITA",
+              "prompt": "If ‘a’ is the smallest positive integer such that ‘1000 + a’ is the sum of the first ‘b’ positive even numbers, find the value of |b - a|.",
+              "area": "Numbers",
+              "topic": "Numbers",
+              "answer": [
+                "24"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-3",
+          "title": "Quantitative ability · Q3",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q03",
+              "sourceNumber": 3,
+              "type": "TITA",
+              "prompt": "A company planned an offsite trip for its employees and booked a resort package for a fixed total amount. The cost was to be shared equally by all employees who initially registered for the trip. Later, 6 employees cancelled their participation. As a result, the same total amount had to be shared equally among the remaining employees, and the contribution per employee increased by at least ₹2,500 but not more than ₹4,000. If the total resort package cost was ₹1,20,000, how many possible values are there for the number of employees who initially registered?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": [
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-4",
+          "title": "Quantitative ability · Q4",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "Two racing cars, A and B, compete in a race. Car B is given a head start of 100 metres. The speed of car A is 18 kmph during the first minute, 36 kmph during the second minute, 72 kmph during the third minute, and so on, with its speed doubling every minute. Car B maintains a uniform speed of 90 kmph throughout the race. If car A wins the race by 50 metres, find the length of the race, in km.",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "6.3"
+                },
+                {
+                  "id": "B",
+                  "text": "6.5"
+                },
+                {
+                  "id": "C",
+                  "text": "6.7"
+                },
+                {
+                  "id": "D",
+                  "text": "6.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-5",
+          "title": "Quantitative ability · Q5",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "An entrepreneur takes two loans, Loan A and Loan B, of the same principal amount. Loan A is taken at compound interest, compounded annually, for exactly 2 years. Loan B is taken at simple interest at the same annual interest rate for 26 months. At the end of the respective loan periods, the interest accrued on the two loans is equal. What is the annual rate of interest charged on the loans?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "12.50%"
+                },
+                {
+                  "id": "B",
+                  "text": "16⅔%"
+                },
+                {
+                  "id": "C",
+                  "text": "20.00%"
+                },
+                {
+                  "id": "D",
+                  "text": "33⅓%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-6",
+          "title": "Quantitative ability · Q6",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "Let f(x) be a linear function defined on real numbers such that f(f(x)) = 9x + 8. If it is known that f(1) > 0, the value of f(5) is",
+              "area": "Algebra",
+              "topic": "Algebra",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "13"
+                },
+                {
+                  "id": "B",
+                  "text": "17"
+                },
+                {
+                  "id": "C",
+                  "text": "25"
+                },
+                {
+                  "id": "D",
+                  "text": "26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-7",
+          "title": "Quantitative ability · Q7",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "At a music festival, 75% of the attendees were students. Among the students, 80% owned a premium pass. Of the students who owned a premium pass, 66⅔% were boys. What is the minimum possible number of girl students who owned a premium pass?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "12"
+                },
+                {
+                  "id": "B",
+                  "text": "8"
+                },
+                {
+                  "id": "C",
+                  "text": "4"
+                },
+                {
+                  "id": "D",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-8",
+          "title": "Quantitative ability · Q8",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "A contractor has been awarded a contract to pave a 180 m long road in 36 days. He initially employs 30 workers, each working 8 hours per day. After 10 days, it is found that only 45 m of the road has been paved. To accelerate the work, the contractor increases the workforce by 50% and extends the daily working time to 10 hours. If the workers maintain the same rate of productivity, the road will be completed _____ days before the scheduled deadline.",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "8½"
+                },
+                {
+                  "id": "B",
+                  "text": "9"
+                },
+                {
+                  "id": "C",
+                  "text": "9½"
+                },
+                {
+                  "id": "D",
+                  "text": "10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-9",
+          "title": "Quantitative ability · Q9",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "The points A(1, 2), B(7, 4), C(6, 9), and D(0, 7) form a quadrilateral. Find the area(in sq. units) of the quadrilateral ABCD.",
+              "area": "Geometry",
+              "topic": "Geometry",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "24"
+                },
+                {
+                  "id": "B",
+                  "text": "28"
+                },
+                {
+                  "id": "C",
+                  "text": "32"
+                },
+                {
+                  "id": "D",
+                  "text": "36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-10",
+          "title": "Quantitative ability · Q10",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "A top-secret research lab issues 6-character ID codes to its scientists. Each code is formed using only the first eight English letters, A to H, and the odd digits 1, 3,5, 7 and 9. No two letters in the code can be adjacent. Each code must contain at least 3 letters. Digits may be repeated, but letters cannot be repeated. Also, the letters in the code, when read from left to right, must appear in alphabetical order. How many valid ID codes can be generated?",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "20,000"
+                },
+                {
+                  "id": "B",
+                  "text": "24,000"
+                },
+                {
+                  "id": "C",
+                  "text": "33,250"
+                },
+                {
+                  "id": "D",
+                  "text": "28,000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-11",
+          "title": "Quantitative ability · Q11",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "‘x’ and ‘y’ are natural numbers such that a = log₁₀x and b = log₁₀y. If log₁₀(7⅕) = 3a + 2b − 1, find the value of log₅(x + y).",
+              "area": "Algebra",
+              "topic": "Algebra",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1"
+                },
+                {
+                  "id": "B",
+                  "text": "2"
+                },
+                {
+                  "id": "C",
+                  "text": "3"
+                },
+                {
+                  "id": "D",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-12",
+          "title": "Quantitative ability · Q12",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "In ΔABC, DE ∥ BC, AD : BC = 2 : 3. A(ΔADF) = 8 sq. cm, the length of AB = 15 cm and the length of AD = 6 cm. Find A(ΔBDF) : A(ΔDFE).",
+              "area": "Geometry",
+              "topic": "Geometry",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "7:6"
+                },
+                {
+                  "id": "B",
+                  "text": "7:10"
+                },
+                {
+                  "id": "C",
+                  "text": "5:2"
+                },
+                {
+                  "id": "D",
+                  "text": "4:3"
+                }
+              ],
+              "assetIds": [
+                "s6-qa12-figure"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-13",
+          "title": "Quantitative ability · Q13",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q13",
+              "sourceNumber": 13,
+              "type": "TITA",
+              "prompt": "For n ≥ 1, a sequence is defined as aₙ₊₁ = aₙ/(1 + 3aₙ), where a₁ = 5. What is the sum of the reciprocals of the first 10 terms of the sequence?",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "answer": [
+                "137"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-14",
+          "title": "Quantitative ability · Q14",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q14",
+              "sourceNumber": 14,
+              "type": "TITA",
+              "prompt": "The weights of 11 cricketers are all distinct integers and each player weighs more than 50 kg. The average weight of the team is 72 kg. Captain Ruhan weighs 75 kg, and his weight is greater than that of exactly four other players. What is the maximum possible difference between the weights of two cricketers in the team?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": [
+                "66"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-15",
+          "title": "Quantitative ability · Q15",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q15",
+              "sourceNumber": 15,
+              "type": "TITA",
+              "prompt": "If 4^(x+1) + 2^(2x+1) = 96, the value of ‘x’ is _____.",
+              "area": "Algebra",
+              "topic": "Algebra",
+              "answer": [
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-16",
+          "title": "Quantitative ability · Q16",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "Consider three Arithmetic progressions given below: Series 1,S1: 3, 7,11, 15,... Series 2, S2: 5, 11, 17, 23, ... Series 3, S3: 7, 15, 23, 31, ... If a set A is formed containing all the numbers that are common to at least two of the above three progressions, how many terms in the set will be less than 1000?",
+              "area": "Modern Math",
+              "topic": "Modern Math",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "167"
+                },
+                {
+                  "id": "B",
+                  "text": "208"
+                },
+                {
+                  "id": "C",
+                  "text": "249"
+                },
+                {
+                  "id": "D",
+                  "text": "166"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-17",
+          "title": "Quantitative ability · Q17",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "In a circle, two parallel chords of lengths 10 cm and 24 cm are 7 cm apart. Find the ratio of the numerical value of the area of the circle to the numerical value of its circumference.",
+              "area": "Geometry",
+              "topic": "Geometry",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "13/2"
+                },
+                {
+                  "id": "B",
+                  "text": "15/2"
+                },
+                {
+                  "id": "C",
+                  "text": "5/2"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-18",
+          "title": "Quantitative ability · Q18",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "An empty tank is to be filled using three pipes. Pipe A can fill the tank in 4 hours, while Pipe B can empty the tank in 6 hours. Pipe C can fill the tank in 3 hours. On 2nd April, Pipe A is opened at 9:00 AM and Pipe B is opened at 10:00 AM. At 10:30 AM, Pipe C is also opened. At what time will the tank be completely filled?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "12:25 PM"
+                },
+                {
+                  "id": "B",
+                  "text": "12:12 PM"
+                },
+                {
+                  "id": "C",
+                  "text": "12:42 PM"
+                },
+                {
+                  "id": "D",
+                  "text": "12:00 noon"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-19",
+          "title": "Quantitative ability · Q19",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "An electronics retailer marks up the price of a flagship smartphone by x%. During a festive sale, he offers a standard flat discount of 20% on the marked price to all walk-in customers. However, customers purchasing the smartphone via a ‘Premium Bank’ credit card receive an additional flat reduction of ₹4,500 on their final billing amount. If a customer uses the ‘Premium Bank’ credit card, the retailer makes an overall net profit of 8%. If a customer buys the phone without using this credit card, the retailer makes an overall net profit of 23%. What is the value of ‘x’?",
+              "area": "Arithmetic",
+              "topic": "Arithmetic",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "45.25"
+                },
+                {
+                  "id": "B",
+                  "text": "50.85"
+                },
+                {
+                  "id": "C",
+                  "text": "53.75"
+                },
+                {
+                  "id": "D",
+                  "text": "60.45"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-20",
+          "title": "Quantitative ability · Q20",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q20",
+              "sourceNumber": 20,
+              "type": "TITA",
+              "prompt": "Find the sum of all the positive integer values of ‘x’ for which (x³ − 10x² + 31x − 30) is negative.",
+              "area": "Algebra",
+              "topic": "Algebra",
+              "answer": [
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-21",
+          "title": "Quantitative ability · Q21",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q21",
+              "sourceNumber": 21,
+              "type": "TITA",
+              "prompt": "The sum of the digits of a four-digit number is 18. The digits of the number are in increasing arithmetic progression from thousands place to unit’s place in that order. When the original number is subtracted from the number obtained by reversing its digits, the result is 3087. What is the original number?",
+              "area": "Numbers",
+              "topic": "Numbers",
+              "answer": [
+                "3456"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simcat-6-qa-group-22",
+          "title": "Quantitative ability · Q22",
+          "questions": [
+            {
+              "id": "simcat-6-qa-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "How many pairs of positive integers (x, y) satisfy the equation y = (3x + 224)/(x − 10)?",
+              "area": "Numbers",
+              "topic": "Numbers",
+              "answer": [
+                "4"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "s6-qa12-figure": {
+      "alt": "Original triangle diagram for QA question 12.",
+      "data": "data:image/png;base64,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"
+    }
+  },
+  "sourceAnalysis": {
+    "label": "Partial original IMS attempt: only the 13 questions with visible outcomes and timing rows are included. Other source timings, totals and percentiles were not supplied.",
+    "sourceImages": [
+      "Screenshot 2026-10-13 221552.png",
+      "Screenshot (280).png",
+      "Screenshot (281).png",
+      "Screenshot (282).png",
+      "Screenshot (293).png",
+      "Screenshot (294).png",
+      "Screenshot (295).png",
+      "Screenshot (296).png",
+      "Screenshot (297).png",
+      "Screenshot (298).png",
+      "Screenshot (299).png",
+      "Screenshot (300).png",
+      "Screenshot (301).png",
+      "Screenshot (302).png"
+    ],
+    "questionResults": [
+      {
+        "questionId": "simcat-6-varc-q13",
+        "outcome": "Correct",
+        "timeSeconds": 458
+      },
+      {
+        "questionId": "simcat-6-varc-q14",
+        "outcome": "Incorrect",
+        "timeSeconds": 76
+      },
+      {
+        "questionId": "simcat-6-varc-q15",
+        "outcome": "Incorrect",
+        "timeSeconds": 93
+      },
+      {
+        "questionId": "simcat-6-varc-q16",
+        "outcome": "Incorrect",
+        "timeSeconds": 23
+      },
+      {
+        "questionId": "simcat-6-dilr-q11",
+        "outcome": "Correct",
+        "timeSeconds": 505
+      },
+      {
+        "questionId": "simcat-6-dilr-q12",
+        "outcome": "Unanswered",
+        "timeSeconds": 31
+      },
+      {
+        "questionId": "simcat-6-dilr-q13",
+        "outcome": "Unanswered",
+        "timeSeconds": 2
+      },
+      {
+        "questionId": "simcat-6-dilr-q14",
+        "outcome": "Unanswered",
+        "timeSeconds": 7
+      },
+      {
+        "questionId": "simcat-6-dilr-q16",
+        "outcome": "Unanswered",
+        "timeSeconds": 22
+      },
+      {
+        "questionId": "simcat-6-dilr-q17",
+        "outcome": "Unanswered",
+        "timeSeconds": 8
+      },
+      {
+        "questionId": "simcat-6-dilr-q18",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "simcat-6-dilr-q19",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "simcat-6-dilr-q20",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      }
+    ]
+  }
+}

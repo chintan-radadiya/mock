@@ -25,7 +25,7 @@ const demo = {
     ] }
   ]
 };
-const real = ['varc-section-6','dilr-section-1','simcat-2','simcat-3','take-home-1','simcat-4','take-home-2','take-home-3','take-home-4','take-home-5','take-home-6','simcat-5'].map(name => CAT.validate(JSON.parse(fs.readFileSync('samples/'+name+'.json','utf8'))));
+const real = ['varc-section-6','dilr-section-1','simcat-2','simcat-3','take-home-1','simcat-4','take-home-2','take-home-3','take-home-4','take-home-5','take-home-6','simcat-5','simcat-6','simcat-7'].map(name => CAT.validate(JSON.parse(fs.readFileSync('samples/'+name+'.json','utf8'))));
 CAT.validate(demo);
 fs.writeFileSync('samples/sample-full-mock.json', JSON.stringify(demo, null, 2));
 fs.writeFileSync('app/data.js', 'window.DEMO_TEST = ' + JSON.stringify(demo) + ';\nwindow.BUNDLED_TESTS = ' + JSON.stringify([...real,demo]) + ';\n');

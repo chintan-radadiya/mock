@@ -1,0 +1,46 @@
+[
+  {
+    "number": 7,
+    "prompt": "All of the following statements are consistent with the author’s critique of equilibrium approaches in economics EXCEPT that:",
+    "options": [
+      {"id":"A","text":"Equilibrium frameworks explain economic patterns by identifying situations where, once an overall pattern appears, it remains stable as individual agents have no incentive to change their behavior."},
+      {"id":"B","text":"The analytical elegance of equilibrium models comes partly from the fact that they rely on simplifying assumptions that deliberately leave out many processes that occur in real economies."},
+      {"id":"C","text":"Because equilibrium approaches focus on patterns that would continue without any incentive for agents to change their behavior, they do not take account of innovation, experimentation, and structural change."},
+      {"id":"D","text":"The principal limitation of equilibrium theory is that it ignores how aggregate outcomes influence individual behavior, even though such feedback is central to the functioning of real economies."}
+    ],
+    "answer":"D"
+  },
+  {
+    "number":8,
+    "prompt":"According to the passage, which of the following statements correctly describes the relationship between the behaviour of individual agents and aggregate economic patterns?",
+    "options":[
+      {"id":"A","text":"Aggregate patterns in the economy emerge independently of individual behaviour and subsequently determine how agents act within markets."},
+      {"id":"B","text":"Individual agents determine economic outcomes through their behaviour, but once aggregate patterns form they remain largely unaffected by those patterns."},
+      {"id":"C","text":"Aggregate economic patterns emerge from the behaviour of individual agents and subsequently feed back to influence the behaviour of those very agents."},
+      {"id":"D","text":"Aggregate patterns arise from the coordinated actions of agents whose behaviour is largely determined by stable equilibrium conditions."}
+    ],
+    "answer":"C"
+  },
+  {
+    "number":9,
+    "prompt":"The author’s criticism of equilibrium-based economic models depends most crucially on which one of the following assumptions?",
+    "options":[
+      {"id":"A","text":"The real-world economy is too complex to be studied directly through the interaction of individual agents."},
+      {"id":"B","text":"Economic theory must aim to identify stable conditions in which prices, strategies, and expectations remain mutually consistent across markets."},
+      {"id":"C","text":"The primary strength of equilibrium models lies in their ability to provide mathematically elegant representations of economic relationships."},
+      {"id":"D","text":"Stable conditions in real economies arise when the overall pattern is consistent with the behaviour of agents."}
+    ],
+    "answer":"D"
+  },
+  {
+    "number":10,
+    "prompt":"Suppose economists observe that firms continuously modify strategies in response to emerging industry-wide patterns that themselves arise from earlier strategic choices. According to the passage, which one of the following approaches would be most appropriate for analysing such behaviour?",
+    "options":[
+      {"id":"A","text":"An approach that identifies the prices or strategies that would leave firms with no incentive to revise their behaviour."},
+      {"id":"B","text":"An approach that examines how agents’ actions generate patterns which subsequently reshape those agents’ behaviour."},
+      {"id":"C","text":"A rational approach that determines the expectations firms must possess for market outcomes to validate those expectations."},
+      {"id":"D","text":"A mathematical framework that derives a stable configuration of prices and quantities consistent across all markets."}
+    ],
+    "answer":"B"
+  }
+]

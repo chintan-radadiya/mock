@@ -162,6 +162,18 @@ The supplied source analysis reconciles to 45 marks (24 VARC, 14 DILR, 7 QA), 33
 
 Rebuild using `python scripts/build_takehome6_import.py` and `node scripts/bundle.js` with the local OCR intermediates available. Run `npm test`; browser verification uses `node tests/takehome6-import.cjs` with the app served on port 4173.
 
+## SimCAT 6
+
+`samples/simcat-6.json` imports all 66 questions from `Simcat 6.zip`: 24 VARC, 20 DILR and 22 QA, following the supplied source counts. Four RC passages and four DILR sets stay together. QA Q12 uses its original cropped diagram. All answer keys are verified from the supplied images. The mock is bundled in the dashboard and its sections can be extracted for custom mocks.
+
+Source analysis is partial: 13 questions have visible outcomes and timing rows. Only visible benchmark fields and categories are included; no percentile or full-attempt totals are inferred. New attempts generate complete analysis normally. Rebuild with `python scripts/build_simcat6_import.py` using the local extraction intermediates, then `node scripts/bundle.js`.
+
+## SimCAT 7
+
+`samples/simcat-7.json` is the complete bundled 68-question mock: 24 VARC, 22 DILR and 22 QA. Follow-up screenshots supply VARC Q7-10 and confirm answers D, C, D, B. Four RC passages and five DILR sets stay intact when shuffling or extracting sections for custom mocks. Original refinery graph/table and region pie-chart images are preserved.
+
+All 68 supplied analysis rows reconcile to 29 marks (20 VARC, 3 DILR, 6 QA), 23 attempts and 11 correct answers. Source benchmarks and percentiles remain separate from new attempt results. Rebuild with `python scripts/build_simcat7_import.py` using local extraction intermediates and the checked-in follow-up transcription, then `node scripts/bundle.js`. Checks: `npm test` and `node tests/simcat7-import.cjs` with the app served on port 4173.
+
 ## SimCAT 5
 
 `samples/simcat-5.json` is the completed 68-question import from `SimCAT 5 DONE.zip`, included in the bundled library. Follow-up screenshots confirm VARC Q20 = D and Q24 option D = Option 1. Four RC passages and five DILR sets retain their source order, and the original bonus table and QA series expression are embedded. Sections can be extracted and reused in custom mocks.
