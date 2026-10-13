@@ -136,3 +136,12 @@ Import either JSON on an existing hosted dashboard, or refresh the updated local
 `samples/take-home-2.json` is the full mock imported from TakeHome 2.zip and included in the bundled library. It contains 24 VARC, 22 DILR and 22 QA questions, with four RC passages and five DILR sets. Original graph/table images and the original QA 21 expression are embedded. Sections can be extracted and reused in custom mocks.
 
 The supplied original-attempt analysis reconciles to 41 marks (29 VARC, 9 DILR, 3 QA), with 27 attempts and 16 correct answers. Supplied question timings, A/B/C categories, topper benchmarks, scorecard percentiles and percentile mapper are preserved separately from new attempts.
+
+
+## Take Home 3 and Take Home 5
+
+Take Home 3 (SimCAT 103) is available as `samples/take-home-3.json` and in the bundled library: 24 VARC, 22 DILR and 22 QA questions. Its source attempt reconciles to 13 marks (11 VARC, 3 DILR, -1 QA). RC and DILR groups remain intact when shuffling or extracting sections.
+
+Take Home 5 (SimCAT 105) is available as `samples/take-home-5.json` and in the bundled library, with all 68 questions, supplied analysis and original figures. The six previously hidden DILR answers (1-4 and 21-22) are verified from the follow-up screenshots. Its source attempt reconciles to 47 marks (40 VARC, -1 DILR, 8 QA), with 43 attempts and 18 correct answers. All three sections can be extracted and reused in custom mocks.
+
+For both QA and DILR, figures must be original image crops. Extract surrounding questions/options as text, but do not redraw diagrams, generate SVG/charts, or substitute figure labels/data for the original figure. Crop out answers, selections, browser chrome and unrelated controls.

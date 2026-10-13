@@ -1,0 +1,2901 @@
+{
+  "schemaVersion": 1,
+  "testType": "full",
+  "id": "ims-take-home-3-2026",
+  "revision": 1,
+  "title": "Take Home 3 · SimCAT 103 · 2026",
+  "description": "Full mock with 24 VARC, 22 DILR and 22 QA questions. Shared sets, original figures and supplied source analysis preserved.",
+  "sections": [
+    {
+      "code": "VARC",
+      "groups": [
+        {
+          "id": "take-home-3-varc-group-1",
+          "title": "Ecological resilience",
+          "stimulus": "The environmental historian Donald Worster writes about the fall of the ‘balance of nature’ as an idea, and points out that this disruptive world-view makes nature seem awfully like the human sphere. ‘All history; he notes, ‘has become a record of disturbance, and that disturbance comes from both cultural and natural agents: Thus he places droughts and pests alongside corporate takeovers .... If the idea of a balance resurrects Plato and Aristotle, the non-equilibrium, disturbance-inclined view may have its own Greek hero: Heraclitus, pagan saint of flux. ‘Thunderbolt; Heraclitus wrote in Fragment 64, ‘steers all things:\n\n... However, the question remains. If the handsaw and hurricane are equivalents in their ability to lay a forest low, it is hard to see how we can scientifically criticise the human destruction of ecosystems. Why should we, for instance, concern ourselves with the fate of the Western Ghats if alien introductions are just another disturbance, no different from the more natural- seeming migration of species? The point of conservation in the popular imagination and in many policy directives is that it resists human depredations to preserve important species in ancient, intact, fully functional natural ecosystems...\n\nIf we lose the ideal of balance, then, we lose a powerful motive for environmental conservation. However, there might be some unintended benefits. A dynamic, ‘disturbance’ approach has fostered some of the most promising new approaches to environmental problems such as urban ecology and restoration ecology. That's because it is much less concerned with keeping humans and nature separate from one another.\n\nThe thing is, both balance and flux are undoubtedly aspects of nature. A new view of nature that combines them in a way that both scientists and the public find compelling is needed. We should bridge the present disparity between ecology as a science and ecology as a romantic idealism about nature, not only for intellectual reasons but for the sake of robust public policy. Ecology, after all, needs to explain both the stability of a yew grove (a woodland that persists for more than 3,000 years commands attention), as well as the rapid transition of forest in the Western Ghats.\n\nOne promising middle path that integrates balance and disturbance has emerged in recent years. Referred to as ‘resilience thinking’, it builds on the work of the Canadian-born ecologist CS Holling and has been developed in recent years by an international collaboration called the Resilience Alliance. Resilience thinking assumes that change and disturbance are an integral part of every system, but that some systems are more resilient to destructive change than others. This might seem a subtle point, but if we understand the processes that promote or restore resilience, we have a much better chance both of mopping up after ecological catastrophes - or of avoiding them altogether.\n\nResilience thinking, applicable to economics, friendships, and nature, emphasizes the importance of diversity for stability. It suggests that systems focused on a single element, like a sole crop or economic sector, are less resilient. The theory addresses the boundaries of systems’ endurance, noting that without diversity, financial markets crash, agricultural systems falter, relationships weaken, ecosystems deteriorate, and mortality affects all life.",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q01",
+              "sourceNumber": 1,
+              "type": "MCQ",
+              "prompt": "According to the passage, equating natural disturbances with human destruction of ecosystems:",
+              "area": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "supports the idea that human activity is a natural part of ecosystems."
+                },
+                {
+                  "id": "B",
+                  "text": "complicates the scientific study of ecosystems."
+                },
+                {
+                  "id": "C",
+                  "text": "diminishes the urgency of addressing human impacts on ecosystems."
+                },
+                {
+                  "id": "D",
+                  "text": "overestimates the resilience of natural systems to human activities."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 322,
+                "topperAttemptPercent": 80.0,
+                "topperAccuracyPercent": 67.5,
+                "topperPValue": 54.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "According to the passage, all of the following are true about the ‘disturbance’ approach EXCEPT:",
+              "area": "Reading Comprehension",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It promotes urban ecology and restoration ecology."
+                },
+                {
+                  "id": "B",
+                  "text": "It separates humans and nature to preserve ecosystems."
+                },
+                {
+                  "id": "C",
+                  "text": "It is less concerned with keeping humans and nature separate."
+                },
+                {
+                  "id": "D",
+                  "text": "It fosters innovative approaches to environmental conservation."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 53,
+                "topperAttemptPercent": 86.0,
+                "topperAccuracyPercent": 97.67,
+                "topperPValue": 84.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "The example of the Western Ghats in the passage is used to highlight:",
+              "area": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The need for strict conservation efforts to protect ancient ecosystems."
+                },
+                {
+                  "id": "B",
+                  "text": "The ability of ecosystems to quickly adapt to changes and new conditions."
+                },
+                {
+                  "id": "C",
+                  "text": "The effectiveness of traditional methods in preserving natural landscapes."
+                },
+                {
+                  "id": "D",
+                  "text": "The impact of human disturbances on biodiversity hotspots."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 82,
+                "topperAttemptPercent": 86.0,
+                "topperAccuracyPercent": 51.16,
+                "topperPValue": 44.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q04",
+              "sourceNumber": 4,
+              "type": "MCQ",
+              "prompt": "Based on ‘resilience thinking’, which of the following strategies could a financial analyst recommend to help companies minimize the impact of market crash?",
+              "area": "Reading Comprehension",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Advocating for the diversification of investment portfolios."
+                },
+                {
+                  "id": "B",
+                  "text": "Concentrating investments in a high-growth sector to maximize returns."
+                },
+                {
+                  "id": "C",
+                  "text": "Encouraging companies to focus exclusively on internal operations and costs."
+                },
+                {
+                  "id": "D",
+                  "text": "Disregarding market volatility to concentrate on long-term growth."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 50,
+                "topperAttemptPercent": 88.0,
+                "topperAccuracyPercent": 95.45,
+                "topperPValue": 84.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-5",
+          "title": "Fundamentalism and modernity",
+          "stimulus": "To many people, both secular and religious, “fundamentalism” is an essentially pejorative term, referring to authoritarian religious forces seeking to drag society back into the past. According to prominent Protestant theologian Edward Farley, this isn’t all wrong. But, he argues, fundamentalism is also a predictable product of modern societies.\n\nFarley writes that, when the term “fundamentalism” was coined in the early twentieth century, it referred to a movement among conservative US Protestants to defend the literal truth of the Bible against historical criticism and the theory of evolution. Over time, scholars began applying it to similar phenomena in other religious traditions, such that it became possible to speak of fundamentalist Islam or other religions. Meanwhile, the term also took on a negative connotation, as many evangelical Protestants used it to describe their counterparts who isolated themselves from modern society.\n\nFarley argues that some aspects of fundamentalism are common to all sorts of religious traditions. To be a member of a religion is to trust that the beliefs and actions of that religious community represent the wishes of a divine power. Yet, he writes, looking only at rituals and institutions misses “religion's very center, that which the rituals are all about, namely something eerily holy”\n\nAcross religions, prophets and other holy figures don't just uphold the faith’s authority. At times, they become a scourge of established structures and practices, revealing them as fallible human creations out of step with the divine. “Worshipful relation to the holy carries with it a certain sense that what is worshiped and religion's mediations can never be identical. Farley writes.\n\nHe argues that fundamentalism, which shifts this balance between authority structures and the indescribable divine, emerged after medieval society in Europe gave way to the modern era. This change—encompassing industrialization, increasingly democratic governments, capitalism, and colonialism—gradually brought a previously unheard of secularization. Central aspects of life, including scientific inquiry, education, and government, began to fall outside the control of religious structures. Religions certainly didn’t disappear, but they were no longer the core of society. In modern, secular societies, most people of faith live much of their lives in environments that are built on foundations other than their beliefs and practices. While some religious individuals and authorities in a secular society loosen their truth claims and recognize the validity of other points of view, others double down on their traditions. For them, the holy becomes totally identified with the texts, institutions, or practices of the religion, which makes it impossible to question them without departing from the faith.\n\n“In this situation, religion's central and intrinsic reference becomes the empirical-factual strand of its meditations,” writes Farley. “With this turn, the subject of the fervor and focus of faith is not the holy itself... but various empirical states of affairs.” By focusing on empirical claims, the religion can meet secular institutions on their own terms, debating factual matters like historical and cosmological events. The result is fundamentalism.",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "What is the main argument of the passage?",
+              "area": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Modern societies marginalize all forms of religious expression fuelling fundamentalism."
+                },
+                {
+                  "id": "B",
+                  "text": "Fundamentalism is a force that seeks to undermine modern secular achievements."
+                },
+                {
+                  "id": "C",
+                  "text": "Fundamentalism arises from modernity's effort to empirically redefine the sacred."
+                },
+                {
+                  "id": "D",
+                  "text": "All religious traditions inherently lead to fundamentalist attitudes and practices."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 215,
+                "topperAttemptPercent": 72.0,
+                "topperAccuracyPercent": 91.67,
+                "topperPValue": 66.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q06",
+              "sourceNumber": 6,
+              "type": "MCQ",
+              "prompt": "According to Farley, all of the following are characteristics of fundamentalism EXCEPT:",
+              "area": "Reading Comprehension",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A steadfast adherence to original religious doctrines."
+                },
+                {
+                  "id": "B",
+                  "text": "A reinterpretation of religious tenets to engage with secular contexts."
+                },
+                {
+                  "id": "C",
+                  "text": "An identification of the holy with tangible elements of religion."
+                },
+                {
+                  "id": "D",
+                  "text": "An emphasis on the factual aspects of religion."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 64,
+                "topperAttemptPercent": 72.0,
+                "topperAccuracyPercent": 16.67,
+                "topperPValue": 12.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "Which of the following factors contributing to the rise of fundamentalism is NOT mentioned in the passage?",
+              "area": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The defense of religious texts against modern scientific and historical criticism."
+                },
+                {
+                  "id": "B",
+                  "text": "The isolation of religious communities from modern societal developments."
+                },
+                {
+                  "id": "C",
+                  "text": "The belief of religious communities that their practices conform to the divine will."
+                },
+                {
+                  "id": "D",
+                  "text": "The role of prophets and holy figures in challenging established religious structures."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 54,
+                "topperAttemptPercent": 68.0,
+                "topperAccuracyPercent": 58.82,
+                "topperPValue": 40.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "All of the following statements, if true, would weaken the arguments in the passage EXCEPT:",
+              "area": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Fundamentalism emerged independent of modern societal changes, rooted deeply within the core of religious traditions."
+                },
+                {
+                  "id": "B",
+                  "text": "The primary influences on fundamentalist movements are internal religious debates and theological interpretations."
+                },
+                {
+                  "id": "C",
+                  "text": "Fundamentalist groups actively reject scientific findings, political participation, and engagement with contemporary culture."
+                },
+                {
+                  "id": "D",
+                  "text": "The moral clarity, community bonds and social sense promoted by fundamentalism among its followers can damage the social fabric."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 59,
+                "topperAttemptPercent": 52.0,
+                "topperAccuracyPercent": 26.92,
+                "topperPValue": 14.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-9",
+          "title": "Scientific falsification",
+          "stimulus": "The process of science, wrote Karl Popper, was to conjecture a hypothesis and then attempt to falsify it through an experiment. If the hypothesis is disproved, you must renounce it. Herein, said Popper, lies the great distinction between science and pseudoscience.\n\nPopper warned scientists that, while experimental testing might get you nearer to the truth via corroboration, you can never proclaim yourseIf correct: the logic of induction implies that you'll never collect the infinite mass of evidence necessary to be certain, so it's better to consider any body of scientific knowledge not as true but as provisionally true.\n\nIt is odd that the scientists whose work could least easily be potted in an attempted laboratory disproof - Popper's method - turned to Popper for vindication. Presumably, they hoped for some epistemological heft for their work. To take a wider angle on the mystery, we might note the ‘physics envy’ sometimes attributed to 20th-century field scientists: the comparative lack of respect they experienced in both scientific and public circles. Popper seemed to offer salvation to this particular ill.\n\nIn particular, Popper’s account of what came before falsification in research was a good defence of the ‘cultural’ qualities of science. He described this stage as an act of imagination. Medawar and some others made great play of this scientific creativity in order to sustain cultural kudos for their field.\n\nWhile all this was going on, three philosophers argued that, when an experiment fails to prove a hypothesis, any element of the physical or theoretical set-up could be to blame. Nor can any single disproof ever count against a theory, since we can always put in a good-faith auxiliary hypothesis to protect it: perhaps the lab mice weren't sufficiently inbred to produce genetic consistency; perhaps the chemical reaction occurs only in the presence of a particular catalyst. Moreover, we have to protect some theories for the sake of getting on at all. Generally, we don't conclude that we have disproved well-established laws of physics - rather, that our experiment was faulty.\n\nIndeed, some unscrupulous researchers have used a Popperian frame to become the ‘wicked scientists’ whose existence Medawar denied. As Naomi Oreskes and Erik Conway describe in Merchants of Doubt, scientists in the US and the UK were co-opted as lobbyists for tobacco companies during the late-20th century to cast doubt upon research that revealed a link between smoking and cancer. No such link could be proved, in Popperian terms; and that room for doubt was ruthlessly exploited by those scientists’ paymasters. Many of the same scientists went on to work for fossil fuel lobbyists, casting doubt on the idea of anthropogenic climate change.\n\nIndeed, the notion that science is all about falsification has done incalculable damage not just to science but to human wellbeing. It has normalised distrust as the default condition for knowledge-making, while setting an unreachable and unrealistic standard for the scientific enterprise. Climate sceptics demand precise predictions of an impossible kind, yet seize upon a single anomalous piece of data to claim to have disproved the entire edifice of combined research; anti-vaxxers exploit the impossibility of any ultimate proof of safety to fuel their destructive activism.",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "According to the passage, all of the following are aspects of Popper's philosophy EXCEPT:",
+              "area": "Reading Comprehension",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A hypothesis can be considered true if it withstands attempts at falsification."
+                },
+                {
+                  "id": "B",
+                  "text": "Science advances by conjecturing hypotheses and then attempting to falsify them."
+                },
+                {
+                  "id": "C",
+                  "text": "Scientific knowledge is always provisionally true rather than absolutely true."
+                },
+                {
+                  "id": "D",
+                  "text": "The process of science involves a significant degree of imagination and creativity."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 231,
+                "topperAttemptPercent": 72.0,
+                "topperAccuracyPercent": 75.0,
+                "topperPValue": 54.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "Which of the following groups is LEAST likely to seek “epistemological heft for their work\" from Popper's philosophy?",
+              "area": "Reading Comprehension",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Scientists using auxiliary hypotheses for empirical anomalies."
+                },
+                {
+                  "id": "B",
+                  "text": "Field scientists experiencing ‘physics envy:"
+                },
+                {
+                  "id": "C",
+                  "text": "Scientists co-opted as lobbyists for tobacco companies."
+                },
+                {
+                  "id": "D",
+                  "text": "Researchers focusing on laboratory-based disproof methods."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 86,
+                "topperAttemptPercent": 60.0,
+                "topperAccuracyPercent": 26.67,
+                "topperPValue": 16.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "Based on the passage, which of the following would be a Popperian approach to evaluating a new scientific theory?",
+              "area": "Reading Comprehension",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Accepting the theory as true following successful experiments that support its predictions."
+                },
+                {
+                  "id": "B",
+                  "text": "Rejecting the theory outright if it conflicts with established scientific beliefs."
+                },
+                {
+                  "id": "C",
+                  "text": "Designing experiments specifically to attempt to falsify the theory's predictions."
+                },
+                {
+                  "id": "D",
+                  "text": "Relying on peer consensus within the scientific community to validate the theory."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 37,
+                "topperAttemptPercent": 78,
+                "topperAccuracyPercent": 82.05,
+                "topperPValue": 64
+              }
+            },
+            {
+              "id": "take-home-3-varc-q12",
+              "sourceNumber": 12,
+              "type": "MCQ",
+              "prompt": "According to the passage, which of the following is NOT implied as a problem with the falsification principle?",
+              "area": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The principle might lead to dismissing valid theories that fail early tests."
+                },
+                {
+                  "id": "B",
+                  "text": "It could narrow scientific inquiry exclusively to testable hypotheses."
+                },
+                {
+                  "id": "C",
+                  "text": "Dependence on falsification can hinder theoretical innovation."
+                },
+                {
+                  "id": "D",
+                  "text": "It ignores the role of auxiliary hypotheses in improving testing outcomes."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 60,
+                "topperAttemptPercent": 60.0,
+                "topperAccuracyPercent": 46.67,
+                "topperPValue": 28.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-13",
+          "title": "Learning from failure",
+          "stimulus": "Many notable success stories began in failure: Henry Ford went bankrupt before starting the Ford Motor Company; Thomas Edison tested thousands of materials before creating the carbon-filament lightbulb; J. K. Rowling received twelve rejections before the first Harry Potter book was published. Why did these individuals ultimately succeed, when so many others never manage to get past their failing phase? “If we understand that process, could we anticipate whether you will become a winner, even when you are still a loser?” asks Dashun Wang, an associate professor of management and organizations at the Kellogg School.\n\nIn a new paper published in Nature, Wang developed a mathematical model to pinpoint what separates those who succeed from those who merely try, try again... Wang found that success comes down to learning from one’s prior mistakes... But it's not simply that those who learn more as they go have better odds of victory. Rather, there’s a critical tipping point. “People on those two sides of the threshold, they could be exactly the same kind of people.” says Wang, “but they will have two very different outcomes”\n\nUsing this insight, the researchers are able to successfully predict an individual’s long-term success with just a small amount of information about that person’s initial attempts... They turned to three massive data sets, each containing information about very distinct types of failure and success_. These sources allowed the researchers to track groups and individuals as they made repeated attempts over time to achieve a goal... The three domains, Wang says, as different as they seem, interestingly all turn out to show very similar, predictable patterns. With data in hand, the team began thinking about success and failure at the simplest level_. If wins are primarily the result of chance, the team figured, all attempts are equally likely to succeed or fail—just like a coin toss... Analysis revealed that the chance theory doesn't hold up... “Although your performance improves over time, you still fail more than we would expect you to,” Wang explains... So the researchers decided to build a model that accounted for that.\n\nThis model assumes that every attempt has several components... A person evaluates the components of their past tries based on feedback from others... But the model acknowledges that some people learn from their failed attempts more than others... While perfect learners will likely achieve success quickly, the model predicts, the worst learners have a low chance of success...\n\nWhat they found was a surprising relationship between learning and eventual victory... Similarly, if someone's learning ability is below the threshold, it's as if they were learning nothing at all_. But those beyond the threshold should retain enough lessons to all but guarantee success... In practical terms, this means you don’t need to learn from all of your past experiences in order to eventually succeed_.\n\nThe research dismisses the common idea that success is a product of sheer chance... “These are two very valuable assets you now have to launch another attempt” he says_. The study also dispels some of the mystery behind who succeeds and who doesn't... “Thomas Edison said, ‘people give up because they don’t know how close they are to success,\" Wang explains.",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q13",
+              "sourceNumber": 13,
+              "type": "MCQ",
+              "prompt": "How could Wang's insights help modify the approach to coaching in competitive fields?",
+              "area": "Reading Comprehension",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Emphasize the importance of making numerous attempts, regardless of the outcome."
+                },
+                {
+                  "id": "B",
+                  "text": "Focus coaching on enhancing specific learning methods from past failures."
+                },
+                {
+                  "id": "C",
+                  "text": "Encourage the belief that success depends on perseverance."
+                },
+                {
+                  "id": "D",
+                  "text": "Avoid giving feedback on previous efforts to prevent demotivating trainees."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 225,
+                "topperAttemptPercent": 84.0,
+                "topperAccuracyPercent": 88.1,
+                "topperPValue": 74.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "According to Wang, learning from past failures does NOT FAIL to contribute to success, EXCEPT when:",
+              "area": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The individual is consistently learning and adapting from each failure."
+                },
+                {
+                  "id": "B",
+                  "text": "Failures are utilized to make strategic adjustments in future attempts."
+                },
+                {
+                  "id": "C",
+                  "text": "Past experiences are analyzed to identify and isolate consistent patterns."
+                },
+                {
+                  "id": "D",
+                  "text": "The learning process does not surpass the critical threshold."
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 49,
+                "topperAttemptPercent": 86.0,
+                "topperAccuracyPercent": 86.05,
+                "topperPValue": 74.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "According to Wang's model, which of the following is LEAST likely to contribute to the long-term success of an individual?",
+              "area": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The patterns of learning from past failures."
+                },
+                {
+                  "id": "B",
+                  "text": "The number of attempts made by an individual."
+                },
+                {
+                  "id": "C",
+                  "text": "Feedback from others on past attempts."
+                },
+                {
+                  "id": "D",
+                  "text": "Personal characteristics of the individual."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 50,
+                "topperAttemptPercent": 82.0,
+                "topperAccuracyPercent": 36.59,
+                "topperPValue": 30.0
+              }
+            },
+            {
+              "id": "take-home-3-varc-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "Which of the following would most seriously undermine the credibility of Wang's model for predicting success?",
+              "area": "Reading Comprehension",
+              "answer": "D",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The use of varied data to define a universal learning threshold."
+                },
+                {
+                  "id": "B",
+                  "text": "Recognizing the significant role of traits like resilience in success."
+                },
+                {
+                  "id": "C",
+                  "text": "Treating success as universally measurable, regardless of context."
+                },
+                {
+                  "id": "D",
+                  "text": "Exclusion of external factors like economic shifts and social changes."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 55,
+                "topperAttemptPercent": 68,
+                "topperAccuracyPercent": 44.12,
+                "topperPValue": 30
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-17",
+          "title": "Verbal ability · Q17",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.\n\nThe French philosophers of the eighteenth century were considerably influenced by English thought, especially by Locke and Newton. Generally speaking, they were in agreement with the former’s empiricism. The exercise of reason in philosophy did not mean for them the construction of great systems deduced from innate ideas or self-evident first principles. And in this sense they turned their backs on the speculative metaphysics of the preceding century. This is not to say that they had no concern at all with synthesis and were purely analytic thinkers in the sense of giving their attention to different particular problems and questions without any attempt to synthesize their various conclusions. But they were convinced that the right way of approach is to go to the phenomena themselves and by observation to learn their laws and causes. We can then go on to synthesize, forming universal principles and seeing particular facts in the light of universal truths.",
+              "area": "Verbal Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "French philosophers of the eighteenth century, while influenced by Locke and Newton, primarily focused on observation and analysis without any synthesis, turning away from the empiricism and reason of their predecessors."
+                },
+                {
+                  "id": "B",
+                  "text": "Despite their interest in empirical observation influenced by English thought, eighteenth-century French philosophers turned their backs on purely observing and analyzing particular problems to synthesize universal truths."
+                },
+                {
+                  "id": "C",
+                  "text": "The eighteenth-century French philosophers, influenced by English thinkers like Locke and Newton, favored empiricism over speculative metaphysics, focusing on observation to understand phenomena before synthesizing universal truths."
+                },
+                {
+                  "id": "D",
+                  "text": "The philosophers of eighteenth-century France, under the influence of Locke's empiricism, disregarded reason in philosophy, choosing instead to deduce universal truths from innate ideas without approaching phenomena."
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 93,
+                "topperAttemptPercent": 50.0,
+                "topperAccuracyPercent": 92.0,
+                "topperPValue": 46.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-18",
+          "title": "Verbal ability · Q18",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.\n\nPolitical economy and economics exhibit a long history of unresolved opposition between methodological individualism and methodological holism. To make matters worse, these two traditions have had very little serious communication with one another, no doubt leading disinterested observers of economics to wonder how coherent a discipline can be that is so schizophrenic at the most elementary level of how it relates to the world. Basically, then, economics is not very effective in saying what it is about because it does not address its own most basic ontological concerns. Moreover, its arguments are often too blunt to provide reliable cause-and-effect analysis. Perhaps even more disturbing is that the individual, which economics has long claimed to be successful in explaining, turns out to be something of a black hole in the subject—a place into which vast amounts of intellectual energy has historically disappeared without much in the way of return.",
+              "area": "Verbal Reasoning",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The divide between methodological individualism and holism in economics has both hindered clear communication, making it incoherent, and undermined the reliability of cause-and-effect analyses, alienating them from reality and individuals."
+                },
+                {
+                  "id": "B",
+                  "text": "Economics has successfully sidetracked the opposition between methodological individualism and holism, leading to a coherent discipline that effectively addresses basic ontological concerns but provides unreliable analyses."
+                },
+                {
+                  "id": "C",
+                  "text": "The debate between methodological individualism and holism reflected in economics makes its cause-and-effect analysis incoherent, ineffective, unreliable, and unrelated to the world and causes the individual to disappear into a black hole."
+                },
+                {
+                  "id": "D",
+                  "text": "The debate between methodological individualism and holism in economics has little impact on the discipline's ability to conduct cause-and-effect analysis and address basic ontological concerns causing its intellectual energy to historically disappear."
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 72,
+                "topperAttemptPercent": 42.0,
+                "topperAccuracyPercent": 57.14,
+                "topperPValue": 24.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-19",
+          "title": "Verbal ability · Q19",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.\n\nSentence: Nostradamus's prophecies have fascinated and puzzled scholars and skeptics alike for centuries.\n\nParagraph: __(1)__. Michel de Nostredame, better known as Nostradamus, was a 16th-century French astrologer, physician, and reputed seer whose predictions have continued to capture the public's imagination. His collections of prophecies, penned in cryptic quatrains, are claimed to have predicted numerous global events long before they occurred.__(2)__. Despite the enduring interest in his work, interpreting Nostradamus's writings remains a challenge due to their ambiguous and metaphorical language.__(3)__. Skeptics argue that the vague nature of these predictions allows them to be applied to a wide range of events, questioning the legitimacy of their fulfillment.__(4)__.",
+              "area": "Verbal Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 4"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 85,
+                "topperAttemptPercent": 88.0,
+                "topperAccuracyPercent": 27.27,
+                "topperPValue": 24.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-20",
+          "title": "Verbal ability · Q20",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.\n\nSentence: Human consumption has led to the extinction of numerous animal species throughout history.\n\nParagraph: The impact of human dietary habits on biodiversity is a stark reminder of our influence on the planet.__(1)__. From the mammoth to the dodo, many species have been hunted or harvested to extinction for their meat or other products.__(2)__. This relentless pursuit of animal resources not only diminishes biodiversity but also disrupts ecosystems.__(3)__. As history shows, the consequences of such extinctions are far-reaching, affecting not just the environment but also human societies that depend on these ecosystems.__(4)__.",
+              "area": "Verbal Reasoning",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Option 3"
+                },
+                {
+                  "id": "B",
+                  "text": "Option 2"
+                },
+                {
+                  "id": "C",
+                  "text": "Option 1"
+                },
+                {
+                  "id": "D",
+                  "text": "Option 4"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 75,
+                "topperAttemptPercent": 92.0,
+                "topperAccuracyPercent": 10.87,
+                "topperPValue": 10.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-21",
+          "title": "Verbal ability · Q21",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q21",
+              "sourceNumber": 21,
+              "type": "TITA",
+              "prompt": "Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.\n\n1. Geopolitical tensions and economic uncertainty have long since crowded out the optimism and ambition of the early post-Cold War years.\n\n2. Fragmentation of the world economy, as a response to dissatisfaction, threatens to hinder growth, particularly in low-income countries.\n\n3. Concerns over these inequalities have sparked debates about the need for a more equitable system that ensures fairer gains for all involved parties.\n\n4. This potential slowdown in growth risks making the zero-sum perspective a reality, where countries see their gains only at the expense of others.\n\n5. The growing discontent among key actors in the transatlantic community and the Global South stems from perceived inequalities in the distribution of benefits from global cooperation.",
+              "area": "Verbal Reasoning",
+              "answer": [
+                "1"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 85,
+                "topperAttemptPercent": 90.0,
+                "topperAccuracyPercent": 60.0,
+                "topperPValue": 54.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-22",
+          "title": "Verbal ability · Q22",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.\n\n1. Recognizing the varied sensory worlds that individuals inhabit necessitates a reevaluation of our approaches to resolving conflicts.\n\n2. The assumption that we can fully understand the sensory experiences of others might be flawed, given the diversity of human sensory perception.\n\n3. Advances in virtual reality technology have allowed for immersive experiences that closely mimic real- life sensory inputs.\n\n4. If there are indeed unbridgeable gaps in how we perceive the world, traditional methods of conflict resolution may no longer be sufficient.\n\n5. At the core of our interactions lies the belief that most humans share similar sensory capabilities, making it possible to empathize with each other's experiences.",
+              "area": "Verbal Reasoning",
+              "answer": [
+                "3"
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 79,
+                "topperAttemptPercent": 90.0,
+                "topperAccuracyPercent": 77.78,
+                "topperPValue": 70.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-23",
+          "title": "Verbal ability · Q23",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q23",
+              "sourceNumber": 23,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer.\n\n1. While a single infection can confer some immunity, subsequent infections can still occur and may increase the risk of severe health complications.\n\n2. As the virus continues to mutate, leading to new variants, understanding and mitigating the risks of repeat infections remains a critical area of public health research.\n\n3. The risks associated with COVID-19 infections have become a growing concern with research indicating potential cumulative health impacts.\n\n4. The long-term effects of repeated infections and long-lasting symptoms commonly referred to as \"long COVID\" are still being investigated.",
+              "area": "Verbal Reasoning",
+              "answer": [
+                "3142"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 93,
+                "topperAttemptPercent": 96.0,
+                "topperAccuracyPercent": 35.42,
+                "topperPValue": 34.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-varc-group-24",
+          "title": "Verbal ability · Q24",
+          "questions": [
+            {
+              "id": "take-home-3-varc-q24",
+              "sourceNumber": 24,
+              "type": "TITA",
+              "prompt": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer.\n\n1. The MCL38, featuring technological advancements and aerodynamic improvements, is central to McLaren's ambition to close the gap with the leading teams.\n\n2. Brown's tempered optimism highlights the challenges ahead but also reflects confidence in the team's direction and the potential of the new car to make significant strides in performance.\n\n3. Acknowledging the intense competition and the team's recent performance trends, Brown emphasized the focus on gradual improvement and the long-term strategy to return McLaren to the forefront of Formula 1 racing.\n\n4. As McLaren unveiled their new MCL38 car for the upcoming season, Zak Brown, the team's CEO, expressed a 'realistic' outlook for 2024.",
+              "area": "Verbal Reasoning",
+              "answer": [
+                "4312"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201220.png",
+                "topperTimeSeconds": 119,
+                "topperAttemptPercent": 80,
+                "topperAccuracyPercent": 17.5,
+                "topperPValue": 14
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DILR",
+      "groups": [
+        {
+          "id": "take-home-3-dilr-group-1",
+          "title": "Ladoo shop",
+          "questions": [
+            {
+              "id": "take-home-3-dilr-q01",
+              "sourceNumber": 1,
+              "type": "TITA",
+              "prompt": "How many ladoos were there in each ‘Methi Ladoo’ packet?",
+              "area": "Data Interpretation",
+              "answer": [
+                "5"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 233,
+                "topperAttemptPercent": 40.0,
+                "topperAccuracyPercent": 75.0,
+                "topperPValue": 30.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "How many ‘Makhana Ladoos’ were sold on Tuesday?",
+              "area": "Data Interpretation",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "200"
+                },
+                {
+                  "id": "B",
+                  "text": "180"
+                },
+                {
+                  "id": "C",
+                  "text": "150"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 35,
+                "topperAttemptPercent": 32,
+                "topperAccuracyPercent": 81.25,
+                "topperPValue": 26
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "The maximum number of packets sold on Monday were of:",
+              "area": "Data Interpretation",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Motichoor Ladoo"
+                },
+                {
+                  "id": "B",
+                  "text": "Besan Ladoo"
+                },
+                {
+                  "id": "C",
+                  "text": "Methi Ladoo"
+                },
+                {
+                  "id": "D",
+                  "text": "None of these"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 29,
+                "topperAttemptPercent": 26.0,
+                "topperAccuracyPercent": 69.23,
+                "topperPValue": 18.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q04",
+              "sourceNumber": 4,
+              "type": "TITA",
+              "prompt": "What was the total revenue (in Rs.) generated by selling the given five types of Ladoos on Wednesday?",
+              "area": "Data Interpretation",
+              "answer": [
+                "28800"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 33,
+                "topperAttemptPercent": 26.0,
+                "topperAccuracyPercent": 30.77,
+                "topperPValue": 8.0
+              }
+            }
+          ],
+          "assetIds": [
+            "takehome3-dilr-1-table"
+          ],
+          "stimulus": "The newly launched shop ‘Only Ladoo’' sells five types of ladoos viz. Dink Ladoo, Besan Ladoo, Methi Ladoo, Makhana Ladoo and Motichoor Ladoo. The ladoos are sold in packets and not more than one type of ladoos are packed in any single packet. For any particular type of ladoo, the number of ladoos in a packet are always fixed and that number is an integer between 4 and 6 such that for at least one type of ladoos 4 ladoos are packed in a single packet, for at least one type of ladoos 5 ladoos are packed in a single packet and for at least one type of ladoos 6 ladoos are packed in a single packet. The partially filled table below gives the details of the revenue (in Rs.) generated by ‘Only Ladoo by selling different types of ladoos as well as the total number of packets of ladoos sold on the first four days of June 2024. Some more facts are known as given below: e Onall four days, the price of a particular type of ladoo remains constant but for different types of ladoos, the price per packet as well as the price per ladoo are different. e Anamika spent Rs. 1125 for purchasing one packet of each type of ladoo. e The price (in Rs.) of one ladoo of any type is a natural number greater than or equal to 30. e The price of one ‘Makhana Ladoo’ was Rs. 50. e The number of ladoos sold on Tuesday was 598 in all. e Inall, 66 packets of ‘Methi Ladoo’ and 119 packets of ‘Makhana Ladoo’ were sold on the four days altogether."
+        },
+        {
+          "id": "take-home-3-dilr-group-5",
+          "title": "Four families at a show",
+          "questions": [
+            {
+              "id": "take-home-3-dilr-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "Who is Kaiyra’s sibling?",
+              "area": "Logical Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Either Naitik or Aarav"
+                },
+                {
+                  "id": "B",
+                  "text": "Either Naisha or Takshay"
+                },
+                {
+                  "id": "C",
+                  "text": "Either Naitik or Takshay"
+                },
+                {
+                  "id": "D",
+                  "text": "Either Aarav or Naisha"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 433,
+                "topperAttemptPercent": 52.0,
+                "topperAccuracyPercent": 46.15,
+                "topperPValue": 24.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q06",
+              "sourceNumber": 6,
+              "type": "TITA",
+              "prompt": "How many adults sit adjacent (left/right/front/behind) to at least one child?",
+              "area": "Logical Reasoning",
+              "answer": [
+                "7"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 54,
+                "topperAttemptPercent": 60.0,
+                "topperAccuracyPercent": 26.67,
+                "topperPValue": 16.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q07",
+              "sourceNumber": 7,
+              "type": "TITA",
+              "prompt": "If Naitik and Reya are siblings, how many distinct seating arrangements are possible for four families, using the given conditions?",
+              "area": "Logical Reasoning",
+              "answer": [
+                "4"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 28,
+                "topperAttemptPercent": 48.0,
+                "topperAccuracyPercent": 33.33,
+                "topperPValue": 16.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "If Naitik and Naisha are siblings, then which of the following combinations of a family is true?",
+              "area": "Logical Reasoning",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mayur-Tejal-Naitik-Naisha"
+                },
+                {
+                  "id": "B",
+                  "text": "Raj-Ruchi-Reya-Aarav"
+                },
+                {
+                  "id": "C",
+                  "text": "Raj-Tejal-Reya-Aarav"
+                },
+                {
+                  "id": "D",
+                  "text": "Mayur-Ruchi-Takshay-Aarav"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 72,
+                "topperAttemptPercent": 44.0,
+                "topperAccuracyPercent": 31.82,
+                "topperPValue": 14.0
+              }
+            }
+          ],
+          "assetIds": [
+            "takehome3-dilr-5-table"
+          ],
+          "stimulus": "Four families are watching a 5D show and all of them are facing the North. Each family consists of four members (i.e. Husband, Wife and two children below the age of 18 years). There are 4th rows and 4 seats in each row, therefore making a seating arrangement of 4th rows and 4 columns. The columns are numbered from left to right (i.e. west to east) as column 1, column 2, column 3 and column 4 in that order. The rows are numbered from front to back (i.e. north to south) as row 1, row 2, row 3 and row 4 in that order. Ticket charges per adult are Rs. 1000 and per child are Rs. 500. Partial details of the families are given as below: Additional information known is as follows: 1. No two members of the same family sit in the same row or same column. 2. Dheer sits in the 2nd column of the 1st row, no other child sits in the same column. Richa sits in the 3rd column of the 4th row, no other adult sits in the same column. 3. Ruchi sits to the immediate right of Kaiyra’s mother and immediately behind Tejal. Pratik sits in 4th row. 4. Naitik and Takshay sit in the same row and adjacent to each other. 5. Ticket price paid for each row is Rs. 3000. 6. Ruchi, Tejal and Satbir are three other mothers. Naitik, Takshay, Naisha, Aarav and Kaiyra are five other children."
+        },
+        {
+          "id": "take-home-3-dilr-group-9",
+          "title": "Pentathlon selection",
+          "questions": [
+            {
+              "id": "take-home-3-dilr-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "Who was selected to represent India in the Olympics?",
+              "area": "Data Interpretation",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Paresh"
+                },
+                {
+                  "id": "B",
+                  "text": "Omkar"
+                },
+                {
+                  "id": "C",
+                  "text": "Laxman"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 205,
+                "topperAttemptPercent": 30.0,
+                "topperAccuracyPercent": 53.33,
+                "topperPValue": 16.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "If the five contestants are arranged in an ascending order of the total number of points they scored, who will appear exactly in the middle?",
+              "area": "Data Interpretation",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Laxman"
+                },
+                {
+                  "id": "B",
+                  "text": "Manoj"
+                },
+                {
+                  "id": "C",
+                  "text": "Omkar"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 53,
+                "topperAttemptPercent": 28.0,
+                "topperAccuracyPercent": 71.43,
+                "topperPValue": 20.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q11",
+              "sourceNumber": 11,
+              "type": "TITA",
+              "prompt": "The efficiencies of how many of the five contestants can be uniquely determined in all the five events?",
+              "area": "Data Interpretation",
+              "answer": [
+                "5"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 19,
+                "topperAttemptPercent": 40.0,
+                "topperAccuracyPercent": 60.0,
+                "topperPValue": 24.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q12",
+              "sourceNumber": 12,
+              "type": "TITA",
+              "prompt": "What was Paresh's efficiency in Jumping? (Write 0 if your answer is ‘Cannot be determined’)",
+              "area": "Data Interpretation",
+              "answer": [
+                "58"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 27,
+                "topperAttemptPercent": 34.0,
+                "topperAccuracyPercent": 58.82,
+                "topperPValue": 20.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q13",
+              "sourceNumber": 13,
+              "type": "TITA",
+              "prompt": "What was the absolute value of the difference between the bonus points awarded to Omkar in Fencing and Laxman in running? (Write 0 if your answer is ‘Cannot be determined)",
+              "area": "Data Interpretation",
+              "answer": [
+                "3"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 49,
+                "topperAttemptPercent": 28.0,
+                "topperAccuracyPercent": 21.43,
+                "topperPValue": 6.0
+              }
+            }
+          ],
+          "assetIds": [
+            "takehome3-dilr-9-table"
+          ],
+          "stimulus": "‘Pentathlon’ is an Olympic event that consists of five tasks, namely Fencing, Swimming, Jumping, Shooting and Running. ‘The Indian Olympic Association’ was in the process of shortlisting the sportsmen who would represent India at the Paris Olympics of 2024. Five individuals named Laxman, Manoj, Omkar, Paresh and Rajesh qualified for the final round of the selection process. Only one individual would eventually be selected to represent India at the Olympics. Each person had to complete each of the five tasks and his performance in the task was evaluated in terms of his ‘efficiency’ in that task, measured using a special machine. It is known that no two contestants had the same efficiency in any of the five tasks. It is also known that each contestant had an efficiency of more than 50 but less than 100 in each task. The points were awarded to each contestant in each task. The points so awarded had two components: 1. The contestants were ranked in a descending order of their efficiency in each task. The first, second, third, fourth and fifth ranked contestants were awarded 40, 30, 20, 10 and 0 points respectively. 2. Each contestant was awarded bonus points in each activity, equal to efficiency of the contestant in that task minus 50. The points awarded to contestants in each task was equal to the sum of these two components. The total points scored by each contestant in the selection process was equal to the sum of the points scored in the five events. The contestant who scored the highest points was eventually selected to represent India at the Olympics. The following partially filled table gives information on the efficiency of each contestant in four of the five tasks. Some entries have been deliberately hidden. The following points are known: 1. Rajesh scored a total of 169 points. 2. Manoj scored a total of 163 points. 3. The sum of the points awarded to the five contestants in Fencing was 172. 4. The sum of the points awarded to the five contestants in Jumping was 190. 5. The sum of the total points across the five tasks put together by the five persons was 922."
+        },
+        {
+          "id": "take-home-3-dilr-group-14",
+          "title": "Coin collections",
+          "questions": [
+            {
+              "id": "take-home-3-dilr-q14",
+              "sourceNumber": 14,
+              "type": "TITA",
+              "prompt": "Find the total amount (in Rs.) with E.",
+              "area": "Data Interpretation",
+              "answer": [
+                "340"
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 251,
+                "topperAttemptPercent": 78.0,
+                "topperAccuracyPercent": 89.74,
+                "topperPValue": 70.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q15",
+              "sourceNumber": 15,
+              "type": "TITA",
+              "prompt": "What is the average of the total amount of money (in Rs.) with the six friends?",
+              "area": "Data Interpretation",
+              "answer": [
+                "325"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 71,
+                "topperAttemptPercent": 74,
+                "topperAccuracyPercent": 78.38,
+                "topperPValue": 58
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q16",
+              "sourceNumber": 16,
+              "type": "TITA",
+              "prompt": "If the maximum number of Rs. 5 coins with any of the friends is 22, find the number of Rs. 10 coins with the friend who has 3rd least amount among the six friends.",
+              "area": "Data Interpretation",
+              "answer": [
+                "25"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 90,
+                "topperAttemptPercent": 66.0,
+                "topperAccuracyPercent": 42.42,
+                "topperPValue": 28.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "If the maximum number of Rs. 5 coins with any of the friends is 24, find the number of Rs. 10 coins with F.",
+              "area": "Data Interpretation",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "17"
+                },
+                {
+                  "id": "B",
+                  "text": "18"
+                },
+                {
+                  "id": "C",
+                  "text": "6"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 89,
+                "topperAttemptPercent": 58.0,
+                "topperAccuracyPercent": 58.62,
+                "topperPValue": 34.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q18",
+              "sourceNumber": 18,
+              "type": "MCQ",
+              "prompt": "If the maximum number of Rs. 5 coins with any of the friends is 26, find the number of Rs. 10 coins with the friend who has 2™ least amount among six friends.",
+              "area": "Data Interpretation",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "16"
+                },
+                {
+                  "id": "B",
+                  "text": "15"
+                },
+                {
+                  "id": "C",
+                  "text": "19"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 73,
+                "topperAttemptPercent": 52.0,
+                "topperAccuracyPercent": 69.23,
+                "topperPValue": 36.0
+              }
+            }
+          ],
+          "stimulus": "Six friends A, B, C, D, E and F have a distinct number of coins of Rs. 5 and Rs. 10 denominations with them. For example, if one has ‘n number of coins of any denomination then no other friend has ‘n’ number of coins of any denomination. Further, no friend has an equal number of coins of Rs. 5 denomination and Rs. 10 denomination. Further the following information is known: 1. A does not have the maximum total amount, which is equal to Rs. 400. 2. Among the six friends, F has the least total amount. 3. E has 22 coins of Rs. 5. 4. The number of Rs. 5 coins with A, B, C, D, E and F are in an Arithmetic Progression, in some order. 5. B has 20 coins of Rs. 5 and 27 coins of Rs. 10. 6. The number of coins of Rs. 5 and Rs. 10 with E are consecutive integers. 7. There is exactly one friend who has 31 coins of a denomination. The number of coins of any denomination with anyone else is less than 31. 8. The total amounts with the six friends form an Arithmetic progression with a common difference of a multiple of 10."
+        },
+        {
+          "id": "take-home-3-dilr-group-19",
+          "title": "Modified chess queen",
+          "questions": [
+            {
+              "id": "take-home-3-dilr-q19",
+              "sourceNumber": 19,
+              "type": "TITA",
+              "prompt": "How many pieces are under attack by the queen if the queen is at F6 and the other pieces are at J2, C3, F3, B6, I6, D8, H8, and F10? Assume there are no other pieces on the board.",
+              "area": "Logical Reasoning",
+              "answer": [
+                "6"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 192,
+                "topperAttemptPercent": 76.0,
+                "topperAccuracyPercent": 57.89,
+                "topperPValue": 44.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "If the only other pieces on the board are at G1, E2, B3, H3, A5, C6, F7, J8, and C9, then which of the following pairs of queen positions results in the same number of pieces being under attack?",
+              "area": "Logical Reasoning",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "F3 and E6"
+                },
+                {
+                  "id": "B",
+                  "text": "G5 and E6"
+                },
+                {
+                  "id": "C",
+                  "text": "F3 and G5"
+                },
+                {
+                  "id": "D",
+                  "text": "G5 and G6"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 111,
+                "topperAttemptPercent": 66.0,
+                "topperAccuracyPercent": 69.7,
+                "topperPValue": 46.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q21",
+              "sourceNumber": 21,
+              "type": "TITA",
+              "prompt": "If the only other pieces on the board are at G1, E2, B3, H3, A5, C6, F7, J8, and C9, then from how many positions can the queen attack none of these pieces?",
+              "area": "Logical Reasoning",
+              "answer": [
+                "4"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 103,
+                "topperAttemptPercent": 62.0,
+                "topperAccuracyPercent": 35.48,
+                "topperPValue": 22.0
+              }
+            },
+            {
+              "id": "take-home-3-dilr-q22",
+              "sourceNumber": 22,
+              "type": "TITA",
+              "prompt": "Suppose the queen is the only piece on the board and is placed at E7. In how many positions can one additional piece be placed on the board so that it is safe from the queen’s attack?",
+              "area": "Logical Reasoning",
+              "answer": [
+                "76"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201235.png",
+                "topperTimeSeconds": 117,
+                "topperAttemptPercent": 66.0,
+                "topperAccuracyPercent": 54.55,
+                "topperPValue": 36.0
+              }
+            }
+          ],
+          "stimulus": "Anand has prepared a 10x10 board similar to a chessboard, made up of black and white squares such that no two adjacent squares have the same colour. The columns are labelled 1 to 10 from left to right, and the rows are labelled A to J from bottom to top. A square is identified by its row and column labels. For example, E6 denotes the square in row E and column 6.\n\nAnand has modified the usual rule of attack for a queen. Under this rule, a queen can attack a piece in the same row, the same column, or the same diagonal, provided that no other piece lies between the queen and that piece, and provided that the piece is on a square of the same colour as the queen’s square."
+        }
+      ]
+    },
+    {
+      "code": "QA",
+      "groups": [
+        {
+          "id": "take-home-3-qa-group-1",
+          "title": "Quantitative ability · Q1",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q01",
+              "sourceNumber": 1,
+              "type": "TITA",
+              "prompt": "Find the smallest integer value of ‘x’ when (x + 7)/(|3 − x| + 2) > 1.",
+              "area": "Algebra",
+              "answer": [
+                "0"
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 204,
+                "topperAttemptPercent": 86.0,
+                "topperAccuracyPercent": 90.7,
+                "topperPValue": 78.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-2",
+          "title": "Quantitative ability · Q2",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q02",
+              "sourceNumber": 2,
+              "type": "MCQ",
+              "prompt": "The number of terms present in the expression (1 + 2x + 3x²)⁴ after expansion is _____.",
+              "area": "Algebra",
+              "answer": "A",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "9"
+                },
+                {
+                  "id": "B",
+                  "text": "10"
+                },
+                {
+                  "id": "C",
+                  "text": "11"
+                },
+                {
+                  "id": "D",
+                  "text": "12"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 86,
+                "topperAttemptPercent": 82,
+                "topperAccuracyPercent": 92.68,
+                "topperPValue": 76
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-3",
+          "title": "Quantitative ability · Q3",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q03",
+              "sourceNumber": 3,
+              "type": "MCQ",
+              "prompt": "Which of the following is true if a⁴ + a²b² + b⁴ = M and a² + ab + b² = N?",
+              "area": "Algebra",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "a² + b² = (M² + N²)/(2N)"
+                },
+                {
+                  "id": "B",
+                  "text": "a² + b² = (M + N²)/(2N)"
+                },
+                {
+                  "id": "C",
+                  "text": "ab = (M + N²)/(2M)"
+                },
+                {
+                  "id": "D",
+                  "text": "ab = (M² − N)/(2N)"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 118,
+                "topperAttemptPercent": 64,
+                "topperAccuracyPercent": 90.63,
+                "topperPValue": 58
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-4",
+          "title": "Quantitative ability · Q4",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q04",
+              "sourceNumber": 4,
+              "type": "TITA",
+              "prompt": "If (x² − y²), 3x^(3/2) and (x² + y²) are natural numbers such that they form a Pythagorean triplet. Further, both ‘x’ and ‘y’ are natural numbers and x > y. Find the smallest possible area (in sq. units) of a triangle having sides (x² − y²), 3x^(3/2) and (x² + y²).",
+              "area": "Algebra",
+              "answer": [
+                "84"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 98,
+                "topperAttemptPercent": 46.0,
+                "topperAccuracyPercent": 65.22,
+                "topperPValue": 30.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-5",
+          "title": "Quantitative ability · Q5",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q05",
+              "sourceNumber": 5,
+              "type": "MCQ",
+              "prompt": "In the expression (46a¹⁰ + Ma⁵ + 90), both ‘a’ and ‘M’ are positive integers. If (ba⁵ + c) is a factor of the given expression, where ‘b’ and ‘c’ are positive integers, then the maximum possible value of ‘M’ is _____.",
+              "area": "Algebra",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1383"
+                },
+                {
+                  "id": "B",
+                  "text": "2072"
+                },
+                {
+                  "id": "C",
+                  "text": "4141"
+                },
+                {
+                  "id": "D",
+                  "text": "6329"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 49,
+                "topperAttemptPercent": 26.0,
+                "topperAccuracyPercent": 76.92,
+                "topperPValue": 20.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-6",
+          "title": "Quantitative ability · Q6",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q06",
+              "sourceNumber": 6,
+              "type": "TITA",
+              "prompt": "In triangle ABC, mzB = 90°. AB = 24 and BC = 29. A line segment drawn from B to a point on the hypotenuse AC is called a step segment if its length (in the same units as the lengths of AB and BC) is an integer. How many such step segments can be drawn from B to any point between A and C (not including points A and C)?",
+              "area": "Geometry",
+              "answer": [
+                "15"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 58,
+                "topperAttemptPercent": 32,
+                "topperAccuracyPercent": 31.25,
+                "topperPValue": 10
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-7",
+          "title": "Quantitative ability · Q7",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q07",
+              "sourceNumber": 7,
+              "type": "MCQ",
+              "prompt": "In the pentagon PQRST below, QS and RT are perpendicular bisectors of each other and ΔQPT is an isosceles triangle. Find the ratio of area of ΔQPT to that of the pentagon.",
+              "area": "Geometry",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "4:5"
+                },
+                {
+                  "id": "B",
+                  "text": "5:4"
+                },
+                {
+                  "id": "C",
+                  "text": "1:5"
+                },
+                {
+                  "id": "D",
+                  "text": "None of these"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 66,
+                "topperAttemptPercent": 54,
+                "topperAccuracyPercent": 85.19,
+                "topperPValue": 46
+              },
+              "assetIds": [
+                "takehome3-qa-7-figure"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-8",
+          "title": "Quantitative ability · Q8",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q08",
+              "sourceNumber": 8,
+              "type": "MCQ",
+              "prompt": "In the diagram below, O is the centre of the circle. It is given that sin x° = 0.8 where 0 < x < 90. Find the area of the shaded region in the given diagram.",
+              "area": "Geometry",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "(25π/2)(1 + x/360) − 30"
+                },
+                {
+                  "id": "B",
+                  "text": "(25π/2)(1 + x/180) − 30"
+                },
+                {
+                  "id": "C",
+                  "text": "(25π/2)(1 + x/360) − 36"
+                },
+                {
+                  "id": "D",
+                  "text": "(25π/2)(1 + x/180) − 36"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 50,
+                "topperAttemptPercent": 18,
+                "topperAccuracyPercent": 55.56,
+                "topperPValue": 10
+              },
+              "assetIds": [
+                "takehome3-qa-8-figure"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-9",
+          "title": "Quantitative ability · Q9",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q09",
+              "sourceNumber": 9,
+              "type": "MCQ",
+              "prompt": "A and B are two different two-digit natural numbers. When converted into base 7, digits of A as well as B get reversed. Find the value of (A+ B), in the decimal system, when converted to base 7.",
+              "area": "Numbers",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "(106)₇"
+                },
+                {
+                  "id": "B",
+                  "text": "(56)₇"
+                },
+                {
+                  "id": "C",
+                  "text": "(126)₇"
+                },
+                {
+                  "id": "D",
+                  "text": "Cannot be determined"
+                }
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 67,
+                "topperAttemptPercent": 24.0,
+                "topperAccuracyPercent": 75.0,
+                "topperPValue": 18.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-10",
+          "title": "Quantitative ability · Q10",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q10",
+              "sourceNumber": 10,
+              "type": "MCQ",
+              "prompt": "f(x) = sin²x, for all real values of ‘x’ as well as all real values of f(x). ‘x’ is the measure of an angle in degrees. Find the value of f(0) + f(5) + f(10) + … + f(85) + f(90).",
+              "area": "Modern Math",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "17/2"
+                },
+                {
+                  "id": "B",
+                  "text": "21/2"
+                },
+                {
+                  "id": "C",
+                  "text": "19/2"
+                },
+                {
+                  "id": "D",
+                  "text": "11/2"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 62,
+                "topperAttemptPercent": 46.0,
+                "topperAccuracyPercent": 95.65,
+                "topperPValue": 44.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-11",
+          "title": "Quantitative ability · Q11",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q11",
+              "sourceNumber": 11,
+              "type": "MCQ",
+              "prompt": "Find the value of ‘m’, if m + log₁₂(3ᵐ − 4) = m log₁₂4 + log₁₂5.",
+              "area": "Modern Math",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "log₅3"
+                },
+                {
+                  "id": "B",
+                  "text": "log₃5"
+                },
+                {
+                  "id": "C",
+                  "text": "log₃15"
+                },
+                {
+                  "id": "D",
+                  "text": "log₅12"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 128,
+                "topperAttemptPercent": 64,
+                "topperAccuracyPercent": 90.63,
+                "topperPValue": 58
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-12",
+          "title": "Quantitative ability · Q12",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q12",
+              "sourceNumber": 12,
+              "type": "TITA",
+              "prompt": "Four integers w, x, y, Z are in arithmetic progression, in that order, such that z > w. The product of these four integers is a positive integer which has exactly three factors. What is the tenth term of the progression, given that w is the first term?",
+              "area": "Modern Math",
+              "answer": [
+                "15"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 93,
+                "topperAttemptPercent": 40.0,
+                "topperAccuracyPercent": 70.0,
+                "topperPValue": 28.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-13",
+          "title": "Quantitative ability · Q13",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q13",
+              "sourceNumber": 13,
+              "type": "TITA",
+              "prompt": "A solution made up of only 3 ingredients contains honey, milk, and water in the ratio (by volume) of 2:4:5 respectively. On further adding honey, milk and water to the original solution, the volume of honey per unit volume of milk increases by 20 percentage points and the volume of water per unit volume of milk decreases by 25 percentage points. If the volume of the resultant solution is 540 cc and the volumes (in cc) of each of the ingredients present in the original solution were integers, then the maximum possible volume (in cc) of the original solution was",
+              "area": "Arithmetic",
+              "answer": [
+                "429"
+              ],
+              "selectionCategory": "C",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 94,
+                "topperAttemptPercent": 46.0,
+                "topperAccuracyPercent": 4.35,
+                "topperPValue": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-14",
+          "title": "Quantitative ability · Q14",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q14",
+              "sourceNumber": 14,
+              "type": "MCQ",
+              "prompt": "A traveller embarks on a journey. Each day, he alternates his direction: on the 1st day, he goes north; on the 2nd day, east; on the 3rd day, south; on the 4th day, west; and so on, following this pattern. On the nth day, he travels (n²/2) miles. What is his approximate distance from the starting point at the end of the 20th day?",
+              "area": "Arithmetic",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "122.7 miles"
+                },
+                {
+                  "id": "B",
+                  "text": "148.7 miles"
+                },
+                {
+                  "id": "C",
+                  "text": "164.7 miles"
+                },
+                {
+                  "id": "D",
+                  "text": "188.7 miles"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 126,
+                "topperAttemptPercent": 42.0,
+                "topperAccuracyPercent": 90.48,
+                "topperPValue": 38.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-15",
+          "title": "Quantitative ability · Q15",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q15",
+              "sourceNumber": 15,
+              "type": "MCQ",
+              "prompt": "A shopkeeper marks his goods 40% above the cost price and offers a discount of 15% to the customer. While buying the goods he uses a weight which measures 1100 gm instead of 1 kg. What is the percentage profit of the shopkeeper?",
+              "area": "Arithmetic",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "27.9%"
+                },
+                {
+                  "id": "B",
+                  "text": "29.1%"
+                },
+                {
+                  "id": "C",
+                  "text": "30.9%"
+                },
+                {
+                  "id": "D",
+                  "text": "31.1%"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 111,
+                "topperAttemptPercent": 94,
+                "topperAccuracyPercent": 93.62,
+                "topperPValue": 88
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-16",
+          "title": "Quantitative ability · Q16",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q16",
+              "sourceNumber": 16,
+              "type": "MCQ",
+              "prompt": "A bank provides the flexibility to its customers to decide the compounding period. The rate of interest offered by the bank is 20% per annum. Which of the following compounding periods (in months) will provide an integer value for the total interest (in rupees) earned by a customer after a year if the customer has invested Rs. 10 crores for a year?",
+              "area": "Arithmetic",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "2"
+                },
+                {
+                  "id": "B",
+                  "text": "3"
+                },
+                {
+                  "id": "C",
+                  "text": "4"
+                },
+                {
+                  "id": "D",
+                  "text": "None of these"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 135,
+                "topperAttemptPercent": 86.0,
+                "topperAccuracyPercent": 79.07,
+                "topperPValue": 68.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-17",
+          "title": "Quantitative ability · Q17",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q17",
+              "sourceNumber": 17,
+              "type": "MCQ",
+              "prompt": "In a surprise test, the score of A is one-fifteenth of the sum of the scores of B and C. Later it was found that the answer key provided for one of the questions was wrong; and after it was corrected, the score of each of them increased by 10. Now, the ratio of the new scores of C, B, and A is 9: 11: 2 respectively. The new score of C is more than the initial score of A by",
+              "area": "Arithmetic",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "96"
+                },
+                {
+                  "id": "B",
+                  "text": "98"
+                },
+                {
+                  "id": "C",
+                  "text": "101"
+                },
+                {
+                  "id": "D",
+                  "text": "103"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 153,
+                "topperAttemptPercent": 82.0,
+                "topperAccuracyPercent": 97.56,
+                "topperPValue": 80.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-18",
+          "title": "Quantitative ability · Q18",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q18",
+              "sourceNumber": 18,
+              "type": "TITA",
+              "prompt": "A two-digit number is twice that of X and X is 40% less than the two-digit number obtained by reversing the digits of the original two-digit number. What is the difference between the original two-digit number and the number obtained by reversing its digits?",
+              "area": "Arithmetic",
+              "answer": [
+                "9"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 161,
+                "topperAttemptPercent": 72.0,
+                "topperAccuracyPercent": 77.78,
+                "topperPValue": 56.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-19",
+          "title": "Quantitative ability · Q19",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q19",
+              "sourceNumber": 19,
+              "type": "MCQ",
+              "prompt": "If ‘a’ and ‘b’ are positive real numbers such that 2/a + 1/b = 6, what can be the minimum value of (2a + b)?",
+              "area": "Arithmetic",
+              "answer": "B",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "2/3"
+                },
+                {
+                  "id": "B",
+                  "text": "3/2"
+                },
+                {
+                  "id": "C",
+                  "text": "3"
+                },
+                {
+                  "id": "D",
+                  "text": "4/3"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 123,
+                "topperAttemptPercent": 56,
+                "topperAccuracyPercent": 89.29,
+                "topperPValue": 50
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-20",
+          "title": "Quantitative ability · Q20",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q20",
+              "sourceNumber": 20,
+              "type": "MCQ",
+              "prompt": "Set A and B are defined as follows:\n\nA = {x | x ∈ N, GCD(x, 48) = 1, x < 32}\nB = {y | y ∈ N, GCD(y, 60) = 1, y < 40}\n\nWhich of the following is a value of n(A) + n(B)?",
+              "area": "Numbers",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "17"
+                },
+                {
+                  "id": "B",
+                  "text": "19"
+                },
+                {
+                  "id": "C",
+                  "text": "21"
+                },
+                {
+                  "id": "D",
+                  "text": "23"
+                }
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 101,
+                "topperAttemptPercent": 50.0,
+                "topperAccuracyPercent": 92.0,
+                "topperPValue": 46.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-21",
+          "title": "Quantitative ability · Q21",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q21",
+              "sourceNumber": 21,
+              "type": "TITA",
+              "prompt": "A number when divided by 7 leaves a remainder of 5 and when divided by 5 leaves a remainder of 3. What is the sum of digits of such a smallest 4-digit number?",
+              "area": "Numbers",
+              "answer": [
+                "5"
+              ],
+              "selectionCategory": "B",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 103,
+                "topperAttemptPercent": 74.0,
+                "topperAccuracyPercent": 75.68,
+                "topperPValue": 56.0
+              }
+            }
+          ]
+        },
+        {
+          "id": "take-home-3-qa-group-22",
+          "title": "Quantitative ability · Q22",
+          "questions": [
+            {
+              "id": "take-home-3-qa-q22",
+              "sourceNumber": 22,
+              "type": "MCQ",
+              "prompt": "If ‘x’ is the smallest positive integer such that ‘5000 − x’ is the sum of the squares of the first ‘y’ natural numbers, find the product of x and y.",
+              "area": "Numbers",
+              "answer": "C",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "1000"
+                },
+                {
+                  "id": "B",
+                  "text": "1200"
+                },
+                {
+                  "id": "C",
+                  "text": "2400"
+                },
+                {
+                  "id": "D",
+                  "text": "3600"
+                }
+              ],
+              "selectionCategory": "A",
+              "benchmark": {
+                "source": "IMS supplied question-wise analysis screenshot",
+                "sourceImage": "Screenshot 2026-10-13 201251.png",
+                "topperTimeSeconds": 155,
+                "topperAttemptPercent": 68.0,
+                "topperAccuracyPercent": 97.06,
+                "topperPValue": 66.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "takehome3-dilr-1-table": {
+      "alt": "Original source table for this DILR set.",
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA2gAAADvCAYAAACHS/fAAABHr0lEQVR4nO3dCbyN9d7//+82FaVUKBSS4tDAkdLIoaSJjuGWSmnSneRuol/jXapDVHeGODqd6JjuRHEqR8Jd0qStXWnQRMlUJESp7K7/4/297+/6X+tyrXWtzdp7Xct+PR+P68Fe61rDvr7j5ztcu6C4uNgzAAAAAICcq5DrLwAAAAAA+F8EaAAAAAAQEwRoAAAAABATBGgAAAAAEBOV1n23MdffAQAAAACgAG3t6q+5EAAAAADwf1q2bGlypVKuvwDiqaioiHxRDpHu+YF0yh+kVflEuoM8kv9lOJfYgwYAAAAAMUGABgAAAAAxQYAGAAAAADFBgAYAAAAAMUGABgAAAAAxQYAGAAAAADFBgAYAAAAAMUGABgAAAAAxQYAGAAAAADFBgAYAAAAAMUGABgAAAAAxQYAGAAAAADFBgAYAAAAAMUGABgAAAAAxQYAGAAAAADFBgIaceuGFF0zFihWTjsqVK5vTTz/dzJ492xQXFyfO/eSTT0y9evXMueeea7Zu3ZrR+/fp08dUr17dLFmyJOPvotdkg3u/YcOGmT2Vfrdg+u23337mxhtvNFu2bDFxsnbtWnP44YfbQ//fXcqD7du3z9r7lSb3XZU+kydPTnneuHHj7Dk6N9Mytm3bNjN06FDz3nvvJR5TeVO5S1WWPM8zt9xyi6lWrZotJ6nyVbbKTr6URfd79+zZ0/z222+h53z00Ufm4IMPzrhec/k+XZqWpJ4sq7yaze/jrmtYXtuT095Zt26deeCBB8xXX32VeOyJJ56wbe2IESMiXx9VnstSeWmn/XV2qiOTaxBWP+/ONQnrsx100EHm//2//5eVNj8bZfX11183jz76qNm+fbvJZwRoiIXTTjvNTJs2zR633nqr+eabb8z5559vrr/++kRjpcKmY82aNeaXX37J9VeGT69evWza/e1vfzN//OMfzciRI80ll1xifv75Z65TzDz44IPmu+++2+lxPfbYY4+V+P0+/vhjc//995tVq1Zl/BoNvPz000+2HId9l/Lu2WefNa+++mpoYKuO9YYNG3LyvZCfaf/mm2/aTvr333+feEyd6d9//922tYifvffe2/znf/5nol+kNtbf1uq49tprS6V+LkmfTW1+w4YNzfDhw02PHj0yHtgrLZ7nmbFjx5p//vOfZseOHSafVcr1FwBEBbxbt272//p34MCBpnv37nZE/7jjjjPXXHONadmypVm5cqWpUqWKHflDfBx77LGJ9NMMp0b+Fi5caD777DObfogPjcI/99xztkz5TZgwwT5XUmr4SxqIV6pUyYwaNcoGixqZRzJ1nDXIccopp5iqVasmHn/33XdtJx17rtJI+2XLlu30mFY5XH311Wbffffdre+L0qE6sm3btomfv/zySzN16tSktra06ueS9tm6dOli2/358+ebt99+23To0MHkytatW+2gg2bh8h0zaIil/fff3wwePNgGY08++aT54Ycf7FKdo48+2px11lm2ELplF0OGDDEXXXSRLZBqbP7617/aUZQwixcvttPxqkA2btxYou+kEUdN4+v1+qzmzZsnjXSqInRLEg455BAzadKkpNfrO82ZM8c0a9YssZTzqquusstP/DMLaoQPO+ywxO9z22232WUK+ULL1mrWrGl/P6Wf6Fr/+7//u31Mv1e7du1s8OZ+Z83cuOuq310jc7pealhGjx6duB66ru450RIPpcP48ePtc+69d2W0MOqz9K/ylvueGi0Mfo5+T41qavRT5xx11FF2RNz/HlF5oDQ1atTI1K1b1zzyyCNJI+f6/9///ndTv359+3zwd0qVdjfccIMdSHGNdHBpil77H//xH/a1wbL58MMPmxo1auzSUhaNCp933nmJ76RlYf5rmI2yGJWWpUWd8latWtkl3vqOjkaDdf30b4sWLUpUN/np+2u0Wx1Azaq4ZeR6/OWXX7avDStH6a55JnVxSb5jOno/Df4ogHFpp2DDX0dqOZc6su5zFixYkPQemdSzWg54wQUXJH7fNm3a2KVTcUv7dL+LDnWi77zzTjtjfcIJJySWR7744ou2/CkvOCrX55xzTmLpmr+sR5XnbFxTLW/Td5oyZYr9PXWO/zrEpZ3OVd0QFPVdU9XPmZShktC1btq0aaLNzqQt1fXSddPzuo433XRT6Od//fXX9r11fPHFF4nf2b1Wn632TCutli5datN70aJFNs3Vj3RLu995551EnZDu82KlsLDQKy4u5uAaJOWBssoXs2bNUon1evfuvdNzGzZs8I4//nivevXq3rvvvuutWrXKq1+/vte2bVtv8+bN3uLFi71q1arZ159xxhneo48+6h122GFehQoVvAULFtj3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dORBgNayZUszbdo0e4wbN87UqFHDHvq/Hps8ebJNXCCdjz/+2AwZMsQUFxcnjgkTJiSeV+WwcuVKs3nzZvvctddea04++eTQDoAeu/7663d6XBVVu3btzNSpU+17rFq1yowdO5YgrRTddtttiY5aq1at7GPnnXdeUjq7o3fv3qZt27amTp06iTyhx/znLFiwwOy7776kZxYb8fvuu88sXrzYXl/926tXr0TgpEa7c+fOpn79+ok0CJY9V67uuusu+7zKqMqqv0H/8ccfzaZNmxKf4w7lBewepcMxxxxjXn311dDnM6k7s1HWSlJHo/QoHVTvhlF6Kd2UfkojpafS1d+Jz0ZeyORzkJs8EOwnqd/lT98gvY/KNfIwQKtXr57p1q2bPc4991yz33772UP/12Nq3A888MBcf03EmDqBqgCaNWsW+rwq9VdeecUMHz48UYn069fPdvyDlZDe6+KLLzaXXHKJ7ez7jRo1yuZJ1ylUIKDH1EGl4cg+NdLqNGqQJlXlH0xjf2CtjkKqPCGk5+5RWZkzZ44NrFzwrH9VRqZPn25/VpqsWLHCNuKOK3sTJ060P8+fP9+0bt3aPi5K65tuusmmveucr1mzxv5bt27d3fzWCJabo446ytZ1/jQqad25u2WtJHU0SncWVeVu1qxZ5qCDDkp6XmVRQZPSzQ2CKT2VrgMHDkzMoOxuXsj0c1D2eSDYT1K9MWjQoLRtuPpmt99+O8mVjwFaSS1dutSccsopdlq1efPm5r333kuaMvePurrpVzcyo381OzdlyhTTokUL+5w6GF999VVi+UzlypXNhRdeaNatW2df89tvv5k777zT7L333va5AQMGmC1btiQ+w/M8s3DhwsR30jk33nij2bZtm3nsscfsY7fcckvi/J9//jkxoqyOC3afG113lXmQOoCNGjUyTZo0STymTkCnTp1s5eGv8MeMGWP/dZ1FR42GKq3u3bsnPa4Oac2aNRnlzTKVZzXY/kY6HZ2nEVYXKEQF7aRndih4TtdAh1HZU/3nXHDBBWlHYF16qe5WHY/s+eyzz8xDDz2UtNqgpHVnNspaSepolA6lw9FHH237WGF1rhuEdHWso3RVX0btcDbyQiafg9zkAX8/KTjwFqR01HkadKHeLicB2r333muOP/54c+utt9rG5fLLLzfff/99xq9X4e7bt6+N/J977jlz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"
+    },
+    "takehome3-dilr-5-table": {
+      "alt": "Original source table for this DILR set.",
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATsAAADhCAYAAAC3DhI6AAAaNklEQVR4nO2dC1BUZRvHH6V7kBcs04zELhqlRSQW1QehJRVJJZlWFNNkpUlNlBTOYE1WjNDYxVtNNxxr6CLjUNTQRUa6aMmQpUWjVqQpmHkNtOu23/zf+d79zi4su8DCnrPv/zdzZnfP5d1znvO8//d5nvew9HG5XG4hhJAIp2+4T4AQQnqDw9pbuXPX3l75ckIICavYgeYdW3vtJAghpLskJiZ2TeyCOZiElvXr19PmtAl9pYt9JxCs2RFCjIBiRwgxAoodIcQIKHaEECOg2BFCjIBiRwgxAoodIcQIKHaEECOg2BFCjIBiRwgxAoodIcQIKHaEECOg2BFCjIBiRwgxAoodIcQIelzsSkpKJCoqSr3625abmxuy76mqqpLeorW1VdLT0yU+Pl6am5vFLuzevVtGjx4thx9+uNTW1npt+/zzzyUmJkZuvPFG+eeffzzrf//9d5k0aZIcdthh8v7778uLL76ojn/mmWc8+6CtMWPGKDtPnz5d7Izb7ZaPP/5Y/vOf/6jrwDkfddRRctttt8mmTZvUPvA72KK+vr7dNr777js56aST5KqrrlL3Opj7Df/z5++av//+Wx5//PGA+5lik82bN0taWpraB8uVV16p1oUaRnYRyKBBg5QD/vvvv/Lhhx+2cbxDhw4p4dq2bZtn/U8//SRr166VuLg4Ofvss+W3335Tx//8889q+y+//CIzZ86UxsZGeeSRR+T2228XuwIxKSgokEsvvVQ2btwo999/vyxfvlyuueYa9XrffffJwYMHA7bzxx9/qKWpqUn+/PPPkJwbvvfOO++UuXPnSm/yt01t8u2338oll1wiX3/9tTz66KMya9YsqampkezsbNm1a5eEkg5/qZg4F4yOixcvljVr1qjRNzo6Wg4cOKAcCezcuVPq6upkxIgRnl963bt3r1x99dUydOhQ5fyI3nAc2L59uxLHyZMnS1FRkdiZN998UxYsWKCihbfeeksGDhyo1iOahajjmo499tiA7eCXunHNRxxxhIqEYMfuAJvn5OSoe3DaaafJ999/L6bbZMWKFbJnzx559913ZeLEiWodIsvi4mL58ssvJSMjQyIysvMNoX1DZJfLpTpwbGysCndPPvlkdRMRnmt++OEHT0h84oknSnV1tWcb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"
+    },
+    "takehome3-dilr-9-table": {
+      "alt": "Original source table for this DILR set.",
+      "data": "data:image/png;base64,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jz76qL4vtt69e3saPyCsyO4w0UE0sf7jPbkh+4T4AbdABkv0lF1p09dAtA3YCcHO0qVLPUEARA82Qdb//fffa9CD4MvmLJkUDr6CTrPuh6Da3/qzbSTmYv4yDX07duzI1CUa9F2gGzZskF9//VVWr16ta4G4FQL7kBWiSWbRokX6c25Bioz3Nds777yjExyE9c0339RM8ZJLLtGyKh6//fZbCXaY/eWeGjVqZFk/aNasmT5u3bpVDhw4oMGXabtGILVt2zZp3749bx0hecJX0IkqFnoRsM/4GIJ8lNxRiQi0Nv/iIKf5y41piAmU25JCC9oF6k1KSops375ds7eXXnpJszJ0/eQEInZkb8ge8VqTyaGxxqwbwtmuu+463V599VVdE/S1yBqstXNmf9mD7xlrxYcOHcr0nSOqNOVybG4QaaI0/8ILLzArJLnG35KDuU3CDQQPzVbIgGzLChP9zF/GJt27dw+okmeRNMG4MR2YyAhRlvrhhx9UrHIC94tA2LB+gwYXGA7v8d577+k6D5zw6quv1jJop06d9Mb78PDwoBY/wOwv9+AeLJTcUSWAX8DP4BsYgGhGIKSw4JJDweYvjE0EBMiKUaFBYGDKx4F0G1eZoihR4V6PChUqaCkKGSHKlrVq1cr2dShxonN05MiROrmhgxTlVXRzot7eoEEDuf3223XCQ1T222+/yZIlS7STNNg7GrOrncOGtq/9GWCjTz/9VLM9lJ1QEUB5HeLHNT9SWJhfoGBzw1lhzF8QPfRsQARNqRiY4DUQCMnIyAieG+WKAawjtWrVqqRPI2CgPWhX+l3gw3GaP/vwl2ETQgixEgogIYQQK6EAEkIIsRIKICGEECuhABJCCLESCiAhhBAroQASQgixEgogIYQQK6EAEkIIsRIKICGEECuhABJCCLESCiAhhBAroQASQgixEgogIYQQKwlJSEjgn0MihBBSqvH155BC+bfvMsO/q0V7FAf0M9qH/lS8480XLIESQgixEgogIYQQK6EAEkIIsRIKICGEECuhABJCCLESCiAhhBAroQASQgixEgogIYQQK6EAEkIIsRIKICGEECuhABJCCLESCiAhhBAroQASQgixEgogIYQQK6EAEkIIsZI8C2BycrI0bNhQypYt69nOOussueGGG2THjh25fp8XX3xRypUrJ7NmzcrrKfg8n65du8rJ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"
+    },
+    "takehome3-qa-7-figure": {
+      "alt": "Original source geometry figure for QA question 7.",
+      "data": "data:image/png;base64,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"
+    },
+    "takehome3-qa-8-figure": {
+      "alt": "Original source geometry figure for QA question 8.",
+      "data": "data:image/png;base64,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"
+    }
+  },
+  "sourceAnalysis": {
+    "label": "Original IMS attempt supplied in TakeHome 3 screenshots",
+    "sourceImages": [
+      "Screenshot 2026-10-13 201153.png",
+      "Screenshot 2026-10-13 201202.png",
+      "Screenshot 2026-10-13 201220.png",
+      "Screenshot 2026-10-13 201235.png",
+      "Screenshot 2026-10-13 201251.png",
+      "Screenshot 2026-10-13 201302.png"
+    ],
+    "reportedScore": 13,
+    "percentile": 23.15,
+    "sectionScores": [
+      {
+        "section": "VARC",
+        "score": 11,
+        "percentile": 47.3
+      },
+      {
+        "section": "DILR",
+        "score": 3,
+        "percentile": 33.84
+      },
+      {
+        "section": "QA",
+        "score": -1,
+        "percentile": 9.16
+      }
+    ],
+    "questionResults": [
+      {
+        "questionId": "take-home-3-varc-q01",
+        "outcome": "Incorrect",
+        "timeSeconds": 357
+      },
+      {
+        "questionId": "take-home-3-varc-q02",
+        "outcome": "Correct",
+        "timeSeconds": 161
+      },
+      {
+        "questionId": "take-home-3-varc-q03",
+        "outcome": "Incorrect",
+        "timeSeconds": 197
+      },
+      {
+        "questionId": "take-home-3-varc-q04",
+        "outcome": "Correct",
+        "timeSeconds": 80
+      },
+      {
+        "questionId": "take-home-3-varc-q05",
+        "outcome": "Correct",
+        "timeSeconds": 415
+      },
+      {
+        "questionId": "take-home-3-varc-q06",
+        "outcome": "Correct",
+        "timeSeconds": 48
+      },
+      {
+        "questionId": "take-home-3-varc-q07",
+        "outcome": "Incorrect",
+        "timeSeconds": 111
+      },
+      {
+        "questionId": "take-home-3-varc-q08",
+        "outcome": "Unanswered",
+        "timeSeconds": 17
+      },
+      {
+        "questionId": "take-home-3-varc-q09",
+        "outcome": "Unanswered",
+        "timeSeconds": 127
+      },
+      {
+        "questionId": "take-home-3-varc-q10",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "take-home-3-varc-q11",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "take-home-3-varc-q12",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "take-home-3-varc-q13",
+        "outcome": "Correct",
+        "timeSeconds": 353
+      },
+      {
+        "questionId": "take-home-3-varc-q14",
+        "outcome": "Correct",
+        "timeSeconds": 51
+      },
+      {
+        "questionId": "take-home-3-varc-q15",
+        "outcome": "Incorrect",
+        "timeSeconds": 60
+      },
+      {
+        "questionId": "take-home-3-varc-q16",
+        "outcome": "Incorrect",
+        "timeSeconds": 56
+      },
+      {
+        "questionId": "take-home-3-varc-q17",
+        "outcome": "Unanswered",
+        "timeSeconds": 11
+      },
+      {
+        "questionId": "take-home-3-varc-q18",
+        "outcome": "Unanswered",
+        "timeSeconds": 2
+      },
+      {
+        "questionId": "take-home-3-varc-q19",
+        "outcome": "Incorrect",
+        "timeSeconds": 228
+      },
+      {
+        "questionId": "take-home-3-varc-q20",
+        "outcome": "Incorrect",
+        "timeSeconds": 41
+      },
+      {
+        "questionId": "take-home-3-varc-q21",
+        "outcome": "Unanswered",
+        "timeSeconds": 13
+      },
+      {
+        "questionId": "take-home-3-varc-q22",
+        "outcome": "Unanswered",
+        "timeSeconds": 2
+      },
+      {
+        "questionId": "take-home-3-varc-q23",
+        "outcome": "Incorrect",
+        "timeSeconds": 55
+      },
+      {
+        "questionId": "take-home-3-varc-q24",
+        "outcome": "Unanswered",
+        "timeSeconds": 5
+      },
+      {
+        "questionId": "take-home-3-dilr-q01",
+        "outcome": "Correct",
+        "timeSeconds": 402
+      },
+      {
+        "questionId": "take-home-3-dilr-q02",
+        "outcome": "Unanswered",
+        "timeSeconds": 4
+      },
+      {
+        "questionId": "take-home-3-dilr-q03",
+        "outcome": "Unanswered",
+        "timeSeconds": 7
+      },
+      {
+        "questionId": "take-home-3-dilr-q04",
+        "outcome": "Incorrect",
+        "timeSeconds": 20
+      },
+      {
+        "questionId": "take-home-3-dilr-q05",
+        "outcome": "Unanswered",
+        "timeSeconds": 1434
+      },
+      {
+        "questionId": "take-home-3-dilr-q06",
+        "outcome": "Incorrect",
+        "timeSeconds": 55
+      },
+      {
+        "questionId": "take-home-3-dilr-q07",
+        "outcome": "Unanswered",
+        "timeSeconds": 44
+      },
+      {
+        "questionId": "take-home-3-dilr-q08",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "take-home-3-dilr-q09",
+        "outcome": "Unanswered",
+        "timeSeconds": 36
+      },
+      {
+        "questionId": "take-home-3-dilr-q10",
+        "outcome": "Unanswered",
+        "timeSeconds": 6
+      },
+      {
+        "questionId": "take-home-3-dilr-q11",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "take-home-3-dilr-q12",
+        "outcome": "Unanswered",
+        "timeSeconds": 12
+      },
+      {
+        "questionId": "take-home-3-dilr-q13",
+        "outcome": "Unanswered",
+        "timeSeconds": 3
+      },
+      {
+        "questionId": "take-home-3-dilr-q14",
+        "outcome": "Unanswered",
+        "timeSeconds": 6
+      },
+      {
+        "questionId": "take-home-3-dilr-q15",
+        "outcome": "Unanswered",
+        "timeSeconds": 11
+      },
+      {
+        "questionId": "take-home-3-dilr-q16",
+        "outcome": "Unanswered",
+        "timeSeconds": 0
+      },
+      {
+        "questionId": "take-home-3-dilr-q17",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "take-home-3-dilr-q18",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "take-home-3-dilr-q19",
+        "outcome": "Incorrect",
+        "timeSeconds": 250
+      },
+      {
+        "questionId": "take-home-3-dilr-q20",
+        "outcome": "Unanswered",
+        "timeSeconds": 117
+      },
+      {
+        "questionId": "take-home-3-dilr-q21",
+        "outcome": "Unanswered",
+        "timeSeconds": 6
+      },
+      {
+        "questionId": "take-home-3-dilr-q22",
+        "outcome": "Unanswered",
+        "timeSeconds": 1
+      },
+      {
+        "questionId": "take-home-3-qa-q01",
+        "outcome": "Correct",
+        "timeSeconds": 256
+      },
+      {
+        "questionId": "take-home-3-qa-q02",
+        "outcome": "Unanswered",
+        "timeSeconds": 185
+      },
+      {
+        "questionId": "take-home-3-qa-q03",
+        "outcome": "Unanswered",
+        "timeSeconds": 91
+      },
+      {
+        "questionId": "take-home-3-qa-q04",
+        "outcome": "Incorrect",
+        "timeSeconds": 2
+      },
+      {
+        "questionId": "take-home-3-qa-q05",
+        "outcome": "Unanswered",
+        "timeSeconds": 11
+      },
+      {
+        "questionId": "take-home-3-qa-q06",
+        "outcome": "Incorrect",
+        "timeSeconds": 157
+      },
+      {
+        "questionId": "take-home-3-qa-q07",
+        "outcome": "Unanswered",
+        "timeSeconds": 106
+      },
+      {
+        "questionId": "take-home-3-qa-q08",
+        "outcome": "Unanswered",
+        "timeSeconds": 12
+      },
+      {
+        "questionId": "take-home-3-qa-q09",
+        "outcome": "Unanswered",
+        "timeSeconds": 19
+      },
+      {
+        "questionId": "take-home-3-qa-q10",
+        "outcome": "Unanswered",
+        "timeSeconds": 8
+      },
+      {
+        "questionId": "take-home-3-qa-q11",
+        "outcome": "Unanswered",
+        "timeSeconds": 22
+      },
+      {
+        "questionId": "take-home-3-qa-q12",
+        "outcome": "Unanswered",
+        "timeSeconds": 36
+      },
+      {
+        "questionId": "take-home-3-qa-q13",
+        "outcome": "Unanswered",
+        "timeSeconds": 5
+      },
+      {
+        "questionId": "take-home-3-qa-q14",
+        "outcome": "Unanswered",
+        "timeSeconds": 102
+      },
+      {
+        "questionId": "take-home-3-qa-q15",
+        "outcome": "Incorrect",
+        "timeSeconds": 207
+      },
+      {
+        "questionId": "take-home-3-qa-q16",
+        "outcome": "Incorrect",
+        "timeSeconds": 302
+      },
+      {
+        "questionId": "take-home-3-qa-q17",
+        "outcome": "Unanswered",
+        "timeSeconds": 31
+      },
+      {
+        "questionId": "take-home-3-qa-q18",
+        "outcome": "Incorrect",
+        "timeSeconds": 10
+      },
+      {
+        "questionId": "take-home-3-qa-q19",
+        "outcome": "Incorrect",
+        "timeSeconds": 440
+      },
+      {
+        "questionId": "take-home-3-qa-q20",
+        "outcome": "Incorrect",
+        "timeSeconds": 207
+      },
+      {
+        "questionId": "take-home-3-qa-q21",
+        "outcome": "Incorrect",
+        "timeSeconds": 198
+      },
+      {
+        "questionId": "take-home-3-qa-q22",
+        "outcome": "Unanswered",
+        "timeSeconds": 11
+      }
+    ],
+    "percentileMapper": [
+      {
+        "section": "VARC",
+        "percentile": 70,
+        "score": 19
+      },
+      {
+        "section": "VARC",
+        "percentile": 85,
+        "score": 24
+      },
+      {
+        "section": "VARC",
+        "percentile": 90,
+        "score": 27
+      },
+      {
+        "section": "VARC",
+        "percentile": 95,
+        "score": 30
+      },
+      {
+        "section": "VARC",
+        "percentile": 99,
+        "score": 37
+      },
+      {
+        "section": "VARC",
+        "percentile": 99.5,
+        "score": 40
+      },
+      {
+        "section": "DILR",
+        "percentile": 70,
+        "score": 10
+      },
+      {
+        "section": "DILR",
+        "percentile": 85,
+        "score": 14
+      },
+      {
+        "section": "DILR",
+        "percentile": 90,
+        "score": 16
+      },
+      {
+        "section": "DILR",
+        "percentile": 95,
+        "score": 18
+      },
+      {
+        "section": "DILR",
+        "percentile": 99,
+        "score": 24
+      },
+      {
+        "section": "DILR",
+        "percentile": 99.5,
+        "score": 27
+      },
+      {
+        "section": "QA",
+        "percentile": 70,
+        "score": 16
+      },
+      {
+        "section": "QA",
+        "percentile": 85,
+        "score": 21
+      },
+      {
+        "section": "QA",
+        "percentile": 90,
+        "score": 24
+      },
+      {
+        "section": "QA",
+        "percentile": 95,
+        "score": 27
+      },
+      {
+        "section": "QA",
+        "percentile": 99,
+        "score": 36
+      },
+      {
+        "section": "QA",
+        "percentile": 99.5,
+        "score": 42
+      },
+      {
+        "section": "Overall",
+        "percentile": 70,
+        "score": 40
+      },
+      {
+        "section": "Overall",
+        "percentile": 85,
+        "score": 51
+      },
+      {
+        "section": "Overall",
+        "percentile": 90,
+        "score": 56
+      },
+      {
+        "section": "Overall",
+        "percentile": 95,
+        "score": 62
+      },
+      {
+        "section": "Overall",
+        "percentile": 99,
+        "score": 70
+      },
+      {
+        "section": "Overall",
+        "percentile": 99.5,
+        "score": 71
+      }
+    ],
+    "reportedAreas": [
+      {
+        "label": "Overall",
+        "score": 13,
+        "accuracy": 29.63,
+        "timeLabel": "02:00",
+        "marksPerMinute": 0.11,
+        "timePerAttemptLabel": "04:29"
+      },
+      {
+        "label": "VARC",
+        "score": 11,
+        "accuracy": 42.86,
+        "timeLabel": "00:40",
+        "marksPerMinute": 0.28,
+        "timePerAttemptLabel": "02:51"
+      },
+      {
+        "label": "Reading Comprehension",
+        "score": 13,
+        "accuracy": 54.55,
+        "timeLabel": "00:33",
+        "marksPerMinute": 0.38,
+        "timePerAttemptLabel": "03:05"
+      },
+      {
+        "label": "Verbal Reasoning",
+        "score": -2,
+        "accuracy": 0,
+        "timeLabel": "00:05",
+        "marksPerMinute": -0.34,
+        "timePerAttemptLabel": "01:59"
+      },
+      {
+        "label": "DILR",
+        "score": 3,
+        "accuracy": 25,
+        "timeLabel": "00:40",
+        "marksPerMinute": 0.07,
+        "timePerAttemptLabel": "10:07"
+      },
+      {
+        "label": "Data Interpretation",
+        "score": 3,
+        "accuracy": 50,
+        "timeLabel": "00:08",
+        "marksPerMinute": 0.35,
+        "timePerAttemptLabel": "04:15"
+      },
+      {
+        "label": "Logical Reasoning",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:31",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "15:54"
+      },
+      {
+        "label": "QA",
+        "score": -1,
+        "accuracy": 11.11,
+        "timeLabel": "00:40",
+        "marksPerMinute": -0.02,
+        "timePerAttemptLabel": "04:30"
+      },
+      {
+        "label": "Algebra",
+        "score": 3,
+        "accuracy": 50,
+        "timeLabel": "00:09",
+        "marksPerMinute": 0.33,
+        "timePerAttemptLabel": "04:32"
+      },
+      {
+        "label": "Geometry",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:04",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "04:35"
+      },
+      {
+        "label": "Numbers",
+        "score": -1,
+        "accuracy": 0,
+        "timeLabel": "00:07",
+        "marksPerMinute": -0.14,
+        "timePerAttemptLabel": "03:38"
+      },
+      {
+        "label": "Modern Math",
+        "score": 0,
+        "accuracy": 0,
+        "timeLabel": "00:01",
+        "marksPerMinute": 0,
+        "timePerAttemptLabel": "00:00"
+      },
+      {
+        "label": "Arithmetic",
+        "score": -3,
+        "accuracy": 0,
+        "timeLabel": "00:18",
+        "marksPerMinute": -0.16,
+        "timePerAttemptLabel": "04:34"
+      }
+    ]
+  }
+}
