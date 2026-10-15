@@ -181,3 +181,9 @@ All 68 supplied analysis rows reconcile to 29 marks (20 VARC, 3 DILR, 6 QA), 23 
 Source analysis reconciles to 35 marks (30 VARC, 5 DILR, 0 QA), 20 attempts and 13 correct answers, with 68 supplied outcomes/timings. Source selection totals and area classifications are preserved; no percentile is invented. New attempts do not inherit source results.
 
 Rebuild using `python scripts/build_simcat5_import.py` and `node scripts/bundle.js` with the local OCR intermediates available. Checks: `npm test` and `node tests/simcat5-import.cjs` (local server on port 4173).
+
+## Library and unfinished attempts
+
+The library separates Take Home, Full Mocks, and Sectionals, with a separate demo group. VARC/DILR/QA filters show standalone sectionals. Leave an exam using Return to dashboard to resume it later or start another test, including a fresh attempt at the same paper. Each unfinished attempt appears separately with its start time and mode. Leaving the exam or hiding its browser tab pauses the clock. Resuming preserves the remaining section time, and later sections retain their full duration. Only one exam screen can be open across tabs at a time. Backups support multiple unfinished attempts.
+
+Browser regression check: `node tests/library-attempts.cjs` with the local server on port 4173.

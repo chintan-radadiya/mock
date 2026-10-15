@@ -71,3 +71,19 @@ test('real ZIP import has 24 unique questions, four intact RC sets, and 4 TITA k
   assert.deepEqual(qs.slice(14, 18).map(q => q.answer[0]), ['3', '2', '3421', '1432']);
   for (const q of qs) assert.equal(CAT.verdict(q, { saved: q.type === 'MCQ' ? q.answer : q.answer[0] }).score, 3);
 });
+
+test('paused attempts preserve remaining time across long absences and backup restore', () => {
+  const a = create();
+  CAT.pause(a, 61000);
+  const remaining = CAT.deadline(a) - a.pausedAt;
+  CAT.advance(a, 9000000);
+  assert.equal(a.sectionIndex, 0);
+  const restored = CAT.validateAttempt(a);
+  CAT.resume(restored, 9000000);
+  assert.equal(CAT.deadline(restored) - 9000000, remaining);
+  CAT.pause(restored, 9060000);
+  CAT.resume(restored, 19000000);
+  assert.equal(CAT.deadline(restored) - 19000000, remaining - 60000);
+  CAT.advance(restored, CAT.deadline(restored));
+  assert.equal(restored.sectionIndex, 1);
+});

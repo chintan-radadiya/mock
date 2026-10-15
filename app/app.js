@@ -37,23 +37,31 @@
   async function reload() { [tests, attempts] = await Promise.all([Store.all('tests'), Store.all('attempts')]); tests.sort((a, b) => Number(!!a.demo) - Number(!!b.demo) || a.title.localeCompare(b.title)); attempts.sort((a, b) => b.startedAt - a.startedAt); }
   function navigate(to) { if (active) return; $('#main').onclick=null; $('#main').onchange=null; $('#main').oninput=null; page = to; filter = 'All'; query = ''; document.body.classList.remove('exam-mode'); document.querySelectorAll('[data-nav]').forEach(b => b.classList.toggle('active', b.dataset.nav === page)); render(); }
   function render() { if (page === 'library') library(); else if (page === 'history') history(); else insights(); if (page !== 'library') analysisFilters(); if (page === 'insights') trendControls(); }
-  function pendingBanner() { const pending = attempts.find(a => a.status === 'active'); return pending ? `<div class="notice row between"><span><strong>Attempt in progress:</strong> ${esc(pending.title)}. Its exam clock is still running.</span><button data-resume="${esc(pending.id)}">Resume attempt →</button></div>` : ''; }
+  function libraryCategory(t) {
+    if (t.demo) return 'Demo';
+    if (t.sections.length === 1) return 'Sectionals';
+    return /take[\s-]*home/i.test(t.title+' '+t.id) ? 'Take Home' : 'Full Mocks';
+  }
+  function pendingBanner() {
+    const pending = attempts.filter(a => a.status === 'active');
+    return pending.length ? `<section class="panel"><h2>Unfinished attempts</h2><p class="mini muted">Resume an attempt below or start any test in the library. Each attempt pauses when you leave and resumes with its remaining time.</p>${pending.map(a => `<div class="notice row between"><span><strong>${esc(a.title)}</strong><br><small>${esc(a.mode === 'full' ? 'Full mock' : a.snapshot.sections[0].code+' sectional')} ? Started ${date(a.startedAt)}</small></span><button data-resume="${esc(a.id)}">Resume attempt ?</button></div>`).join('')}</section>` : '';
+  }
   function library() {
     const done = completed(), last = done[0], report = last ? CAT.report(last) : null;
     $('#main').innerHTML = `${top()}<div class="page-head"><div><div class="eyebrow">A little practice. A lot of progress.</div><h1>Ready for your next attempt?</h1><p>Your sectionals and mocks, together in one place.</p></div><button class="primary" data-action="import">＋ Import test</button></div>${pendingBanner()}
     <div class="metrics">${metric('Tests in your library', tests.length, 'Ready when you are')}${metric('Completed attempts', done.length, 'Sectionals + full mocks')}${metric('Latest accuracy', report ? report.accuracy + '%' : '—', report ? esc(last.title) : 'Your first attempt starts here')}${metric('Practice time', Math.round(done.reduce((n, a) => n + CAT.report(a).viewedMs, 0) / 60000) + ' min', 'Active question-viewing time')}</div>
     <div class="welcome"><div><h2>From your questions to exam day.</h2><p>Send your question screenshots as a ZIP in chat. Import the prepared JSON here for a 40-minute sectional or a full 120-minute mock.</p></div><div class="steps"><span>1</span> Import <span>2</span> Attempt <span>3</span> Review</div></div>
     <div class="row between"><h2 style="margin:0">Your test library</h2><button class="text-button" data-action="compose">Build a full mock →</button></div>
-    <div class="toolbar"><div class="tabs">${['All', 'VARC', 'DILR', 'QA', 'Full mocks'].map(f => `<button data-filter="${f}" class="${filter === f ? 'active' : ''}">${f}</button>`).join('')}</div><input class="search" id="search" placeholder="Search your tests…" aria-label="Search tests" value="${esc(query)}"></div><div id="cards" class="cards"></div>
+    <div class="toolbar"><div class="tabs">${['All', 'Take Home', 'Full Mocks', 'Sectionals', 'VARC', 'DILR', 'QA'].map(f => `<button data-filter="${f}" class="${filter === f ? 'active' : ''}">${f}</button>`).join('')}</div><input class="search" id="search" placeholder="Search your tests…" aria-label="Search tests" value="${esc(query)}"></div><div id="cards"></div>
     <p class="footer-note">CAT-style practice · +3 correct · −1 incorrect MCQ · No penalty for incorrect TITA · Strict section timing</p>`;
     cards(); $('#search').oninput = e => { query = e.target.value; cards(); };
   }
   function cards() {
-    const list = tests.filter(t => t.title.toLowerCase().includes(query.toLowerCase()) && (filter === 'All' || (filter === 'Full mocks' ? t.sections.length === 3 : t.sections.some(s => s.code === filter))));
-    $('#cards').innerHTML = list.length ? list.map(t => {
+    const list = tests.filter(t => t.title.toLowerCase().includes(query.toLowerCase()) && (filter === 'All' || (CAT.ORDER.includes(filter) ? t.sections.length === 1 && t.sections[0].code === filter : libraryCategory(t) === filter)));
+    $('#cards').innerHTML = list.length ? ['Take Home','Full Mocks','Sectionals','Demo'].filter(category => list.some(t => libraryCategory(t) === category)).map(category => `<section class="library-group"><h2>${category} <span class="mini muted">(${list.filter(t => libraryCategory(t) === category).length})</span></h2><div class="cards">${list.filter(t => libraryCategory(t) === category).map(t => {
       const count = t.sections.reduce((n, s) => n + CAT.flatten(s).length, 0), n = attempts.filter(a => a.testId === t.id).length;
       return `<article class="card ${t.demo ? 'demo' : ''}"><div class="card-top"><span class="badge">${t.sections.length === 3 ? 'FULL MOCK' : esc(t.sections.map(s => s.code).join(' + '))}</span><span class="mini muted">${t.demo ? 'Demo' : 'Imported'}</span></div><h3>${esc(t.title)}</h3><p>${esc(t.description || (t.demo ? 'Short sample content to explore the exam experience.' : 'Your questions, with shared sets kept together.'))}</p><div class="card-detail"><span>◷ ${t.sections.length * 40} minutes</span><span>▤ ${count} questions</span></div><div class="card-foot"><span class="mini muted">${n ? n + ' attempt' + (n > 1 ? 's' : '') : 'Not attempted yet'}</span><button class="text-button" data-start="${esc(t.id)}">Start test →</button></div>${t.sections.length===3 ? `<button class="source-analysis-button" data-split="${esc(t.id)}">Save a section as a separate test &rarr;</button>` : ''}${t.sourceAnalysis ? `<button class="source-analysis-button" data-source-analysis="${esc(t.id)}">View supplied source analysis &rarr;</button>` : ''}</article>`;
-    }).join('') : '<div class="empty"><h3>No matching tests</h3><p>Import a JSON test or choose another filter.</p></div>';
+    }).join('')}</div></section>`).join('') : '<div class="empty"><h3>No matching tests</h3><p>Import a JSON test or choose another filter.</p></div>';
   }
   function importDialog() { modal(`${head('Import your next test')}<p class="muted mini">Send a ZIP of sectional or full-mock images in chat, then import the prepared JSON here. A full mock uses one JSON containing VARC, DILR and QA; composing sectionals is optional. RC and DILR sets stay together.</p><label class="field">Import type<select id="importType"><option value="auto">Detect from JSON</option><option value="full">Full mock ? all three sections</option><option value="sectional">Single sectional</option></select></label><p class="muted mini">Include answer images and label each section in your ZIP.</p><button class="secondary" data-action="file">Choose JSON file</button><label class="field">Or paste test JSON<textarea id="jsonPaste" placeholder='{"schemaVersion": 1, ...}'></textarea></label><div id="importError" class="error" role="alert"></div><div id="importPreview"></div><div class="dialog-foot"><button data-action="example">Download full-mock sample JSON</button><button class="primary" data-action="validate">Validate & preview</button></div>`); }
   let incoming = null;
@@ -70,9 +78,8 @@
     } catch (e) { incoming = null; $('#importPreview').innerHTML = ''; $('#importError').textContent = e.message; }
   }
   function startDialog(id) {
-    if (attempts.some(a => a.status === 'active')) { toast('Resume your running attempt before starting another.'); return; }
     const t = tests.find(t => t.id === id);
-    modal(`${head('Set up your attempt')}<h3>${esc(t.title)}</h3><label class="field">Test mode<select id="startMode">${t.sections.length === 3 ? '<option value="full">Full mock · 120 minutes</option>' : ''}${t.sections.map(s => `<option value="${s.code}">${s.code} sectional · 40 minutes</option>`).join('')}</select></label><label class="check"><input id="shuffle" type="checkbox"> Shuffle groups and standalone questions</label><p class="mini muted">Questions within an RC passage or DILR set stay together. Options retain their original order.</p><div class="notice">The clock starts immediately and continues if you leave or refresh. Sections cannot be ended early. Use Save & Next or Mark for Review & Next to save an answer. Unsaved selections are not scored.</div>${t.demo ? '<p class="mini muted">This demo has fewer questions than an actual CAT paper. Timing remains 40 minutes per section.</p>' : ''}<label class="check"><input id="ready" type="checkbox"> I have read the instructions and am ready.</label><div class="dialog-foot"><button data-action="close">Cancel</button><button class="primary" id="beginBtn" data-begin="${esc(id)}" disabled>Begin attempt →</button></div>`);
+    modal(`${head('Set up your attempt')}<h3>${esc(t.title)}</h3><label class="field">Test mode<select id="startMode">${t.sections.length === 3 ? '<option value="full">Full mock · 120 minutes</option>' : ''}${t.sections.map(s => `<option value="${s.code}">${s.code} sectional · 40 minutes</option>`).join('')}</select></label><label class="check"><input id="shuffle" type="checkbox"> Shuffle groups and standalone questions</label><p class="mini muted">Questions within an RC passage or DILR set stay together. Options retain their original order.</p><div class="notice">The clock starts immediately and pauses when you leave, switch tabs or close the browser. Sections cannot be ended early. Use Save & Next or Mark for Review & Next to save an answer. Unsaved selections are not scored.</div>${t.demo ? '<p class="mini muted">This demo has fewer questions than an actual CAT paper. Timing remains 40 minutes per section.</p>' : ''}<label class="check"><input id="ready" type="checkbox"> I have read the instructions and am ready.</label><div class="dialog-foot"><button data-action="close">Cancel</button><button class="primary" id="beginBtn" data-begin="${esc(id)}" disabled>Begin attempt →</button></div>`);
     $('#ready').onchange = e => $('#beginBtn').disabled = !e.target.checked;
   }
   async function acquire() {
@@ -85,7 +92,6 @@
   async function begin(id) {
     if (!await acquire()) { toast('Your exam is open in another tab. Close it there first.'); return; }
     await reload();
-    if (attempts.some(a => a.status === 'active')) { releaseLock(); releaseLock = null; closeModal(); library(); toast('An attempt is already running. Resume it.'); return; }
     const selected = $('#startMode').value;
     active = CAT.createAttempt(tests.find(t => t.id === id), { mode: selected === 'full' ? 'full' : 'sectional', section: selected, shuffle: $('#shuffle').checked }, Date.now(), uid());
     CAT.visit(active, 0, active.startedAt); await persist(); closeModal(); enterExam();
@@ -94,6 +100,7 @@
     if (!await acquire()) { toast('Your exam is open in another tab. Close it there first.'); return; }
     await reload(); active = attempts.find(a => a.id === id);
     if (!active || active.status !== 'active') { releaseLock(); releaseLock = null; active = null; render(); return; }
+    CAT.resume(active, Date.now());
     CAT.advance(active, Date.now());
     if (active.status !== 'active') { await finish(); return; }
     // Preserve a recovered draft, but do not count it as a saved answer.
@@ -104,7 +111,7 @@
   function currentQuestion() { return CAT.flatten(active.snapshot.sections[active.sectionIndex])[active.current]; }
   function enterExam() { document.body.classList.add('exam-mode'); lastPerf = performance.now(); lastWall = Date.now(); lastVisible = !document.hidden; lastPersist = performance.now(); exam(); clearInterval(timer); timer = setInterval(tick, 250); }
   function account() {
-    if (!active || active.status !== 'active') return;
+    if (!active || active.status !== 'active' || active.pausedAt != null) return;
     const wall = Date.now(), perf = performance.now(), delta = Math.max(0, perf - lastPerf);
     const untilEnd = Math.max(0, CAT.deadline(active) - Math.max(lastWall, active.startedAt));
     // A heartbeat gap may be machine sleep or a suspended browser, not reading time.
@@ -115,7 +122,7 @@
     lastPerf = perf; lastWall = wall; lastVisible = !document.hidden;
   }
   function checkBoundary() {
-    if (!active || active.status !== 'active') return false;
+    if (!active || active.status !== 'active' || active.pausedAt != null) return false;
     account();
     const changed = CAT.advance(active, Date.now());
     if (changed) {
@@ -168,7 +175,7 @@
     showResult(resultId);
   }
   async function leaveExam() {
-    if (!checkBoundary()) return; await persist(); clearInterval(timer); active = null;
+    if (!checkBoundary()) return; CAT.pause(active, Date.now()); await persist(); clearInterval(timer); active = null;
     if (releaseLock) releaseLock(); releaseLock = null; closeModal(); await reload(); navigate('library');
   }
   function history() {
@@ -269,18 +276,16 @@
   }
   async function exportBackup() { await reload(); download({ backupVersion: 1, exportedAt: new Date().toISOString(), tests, attempts }, 'cat-studio-backup.json'); }
   async function restoreBackup(text) {
-    if (active || attempts.some(a => a.status === 'active')) throw new Error('Finish the running attempt before restoring a backup.');
+    if (active) throw new Error('Return to the dashboard before restoring a backup.');
     const b = JSON.parse(text);
     if (b.backupVersion !== 1 || !Array.isArray(b.tests) || !Array.isArray(b.attempts)) throw new Error('Not a CAT Studio backup.');
     const ts = b.tests.map(CAT.validate), as = b.attempts.map(CAT.validateAttempt);
     if (new Set(ts.map(t => t.id)).size !== ts.length || new Set(as.map(a => a.id)).size !== as.length) throw new Error('Backup contains duplicate records.');
     for (const a of as) if (a.status === 'active') CAT.advance(a, Date.now());
-    if (as.filter(a => a.status === 'active').length > 1) throw new Error('Only one running attempt can be restored.');
     // Merge only new records. Never overwrite a newer local test or an existing attempt.
     if (!await acquire()) throw new Error('An exam is open in another tab. Close that exam before restoring.');
     try {
       await reload();
-      if (attempts.some(a => a.status === 'active')) throw new Error('Finish the running attempt before restoring a backup.');
       await Store.restore(ts.filter(t => !tests.some(x => x.id === t.id && x.revision >= t.revision)), as.filter(a => !attempts.some(x => x.id === a.id)));
     } finally { releaseLock(); releaseLock = null; }
     await reload(); render(); toast('Backup restored. Existing attempts were kept.');
@@ -314,8 +319,8 @@
         case 'clear': if (checkBoundary()) { CAT.save(active, currentQuestion().id, null, CAT.response(active, currentQuestion().id).review, Date.now()); persist(); exam(); } break;
         case 'previous': goto(active.current - 1); break;
         case 'calculator': calculator(); break;
-        case 'instructions': modal(`${head('Exam instructions')}<p>Each section lasts exactly 40 minutes. A full mock runs VARC, DILR, then QA. You cannot return to an earlier section.</p><p>Save & Next commits your answer. Mark for Review & Next commits and flags it. Palette navigation discards an unsaved selection. Saved answers marked for review are scored.</p><p>Correct: +3. Incorrect MCQ: −1. Incorrect TITA or unanswered: 0. The clock continues through refreshes, tab changes, and browser closure.</p><p class="mini muted">Question time measures visible viewing time, not thinking time. Long interruptions are recorded as unobserved time.</p><button class="secondary" data-action="close">Return to test</button>`); break;
-        case 'leave': modal(`${head('Leave the exam screen?')}<p>Your saved responses will remain, but the clock will keep running. You can resume from the dashboard.</p><div class="dialog-foot"><button data-action="close">Keep working</button><button data-action="leave-confirm">Return to dashboard</button></div>`); break;
+        case 'instructions': modal(`${head('Exam instructions')}<p>Each section lasts exactly 40 minutes. A full mock runs VARC, DILR, then QA. You cannot return to an earlier section.</p><p>Save & Next commits your answer. Mark for Review & Next commits and flags it. Palette navigation discards an unsaved selection. Saved answers marked for review are scored.</p><p>Correct: +3. Incorrect MCQ: −1. Incorrect TITA or unanswered: 0. The clock pauses through refreshes, tab changes, and browser closure.</p><p class="mini muted">Question time measures visible viewing time, not thinking time. Long interruptions are recorded as unobserved time.</p><button class="secondary" data-action="close">Return to test</button>`); break;
+        case 'leave': modal(`${head('Leave the exam screen?')}<p>Your responses and remaining time will be saved. The clock will pause. You can resume from the dashboard.</p><div class="dialog-foot"><button data-action="close">Keep working</button><button data-action="leave-confirm">Return to dashboard</button></div>`); break;
         case 'leave-confirm': await leaveExam(); break;
         case 'export-active': await persist(); download({ backupVersion: 1, tests: [active.snapshot], attempts: [active] }, 'cat-active-attempt-backup.json'); break;
       }
@@ -326,8 +331,8 @@
   $('#backupBtn').onclick = exportBackup;
   $('#restoreBtn').onclick = () => $('#restoreFile').click();
   $('#restoreFile').onchange = async e => { try { const f = e.target.files[0]; if (f) await restoreBackup(await f.text()); } catch (error) { toast(error.message); } e.target.value = ''; };
-  document.addEventListener('visibilitychange', () => { if (active) { account(); lastVisible = !document.hidden; persist(); } });
-  window.addEventListener('pagehide', () => { account(); persist(); });
+  document.addEventListener('visibilitychange', () => { if (active) { if (document.hidden) { account(); CAT.pause(active, Date.now()); } else { CAT.resume(active, Date.now()); lastPerf = performance.now(); lastWall = Date.now(); } lastVisible = !document.hidden; persist(); } });
+  window.addEventListener('pagehide', () => { if (active) { account(); CAT.pause(active, Date.now()); persist(); } });
   window.addEventListener('beforeunload', e => { if (active) { account(); persist(); e.preventDefault(); e.returnValue = ''; } });
   async function boot() {
     try { await Store.open(); await reload();

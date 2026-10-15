@@ -128,17 +128,30 @@
       startedAt: now, lastWall: now, durationMs: 2400000, status: 'active', sectionIndex: 0, current: 0,
       shuffled: !!options.shuffle, responses: {}, events: [], timing: {}, clockWarning: false };
   }
+  function pause(a, wall) {
+    if (a.status !== 'active' || a.pausedAt != null) return;
+    advance(a, wall);
+    if (a.status === 'active') a.pausedAt = a.lastWall;
+  }
+  function resume(a, wall) {
+    if (a.status !== 'active' || a.pausedAt == null) return;
+    const now = Math.max(wall, a.pausedAt);
+    a.pausedMs = (a.pausedMs || 0) + now - a.pausedAt;
+    a.lastWall = now;
+    delete a.pausedAt;
+  }
   function advance(a, wall) {
+    if (a.pausedAt != null) return false;
     const now = Math.max(wall, a.lastWall || a.startedAt);
     if (wall < (a.lastWall || a.startedAt) - 2000) a.clockWarning = true;
     a.lastWall = now;
     if (a.status !== 'active') return false;
-    const index = Math.floor(Math.max(0, now - a.startedAt) / a.durationMs);
-    if (index >= a.snapshot.sections.length) { a.status = 'completed'; a.finishedAt = a.startedAt + a.durationMs * a.snapshot.sections.length; return true; }
+    const index = Math.floor(Math.max(0, now - a.startedAt - (a.pausedMs || 0)) / a.durationMs);
+    if (index >= a.snapshot.sections.length) { a.status = 'completed'; a.finishedAt = a.startedAt + (a.pausedMs || 0) + a.durationMs * a.snapshot.sections.length; return true; }
     if (index !== a.sectionIndex) { a.sectionIndex = index; a.current = 0; return true; }
     return false;
   }
-  function deadline(a) { return a.startedAt + (a.sectionIndex + 1) * a.durationMs; }
+  function deadline(a) { return a.startedAt + (a.pausedMs || 0) + (a.sectionIndex + 1) * a.durationMs; }
   function response(a, id) { return a.responses[id] || { saved: null, draft: null, review: false, visited: false, visits: 0, viewedMs: 0, firstVisitMs: 0 }; }
   function visit(a, index, wall) {
     advance(a, wall);
@@ -187,6 +200,8 @@
     a.snapshot = validate(a.snapshot);
     if (typeof a.id !== 'string' || !a.id || typeof a.title !== 'string' || typeof a.testId !== 'string' || !Number.isInteger(a.testRevision) || !['full', 'sectional'].includes(a.mode) || !['active', 'completed', 'abandoned'].includes(a.status) || !Number.isFinite(a.startedAt) || !Number.isFinite(a.lastWall) || a.lastWall < a.startedAt || a.durationMs !== 2400000 || !Number.isInteger(a.sectionIndex) || a.sectionIndex < 0 || a.sectionIndex >= a.snapshot.sections.length || !Number.isInteger(a.current) || !flatten(a.snapshot.sections[a.sectionIndex])[a.current] || !Array.isArray(a.events) || !a.responses || typeof a.responses !== 'object' || Array.isArray(a.responses)) bad();
     if ((a.mode === 'full' && a.snapshot.sections.length !== 3) || (a.mode === 'sectional' && a.snapshot.sections.length !== 1)) bad();
+    if (a.pausedMs !== undefined && (!Number.isFinite(a.pausedMs) || a.pausedMs < 0)) bad();
+    if (a.pausedAt !== undefined && (a.status !== 'active' || !Number.isFinite(a.pausedAt) || a.pausedAt < a.startedAt || a.pausedAt !== a.lastWall)) bad();
     if (a.status !== 'active' && (!Number.isFinite(a.finishedAt) || a.finishedAt < a.startedAt)) bad();
     const questions = a.snapshot.sections.flatMap(flatten);
     for (const [id, r] of Object.entries(a.responses)) {
@@ -198,5 +213,5 @@
     for (const e of a.events) if (!e || !Number.isFinite(e.at) || e.at < a.startedAt || typeof e.type !== 'string' || typeof e.questionId !== 'string') bad();
     return a;
   }
-  return { ORDER, copy, filled, validate, validateAttempt, shuffled, flatten, extractSection, createAttempt, advance, deadline, response, visit, save, status, verdict, report };
+  return { ORDER, copy, filled, validate, validateAttempt, shuffled, flatten, extractSection, createAttempt, pause, resume, advance, deadline, response, visit, save, status, verdict, report };
 });
